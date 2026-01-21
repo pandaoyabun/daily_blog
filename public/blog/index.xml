@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on おやぶんのアーカイブ</title>
+    <link>//localhost:1313/blog/</link>
+    <description>Recent content in Blogs on おやぶんのアーカイブ</description>
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 20 Oct 2005 21:27:35 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>untitled</title>
+      <link>//localhost:1313/blog/test/</link>
+      <pubDate>Thu, 20 Oct 2005 21:27:35 +0900</pubDate>
+      <guid>//localhost:1313/blog/test/</guid>
+      <description>&lt;p&gt;こつこつとまた積み上げていきましょうかね。&lt;/p&gt;&#xD;&#xA;&lt;p&gt;正式に契約が成立したら、過去のページも整理して再掲載します。&lt;br/&gt;&#xD;&#xA;それに再来月にはInfoseekの契約も切れるので乗り換えるにはそれなりに良い時期だったのかもしれませんね。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

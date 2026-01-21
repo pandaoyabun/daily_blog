@@ -1,0 +1,11 @@
+---
+title: "Gokuri Grapefruit by SUNTORY"
+date: 2009-06-03T21:39:14+09:00
+tags: ['Archived']
+---
+
+<p><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="_IGP2603p.jpg" class="mt-image-none" height="307" src="/blog/img/_IGP2603p.jpg" style="" width="461"/></span></p>
+<p>何が好きかって、この甘酸っぱさで、爽やかな味。<br/>
+果肉がいい感じ。</p>
+<p>見かけると何本か買い置きをします。<br/>
+</p>

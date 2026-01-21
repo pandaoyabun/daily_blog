@@ -1,0 +1,22 @@
+baseURL = "https://pandaoyabun.github.io/daily_blog/"
+languageCode = "ja-jp"
+title = "おやぶんのアーカイブ"
+theme = "ananke"
+
+# ファイル名に日本語や長い記号があってもエラーにならないようにする魔法の2行
+removePathAccents = true
+summaryLength = 10
+
+[permalinks]
+  posts = "/:year/:month/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "記事一覧"
+    url = "/posts/"
+    weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

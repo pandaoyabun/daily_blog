@@ -1,0 +1,9 @@
+---
+title: "SUBARU IMPREZA WRX STI [GH-GDBF]"
+date: 2009-06-06T17:51:55+09:00
+tags: ['Archived']
+---
+
+<p><span class="mt-enclosure mt-enclosure-image" style="display: inline;"><img alt="_IGP2621m.jpg" class="mt-image-none" height="306" src="/blog/img/_IGP2621m.jpg" style="" width="461"/></span></p>
+<p>私の車。<br/>
+埃まみれ、洗わなきゃ。</p>

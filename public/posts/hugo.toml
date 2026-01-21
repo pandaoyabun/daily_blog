@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "ja-jp"
+title = "おやぶんのアーカイブ"
+theme = "ananke"
+
+[sectionPagesMenu]
+  main = "main"
