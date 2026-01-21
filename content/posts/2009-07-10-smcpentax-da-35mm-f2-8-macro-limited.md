@@ -6,7 +6,7 @@ categories: ['COLUMN']
 tags: []
 ---
 
-<div><img src="http://yuki9902.com/wp/wp-content/uploads/2009/07/IGP3214m.jpg" alt="smcPENTAX DA35mmF2.8 Macro Limited" title="smcPENTAX DA35mmF2.8 Macro Limited" width="461" height="306" class="alignnone size-full wp-image-679" /></div>
+<div></div>
 
 小さいレンズが欲しくて買いました。
 ASP-Cサイズだとsmc PENTAX FA 50mm F1.4が75mm相当になるので意外に不便。

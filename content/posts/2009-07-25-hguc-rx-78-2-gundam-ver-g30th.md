@@ -6,7 +6,7 @@ categories: ['COLUMN']
 tags: []
 ---
 
-[caption id="attachment_749" align="alignnone" width="461" caption="ガンプラのおまけ"]<img class="size-full wp-image-749" title="Vブック" src="http://yuki9902.com/wp/wp-content/uploads/2009/07/IGP3566m.jpg" alt="ガンプラのおまけ" width="461" height="306" />[/caption]
+[caption id="attachment_749" align="alignnone" width="461" caption="ガンプラのおまけ"][/caption]
 
  
 

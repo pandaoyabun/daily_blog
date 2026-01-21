@@ -6,7 +6,7 @@ categories: ['COLUMN']
 tags: []
 ---
 
-[caption id="attachment_720" align="alignnone" width="461" caption="LUPICIA DARJEELING FIRST FLUSH 2009 PREMIUM"]<img src="http://yuki9902.com/wp/wp-content/uploads/2009/07/IGP3536m.jpg" alt="LUPICIA DARJEELING FIRST FLUSH 2009 PREMIUM" title="LUPICIA DARJEELING FIRST FLUSH 2009 PREMIUM" width="461" height="306" class="size-full wp-image-720" />[/caption]
+[caption id="attachment_720" align="alignnone" width="461" caption="LUPICIA DARJEELING FIRST FLUSH 2009 PREMIUM"][/caption]
 
 久々に街歩きをして天満屋の地下売り場で新茶を購入しました。
 
