@@ -1,10 +1,9 @@
 baseURL = "https://pandaoyabun.github.io/daily_blog/"
+canonifyURLs = true
+relativeURLs = true
 languageCode = "ja-jp"
 title = "おやぶんのアーカイブ"
 theme = "ananke"
-
-canonifyURLs = true
-relativeURLs = true
 
 # ファイル名に日本語や長い記号があってもエラーにならないようにする魔法の2行
 removePathAccents = true
