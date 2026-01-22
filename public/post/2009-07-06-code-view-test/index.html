@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/daily_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=daily_blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="WordPressのプラグインで、WP-Syntaxっていうソースコードを整形して表示するものがあります。 これならいちいちHTMLタグやエスケープシーケンスを入れずに済むのでサンプルを公開しやすくなるかな。\nこのコードは実際に動きます。\nExcelのマクロでコード編集を表示して貼り付けてください。 後はシートにボタンを貼り付けて、先頭の２つのプロシージャーを呼び出せばＯＫです。 中に&quot;N2S&quot;という関数がありますが、Nullチェックをしています。 何か作って置き換えてください。\n">
+<title>Excel VBA セル内の文字列のチェックと変換</title>
+
+<link rel='canonical' href='http://localhost:1313/daily_blog/post/2009-07-06-code-view-test/'>
+
+<link rel="stylesheet" href="../../daily_blog/scss/style.min.b9e9128fec450ebccecc4ec9900157f32b85d0609bcd5ee3293968bcaa1235f2.css"><meta property='og:title' content="Excel VBA セル内の文字列のチェックと変換">
+<meta property='og:description' content="WordPressのプラグインで、WP-Syntaxっていうソースコードを整形して表示するものがあります。 これならいちいちHTMLタグやエスケープシーケンスを入れずに済むのでサンプルを公開しやすくなるかな。\nこのコードは実際に動きます。\nExcelのマクロでコード編集を表示して貼り付けてください。 後はシートにボタンを貼り付けて、先頭の２つのプロシージャーを呼び出せばＯＫです。 中に&quot;N2S&quot;という関数がありますが、Nullチェックをしています。 何か作って置き換えてください。\n">
+<meta property='og:url' content='http://localhost:1313/daily_blog/post/2009-07-06-code-view-test/'>
+<meta property='og:site_name' content='おやぶんのアーカイブ'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2009-07-06T11:49:00&#43;09:00'/><meta property='article:modified_time' content='2009-07-06T11:49:00&#43;09:00'/>
+<meta name="twitter:title" content="Excel VBA セル内の文字列のチェックと変換">
+<meta name="twitter:description" content="WordPressのプラグインで、WP-Syntaxっていうソースコードを整形して表示するものがあります。 これならいちいちHTMLタグやエスケープシーケンスを入れずに済むのでサンプルを公開しやすくなるかな。\nこのコードは実際に動きます。\nExcelのマクロでコード編集を表示して貼り付けてください。 後はシートにボタンを貼り付けて、先頭の２つのプロシージャーを呼び出せばＯＫです。 中に&quot;N2S&quot;という関数がありますが、Nullチェックをしています。 何か作って置き換えてください。\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="../../">
+                
+                    <img src="https://github.com/github.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="../../">おやぶんのアーカイブ</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="../../categories/source-library/" >
+                SOURCE LIBRARY
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="../../post/2009-07-06-code-view-test/">Excel VBA セル内の文字列のチェックと変換</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2009-07-06T11:49:00&#43;09:00'>Jul 06, 2009</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    8 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>WordPressのプラグインで、WP-Syntaxっていうソースコードを整形して表示するものがあります。
+これならいちいちHTMLタグやエスケープシーケンスを入れずに済むのでサンプルを公開しやすくなるかな。</p>
+<p>このコードは実際に動きます。</p>
+<p>Excelのマクロでコード編集を表示して貼り付けてください。
+後はシートにボタンを貼り付けて、先頭の２つのプロシージャーを呼び出せばＯＫです。
+中に&quot;N2S&quot;という関数がありますが、Nullチェックをしています。
+何か作って置き換えてください。</p>
+<pre lang="vb" line="1" escaped="true">
+Option Explicit
+
+'定数
+Public Const COMMAND_CHECKCELL_WIDEALPHABET = 1
+Public Const COMMAND_CHECKCELL_WIDENUMBERS = 2
+Public Const COMMAND_CHECKCELL_WIDEMARKS = 3
+Public Const COMMAND_CHECKCELL_WIDECOMMA = 4
+Public Const COMMAND_CHECKCELL_WITHOUTINCLUDEDCHAR = 5
+
+Public Const COMMAND_CONVERT_WIDEALPHABET = 1
+Public Const COMMAND_CONVERT_WIDENUMBERS = 2
+Public Const COMMAND_CONVERT_WIDEMARKS = 3
+Public Const COMMAND_CONVERT_WIDECOMMA = 4
+
+'色
+Public Const COLOR_PINK = 16711935
+Public Const COLOR_BLUE = 16776960
+
+'セルのフォント情報の保存
+'メンバーは何が入ってくるかわからないのでとりあえず「Variant」
+Type tyFontInfo
+    vBold As Variant
+    vColor As Variant
+    vColorIndex As Variant
+    vFontStyle As Variant
+    vItalic As Variant
+    vName As Variant
+    vShadow As Variant
+    vSize As Variant
+    vStrikethrough As Variant
+    vSubscript As Variant
+    vSuperscript As Variant
+    vUnderline As Variant
+End Type
+
+'イベント共通処理
+'チェック
+Public Function gExecCellCheck(ByVal lCommand As Long) As Boolean
+    On Error GoTo ErrProc
+
+    Dim lRow As Long
+    Dim lCol As Long
+    Dim objWs As Excel.Worksheet
+
+    Set objWs = Application.ThisWorkbook.ActiveSheet
+    lRow = Application.ActiveCell.Row
+    lCol = Application.ActiveCell.Column
+    Application.ScreenUpdating = False
+    
+    Select Case lCommand
+        Case COMMAND_CHECKCELL_WIDEALPHABET, _
+             COMMAND_CHECKCELL_WIDENUMBERS, _
+             COMMAND_CHECKCELL_WIDEMARKS, _
+             COMMAND_CHECKCELL_WIDECOMMA
+            If CheckCell_WideThin(objWs, lRow, lCol, lCommand) Then
+            Else
+                'チェック対象が見つからなかった
+            End If
+            
+        Case COMMAND_CHECKCELL_WITHOUTINCLUDEDCHAR
+            If CheckCell_WithOutIncludedChar(objWs, lRow, lCol) Then
+            End If
+            
+        Case Else
+        
+    End Select
+    
+    Application.ScreenUpdating = True
+    MsgBox "チェック終了", vbOKOnly + vbInformation
+ExitProc:
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "gExecCellCheck")
+    Resume ExitProc
+End Function
+
+'イベント共通処理
+'変換
+Public Function gExecCellConvert(ByVal lCommand As Long) As Boolean
+    On Error GoTo ErrProc
+
+    Dim lRow As Long
+    Dim lCol As Long
+    Dim objWs As Excel.Worksheet
+
+    If vbYes = MsgBox("変換処理をすると元に戻すことができません。" & vbCrLf & _
+                      "事前にバックアップを作ることを推奨します。" & vbCrLf & vbCrLf & _
+                      "変換処理を行いますか？", vbYesNo + vbQuestion) Then
+    Else
+        GoTo ExitProc
+    End If
+    Application.ScreenUpdating = False
+    
+    Set objWs = Application.ThisWorkbook.ActiveSheet
+    lRow = Application.ActiveCell.Row
+    lCol = Application.ActiveCell.Column
+   
+    If Convert_Letter(objWs, lRow, lCol, lCommand) Then
+        MsgBox "変換終了", vbOKOnly + vbInformation
+    Else
+        '変換の失敗
+        MsgBox "変換できませんでした。", vbOKOnly + vbExclamation
+    End If
+    
+ExitProc:
+    Application.ScreenUpdating = True
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "gExecCellConvert")
+    Resume ExitProc
+End Function
+
+
+'選択中のセルの書式を保存した後、変更
+Private Function CheckCell_WithOutIncludedChar(ByVal objWs As Excel.Worksheet, _
+                                               ByVal lRow As Long, _
+                                               ByVal lCol As Long) As Boolean
+    CheckCell_WithOutIncludedChar = False
+    On Error GoTo ErrProc
+    
+    Dim strCellValue As String
+    Dim lCnt As Long
+    Dim arrErrStringIdx() As Long
+    
+    ReDim arrErrStringIdx(0)
+    
+    strCellValue = objWs.Cells(lRow, lCol).value
+    If CheckLetter_WithOut_OSIncluded(strCellValue, arrErrStringIdx) Then
+    Else
+        For lCnt = 0 To UBound(arrErrStringIdx)
+            If objWs.Cells(lRow, lCol).Characters(arrErrStringIdx(lCnt), 1).Font.Color = COLOR_PINK Then
+                objWs.Cells(lRow, lCol).Characters(arrErrStringIdx(lCnt), 1).Font.Color = 0
+            ElseIf objWs.Cells(lRow, lCol).Characters(arrErrStringIdx(lCnt), 1).Font.Color = 0 Then
+                objWs.Cells(lRow, lCol).Characters(arrErrStringIdx(lCnt), 1).Font.Color = COLOR_PINK
+            Else
+            End If
+            CheckCell_WithOutIncludedChar = True
+        Next
+    End If
+    
+ExitProc:
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "CheckCell_WithOutIncludedChar")
+    Resume ExitProc
+End Function
+
+'機種依存文字以外のチェック
+Private Function CheckCell_WideThin(ByVal objWs As Excel.Worksheet, _
+                                    ByVal lRow As Long, _
+                                    ByVal lCol As Long, _
+                                    ByVal lMode As Long) As Boolean
+    CheckCell_WideThin = False
+    On Error GoTo ErrProc
+    
+    Dim strCellValue As String
+    Dim lCnt As Long
+    Dim arrWideStringIdx() As Long
+    Dim arrThinStringIdx() As Long
+    Dim flgCheckOK As Boolean
+    
+    strCellValue = objWs.Cells(lRow, lCol).value
+    
+    Select Case lMode
+        Case COMMAND_CHECKCELL_WIDEALPHABET
+            flgCheckOK = Check_WideToThin_Alphabet(strCellValue, arrWideStringIdx, arrThinStringIdx)
+        Case COMMAND_CHECKCELL_WIDENUMBERS
+            flgCheckOK = Check_WideToThin_Numeric(strCellValue, arrWideStringIdx, arrThinStringIdx)
+        Case COMMAND_CHECKCELL_WIDEMARKS
+            flgCheckOK = Check_WideToThin_Mark(strCellValue, arrWideStringIdx, arrThinStringIdx)
+        Case COMMAND_CHECKCELL_WIDECOMMA
+            flgCheckOK = Check_WideToThin_Comma(strCellValue, arrWideStringIdx, arrThinStringIdx)
+        Case Else
+        
+    End Select
+    
+    If flgCheckOK Then
+    Else
+        GoTo ExitProc
+    End If
+    
+    '全角チェック
+    For lCnt = 0 To UBound(arrWideStringIdx)
+        If objWs.Cells(lRow, lCol).Characters(arrWideStringIdx(lCnt), 1).Font.Color = COLOR_PINK Then
+            objWs.Cells(lRow, lCol).Characters(arrWideStringIdx(lCnt), 1).Font.Color = 0
+        ElseIf objWs.Cells(lRow, lCol).Characters(arrWideStringIdx(lCnt), 1).Font.Color = 0 Then
+            objWs.Cells(lRow, lCol).Characters(arrWideStringIdx(lCnt), 1).Font.Color = COLOR_PINK
+        Else
+        End If
+    Next
+    '半角チェック
+    For lCnt = 0 To UBound(arrThinStringIdx)
+        If objWs.Cells(lRow, lCol).Characters(arrThinStringIdx(lCnt), 1).Font.Color = COLOR_BLUE Then
+            objWs.Cells(lRow, lCol).Characters(arrThinStringIdx(lCnt), 1).Font.Color = 0
+        ElseIf objWs.Cells(lRow, lCol).Characters(arrThinStringIdx(lCnt), 1).Font.Color = 0 Then
+            objWs.Cells(lRow, lCol).Characters(arrThinStringIdx(lCnt), 1).Font.Color = COLOR_BLUE
+        Else
+        End If
+    Next
+    
+    CheckCell_WideThin = True
+    
+ExitProc:
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "CheckCell_WideThin")
+    Resume ExitProc
+End Function
+
+'機種依存文字の判別
+'機種依存文字のインデックスを返す。
+Private Function CheckLetter_WithOut_OSIncluded(ByVal strCheck As String, _
+                                                ByRef arrErrStringIdx() As Long) As Boolean
+    CheckLetter_WithOut_OSIncluded = False
+    
+    Dim lCheckLength As Long
+    Dim lCharacter As Long
+    Dim lIdx As Long
+    Dim lCnt As Long
+    
+    On Error GoTo ErrProc
+    
+    lCheckLength = Len(strCheck)
+    
+    lCnt = 0                        'カウンターをリセット
+    lIdx = 0                        '配列のインデックスをリセット
+    ReDim arrErrStringIdx(lIdx)     '配列をリセット
+    
+'   Excelの"Asc"はSignedで正負を含む10進数を返します。
+'   1:NEC選定特殊文字   -30823 ～ -30912
+'   2:IBM選定特殊文字   -1472 ～ -949
+    For lCnt = 1 To lCheckLength
+        lCharacter = Asc(Mid(strCheck, lCnt, 1))
+        If (lCharacter <= -30823 And lCharacter >= -30912) Or (lCharacter <= -949 And lCharacter >= -1472) Then
+            ReDim Preserve arrErrStringIdx(lIdx)    '配列をリセット
+            arrErrStringIdx(lIdx) = lCnt            '配列に機種依存文字のインデックスをセット[～文字目]
+            lIdx = lIdx + 1
+        End If
+    Next
+    
+    If lIdx > 0 Then
+        CheckLetter_WithOut_OSIncluded = False
+    Else
+        CheckLetter_WithOut_OSIncluded = True
+    End If
+ExitProc:
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "CheckLetter_WithOut_OSIncluded")
+    Resume ExitProc
+End Function
+
+'アルファベットチェック
+Private Function Check_WideToThin_Alphabet(ByVal strCheck As String, _
+                                           ByRef arrWideStringIdx() As Long, _
+                                           ByRef arrThinStringIdx() As Long) As Boolean
+    Check_WideToThin_Alphabet = False
+    On Error GoTo ErrProc
+    
+    Dim lCheckLength As Long
+    Dim lCharacter As Long
+    Dim lWideIdx As Long
+    Dim lThinIdx As Long
+    Dim lCnt As Long
+    
+    lCheckLength = Len(strCheck)
+    lCnt = 0
+    lWideIdx = 0
+    lThinIdx = 0
+    ReDim arrWideStringIdx(lWideIdx)
+    ReDim arrThinStringIdx(lThinIdx)
+    
+    'A:65～Z:90/a:97～z:122
+    'Ａ:-32160～Ｚ:-32135/ａ:-32127～ｚ:-32102
+    For lCnt = 1 To lCheckLength
+        lCharacter = Asc(Mid(strCheck, lCnt, 1))
+        If (lCharacter <= 90 And lCharacter >= 65) Or (lCharacter <= 122 And lCharacter >= 97) Then
+            ReDim Preserve arrThinStringIdx(lThinIdx)    '配列をリセット
+            arrThinStringIdx(lThinIdx) = lCnt            '配列に半角英字のインデックスをセット[～文字目]
+            lThinIdx = lThinIdx + 1
+            Check_WideToThin_Alphabet = True
+        End If
+        If (lCharacter <= -32135 And lCharacter >= -32160) Or (lCharacter <= -32102 And lCharacter >= -32127) Then
+            ReDim Preserve arrWideStringIdx(lWideIdx)    '配列をリセット
+            arrWideStringIdx(lWideIdx) = lCnt            '配列に全角英字のインデックスをセット[～文字目]
+            lWideIdx = lWideIdx + 1
+            Check_WideToThin_Alphabet = True
+        End If
+    Next
+ExitProc:
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "Check_WideToThin_Alphabet")
+    Resume ExitProc
+End Function
+
+'数字チェック
+Private Function Check_WideToThin_Numeric(ByVal strCheck As String, _
+                                          ByRef arrWideStringIdx() As Long, _
+                                          ByRef arrThinStringIdx() As Long) As Boolean
+    Check_WideToThin_Numeric = False
+    On Error GoTo ErrProc
+        
+    Dim lCheckLength As Long
+    Dim lCharacter As Long
+    Dim lWideIdx As Long
+    Dim lThinIdx As Long
+    Dim lCnt As Long
+    
+    lCheckLength = Len(strCheck)
+    lCnt = 0
+    lWideIdx = 0
+    lThinIdx = 0
+    ReDim arrWideStringIdx(lWideIdx)
+    ReDim arrThinStringIdx(lThinIdx)
+    
+    '0:48～9:57
+    '０:-32177～９:-32168
+    For lCnt = 1 To lCheckLength
+        lCharacter = Asc(Mid(strCheck, lCnt, 1))
+        If lCharacter <= 57 And lCharacter >= 48 Then
+            ReDim Preserve arrThinStringIdx(lThinIdx)    '配列をリセット
+            arrThinStringIdx(lThinIdx) = lCnt            '配列に半角数字のインデックスをセット[～文字目]
+            lThinIdx = lThinIdx + 1
+            Check_WideToThin_Numeric = True
+        End If
+        If lCharacter <= -32168 And lCharacter >= -32177 Then
+            ReDim Preserve arrWideStringIdx(lWideIdx)    '配列をリセット
+            arrWideStringIdx(lWideIdx) = lCnt            '配列に全角数字のインデックスをセット[～文字目]
+            lWideIdx = lWideIdx + 1
+            Check_WideToThin_Numeric = True
+        End If
+    Next
+    
+ExitProc:
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "Check_WideToThin_Numeric")
+    Resume ExitProc
+End Function
+
+'記号チェック
+Private Function Check_WideToThin_Mark(ByVal strCheck As String, _
+                                       ByRef arrWideStringIdx() As Long, _
+                                       ByRef arrThinStringIdx() As Long) As Boolean
+    Check_WideToThin_Mark = False
+    On Error GoTo ErrProc
+        
+    Dim lCheckLength As Long
+    Dim lCharacter As Long
+    Dim lWideIdx As Long
+    Dim lThinIdx As Long
+    Dim lCnt As Long
+    
+    lCheckLength = Len(strCheck)
+    lCnt = 0
+    lWideIdx = 0
+    lThinIdx = 0
+    ReDim arrWideStringIdx(lWideIdx)
+    ReDim arrThinStringIdx(lThinIdx)
+    
+    '+,-,*,=
+    '＋,－,＊,＝
+    For lCnt = 1 To lCheckLength
+        lCharacter = Asc(Mid(strCheck, lCnt, 1))
+        
+        Select Case lCharacter
+            
+            Case 42, 43, 45, 61
+                ReDim Preserve arrThinStringIdx(lThinIdx)    '配列をリセット
+                arrThinStringIdx(lThinIdx) = lCnt            '配列に半角記号のインデックスをセット[～文字目]
+                lThinIdx = lThinIdx + 1
+                Check_WideToThin_Mark = True
+            
+            Case -32383, -32388, -32362, -32389
+                ReDim Preserve arrWideStringIdx(lWideIdx)    '配列をリセット
+                arrWideStringIdx(lWideIdx) = lCnt            '配列に全角記号のインデックスをセット[～文字目]
+                lWideIdx = lWideIdx + 1
+                Check_WideToThin_Mark = True
+            
+            Case Else
+        
+        End Select
+        
+    Next
+    
+ExitProc:
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "Check_WideToThin_Mark")
+    Resume ExitProc
+End Function
+
+'カンマチェック
+Private Function Check_WideToThin_Comma(ByVal strCheck As String, _
+                                        ByRef arrWideStringIdx() As Long, _
+                                        ByRef arrThinStringIdx() As Long) As Boolean
+    Check_WideToThin_Comma = False
+    
+    On Error GoTo ErrProc
+        
+    Dim lCheckLength As Long
+    Dim lCharacter As Long
+    Dim lWideIdx As Long
+    Dim lThinIdx As Long
+    Dim lCnt As Long
+    
+    lCheckLength = Len(strCheck)
+    lCnt = 0
+    lWideIdx = 0
+    lThinIdx = 0
+    ReDim arrWideStringIdx(lWideIdx)
+    ReDim arrThinStringIdx(lThinIdx)
+    
+    ',
+    '、，
+    For lCnt = 1 To lCheckLength
+        lCharacter = Asc(Mid(strCheck, lCnt, 1))
+        
+        Select Case lCharacter
+            
+            Case 44
+                ReDim Preserve arrThinStringIdx(lThinIdx)    '配列をリセット
+                arrThinStringIdx(lThinIdx) = lCnt            '配列に半角カンマのインデックスをセット[～文字目]
+                lThinIdx = lThinIdx + 1
+                Check_WideToThin_Comma = True
+            
+            Case -32445, -32447
+                ReDim Preserve arrWideStringIdx(lWideIdx)    '配列をリセット
+                arrWideStringIdx(lWideIdx) = lCnt            '配列に全角カンマのインデックスをセット[～文字目]
+                lWideIdx = lWideIdx + 1
+                Check_WideToThin_Comma = True
+            
+            Case Else
+        
+        End Select
+        
+    Next
+
+ExitProc:
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "Check_WideToThin_Comma")
+    Resume ExitProc
+End Function
+
+'文字列変換
+Private Function Convert_Letter(ByVal objWs As Excel.Worksheet, _
+                                ByVal lRow As Long, _
+                                ByVal lCol As Long, _
+                                ByVal lMode As Long) As Boolean
+                                
+    Convert_Letter = False
+    On Error GoTo ErrProc
+    
+    Dim strCellValue As String
+    Dim lCnt As Long
+    Dim lIdx As Long
+    Dim arrWideStringIdx() As Long
+    Dim arrThinStringIdx() As Long
+    Dim strBuffer As String
+    Dim strConvBuffer As String
+    Dim lCellLength As Long
+    Dim flgCheckOK As Boolean
+    
+    lCnt = 0
+    lIdx = 0
+    strConvBuffer = ""
+    flgCheckOK = False
+    
+    ReDim arrErrStringIdx(0)
+    
+    Dim objFont() As tyFontInfo
+    
+    strCellValue = objWs.Cells(lRow, lCol).value
+    lCellLength = Len(strCellValue)
+    ReDim objFont(lCellLength - 1)
+    
+    Select Case lMode
+        Case COMMAND_CONVERT_WIDEALPHABET
+            flgCheckOK = Check_WideToThin_Alphabet(strCellValue, arrWideStringIdx, arrThinStringIdx)
+        Case COMMAND_CONVERT_WIDENUMBERS
+            flgCheckOK = Check_WideToThin_Numeric(strCellValue, arrWideStringIdx, arrThinStringIdx)
+        Case COMMAND_CONVERT_WIDEMARKS
+            flgCheckOK = Check_WideToThin_Mark(strCellValue, arrWideStringIdx, arrThinStringIdx)
+        Case COMMAND_CONVERT_WIDECOMMA
+            flgCheckOK = Check_WideToThin_Comma(strCellValue, arrWideStringIdx, arrThinStringIdx)
+        Case Else
+        
+    End Select
+    
+    If flgCheckOK Then
+    Else
+        '終了する
+        GoTo ExitProc
+    End If
+    
+    For lCnt = 0 To lCellLength - 1
+        '書式の保存
+        With objWs.Cells(lRow, lCol).Characters(lCnt + 1, 1).Font
+            objFont(lCnt).vBold = .Bold
+            objFont(lCnt).vColor = .Color
+            objFont(lCnt).vColorIndex = .ColorIndex
+            objFont(lCnt).vFontStyle = .FontStyle
+            objFont(lCnt).vItalic = .Italic
+            objFont(lCnt).vName = .Name
+            objFont(lCnt).vShadow = .Shadow
+            objFont(lCnt).vSize = .Size
+            objFont(lCnt).vStrikethrough = .Strikethrough
+            objFont(lCnt).vSubscript = .Subscript
+            objFont(lCnt).vSuperscript = .Superscript
+            objFont(lCnt).vUnderline = .Underline
+        End With
+
+        strConvBuffer = Mid(strCellValue, lCnt + 1, 1)
+        
+        Select Case lMode
+            Case COMMAND_CONVERT_WIDEALPHABET
+                'アルファベットを全角から半角へ
+                For lIdx = 0 To UBound(arrWideStringIdx)
+                    If arrWideStringIdx(lIdx) = lCnt + 1 Then
+                        strConvBuffer = StrConv(strConvBuffer, vbNarrow)
+                    End If
+                Next
+            Case COMMAND_CONVERT_WIDENUMBERS
+                '数字を全角から半角へ
+                For lIdx = 0 To UBound(arrWideStringIdx)
+                    If arrWideStringIdx(lIdx) = lCnt + 1 Then
+                        strConvBuffer = StrConv(strConvBuffer, vbNarrow)
+                    End If
+                Next
+            Case COMMAND_CONVERT_WIDEMARKS
+                '記号を全角から半角へ
+                For lIdx = 0 To UBound(arrWideStringIdx)
+                    If arrWideStringIdx(lIdx) = lCnt + 1 Then
+                        strConvBuffer = StrConv(strConvBuffer, vbNarrow)
+                    End If
+                Next
+            Case COMMAND_CONVERT_WIDECOMMA
+                'カンマをすべて全角の「，」へ
+                For lIdx = 0 To UBound(arrWideStringIdx)
+                    If arrWideStringIdx(lIdx) = lCnt + 1 Then
+                        strConvBuffer = "，"
+                    End If
+                Next
+                For lIdx = 0 To UBound(arrThinStringIdx)
+                    If arrThinStringIdx(lIdx) = lCnt + 1 Then
+                        strConvBuffer = "，"
+                    End If
+                Next
+            Case Else
+            
+        End Select
+        
+        strBuffer = strBuffer & strConvBuffer
+    Next
+    
+    '文字列をセルに
+    objWs.Cells(lRow, lCol).value = strBuffer
+    
+    '書式を書き戻す
+    For lCnt = 0 To lCellLength - 1
+        With objWs.Cells(lRow, lCol).Characters(lCnt + 1, 1).Font
+            .Bold = objFont(lCnt).vBold
+            .Color = objFont(lCnt).vColor
+            .ColorIndex = objFont(lCnt).vColorIndex
+            .FontStyle = objFont(lCnt).vFontStyle
+            .Italic = objFont(lCnt).vItalic
+            .Name = objFont(lCnt).vName
+            .Shadow = objFont(lCnt).vShadow
+            .Size = objFont(lCnt).vSize
+            .Strikethrough = objFont(lCnt).vStrikethrough
+            .Subscript = objFont(lCnt).vSubscript
+            .Superscript = objFont(lCnt).vSuperscript
+            .Underline = objFont(lCnt).vUnderline
+        End With
+    Next
+    
+    Convert_Letter = True
+ExitProc:
+    Exit Function
+ErrProc:
+    Call ErrFunc(Err, "Convert_Letter")
+    Resume ExitProc
+End Function
+
+</pre>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2026 おやぶんのアーカイブ
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+    
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="../../daily_blog/ts/main.ac8dd5d104b449cee3ac493cccfad89bab536ddc37bd0630700d693a84c831ff.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

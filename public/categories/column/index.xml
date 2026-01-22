@@ -1,0 +1,3055 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>COLUMN on おやぶんのアーカイブ</title>
+        <link>http://localhost:1313/daily_blog/categories/column/</link>
+        <description>Recent content in COLUMN on おやぶんのアーカイブ</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <lastBuildDate>Wed, 20 Mar 2013 17:28:39 +0900</lastBuildDate><atom:link href="http://localhost:1313/daily_blog/categories/column/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Wordpressの記事をFacebookに投稿</title>
+        <link>http://localhost:1313/daily_blog/post/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</link>
+        <pubDate>Wed, 20 Mar 2013 17:28:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</guid>
+        <description>&lt;p&gt;テスト投稿を兼ねての記事です。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;WordpressにFacebook公式のPluginをインストールするのは簡単ですが、Facebookアプリの開発用アカウントを取得して、細かな設定が必要です。&lt;/p&gt;
+&lt;p&gt;公式Pluginも更新を何度かしているし、Facebookアプリの登録画面も細々と変更がされています。&lt;/p&gt;
+&lt;p&gt;徐々に使いやすくなっているようですが、わかりにくい表現の英語（Facebook内部の用語とか）が並んでいるので、結構大変かも。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;んで、画像を自動的に登録してくれるのですが、変なアイコン画像を拾ってしまったり…。&lt;/p&gt;
+&lt;p&gt;Pluginの側にもっと自由度というか、わかりやすい設定を追加してほしいな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Wordpressの記事をFacebookに投稿</title>
+        <link>http://localhost:1313/daily_blog/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</link>
+        <pubDate>Wed, 20 Mar 2013 17:28:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2013-03-20-wordpress%E3%81%AE%E8%A8%98%E4%BA%8B%E3%82%92facebook%E3%81%AB%E6%8A%95%E7%A8%BF/</guid>
+        <description>&lt;p&gt;テスト投稿を兼ねての記事です。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;WordpressにFacebook公式のPluginをインストールするのは簡単ですが、Facebookアプリの開発用アカウントを取得して、細かな設定が必要です。&lt;/p&gt;
+&lt;p&gt;公式Pluginも更新を何度かしているし、Facebookアプリの登録画面も細々と変更がされています。&lt;/p&gt;
+&lt;p&gt;徐々に使いやすくなっているようですが、わかりにくい表現の英語（Facebook内部の用語とか）が並んでいるので、結構大変かも。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;んで、画像を自動的に登録してくれるのですが、変なアイコン画像を拾ってしまったり…。&lt;/p&gt;
+&lt;p&gt;Pluginの側にもっと自由度というか、わかりやすい設定を追加してほしいな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>WordPress 3.3の新しいメディアアップローダー</title>
+        <link>http://localhost:1313/daily_blog/post/2012-06-19-wordpress-3-3%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%A1%E3%83%86%E3%82%A3%E3%82%A2%E3%82%A2%E3%83%83%E3%83%95%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%BC/</link>
+        <pubDate>Tue, 19 Jun 2012 21:08:19 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-06-19-wordpress-3-3%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%A1%E3%83%86%E3%82%A3%E3%82%A2%E3%82%A2%E3%83%83%E3%83%95%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%BC/</guid>
+        <description>&lt;p&gt;Word Press 3.3以降でメディアアップローダーが新しくなり、ドラッグ&amp;amp;ドロップによるファイルアップロードが可能になりました。&lt;/p&gt;
+&lt;p&gt;しかし、Internet Explorer 9.0 (32/64bit)では使えませんでした。&lt;/p&gt;
+&lt;p&gt;Google Chromeでは使えています。&lt;/p&gt;
+&lt;p&gt;HTML5.0が条件かとも思いましたがそうでもないようですね。&lt;/p&gt;
+&lt;p&gt;ie9がセキュリティーが高いせいでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>WordPress 3.3の新しいメディアアップローダー</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-06-19-wordpress-3-3%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%A1%E3%83%86%E3%82%A3%E3%82%A2%E3%82%A2%E3%83%83%E3%83%95%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%BC/</link>
+        <pubDate>Tue, 19 Jun 2012 21:08:19 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-06-19-wordpress-3-3%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%A1%E3%83%86%E3%82%A3%E3%82%A2%E3%82%A2%E3%83%83%E3%83%95%E3%83%AD%E3%83%BC%E3%82%BF%E3%83%BC/</guid>
+        <description>&lt;p&gt;Word Press 3.3以降でメディアアップローダーが新しくなり、ドラッグ&amp;amp;ドロップによるファイルアップロードが可能になりました。&lt;/p&gt;
+&lt;p&gt;しかし、Internet Explorer 9.0 (32/64bit)では使えませんでした。&lt;/p&gt;
+&lt;p&gt;Google Chromeでは使えています。&lt;/p&gt;
+&lt;p&gt;HTML5.0が条件かとも思いましたがそうでもないようですね。&lt;/p&gt;
+&lt;p&gt;ie9がセキュリティーが高いせいでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>アクセス解析</title>
+        <link>http://localhost:1313/daily_blog/post/2011-02-24-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E8%A7%A3%E6%9E%90/</link>
+        <pubDate>Thu, 24 Feb 2011 02:48:28 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2011-02-24-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E8%A7%A3%E6%9E%90/</guid>
+        <description>&lt;p&gt;Ameba(以降Aと呼ぶ)のアクセス解析は全く当てにならないなぁ。&lt;/p&gt;
+&lt;p&gt;Ninjya Tools(以降Bと呼ぶ)とGoogle Analytics(以降Cと呼ぶ)のアクセス解析を仕込んであるんだけど、21日の1時台ではPCからのPVが1件なんだけど、Aだと2件になっている。&lt;/p&gt;
+&lt;p&gt;同じ日の2時台のPCからのPVは、Aは47PV、BとCは8PV。&lt;/p&gt;
+&lt;p&gt;この開きはなんなんだろうか。&lt;/p&gt;
+&lt;p&gt;これはかつて水増し疑惑としてネットに情報が流れていたが、水増しなのだろうか。&lt;/p&gt;
+&lt;p&gt;思うにPVを対象にしているアクセス解析に技術的問題があるのではないだろうか。&lt;/p&gt;
+&lt;p&gt;PV用に検出しているデータで、HTTPのファイルアクセスを全てカウントしている可能性がある。&lt;/p&gt;
+&lt;p&gt;ページ本体となるCGI以外にCSSや外部JavaScriptファイルとかのアクセスをカウントしているんじゃないだろうか。&lt;/p&gt;
+&lt;p&gt;正直、Aのアクセス解析は全く役に立たないので使わないんだけど。&lt;/p&gt;
+&lt;p&gt;自分のアクセスをカウントしてしまっているし、IP追跡も出来ないからなぁ。&lt;/p&gt;
+&lt;p&gt;いやぁ、でもこのPV数を広告主や芸能人ブログの獲得のために使っているはずだから、水増しの可能性が高いなぁ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>アクセス解析</title>
+        <link>http://localhost:1313/daily_blog/posts/2011-02-24-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E8%A7%A3%E6%9E%90/</link>
+        <pubDate>Thu, 24 Feb 2011 02:48:28 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2011-02-24-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E8%A7%A3%E6%9E%90/</guid>
+        <description>&lt;p&gt;Ameba(以降Aと呼ぶ)のアクセス解析は全く当てにならないなぁ。&lt;/p&gt;
+&lt;p&gt;Ninjya Tools(以降Bと呼ぶ)とGoogle Analytics(以降Cと呼ぶ)のアクセス解析を仕込んであるんだけど、21日の1時台ではPCからのPVが1件なんだけど、Aだと2件になっている。&lt;/p&gt;
+&lt;p&gt;同じ日の2時台のPCからのPVは、Aは47PV、BとCは8PV。&lt;/p&gt;
+&lt;p&gt;この開きはなんなんだろうか。&lt;/p&gt;
+&lt;p&gt;これはかつて水増し疑惑としてネットに情報が流れていたが、水増しなのだろうか。&lt;/p&gt;
+&lt;p&gt;思うにPVを対象にしているアクセス解析に技術的問題があるのではないだろうか。&lt;/p&gt;
+&lt;p&gt;PV用に検出しているデータで、HTTPのファイルアクセスを全てカウントしている可能性がある。&lt;/p&gt;
+&lt;p&gt;ページ本体となるCGI以外にCSSや外部JavaScriptファイルとかのアクセスをカウントしているんじゃないだろうか。&lt;/p&gt;
+&lt;p&gt;正直、Aのアクセス解析は全く役に立たないので使わないんだけど。&lt;/p&gt;
+&lt;p&gt;自分のアクセスをカウントしてしまっているし、IP追跡も出来ないからなぁ。&lt;/p&gt;
+&lt;p&gt;いやぁ、でもこのPV数を広告主や芸能人ブログの獲得のために使っているはずだから、水増しの可能性が高いなぁ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>各種APIとの連携</title>
+        <link>http://localhost:1313/daily_blog/post/2010-12-14-%E5%90%84%E7%A8%AEapi%E3%81%A8%E3%81%AE%E9%80%A3%E6%90%BA/</link>
+        <pubDate>Tue, 14 Dec 2010 02:44:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-12-14-%E5%90%84%E7%A8%AEapi%E3%81%A8%E3%81%AE%E9%80%A3%E6%90%BA/</guid>
+        <description>&lt;p&gt;各種APIとの連携を止めました。&lt;/p&gt;
+&lt;p&gt;権利関係で、相手方に全て持って行かれたりするような内容で、非常に不利になります。&lt;/p&gt;
+&lt;p&gt;特にTwitterは気をつけなければなりません。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>各種APIとの連携</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-12-14-%E5%90%84%E7%A8%AEapi%E3%81%A8%E3%81%AE%E9%80%A3%E6%90%BA/</link>
+        <pubDate>Tue, 14 Dec 2010 02:44:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-12-14-%E5%90%84%E7%A8%AEapi%E3%81%A8%E3%81%AE%E9%80%A3%E6%90%BA/</guid>
+        <description>&lt;p&gt;各種APIとの連携を止めました。&lt;/p&gt;
+&lt;p&gt;権利関係で、相手方に全て持って行かれたりするような内容で、非常に不利になります。&lt;/p&gt;
+&lt;p&gt;特にTwitterは気をつけなければなりません。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>諸々の試行</title>
+        <link>http://localhost:1313/daily_blog/post/2010-12-12-%E7%9F%AD%E7%B8%AE-url/</link>
+        <pubDate>Sun, 12 Dec 2010 00:02:50 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-12-12-%E7%9F%AD%E7%B8%AE-url/</guid>
+        <description>&lt;p&gt;短縮URLとTwitterとブログ更新プラグインといろいろ試しています。&lt;/p&gt;
+&lt;p&gt;他にamebloをやっていますが、こちらは各種web apiが提供されていないし、外部のweb apiに対応していないので、独立してしまっている感じです。&lt;/p&gt;
+&lt;p&gt;amebloの技術レベルが低いのが主な原因ですが、早急に他のサービス並みに機能を提供してもらいたいです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>諸々の試行</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-12-12-%E7%9F%AD%E7%B8%AE-url/</link>
+        <pubDate>Sun, 12 Dec 2010 00:02:50 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-12-12-%E7%9F%AD%E7%B8%AE-url/</guid>
+        <description>&lt;p&gt;短縮URLとTwitterとブログ更新プラグインといろいろ試しています。&lt;/p&gt;
+&lt;p&gt;他にamebloをやっていますが、こちらは各種web apiが提供されていないし、外部のweb apiに対応していないので、独立してしまっている感じです。&lt;/p&gt;
+&lt;p&gt;amebloの技術レベルが低いのが主な原因ですが、早急に他のサービス並みに機能を提供してもらいたいです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AHCI at AMD SB600 on Windows7 64bit</title>
+        <link>http://localhost:1313/daily_blog/post/2010-10-12-ahci-at-amd-sb600-on-windows7-64bit/</link>
+        <pubDate>Tue, 12 Oct 2010 15:00:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-10-12-ahci-at-amd-sb600-on-windows7-64bit/</guid>
+        <description>&lt;p&gt;ここ数年PCの勉強してなかったら、M/Bの能力を引き出すことを全く忘れてました。&lt;/p&gt;
+&lt;p&gt;SATA2のHDDを購入したのを機にもうちょっと出来ることがあるんではないのかとBIOSを見ていると、SATAの項目の中にAHCIがありました。
+SATA2対応ディスクの性能を引き出すためには、設定してほうが良いらしいとのことだったので、AHCIに設定して、Windows7を起動させようとしました。&lt;/p&gt;
+&lt;p&gt;すると起動時にクラッシュして、復元モードが起動しました。
+しかも復元モードも途中で、「復元できませんでした」と表示されます。&lt;/p&gt;
+&lt;p&gt;まあさっぱり勉強していなかったので仕方ないです。&lt;/p&gt;
+&lt;p&gt;とりあえずSATA設定をIDEに戻して再起動すると、Windows7が起動できました。
+インターネットでAHCIについて調べてみると、IDEモードでインストールしたWindows7/VISTAをAHCIモードにして起動した場合、クラッシュすると書かれていました。
+それからIDEモードでインストールした後にAHCIモードにする方法がありました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://windows7.wiki.fc2.com/wiki/AHCI%E3%83%A2%E3%83%BC%E3%83%89&#34; target=&#34;_blank&#34;&gt;AHCIモード - Windows7移行まとめwiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;先のリンク先の説明はIntelのチップセット。
+私の持っているのはAMDのSB600なので、&lt;a title=&#34;AMDのサイト&#34; href=&#34;http://support.amd.com/us/gpudownload/windows/Pages/raid_windows.aspx&#34; target=&#34;_blank&#34;&gt;AMDのサイトからAHCI用のドライバー&lt;/a&gt;をダウンロードします。
+注) Windows 7の標準ドライバのほうが良いようで、AMDからSB600用のACHIドライバの配布はなくなりました。
+上記のリンクにはSB700以降のドライバがあります。&lt;/p&gt;
+&lt;p&gt;次にレジストリを変更。レジストリエディタを起動し、&lt;/p&gt;
+&lt;p&gt;HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Msahciのサブキーを選択。&lt;/p&gt;
+&lt;p&gt;「Start」の数値を3から0に変更し保存しまう。
+（数値が4の場合なども有り）&lt;/p&gt;
+&lt;p&gt;Windows7を再起動させて、BIOSでSATAをAHCIモードに設定して、起動。
+Windows7が起動するとHDDなどを再認識して、ドライバーを再構成。
+また再起動。
+そしてAMDのAHCIドライバーをインストールして再起動。&lt;/p&gt;
+&lt;p&gt;ついでにサウスブリッジのドライバーもインストールしておきます。&lt;/p&gt;
+&lt;p&gt;CrystalDiskMarkで速度を計測しましたが、シーケンシャルアクセスでは
+１％以内の差があるかどうかです。
+random accessでも5%も差が無いようです。
+まあ、最大性能を出したと言うことで良しとしましょう。&lt;/p&gt;
+&lt;p&gt;で、AHCIモードでWindowsVISTAをインストールするにはWindowsの修正プログラムを適用したSP1が必要だそうです。
+Windows7については分からないです。
+WindowsXPについてはドライバーディスクを用意しておく必要があるそうです。
+IDEモードでインストールしたあとにAHCIモードに切り替えた方が簡単かも。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AHCI at AMD SB600 on Windows7 64bit</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-10-12-ahci-at-amd-sb600-on-windows7-64bit/</link>
+        <pubDate>Tue, 12 Oct 2010 15:00:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-10-12-ahci-at-amd-sb600-on-windows7-64bit/</guid>
+        <description>&lt;p&gt;ここ数年PCの勉強してなかったら、M/Bの能力を引き出すことを全く忘れてました。&lt;/p&gt;
+&lt;p&gt;SATA2のHDDを購入したのを機にもうちょっと出来ることがあるんではないのかとBIOSを見ていると、SATAの項目の中にAHCIがありました。
+SATA2対応ディスクの性能を引き出すためには、設定してほうが良いらしいとのことだったので、AHCIに設定して、Windows7を起動させようとしました。&lt;/p&gt;
+&lt;p&gt;すると起動時にクラッシュして、復元モードが起動しました。
+しかも復元モードも途中で、「復元できませんでした」と表示されます。&lt;/p&gt;
+&lt;p&gt;まあさっぱり勉強していなかったので仕方ないです。&lt;/p&gt;
+&lt;p&gt;とりあえずSATA設定をIDEに戻して再起動すると、Windows7が起動できました。
+インターネットでAHCIについて調べてみると、IDEモードでインストールしたWindows7/VISTAをAHCIモードにして起動した場合、クラッシュすると書かれていました。
+それからIDEモードでインストールした後にAHCIモードにする方法がありました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://windows7.wiki.fc2.com/wiki/AHCI%E3%83%A2%E3%83%BC%E3%83%89&#34; target=&#34;_blank&#34;&gt;AHCIモード - Windows7移行まとめwiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;先のリンク先の説明はIntelのチップセット。
+私の持っているのはAMDのSB600なので、&lt;a title=&#34;AMDのサイト&#34; href=&#34;http://support.amd.com/us/gpudownload/windows/Pages/raid_windows.aspx&#34; target=&#34;_blank&#34;&gt;AMDのサイトからAHCI用のドライバー&lt;/a&gt;をダウンロードします。
+注) Windows 7の標準ドライバのほうが良いようで、AMDからSB600用のACHIドライバの配布はなくなりました。
+上記のリンクにはSB700以降のドライバがあります。&lt;/p&gt;
+&lt;p&gt;次にレジストリを変更。レジストリエディタを起動し、&lt;/p&gt;
+&lt;p&gt;HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Msahciのサブキーを選択。&lt;/p&gt;
+&lt;p&gt;「Start」の数値を3から0に変更し保存しまう。
+（数値が4の場合なども有り）&lt;/p&gt;
+&lt;p&gt;Windows7を再起動させて、BIOSでSATAをAHCIモードに設定して、起動。
+Windows7が起動するとHDDなどを再認識して、ドライバーを再構成。
+また再起動。
+そしてAMDのAHCIドライバーをインストールして再起動。&lt;/p&gt;
+&lt;p&gt;ついでにサウスブリッジのドライバーもインストールしておきます。&lt;/p&gt;
+&lt;p&gt;CrystalDiskMarkで速度を計測しましたが、シーケンシャルアクセスでは
+１％以内の差があるかどうかです。
+random accessでも5%も差が無いようです。
+まあ、最大性能を出したと言うことで良しとしましょう。&lt;/p&gt;
+&lt;p&gt;で、AHCIモードでWindowsVISTAをインストールするにはWindowsの修正プログラムを適用したSP1が必要だそうです。
+Windows7については分からないです。
+WindowsXPについてはドライバーディスクを用意しておく必要があるそうです。
+IDEモードでインストールしたあとにAHCIモードに切り替えた方が簡単かも。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>むむ</title>
+        <link>http://localhost:1313/daily_blog/post/2010-08-30-%E3%82%80%E3%82%80/</link>
+        <pubDate>Mon, 30 Aug 2010 20:14:54 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-08-30-%E3%82%80%E3%82%80/</guid>
+        <description>&lt;p&gt;むむ、誰かが伊藤静さんの年齢でこのブログを参照したようです。
+そんなことを気にしてはダメなのです。
+某声優さんは永遠の１７歳だったりしますから。&lt;/p&gt;
+&lt;p&gt;この世界は腐ってる・・・。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>むむ</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-08-30-%E3%82%80%E3%82%80/</link>
+        <pubDate>Mon, 30 Aug 2010 20:14:54 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-08-30-%E3%82%80%E3%82%80/</guid>
+        <description>&lt;p&gt;むむ、誰かが伊藤静さんの年齢でこのブログを参照したようです。
+そんなことを気にしてはダメなのです。
+某声優さんは永遠の１７歳だったりしますから。&lt;/p&gt;
+&lt;p&gt;この世界は腐ってる・・・。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PENTAX K-7 Limited Silver</title>
+        <link>http://localhost:1313/daily_blog/post/2010-07-16-pentax-k-7-limited-silver/</link>
+        <pubDate>Fri, 16 Jul 2010 18:03:18 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-07-16-pentax-k-7-limited-silver/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_1252&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;PENTAX K-7 Limited Silver&amp;rdquo;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2010/07/IGP3330_01.jpg&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.pentax.jp/japan/imaging/digital/slr/k-7/limited/&#34;&gt;PENTAX K-7 Limited Silver&lt;/a&gt; / &lt;a href=&#34;http://www.pentax.jp/japan/imaging/digital/lens/index35_normal.html&#34;&gt;smcPENTAX DA35mmF2.8 Macro Limited&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PENTAX K20DとSANYO Z-3などを中古に売り、それを元手に購入しました。&lt;/p&gt;
+&lt;p&gt;さてFA&lt;em&gt;レンズともそれなりに色の相性が良いですよ。
+厳密に言うとFA&lt;/em&gt;はチタニウムシルバーなのでK-7のシルバーとは色味が違います。
+FA Limitedに色あわせているそうなのでそちらとあわせるといいでしょう。
+しかし私はFA Limitedを持っていないので、そのうち43mmF1.9でも買ってみようかな。&lt;/p&gt;
+&lt;p&gt;メインに使っているカメラは K-7 (黒)です。
+Limited SilverはこのDA35mmF2.8 Macro Limitedをつけっぱなしにして、サブとして使用しています。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PENTAX K-7 Limited Silver</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-07-16-pentax-k-7-limited-silver/</link>
+        <pubDate>Fri, 16 Jul 2010 18:03:18 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-07-16-pentax-k-7-limited-silver/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_1252&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;PENTAX K-7 Limited Silver&amp;rdquo;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2010/07/IGP3330_01.jpg&#34; target=&#34;_blank&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.pentax.jp/japan/imaging/digital/slr/k-7/limited/&#34;&gt;PENTAX K-7 Limited Silver&lt;/a&gt; / &lt;a href=&#34;http://www.pentax.jp/japan/imaging/digital/lens/index35_normal.html&#34;&gt;smcPENTAX DA35mmF2.8 Macro Limited&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PENTAX K20DとSANYO Z-3などを中古に売り、それを元手に購入しました。&lt;/p&gt;
+&lt;p&gt;さてFA&lt;em&gt;レンズともそれなりに色の相性が良いですよ。
+厳密に言うとFA&lt;/em&gt;はチタニウムシルバーなのでK-7のシルバーとは色味が違います。
+FA Limitedに色あわせているそうなのでそちらとあわせるといいでしょう。
+しかし私はFA Limitedを持っていないので、そのうち43mmF1.9でも買ってみようかな。&lt;/p&gt;
+&lt;p&gt;メインに使っているカメラは K-7 (黒)です。
+Limited SilverはこのDA35mmF2.8 Macro Limitedをつけっぱなしにして、サブとして使用しています。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>また</title>
+        <link>http://localhost:1313/daily_blog/post/2010-06-19-%E3%81%BE%E3%81%9F/</link>
+        <pubDate>Sat, 19 Jun 2010 09:27:13 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-06-19-%E3%81%BE%E3%81%9F/</guid>
+        <description>&lt;p&gt;またこちらの更新に間を開けてしまいました。&lt;/p&gt;
+&lt;p&gt;写真もあまり撮っていないので、人間が駄目になっているようです。&lt;/p&gt;
+&lt;p&gt;なんとか元気を出さなければ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>また</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-06-19-%E3%81%BE%E3%81%9F/</link>
+        <pubDate>Sat, 19 Jun 2010 09:27:13 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-06-19-%E3%81%BE%E3%81%9F/</guid>
+        <description>&lt;p&gt;またこちらの更新に間を開けてしまいました。&lt;/p&gt;
+&lt;p&gt;写真もあまり撮っていないので、人間が駄目になっているようです。&lt;/p&gt;
+&lt;p&gt;なんとか元気を出さなければ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>久しぶり</title>
+        <link>http://localhost:1313/daily_blog/post/2010-05-04-%E4%B9%85%E3%81%97%E3%81%B5%E3%82%8A/</link>
+        <pubDate>Tue, 04 May 2010 23:53:19 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-05-04-%E4%B9%85%E3%81%97%E3%81%B5%E3%82%8A/</guid>
+        <description>&lt;p&gt;久しぶりに、こちらを更新。&lt;/p&gt;
+&lt;p&gt;まあしょうがないか。&lt;/p&gt;
+&lt;p&gt;ようやく完全に復調してきたので、これまで通りやっていこうと思います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>久しぶり</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-05-04-%E4%B9%85%E3%81%97%E3%81%B5%E3%82%8A/</link>
+        <pubDate>Tue, 04 May 2010 23:53:19 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-05-04-%E4%B9%85%E3%81%97%E3%81%B5%E3%82%8A/</guid>
+        <description>&lt;p&gt;久しぶりに、こちらを更新。&lt;/p&gt;
+&lt;p&gt;まあしょうがないか。&lt;/p&gt;
+&lt;p&gt;ようやく完全に復調してきたので、これまで通りやっていこうと思います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>サイバーエージェント社の問題</title>
+        <link>http://localhost:1313/daily_blog/post/2010-01-07-%E3%82%B5%E3%82%A4%E3%83%8F%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E7%A4%BE%E3%81%AE%E5%95%8F%E9%A1%8C/</link>
+        <pubDate>Thu, 07 Jan 2010 09:45:38 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-01-07-%E3%82%B5%E3%82%A4%E3%83%8F%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E7%A4%BE%E3%81%AE%E5%95%8F%E9%A1%8C/</guid>
+        <description>&lt;p&gt;名指しで会社批判をする。サイバーエージェント社のコンプライアンスの低さ、セキュリティー意識の低さ、顧客満足度意識の低さに驚いてしまう。&lt;/p&gt;
+&lt;p&gt;Webサービスを展開している他社は、過去のSoftBankや海外クレジット決済代行会社からの個人情報流出事故によっておきた多大なる損失を恐れ、慎重にそして迅速にセキュリティー対策を行ってきた。&lt;/p&gt;
+&lt;p&gt;また法律もそれを進めるように、個人情報保護法、不正アクセス防止法などの制定、電気通信法、著作権保護法、商法などの改正を行ってきた。&lt;/p&gt;
+&lt;p&gt;サイバーエージェント社は、このたび内部から芸能人ブログのアカウント情報４５０件と、営業情報がエクセルファイルで流出した。発覚は、そのファイルがダウンロードサイトに掲載され、そのリンクが、流出したアカウントのブログに貼り付けられたことだった。&lt;/p&gt;
+&lt;p&gt;エクセルファイルが流出した経緯は不明だが、社員が故意または過失による流出ではないかと推測している。&lt;/p&gt;
+&lt;p&gt;クラッキングでLANに入ることはほとんどの場合不可能なので、想像しているのは、メール誤送信、ウィルス感染、ファイル共有ソフトによる配信という人為的過失か、社員が故意に外部に流出させたかだ。&lt;/p&gt;
+&lt;p&gt;エクセルファイルにあった一部の芸能人のブログ更新が止まっていることから、損失は結構大きいかもしれない。&lt;/p&gt;
+&lt;p&gt;芸能人ブログとして契約されると、所属の事務所に毎月１５万円ずつ支払いされると聞く。これらの費用は、一般利用者が購入したアメゴールドというポイントの料金から支払われているようだ。&lt;/p&gt;
+&lt;p&gt;問題なのは、ずさんな管理しか出来ない体制で運用されていることで、一般利用者の個人情報、クレジットカード情報が流出していないかということだ。なぜなら、これだけずさんだと、どこでこれらの情報が流出しているか分からないからだ。&lt;/p&gt;
+&lt;p&gt;サイバーエージェント社は、同社のHPにプライバシーポリシーを掲載しているが、便宜的なものだ。プライバシーマークも取得していないため、これらの情報掲載に根拠がない。年間５０００件以上の個人情報を扱っているはずなので、個人情報取り扱い事業者としての義務を果たさなければならないし、電子商取引における義務も果たさなければならない。これらの法律に抵触することがあれば、当然行政処分を受ける。この会社の経営者は、企業としての義務を果たさなければならないこと、法律によって守られている消費者の権利を守らなければならないことを、きちんと理解してほしいものである。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>サイバーエージェント社の問題</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-01-07-%E3%82%B5%E3%82%A4%E3%83%8F%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E7%A4%BE%E3%81%AE%E5%95%8F%E9%A1%8C/</link>
+        <pubDate>Thu, 07 Jan 2010 09:45:38 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-01-07-%E3%82%B5%E3%82%A4%E3%83%8F%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E7%A4%BE%E3%81%AE%E5%95%8F%E9%A1%8C/</guid>
+        <description>&lt;p&gt;名指しで会社批判をする。サイバーエージェント社のコンプライアンスの低さ、セキュリティー意識の低さ、顧客満足度意識の低さに驚いてしまう。&lt;/p&gt;
+&lt;p&gt;Webサービスを展開している他社は、過去のSoftBankや海外クレジット決済代行会社からの個人情報流出事故によっておきた多大なる損失を恐れ、慎重にそして迅速にセキュリティー対策を行ってきた。&lt;/p&gt;
+&lt;p&gt;また法律もそれを進めるように、個人情報保護法、不正アクセス防止法などの制定、電気通信法、著作権保護法、商法などの改正を行ってきた。&lt;/p&gt;
+&lt;p&gt;サイバーエージェント社は、このたび内部から芸能人ブログのアカウント情報４５０件と、営業情報がエクセルファイルで流出した。発覚は、そのファイルがダウンロードサイトに掲載され、そのリンクが、流出したアカウントのブログに貼り付けられたことだった。&lt;/p&gt;
+&lt;p&gt;エクセルファイルが流出した経緯は不明だが、社員が故意または過失による流出ではないかと推測している。&lt;/p&gt;
+&lt;p&gt;クラッキングでLANに入ることはほとんどの場合不可能なので、想像しているのは、メール誤送信、ウィルス感染、ファイル共有ソフトによる配信という人為的過失か、社員が故意に外部に流出させたかだ。&lt;/p&gt;
+&lt;p&gt;エクセルファイルにあった一部の芸能人のブログ更新が止まっていることから、損失は結構大きいかもしれない。&lt;/p&gt;
+&lt;p&gt;芸能人ブログとして契約されると、所属の事務所に毎月１５万円ずつ支払いされると聞く。これらの費用は、一般利用者が購入したアメゴールドというポイントの料金から支払われているようだ。&lt;/p&gt;
+&lt;p&gt;問題なのは、ずさんな管理しか出来ない体制で運用されていることで、一般利用者の個人情報、クレジットカード情報が流出していないかということだ。なぜなら、これだけずさんだと、どこでこれらの情報が流出しているか分からないからだ。&lt;/p&gt;
+&lt;p&gt;サイバーエージェント社は、同社のHPにプライバシーポリシーを掲載しているが、便宜的なものだ。プライバシーマークも取得していないため、これらの情報掲載に根拠がない。年間５０００件以上の個人情報を扱っているはずなので、個人情報取り扱い事業者としての義務を果たさなければならないし、電子商取引における義務も果たさなければならない。これらの法律に抵触することがあれば、当然行政処分を受ける。この会社の経営者は、企業としての義務を果たさなければならないこと、法律によって守られている消費者の権利を守らなければならないことを、きちんと理解してほしいものである。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>坂本龍馬</title>
+        <link>http://localhost:1313/daily_blog/post/2010-01-03-%E5%9D%82%E6%9C%AC%E9%BE%8D%E9%A6%AC/</link>
+        <pubDate>Sun, 03 Jan 2010 19:33:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-01-03-%E5%9D%82%E6%9C%AC%E9%BE%8D%E9%A6%AC/</guid>
+        <description>&lt;p&gt;坂本龍馬を見た。&lt;/p&gt;
+&lt;p&gt;撮影方法、絵作りが面白くて引き込まれた。&lt;/p&gt;
+&lt;p&gt;知らず知らず高知の幕末の人物に詳しくなってました。&lt;/p&gt;
+&lt;p&gt;高知県出身の俳優も多いし、今回の大河ドラマは楽しめるかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>坂本龍馬</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-01-03-%E5%9D%82%E6%9C%AC%E9%BE%8D%E9%A6%AC/</link>
+        <pubDate>Sun, 03 Jan 2010 19:33:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-01-03-%E5%9D%82%E6%9C%AC%E9%BE%8D%E9%A6%AC/</guid>
+        <description>&lt;p&gt;坂本龍馬を見た。&lt;/p&gt;
+&lt;p&gt;撮影方法、絵作りが面白くて引き込まれた。&lt;/p&gt;
+&lt;p&gt;知らず知らず高知の幕末の人物に詳しくなってました。&lt;/p&gt;
+&lt;p&gt;高知県出身の俳優も多いし、今回の大河ドラマは楽しめるかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Happy new year!</title>
+        <link>http://localhost:1313/daily_blog/post/2010-01-01-happy-new-year/</link>
+        <pubDate>Fri, 01 Jan 2010 22:53:49 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-01-01-happy-new-year/</guid>
+        <description>&lt;p&gt;あけましておめでとうございます。&lt;/p&gt;
+&lt;p&gt;すっかり寝正月を堪能中です。&lt;/p&gt;
+&lt;p&gt;会社は事業再生法を利用申請するなど、今年いっぱい持つかどうか分かりませんね。&lt;/p&gt;
+&lt;p&gt;私自身はさっさと会社を辞めて今年は転機の年にしたいですね。&lt;/p&gt;
+&lt;p&gt;SEってのが体と心に合わなくて辛いだけなので。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Happy new year!</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-01-01-happy-new-year/</link>
+        <pubDate>Fri, 01 Jan 2010 22:53:49 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-01-01-happy-new-year/</guid>
+        <description>&lt;p&gt;あけましておめでとうございます。&lt;/p&gt;
+&lt;p&gt;すっかり寝正月を堪能中です。&lt;/p&gt;
+&lt;p&gt;会社は事業再生法を利用申請するなど、今年いっぱい持つかどうか分かりませんね。&lt;/p&gt;
+&lt;p&gt;私自身はさっさと会社を辞めて今年は転機の年にしたいですね。&lt;/p&gt;
+&lt;p&gt;SEってのが体と心に合わなくて辛いだけなので。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>MT5</title>
+        <link>http://localhost:1313/daily_blog/post/2009-12-18-mt5/</link>
+        <pubDate>Fri, 18 Dec 2009 15:13:01 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-12-18-mt5/</guid>
+        <description>&lt;p&gt;MovableType5 がリリースされてますね。テンプレートの編集のしやすさを考えるとWordPressよりMovableTypeのほうがいいです。&lt;/p&gt;
+&lt;p&gt;MovableTypeの欠点は再構築の遅さにあります。動的ページを使うことで回避できるとのことなのですが・・・。&lt;/p&gt;
+&lt;p&gt;4.3.2のころまでは動的ページはPHPを使わざるを得ないのですが、大部分のプラグインが使えないという欠点があります。プラグインの大部分がPerlなので仕方ないのですが、これまでさまざまなプラグインで拡張してきて、カスタマイズしているものをPHPに変えるのは、リスクが大きいです。PHPで代替できるプラグインがあまり存在しないこともあり、結局、私は動的ページをあきらめました。&lt;/p&gt;
+&lt;p&gt;MovableTypeと同じ環境にWordPressをインストールして試験していたのですが、&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>MT5</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-12-18-mt5/</link>
+        <pubDate>Fri, 18 Dec 2009 15:13:01 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-12-18-mt5/</guid>
+        <description>&lt;p&gt;MovableType5 がリリースされてますね。テンプレートの編集のしやすさを考えるとWordPressよりMovableTypeのほうがいいです。&lt;/p&gt;
+&lt;p&gt;MovableTypeの欠点は再構築の遅さにあります。動的ページを使うことで回避できるとのことなのですが・・・。&lt;/p&gt;
+&lt;p&gt;4.3.2のころまでは動的ページはPHPを使わざるを得ないのですが、大部分のプラグインが使えないという欠点があります。プラグインの大部分がPerlなので仕方ないのですが、これまでさまざまなプラグインで拡張してきて、カスタマイズしているものをPHPに変えるのは、リスクが大きいです。PHPで代替できるプラグインがあまり存在しないこともあり、結局、私は動的ページをあきらめました。&lt;/p&gt;
+&lt;p&gt;MovableTypeと同じ環境にWordPressをインストールして試験していたのですが、&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Super Black Company</title>
+        <link>http://localhost:1313/daily_blog/post/2009-12-18-super-black-company/</link>
+        <pubDate>Fri, 18 Dec 2009 12:33:42 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-12-18-super-black-company/</guid>
+        <description>&lt;p&gt;家に帰っても仕事のための勉強しろってっさ。ふざけんな、１日８時間それ以外は仕事なんてしちゃだめなんだ。健康を害することがないぎりぎりのラインが８時間だ。第一、会社は個人のプライベートを拘束する権利はない。プライベートを拘束するなら、給与を払え。&lt;/p&gt;
+&lt;p&gt;ふざけんな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Super Black Company</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-12-18-super-black-company/</link>
+        <pubDate>Fri, 18 Dec 2009 12:33:42 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-12-18-super-black-company/</guid>
+        <description>&lt;p&gt;家に帰っても仕事のための勉強しろってっさ。ふざけんな、１日８時間それ以外は仕事なんてしちゃだめなんだ。健康を害することがないぎりぎりのラインが８時間だ。第一、会社は個人のプライベートを拘束する権利はない。プライベートを拘束するなら、給与を払え。&lt;/p&gt;
+&lt;p&gt;ふざけんな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ぼー</title>
+        <link>http://localhost:1313/daily_blog/post/2009-12-17-%E3%81%BB%E3%83%BC/</link>
+        <pubDate>Thu, 17 Dec 2009 11:56:21 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-12-17-%E3%81%BB%E3%83%BC/</guid>
+        <description>&lt;p&gt;やる気なし、気力なしモード。&lt;/p&gt;
+&lt;p&gt;午前中にやる気がなくなり、集中力を欠くのはうつの症状の一つですけど。
+ゆっくりすれば治るかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ぼー</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-12-17-%E3%81%BB%E3%83%BC/</link>
+        <pubDate>Thu, 17 Dec 2009 11:56:21 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-12-17-%E3%81%BB%E3%83%BC/</guid>
+        <description>&lt;p&gt;やる気なし、気力なしモード。&lt;/p&gt;
+&lt;p&gt;午前中にやる気がなくなり、集中力を欠くのはうつの症状の一つですけど。
+ゆっくりすれば治るかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ようやく</title>
+        <link>http://localhost:1313/daily_blog/post/2009-12-17-%E3%82%88%E3%81%86%E3%82%84%E3%81%8F-2/</link>
+        <pubDate>Thu, 17 Dec 2009 01:34:44 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-12-17-%E3%82%88%E3%81%86%E3%82%84%E3%81%8F-2/</guid>
+        <description>&lt;p&gt;よやくoverflowから脱した感があります。&lt;/p&gt;
+&lt;p&gt;きつかった。今日は代休でしっかり寝ました。&lt;/p&gt;
+&lt;p&gt;明日も矛盾と戦います。&lt;/p&gt;
+&lt;p&gt;サラリーマンはもういやだよ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ようやく</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-12-17-%E3%82%88%E3%81%86%E3%82%84%E3%81%8F-2/</link>
+        <pubDate>Thu, 17 Dec 2009 01:34:44 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-12-17-%E3%82%88%E3%81%86%E3%82%84%E3%81%8F-2/</guid>
+        <description>&lt;p&gt;よやくoverflowから脱した感があります。&lt;/p&gt;
+&lt;p&gt;きつかった。今日は代休でしっかり寝ました。&lt;/p&gt;
+&lt;p&gt;明日も矛盾と戦います。&lt;/p&gt;
+&lt;p&gt;サラリーマンはもういやだよ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Over flow</title>
+        <link>http://localhost:1313/daily_blog/post/2009-12-08-over-flow/</link>
+        <pubDate>Tue, 08 Dec 2009 00:24:06 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-12-08-over-flow/</guid>
+        <description>&lt;p&gt;あー、最近、あまりに仕事量が多くてしんどい。&lt;/p&gt;
+&lt;p&gt;がんばれどもがんばれども先が見えない、やりきった感がない。&lt;/p&gt;
+&lt;p&gt;淡々と仕事をしても、手が回りきらず切羽詰まって、結局中途半端なまま・・・。&lt;/p&gt;
+&lt;p&gt;しんどい。&lt;/p&gt;
+&lt;p&gt;ゆっくり眠れる日が欲しい・・・。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;あ、ちなみに明日は東京出張。&lt;/p&gt;
+&lt;p&gt;3時間ほど滞在したら岡山へ帰ります。&lt;/p&gt;
+&lt;p&gt;移動時間が救いかな・・・。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Over flow</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-12-08-over-flow/</link>
+        <pubDate>Tue, 08 Dec 2009 00:24:06 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-12-08-over-flow/</guid>
+        <description>&lt;p&gt;あー、最近、あまりに仕事量が多くてしんどい。&lt;/p&gt;
+&lt;p&gt;がんばれどもがんばれども先が見えない、やりきった感がない。&lt;/p&gt;
+&lt;p&gt;淡々と仕事をしても、手が回りきらず切羽詰まって、結局中途半端なまま・・・。&lt;/p&gt;
+&lt;p&gt;しんどい。&lt;/p&gt;
+&lt;p&gt;ゆっくり眠れる日が欲しい・・・。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;あ、ちなみに明日は東京出張。&lt;/p&gt;
+&lt;p&gt;3時間ほど滞在したら岡山へ帰ります。&lt;/p&gt;
+&lt;p&gt;移動時間が救いかな・・・。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ばかばっか</title>
+        <link>http://localhost:1313/daily_blog/post/2009-12-02-%E3%81%AF%E3%81%8B%E3%81%AF%E3%81%A3%E3%81%8B/</link>
+        <pubDate>Wed, 02 Dec 2009 11:35:44 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-12-02-%E3%81%AF%E3%81%8B%E3%81%AF%E3%81%A3%E3%81%8B/</guid>
+        <description>&lt;p&gt;朝からぐったりしてます。&lt;/p&gt;
+&lt;p&gt;仕事が出来ないので、栄養ドリンクを飲んで、無理やり脳を活性化させてます。&lt;/p&gt;
+&lt;p&gt;栄養ドリンクの成分って、ほとんど擬似的なビタミンだという噂を目にしました。ビタミンの構造に似たものらしいですが、似たものが故、発がん性があるのではと指摘されてました。いかんせん学術論文ではなく、素人の薀蓄なので当てにはなりませんけど。&lt;/p&gt;
+&lt;p&gt;ただ脂溶性ビタミン（A、D、E、K）は、サプリメントなどでは過剰摂取による過剰症で副作用があるので、食事から自然に摂取するようにしなくては。&lt;/p&gt;
+&lt;p&gt;ビタミンAって過剰摂取になりやすくて結構危ないみたいだな。&lt;/p&gt;
+&lt;p&gt;子供にサプリメントを与えては絶対にだめだから。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ばかばっか</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-12-02-%E3%81%AF%E3%81%8B%E3%81%AF%E3%81%A3%E3%81%8B/</link>
+        <pubDate>Wed, 02 Dec 2009 11:35:44 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-12-02-%E3%81%AF%E3%81%8B%E3%81%AF%E3%81%A3%E3%81%8B/</guid>
+        <description>&lt;p&gt;朝からぐったりしてます。&lt;/p&gt;
+&lt;p&gt;仕事が出来ないので、栄養ドリンクを飲んで、無理やり脳を活性化させてます。&lt;/p&gt;
+&lt;p&gt;栄養ドリンクの成分って、ほとんど擬似的なビタミンだという噂を目にしました。ビタミンの構造に似たものらしいですが、似たものが故、発がん性があるのではと指摘されてました。いかんせん学術論文ではなく、素人の薀蓄なので当てにはなりませんけど。&lt;/p&gt;
+&lt;p&gt;ただ脂溶性ビタミン（A、D、E、K）は、サプリメントなどでは過剰摂取による過剰症で副作用があるので、食事から自然に摂取するようにしなくては。&lt;/p&gt;
+&lt;p&gt;ビタミンAって過剰摂取になりやすくて結構危ないみたいだな。&lt;/p&gt;
+&lt;p&gt;子供にサプリメントを与えては絶対にだめだから。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>日々</title>
+        <link>http://localhost:1313/daily_blog/post/2009-11-26-%E6%97%A5%E3%80%85/</link>
+        <pubDate>Thu, 26 Nov 2009 22:17:49 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-11-26-%E6%97%A5%E3%80%85/</guid>
+        <description>&lt;p&gt;ぼーっとする時間がほしいのです。&lt;/p&gt;
+&lt;p&gt;毎日があわただしく、寝る時間も少なく、気が休まる瞬間がないですね。やっとの思いでウィークデーが終わって、週末になると、昼ごろまで寝て、起きたらむさぼるように写真を撮りに出ます。&lt;/p&gt;
+&lt;p&gt;自分の買い物をする予定だったけど、親が使っているテレビが壊れたので、新しく買いました。小型のハイビジョン液晶テレビもコンテンツ保障料を含んでいるとしか思えないぐらい高いんですが。ちまたでは普及しつつあるIEEE802.11nの無線LANルーターとHUB型子機を買って、液晶テレビに接続しました。無線で300Mbpsです。それで何をするといえば、番組表の受信と双方向通信です。メディアプレーヤーをつなげる下地にはなっているので、それを購入すればハイビジョンコンテンツが家庭内LANで共有できます。でもそれってテレビ録画を共有するだけの話ですね。アクトビラもお金を出してまで見ようと思うコンテンツが少ないです。&lt;/p&gt;
+&lt;p&gt;メディアプレーヤーを買うとしたら、たぶんPlayStation3だと思います。ほぼどんなメディアでも再生できるし、DTCP-IPに対応して、同じく対応したレコーダーのコンテンツを再生できるわけです。ということで次の購入目標は、2台目のBD/HDDレコーダーでしょうか。&lt;/p&gt;
+&lt;p&gt;物欲が沸いてきているうちは、あわせてやる気が出てくるので、プラスに働くのですが、結果としてお金が残らないので、あまりいい状態ではないのかもしれないです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>日々</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-11-26-%E6%97%A5%E3%80%85/</link>
+        <pubDate>Thu, 26 Nov 2009 22:17:49 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-11-26-%E6%97%A5%E3%80%85/</guid>
+        <description>&lt;p&gt;ぼーっとする時間がほしいのです。&lt;/p&gt;
+&lt;p&gt;毎日があわただしく、寝る時間も少なく、気が休まる瞬間がないですね。やっとの思いでウィークデーが終わって、週末になると、昼ごろまで寝て、起きたらむさぼるように写真を撮りに出ます。&lt;/p&gt;
+&lt;p&gt;自分の買い物をする予定だったけど、親が使っているテレビが壊れたので、新しく買いました。小型のハイビジョン液晶テレビもコンテンツ保障料を含んでいるとしか思えないぐらい高いんですが。ちまたでは普及しつつあるIEEE802.11nの無線LANルーターとHUB型子機を買って、液晶テレビに接続しました。無線で300Mbpsです。それで何をするといえば、番組表の受信と双方向通信です。メディアプレーヤーをつなげる下地にはなっているので、それを購入すればハイビジョンコンテンツが家庭内LANで共有できます。でもそれってテレビ録画を共有するだけの話ですね。アクトビラもお金を出してまで見ようと思うコンテンツが少ないです。&lt;/p&gt;
+&lt;p&gt;メディアプレーヤーを買うとしたら、たぶんPlayStation3だと思います。ほぼどんなメディアでも再生できるし、DTCP-IPに対応して、同じく対応したレコーダーのコンテンツを再生できるわけです。ということで次の購入目標は、2台目のBD/HDDレコーダーでしょうか。&lt;/p&gt;
+&lt;p&gt;物欲が沸いてきているうちは、あわせてやる気が出てくるので、プラスに働くのですが、結果としてお金が残らないので、あまりいい状態ではないのかもしれないです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>引退・・・</title>
+        <link>http://localhost:1313/daily_blog/post/2009-11-20-%E5%BC%95%E9%80%80/</link>
+        <pubDate>Fri, 20 Nov 2009 11:49:24 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-11-20-%E5%BC%95%E9%80%80/</guid>
+        <description>&lt;p&gt;ひどいめまいに悩まされています。
+目も焦点が合わないし。&lt;/p&gt;
+&lt;p&gt;この職業、引退したほうがいいんでしょうね。
+私の体にはあってないんだろうね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>引退・・・</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-11-20-%E5%BC%95%E9%80%80/</link>
+        <pubDate>Fri, 20 Nov 2009 11:49:24 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-11-20-%E5%BC%95%E9%80%80/</guid>
+        <description>&lt;p&gt;ひどいめまいに悩まされています。
+目も焦点が合わないし。&lt;/p&gt;
+&lt;p&gt;この職業、引退したほうがいいんでしょうね。
+私の体にはあってないんだろうね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>鉄拳6</title>
+        <link>http://localhost:1313/daily_blog/post/2009-11-17-%E9%89%84%E6%8B%B36/</link>
+        <pubDate>Tue, 17 Nov 2009 10:48:16 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-11-17-%E9%89%84%E6%8B%B36/</guid>
+        <description>&lt;p&gt;鉄拳6を買いました。&lt;/p&gt;
+&lt;p&gt;最近、格闘ゲームがお気に入りです。
+なぜかって？、RPGやSLGと違って考えなくて良いから。
+ただ負けるといらっとしますが。&lt;/p&gt;
+&lt;p&gt;鉄拳6もメインで使うキャラクタは、LILIです。
+でもLILIは弱い。
+特にフィールドアクションになると直線的な攻撃が災いして、敵に当たらない・・・。&lt;/p&gt;
+&lt;p&gt;新キャラのアリサがめちゃくちゃ強いです。
+フィールドアクションでは、３次元の攻撃で広範囲の敵を一気になぎ倒すことができます。
+１対１格闘ではゲームバランスを欠くぐらいつよい。
+空飛ぶし、手からチェーンソー出てくるし、上半身は高速回転するし、首は取れるし・・・。
+空飛ぶので空中コンボは強烈です。
+あとアリサで勝ち残ったときの「私どうしてこんなに強いの～」ってせりふのイントネーションと表情が、若干キモくてイラっときます。
+自キャラでもイラっとするので、たぶん対戦相手だとむちゃくちゃ腹が立ちます。
+ほかの「楽しかったです」の動きもキモい。
+この演出はわざとなんでしょうね。&lt;/p&gt;
+&lt;p&gt;またLILIで練習します。
+ディフィカルトをイージーにしてますが、結構CPUは強いです。
+いまはひたすらガードの練習ですかね。
+私はガードが下手ですから。
+LILIは決定打にかけますが、きっと追加されたコンボには強力な業があるはず。
+調べてマスターしなくては。&lt;/p&gt;
+&lt;p&gt;余談ですが、LILIの顔が濃くなってる。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>鉄拳6</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-11-17-%E9%89%84%E6%8B%B36/</link>
+        <pubDate>Tue, 17 Nov 2009 10:48:16 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-11-17-%E9%89%84%E6%8B%B36/</guid>
+        <description>&lt;p&gt;鉄拳6を買いました。&lt;/p&gt;
+&lt;p&gt;最近、格闘ゲームがお気に入りです。
+なぜかって？、RPGやSLGと違って考えなくて良いから。
+ただ負けるといらっとしますが。&lt;/p&gt;
+&lt;p&gt;鉄拳6もメインで使うキャラクタは、LILIです。
+でもLILIは弱い。
+特にフィールドアクションになると直線的な攻撃が災いして、敵に当たらない・・・。&lt;/p&gt;
+&lt;p&gt;新キャラのアリサがめちゃくちゃ強いです。
+フィールドアクションでは、３次元の攻撃で広範囲の敵を一気になぎ倒すことができます。
+１対１格闘ではゲームバランスを欠くぐらいつよい。
+空飛ぶし、手からチェーンソー出てくるし、上半身は高速回転するし、首は取れるし・・・。
+空飛ぶので空中コンボは強烈です。
+あとアリサで勝ち残ったときの「私どうしてこんなに強いの～」ってせりふのイントネーションと表情が、若干キモくてイラっときます。
+自キャラでもイラっとするので、たぶん対戦相手だとむちゃくちゃ腹が立ちます。
+ほかの「楽しかったです」の動きもキモい。
+この演出はわざとなんでしょうね。&lt;/p&gt;
+&lt;p&gt;またLILIで練習します。
+ディフィカルトをイージーにしてますが、結構CPUは強いです。
+いまはひたすらガードの練習ですかね。
+私はガードが下手ですから。
+LILIは決定打にかけますが、きっと追加されたコンボには強力な業があるはず。
+調べてマスターしなくては。&lt;/p&gt;
+&lt;p&gt;余談ですが、LILIの顔が濃くなってる。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 7 Ultimate 64bit - 2lap</title>
+        <link>http://localhost:1313/daily_blog/post/2009-11-10-windows-7-ultimate-64bit-2lap/</link>
+        <pubDate>Tue, 10 Nov 2009 11:58:25 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-11-10-windows-7-ultimate-64bit-2lap/</guid>
+        <description>&lt;p&gt;エクスプローラーが、Vistaの時よりも改善されて、初期状態で比較的使いやすくなりました。
+しかし、エクスプローラーだけは、XPのほうが使いやすかった。
+一覧ビューにしたときに、XPならアイコンとファイル名の部分だけがマウスのイベントを拾っていたので、マウスのドラッグによる範囲選択がやりやすかった。
+Vista以降、一覧ビューでは、行全体がマウスのイベントを拾ってしまうので、ドラッグによる範囲選択が難しくなった。
+必ずどこかの行を選択してしまい、ファイルをドラッグしてしまうことになり、範囲選択ができない。
+一覧のリストが、ウィンドウの下端に達しない場合は、ドラッグによる範囲選択ができる。
+このあたり選択動作のやり方を選べるようになるか、XPの旧エクスプローラーを使えるようにしてほしい。&lt;/p&gt;
+&lt;p&gt;あと主要フォルダーがVista以降、仮想化されてしまい、物理パスからたどりにくくなった。
+プログラマの観点からは扱いやすくなっているが、ヘビーユーザーの観点からは非常に使いづらい。
+仮想フォルダも、実際に選択すると物理パスの場所を表示するようにしてほしい。&lt;/p&gt;
+&lt;p&gt;以上２点がVista以降の大きな不満点です。
+こまごましたところでは設定周りが整理されすぎた製で目的の画面を見つけるまで苦労することかな。&lt;/p&gt;
+&lt;p&gt;一応、7のうたい文句に２クリックで目的の画面にたどり着けることがありましたが、実現できてないです。
+メーラーをスタートメニューのトップに表示させるにはどうしたらいいものか。&lt;/p&gt;
+&lt;p&gt;ここにきて7の取扱説明書が必要に感じてます。
+これまでの知識では辿れない部分が多すぎて、Vistaのときのように結局設定できないままあきらめてしまうということになりかねない。&lt;/p&gt;
+&lt;p&gt;どこに隠されたか、それが知りたい。
+もしくは別のEXEに置き換わった機能はなんなのかを知りたい。&lt;/p&gt;
+&lt;p&gt;昔はInside Windows っていう技術資料が売られていましたが、今はないのかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 7 Ultimate 64bit - 2lap</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-11-10-windows-7-ultimate-64bit-2lap/</link>
+        <pubDate>Tue, 10 Nov 2009 11:58:25 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-11-10-windows-7-ultimate-64bit-2lap/</guid>
+        <description>&lt;p&gt;エクスプローラーが、Vistaの時よりも改善されて、初期状態で比較的使いやすくなりました。
+しかし、エクスプローラーだけは、XPのほうが使いやすかった。
+一覧ビューにしたときに、XPならアイコンとファイル名の部分だけがマウスのイベントを拾っていたので、マウスのドラッグによる範囲選択がやりやすかった。
+Vista以降、一覧ビューでは、行全体がマウスのイベントを拾ってしまうので、ドラッグによる範囲選択が難しくなった。
+必ずどこかの行を選択してしまい、ファイルをドラッグしてしまうことになり、範囲選択ができない。
+一覧のリストが、ウィンドウの下端に達しない場合は、ドラッグによる範囲選択ができる。
+このあたり選択動作のやり方を選べるようになるか、XPの旧エクスプローラーを使えるようにしてほしい。&lt;/p&gt;
+&lt;p&gt;あと主要フォルダーがVista以降、仮想化されてしまい、物理パスからたどりにくくなった。
+プログラマの観点からは扱いやすくなっているが、ヘビーユーザーの観点からは非常に使いづらい。
+仮想フォルダも、実際に選択すると物理パスの場所を表示するようにしてほしい。&lt;/p&gt;
+&lt;p&gt;以上２点がVista以降の大きな不満点です。
+こまごましたところでは設定周りが整理されすぎた製で目的の画面を見つけるまで苦労することかな。&lt;/p&gt;
+&lt;p&gt;一応、7のうたい文句に２クリックで目的の画面にたどり着けることがありましたが、実現できてないです。
+メーラーをスタートメニューのトップに表示させるにはどうしたらいいものか。&lt;/p&gt;
+&lt;p&gt;ここにきて7の取扱説明書が必要に感じてます。
+これまでの知識では辿れない部分が多すぎて、Vistaのときのように結局設定できないままあきらめてしまうということになりかねない。&lt;/p&gt;
+&lt;p&gt;どこに隠されたか、それが知りたい。
+もしくは別のEXEに置き換わった機能はなんなのかを知りたい。&lt;/p&gt;
+&lt;p&gt;昔はInside Windows っていう技術資料が売られていましたが、今はないのかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>紅葉のこと</title>
+        <link>http://localhost:1313/daily_blog/post/2009-11-04-%E7%B4%85%E8%91%89%E3%81%AE%E3%81%93%E3%81%A8/</link>
+        <pubDate>Wed, 04 Nov 2009 13:38:37 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-11-04-%E7%B4%85%E8%91%89%E3%81%AE%E3%81%93%E3%81%A8/</guid>
+        <description>&lt;p&gt;奥津渓でもみじの紅葉を堪能してきました。&lt;/p&gt;
+&lt;p&gt;その朝に山間部では積雪がありましたが、到着したときにはすっかり解けていました。
+でも空気はぴりっと冷たかったです。
+地面は雪解けの水が、差し込んできた太陽に温められ、湯気をたててました。&lt;/p&gt;
+&lt;p&gt;もみじの葉は、雪にぬれ、そして太陽に照らされ、鮮烈な色を出していました。
+わずかな区域のみのもみじでしたが、お見せできているようにいいものが撮れました。&lt;/p&gt;
+&lt;p&gt;それ以外の木々はまだ紅葉には早く、あと２週間ほどかかるように見受けられました。
+もしかしたら紅葉せずに落葉してしまうかもしれませんね。
+山全体が色づくような紅葉は北陸や東北、信州あたりに出かけないと無理かもしれませんね。&lt;/p&gt;
+&lt;p&gt;今週の土日にちょっと遠くに足を運んでみようかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>紅葉のこと</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-11-04-%E7%B4%85%E8%91%89%E3%81%AE%E3%81%93%E3%81%A8/</link>
+        <pubDate>Wed, 04 Nov 2009 13:38:37 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-11-04-%E7%B4%85%E8%91%89%E3%81%AE%E3%81%93%E3%81%A8/</guid>
+        <description>&lt;p&gt;奥津渓でもみじの紅葉を堪能してきました。&lt;/p&gt;
+&lt;p&gt;その朝に山間部では積雪がありましたが、到着したときにはすっかり解けていました。
+でも空気はぴりっと冷たかったです。
+地面は雪解けの水が、差し込んできた太陽に温められ、湯気をたててました。&lt;/p&gt;
+&lt;p&gt;もみじの葉は、雪にぬれ、そして太陽に照らされ、鮮烈な色を出していました。
+わずかな区域のみのもみじでしたが、お見せできているようにいいものが撮れました。&lt;/p&gt;
+&lt;p&gt;それ以外の木々はまだ紅葉には早く、あと２週間ほどかかるように見受けられました。
+もしかしたら紅葉せずに落葉してしまうかもしれませんね。
+山全体が色づくような紅葉は北陸や東北、信州あたりに出かけないと無理かもしれませんね。&lt;/p&gt;
+&lt;p&gt;今週の土日にちょっと遠くに足を運んでみようかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>日本のナイアガラ</title>
+        <link>http://localhost:1313/daily_blog/post/2009-10-22-%E4%BB%8A%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D/</link>
+        <pubDate>Thu, 22 Oct 2009 13:26:11 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-10-22-%E4%BB%8A%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D/</guid>
+        <description>&lt;p&gt;[googlemap lat=&amp;ldquo;32.96409872679787&amp;rdquo; lng=&amp;ldquo;131.45045042037964&amp;rdquo; width=&amp;ldquo;461px&amp;rdquo; height=&amp;ldquo;306px&amp;rdquo; zoom=&amp;ldquo;15&amp;rdquo; type=&amp;ldquo;G_NORMAL_MAP&amp;rdquo;]日本のナイアガラ[/googlemap]&lt;/p&gt;
+&lt;p&gt;ここにいってみたいです。&lt;/p&gt;
+&lt;p&gt;多分大したことはないだろうけど、ここと高千穂とあわせて行ってみたい。&lt;/p&gt;
+&lt;p&gt;高速が安くなったのでふらっと行ってみるか。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>日本のナイアガラ</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-10-22-%E4%BB%8A%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D/</link>
+        <pubDate>Thu, 22 Oct 2009 13:26:11 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-10-22-%E4%BB%8A%E8%A1%8C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D/</guid>
+        <description>&lt;p&gt;[googlemap lat=&amp;ldquo;32.96409872679787&amp;rdquo; lng=&amp;ldquo;131.45045042037964&amp;rdquo; width=&amp;ldquo;461px&amp;rdquo; height=&amp;ldquo;306px&amp;rdquo; zoom=&amp;ldquo;15&amp;rdquo; type=&amp;ldquo;G_NORMAL_MAP&amp;rdquo;]日本のナイアガラ[/googlemap]&lt;/p&gt;
+&lt;p&gt;ここにいってみたいです。&lt;/p&gt;
+&lt;p&gt;多分大したことはないだろうけど、ここと高千穂とあわせて行ってみたい。&lt;/p&gt;
+&lt;p&gt;高速が安くなったのでふらっと行ってみるか。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SANDISK Extream 30MB/s</title>
+        <link>http://localhost:1313/daily_blog/post/2009-10-20-sandisk-extream-30mbs/</link>
+        <pubDate>Tue, 20 Oct 2009 17:07:52 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-10-20-sandisk-extream-30mbs/</guid>
+        <description>&lt;p&gt;Sandisk のExtream III 30MB/s 8GBを買いました。
+K-7の動画撮影は問題なしです。
+長時間撮影後の書き込みも早いので前の３分の１以下の時間で済みます。
+ネット上のベンチマークでは確かにSandiskが飛びぬけて早いです。
+Panasonicと比べると実際そのとおりの差がでます。
+Panasonicのブランドは高いし、4GBで他社の8GBが買えます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SANDISK Extream 30MB/s</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-10-20-sandisk-extream-30mbs/</link>
+        <pubDate>Tue, 20 Oct 2009 17:07:52 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-10-20-sandisk-extream-30mbs/</guid>
+        <description>&lt;p&gt;Sandisk のExtream III 30MB/s 8GBを買いました。
+K-7の動画撮影は問題なしです。
+長時間撮影後の書き込みも早いので前の３分の１以下の時間で済みます。
+ネット上のベンチマークでは確かにSandiskが飛びぬけて早いです。
+Panasonicと比べると実際そのとおりの差がでます。
+Panasonicのブランドは高いし、4GBで他社の8GBが買えます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>しゃべりづらい</title>
+        <link>http://localhost:1313/daily_blog/post/2009-10-19-%E3%81%97%E3%82%83%E3%81%B8%E3%82%8A%E3%81%A4%E3%82%89%E3%81%84/</link>
+        <pubDate>Mon, 19 Oct 2009 20:40:59 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-10-19-%E3%81%97%E3%82%83%E3%81%B8%E3%82%8A%E3%81%A4%E3%82%89%E3%81%84/</guid>
+        <description>&lt;p&gt;しゃべりづらい。
+ちょっと違和感があるけど、明日になれば気にならなくなるかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>しゃべりづらい</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-10-19-%E3%81%97%E3%82%83%E3%81%B8%E3%82%8A%E3%81%A4%E3%82%89%E3%81%84/</link>
+        <pubDate>Mon, 19 Oct 2009 20:40:59 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-10-19-%E3%81%97%E3%82%83%E3%81%B8%E3%82%8A%E3%81%A4%E3%82%89%E3%81%84/</guid>
+        <description>&lt;p&gt;しゃべりづらい。
+ちょっと違和感があるけど、明日になれば気にならなくなるかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>あああ、</title>
+        <link>http://localhost:1313/daily_blog/post/2009-10-18-%E3%81%82%E3%81%82%E3%81%82/</link>
+        <pubDate>Sun, 18 Oct 2009 01:09:06 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-10-18-%E3%81%82%E3%81%82%E3%81%82/</guid>
+        <description>&lt;p&gt;この年齢で最悪な状態。
+もっとも懸念していた症状を治すこともできずについに。&lt;/p&gt;
+&lt;p&gt;今は人様にあえる状態ではなくなりました。&lt;/p&gt;
+&lt;p&gt;早く何とかせねば。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>あああ、</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-10-18-%E3%81%82%E3%81%82%E3%81%82/</link>
+        <pubDate>Sun, 18 Oct 2009 01:09:06 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-10-18-%E3%81%82%E3%81%82%E3%81%82/</guid>
+        <description>&lt;p&gt;この年齢で最悪な状態。
+もっとも懸念していた症状を治すこともできずについに。&lt;/p&gt;
+&lt;p&gt;今は人様にあえる状態ではなくなりました。&lt;/p&gt;
+&lt;p&gt;早く何とかせねば。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PENTAX K-7</title>
+        <link>http://localhost:1313/daily_blog/post/2009-10-15-pentax-k-7-4/</link>
+        <pubDate>Thu, 15 Oct 2009 13:55:19 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-10-15-pentax-k-7-4/</guid>
+        <description>&lt;p&gt;PENTAX K-7で使用しているSDCHなのですが、Panasonic のSDHC 4GB Class10です。
+どうも話によるとPanasonic のSDHCは書き込みが遅いらしいですね。
+それで、動画撮影時に30秒ほどでバッファを食い尽くして、録画が停止するようです。&lt;/p&gt;
+&lt;p&gt;今日にでもSandiskのSDHC Class10を買おうかと思います。
+こういうものは衝動買いでは見えてこないので、調査しとけばよかったかな。&lt;/p&gt;
+&lt;p&gt;ブランド優先でかったのが間違いだったかな。
+いまのSDHCはK20Dのほうで使おうっと。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PENTAX K-7</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-10-15-pentax-k-7-4/</link>
+        <pubDate>Thu, 15 Oct 2009 13:55:19 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-10-15-pentax-k-7-4/</guid>
+        <description>&lt;p&gt;PENTAX K-7で使用しているSDCHなのですが、Panasonic のSDHC 4GB Class10です。
+どうも話によるとPanasonic のSDHCは書き込みが遅いらしいですね。
+それで、動画撮影時に30秒ほどでバッファを食い尽くして、録画が停止するようです。&lt;/p&gt;
+&lt;p&gt;今日にでもSandiskのSDHC Class10を買おうかと思います。
+こういうものは衝動買いでは見えてこないので、調査しとけばよかったかな。&lt;/p&gt;
+&lt;p&gt;ブランド優先でかったのが間違いだったかな。
+いまのSDHCはK20Dのほうで使おうっと。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>注意</title>
+        <link>http://localhost:1313/daily_blog/post/2009-10-13-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%95%B0/</link>
+        <pubDate>Tue, 13 Oct 2009 14:45:12 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-10-13-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%95%B0/</guid>
+        <description>&lt;p&gt;９月１５日になぜか通常アクセスが１０倍に跳ね上がりました。
+よくよく経緯を調べたら、HDMIに関するぼやきが価格.COMに掲載されたことに起因しているようです。
+同時にスパムが急激に増えました。&lt;/p&gt;
+&lt;p&gt;それ以降、安定してアクセス数が伸びているので不気味です。&lt;/p&gt;
+&lt;p&gt;HDMIは根拠のないボヤキです。
+このサイトを情報ソースにしないでください。
+なお当ブログのニュースサイトや情報サイト、掲示板へのリンク掲載および記事内容の掲載は一切認めていません。
+ここのボヤキを信じて行動した結果で、いかなる被害、損害をこうむろうとも私は一切の責任を負いません。&lt;/p&gt;
+&lt;p&gt;Unuseful HDMIのぼやきは非公開にしました。&lt;/p&gt;
+&lt;p&gt;また情報、画像の転載、流用を一切認めません。私の持つ著作権、肖像権を放棄しません。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>注意</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-10-13-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%95%B0/</link>
+        <pubDate>Tue, 13 Oct 2009 14:45:12 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-10-13-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E6%95%B0/</guid>
+        <description>&lt;p&gt;９月１５日になぜか通常アクセスが１０倍に跳ね上がりました。
+よくよく経緯を調べたら、HDMIに関するぼやきが価格.COMに掲載されたことに起因しているようです。
+同時にスパムが急激に増えました。&lt;/p&gt;
+&lt;p&gt;それ以降、安定してアクセス数が伸びているので不気味です。&lt;/p&gt;
+&lt;p&gt;HDMIは根拠のないボヤキです。
+このサイトを情報ソースにしないでください。
+なお当ブログのニュースサイトや情報サイト、掲示板へのリンク掲載および記事内容の掲載は一切認めていません。
+ここのボヤキを信じて行動した結果で、いかなる被害、損害をこうむろうとも私は一切の責任を負いません。&lt;/p&gt;
+&lt;p&gt;Unuseful HDMIのぼやきは非公開にしました。&lt;/p&gt;
+&lt;p&gt;また情報、画像の転載、流用を一切認めません。私の持つ著作権、肖像権を放棄しません。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PENTAX K-7</title>
+        <link>http://localhost:1313/daily_blog/post/2009-10-12-pentax-k-7-3/</link>
+        <pubDate>Mon, 12 Oct 2009 01:50:27 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-10-12-pentax-k-7-3/</guid>
+        <description>&lt;p&gt;衝動買いをしました。
+買わないかなと思っていたPENTAX K-7を買ってしまいました。&lt;/p&gt;
+&lt;p&gt;小ぶりで小指の握りが若干悪いですが、それ以外はたいがい持ちやすいです。
+ボタンを押す位置が大きく見直されたこともあり肝心の露出補正ボタンが押しにくいのが難点ですけど。&lt;/p&gt;
+&lt;p&gt;HD動画16:9 (6M) がCLASS10のSDカードでも処理しきれず30秒で撮影中止になってしまいます。
+もっと早いSDカードが必要なのかも知れません。&lt;/p&gt;
+&lt;p&gt;おおむねそんな感じ。&lt;/p&gt;
+&lt;p&gt;追記
+オートフォーカスの速度は、まああんまり使わないしそんなもんじゃね、とか思いながら、テスト撮影をしても精度には問題はないようです。
+速度もまあスポーツを撮らなきゃ別に問題ないし。
+スポーツぐらいになると置きピンするので逆に使わないか。
+素人にはオートフォーカスにそんなに速度がいるんだろうか。
+F2.8のマクロでピントがずれなかったので精度は優秀。
+F1.4でも問題なく合焦しています。
+目視とフォーカスセンサーのずれはこの固体にはないようです。
+F1.4をフォーカシングスクリーンではあわせられたのはかなりいい感じ。
+新開発のスクリーンが良い。
+でもボケ量の確認は難しいな。
+LiveViewを使うしかない。
+LiveViewでピント合わせがかなり楽になった。
+これまでと違ってかなり高精細になったので、ピントの山が分かる。
+これは予想外の収穫。
+あとHDR撮影はJPGのみと限定されるのですが、滅多に使わない機能だからいいか。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>PENTAX K-7</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-10-12-pentax-k-7-3/</link>
+        <pubDate>Mon, 12 Oct 2009 01:50:27 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-10-12-pentax-k-7-3/</guid>
+        <description>&lt;p&gt;衝動買いをしました。
+買わないかなと思っていたPENTAX K-7を買ってしまいました。&lt;/p&gt;
+&lt;p&gt;小ぶりで小指の握りが若干悪いですが、それ以外はたいがい持ちやすいです。
+ボタンを押す位置が大きく見直されたこともあり肝心の露出補正ボタンが押しにくいのが難点ですけど。&lt;/p&gt;
+&lt;p&gt;HD動画16:9 (6M) がCLASS10のSDカードでも処理しきれず30秒で撮影中止になってしまいます。
+もっと早いSDカードが必要なのかも知れません。&lt;/p&gt;
+&lt;p&gt;おおむねそんな感じ。&lt;/p&gt;
+&lt;p&gt;追記
+オートフォーカスの速度は、まああんまり使わないしそんなもんじゃね、とか思いながら、テスト撮影をしても精度には問題はないようです。
+速度もまあスポーツを撮らなきゃ別に問題ないし。
+スポーツぐらいになると置きピンするので逆に使わないか。
+素人にはオートフォーカスにそんなに速度がいるんだろうか。
+F2.8のマクロでピントがずれなかったので精度は優秀。
+F1.4でも問題なく合焦しています。
+目視とフォーカスセンサーのずれはこの固体にはないようです。
+F1.4をフォーカシングスクリーンではあわせられたのはかなりいい感じ。
+新開発のスクリーンが良い。
+でもボケ量の確認は難しいな。
+LiveViewを使うしかない。
+LiveViewでピント合わせがかなり楽になった。
+これまでと違ってかなり高精細になったので、ピントの山が分かる。
+これは予想外の収穫。
+あとHDR撮影はJPGのみと限定されるのですが、滅多に使わない機能だからいいか。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Headache</title>
+        <link>http://localhost:1313/daily_blog/post/2009-10-02-headache/</link>
+        <pubDate>Fri, 02 Oct 2009 18:00:27 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-10-02-headache/</guid>
+        <description>&lt;p&gt;マジ寝不足でろれつが回らないし、頭が痛い。&lt;/p&gt;
+&lt;p&gt;寝させて。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Headache</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-10-02-headache/</link>
+        <pubDate>Fri, 02 Oct 2009 18:00:27 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-10-02-headache/</guid>
+        <description>&lt;p&gt;マジ寝不足でろれつが回らないし、頭が痛い。&lt;/p&gt;
+&lt;p&gt;寝させて。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>アクセスするんだ</title>
+        <link>http://localhost:1313/daily_blog/post/2009-09-24-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E3%82%93%E3%81%9F/</link>
+        <pubDate>Thu, 24 Sep 2009 23:58:58 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-09-24-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E3%82%93%E3%81%9F/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://yuki9902.com/rex/&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://yuki9902.com/rex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://yuki9902.com/rex/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;さあここにアクセスするんだ。&lt;/p&gt;
+&lt;p&gt;会社の旧後輩、今は転職（？）してビックカメラのおもちゃ売り場で修行中。&lt;/p&gt;
+&lt;p&gt;ここではブログの練習中だそうだ。&lt;/p&gt;
+&lt;p&gt;内容は主に「おもちゃ」のこと。&lt;/p&gt;
+&lt;p&gt;バシバシコメント入れて勉強させてやってくれ！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>アクセスするんだ</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-09-24-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E3%82%93%E3%81%9F/</link>
+        <pubDate>Thu, 24 Sep 2009 23:58:58 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-09-24-%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%99%E3%82%8B%E3%82%93%E3%81%9F/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://yuki9902.com/rex/&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://yuki9902.com/rex/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://yuki9902.com/rex/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;さあここにアクセスするんだ。&lt;/p&gt;
+&lt;p&gt;会社の旧後輩、今は転職（？）してビックカメラのおもちゃ売り場で修行中。&lt;/p&gt;
+&lt;p&gt;ここではブログの練習中だそうだ。&lt;/p&gt;
+&lt;p&gt;内容は主に「おもちゃ」のこと。&lt;/p&gt;
+&lt;p&gt;バシバシコメント入れて勉強させてやってくれ！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>自分の汗</title>
+        <link>http://localhost:1313/daily_blog/post/2009-09-24-%E8%87%AA%E5%88%86%E3%81%AE%E6%B1%97/</link>
+        <pubDate>Thu, 24 Sep 2009 21:55:02 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-09-24-%E8%87%AA%E5%88%86%E3%81%AE%E6%B1%97/</guid>
+        <description>&lt;p&gt;自分の汗の臭いで、うえっとなってます。&lt;/p&gt;
+&lt;p&gt;早く帰って風呂に入りたいです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>自分の汗</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-09-24-%E8%87%AA%E5%88%86%E3%81%AE%E6%B1%97/</link>
+        <pubDate>Thu, 24 Sep 2009 21:55:02 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-09-24-%E8%87%AA%E5%88%86%E3%81%AE%E6%B1%97/</guid>
+        <description>&lt;p&gt;自分の汗の臭いで、うえっとなってます。&lt;/p&gt;
+&lt;p&gt;早く帰って風呂に入りたいです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>8ch</title>
+        <link>http://localhost:1313/daily_blog/post/2009-09-20-8ch/</link>
+        <pubDate>Sun, 20 Sep 2009 00:28:34 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-09-20-8ch/</guid>
+        <description>&lt;p&gt;はっちゃん、アニおたのピアニストらしい。&lt;/p&gt;
+&lt;p&gt;ジャズアレンジのアニソン（JPOPがベースのモノもある）だけど、ちゃんとジャズしている。&lt;/p&gt;
+&lt;p&gt;久々にジャズらしいジャズを聴いたと思ってはっとした。&lt;/p&gt;
+&lt;p&gt;惜しむらくはシンセ音源だということか。&lt;/p&gt;
+&lt;p&gt;マジピアノだったらどんな感じだろうか。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>8ch</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-09-20-8ch/</link>
+        <pubDate>Sun, 20 Sep 2009 00:28:34 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-09-20-8ch/</guid>
+        <description>&lt;p&gt;はっちゃん、アニおたのピアニストらしい。&lt;/p&gt;
+&lt;p&gt;ジャズアレンジのアニソン（JPOPがベースのモノもある）だけど、ちゃんとジャズしている。&lt;/p&gt;
+&lt;p&gt;久々にジャズらしいジャズを聴いたと思ってはっとした。&lt;/p&gt;
+&lt;p&gt;惜しむらくはシンセ音源だということか。&lt;/p&gt;
+&lt;p&gt;マジピアノだったらどんな感じだろうか。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>久しぶりの更新</title>
+        <link>http://localhost:1313/daily_blog/post/2009-09-17-%E4%B9%85%E3%81%97%E3%81%B5%E3%82%8A%E3%81%AE%E6%9B%B4%E6%96%B0/</link>
+        <pubDate>Thu, 17 Sep 2009 08:36:01 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-09-17-%E4%B9%85%E3%81%97%E3%81%B5%E3%82%8A%E3%81%AE%E6%9B%B4%E6%96%B0/</guid>
+        <description>&lt;p&gt;仕事が忙しくて考える余裕というか、自分のこと考える時間がとれなかったので、ブログの更新ができなかった。&lt;/p&gt;
+&lt;p&gt;このブログは、自分の思考ノートみたいなものだから、考えが浮かばないときや阻害されているときはまったく書くことができないな。&lt;/p&gt;
+&lt;p&gt;SW（Silver Week）ってなんだ？単なる連休だろ。馬鹿じゃないだろうか、民放。&lt;/p&gt;
+&lt;p&gt;そもそもGWもどうなんだって話なのに、SWはどうせ英語にするならAutumn Holidayでいいじゃん。&lt;/p&gt;
+&lt;p&gt;大体さ、大型連休って、私らの夏休みより長い連休って・・・。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>久しぶりの更新</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-09-17-%E4%B9%85%E3%81%97%E3%81%B5%E3%82%8A%E3%81%AE%E6%9B%B4%E6%96%B0/</link>
+        <pubDate>Thu, 17 Sep 2009 08:36:01 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-09-17-%E4%B9%85%E3%81%97%E3%81%B5%E3%82%8A%E3%81%AE%E6%9B%B4%E6%96%B0/</guid>
+        <description>&lt;p&gt;仕事が忙しくて考える余裕というか、自分のこと考える時間がとれなかったので、ブログの更新ができなかった。&lt;/p&gt;
+&lt;p&gt;このブログは、自分の思考ノートみたいなものだから、考えが浮かばないときや阻害されているときはまったく書くことができないな。&lt;/p&gt;
+&lt;p&gt;SW（Silver Week）ってなんだ？単なる連休だろ。馬鹿じゃないだろうか、民放。&lt;/p&gt;
+&lt;p&gt;そもそもGWもどうなんだって話なのに、SWはどうせ英語にするならAutumn Holidayでいいじゃん。&lt;/p&gt;
+&lt;p&gt;大体さ、大型連休って、私らの夏休みより長い連休って・・・。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PlayStation3 SystemUpdate3.0</title>
+        <link>http://localhost:1313/daily_blog/post/2009-09-04-playstaion3-systemupdate3-0/</link>
+        <pubDate>Fri, 04 Sep 2009 20:59:22 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-09-04-playstaion3-systemupdate3-0/</guid>
+        <description>&lt;p&gt;PS3のシステムアップデートが9/1に実施されました。&lt;/p&gt;
+&lt;p&gt;かなり前からユーザーの要望が強かったHDDにストックした音楽ファイルのアップサンプリング出力機能。&lt;/p&gt;
+&lt;p&gt;DTCP-IP接続による著作権保護コンテンツの再生が可能。&lt;/p&gt;
+&lt;p&gt;そのほか機能強化、UIも改良され使いやすくなっています。&lt;/p&gt;
+&lt;p&gt;今回は実にすばらしいアップデートです。&lt;/p&gt;
+&lt;p&gt;初期バージョンのSACD対応があれば最強のメディアプレーヤーとなるわけです。&lt;/p&gt;
+&lt;p&gt;最新バージョンのPS3でも、30,000円以下で買えるので、これでしばらくはほかのプレーヤーを考える必要がありませんね。&lt;/p&gt;
+&lt;p&gt;リビング用にもう1台買おうっと。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PlayStation3 SystemUpdate3.0</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-09-04-playstaion3-systemupdate3-0/</link>
+        <pubDate>Fri, 04 Sep 2009 20:59:22 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-09-04-playstaion3-systemupdate3-0/</guid>
+        <description>&lt;p&gt;PS3のシステムアップデートが9/1に実施されました。&lt;/p&gt;
+&lt;p&gt;かなり前からユーザーの要望が強かったHDDにストックした音楽ファイルのアップサンプリング出力機能。&lt;/p&gt;
+&lt;p&gt;DTCP-IP接続による著作権保護コンテンツの再生が可能。&lt;/p&gt;
+&lt;p&gt;そのほか機能強化、UIも改良され使いやすくなっています。&lt;/p&gt;
+&lt;p&gt;今回は実にすばらしいアップデートです。&lt;/p&gt;
+&lt;p&gt;初期バージョンのSACD対応があれば最強のメディアプレーヤーとなるわけです。&lt;/p&gt;
+&lt;p&gt;最新バージョンのPS3でも、30,000円以下で買えるので、これでしばらくはほかのプレーヤーを考える必要がありませんね。&lt;/p&gt;
+&lt;p&gt;リビング用にもう1台買おうっと。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SPAMが鬱陶しい</title>
+        <link>http://localhost:1313/daily_blog/post/2009-09-04-spam%E3%81%8B%E9%AC%B1%E9%99%B6%E3%81%97%E3%81%84/</link>
+        <pubDate>Fri, 04 Sep 2009 10:17:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-09-04-spam%E3%81%8B%E9%AC%B1%E9%99%B6%E3%81%97%E3%81%84/</guid>
+        <description>&lt;p&gt;SPAMが鬱陶しい。&lt;/p&gt;
+&lt;p&gt;WPのSPAM排除機能はあまり使えないな。&lt;/p&gt;
+&lt;p&gt;もっとさくっと排除してくれよ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SPAMが鬱陶しい</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-09-04-spam%E3%81%8B%E9%AC%B1%E9%99%B6%E3%81%97%E3%81%84/</link>
+        <pubDate>Fri, 04 Sep 2009 10:17:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-09-04-spam%E3%81%8B%E9%AC%B1%E9%99%B6%E3%81%97%E3%81%84/</guid>
+        <description>&lt;p&gt;SPAMが鬱陶しい。&lt;/p&gt;
+&lt;p&gt;WPのSPAM排除機能はあまり使えないな。&lt;/p&gt;
+&lt;p&gt;もっとさくっと排除してくれよ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>がんばっているんだけど</title>
+        <link>http://localhost:1313/daily_blog/post/2009-09-03-%E3%81%8B%E3%82%93%E3%81%AF%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%82%93%E3%81%9F%E3%81%91%E3%81%A8/</link>
+        <pubDate>Thu, 03 Sep 2009 01:05:31 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-09-03-%E3%81%8B%E3%82%93%E3%81%AF%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%82%93%E3%81%9F%E3%81%91%E3%81%A8/</guid>
+        <description>&lt;p&gt;自分の仕事は片付かない。&lt;/p&gt;
+&lt;p&gt;きついなぁ。&lt;/p&gt;
+&lt;p&gt;今日はもう眠いので寝ます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>がんばっているんだけど</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-09-03-%E3%81%8B%E3%82%93%E3%81%AF%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%82%93%E3%81%9F%E3%81%91%E3%81%A8/</link>
+        <pubDate>Thu, 03 Sep 2009 01:05:31 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-09-03-%E3%81%8B%E3%82%93%E3%81%AF%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%82%93%E3%81%9F%E3%81%91%E3%81%A8/</guid>
+        <description>&lt;p&gt;自分の仕事は片付かない。&lt;/p&gt;
+&lt;p&gt;きついなぁ。&lt;/p&gt;
+&lt;p&gt;今日はもう眠いので寝ます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>忙しくて</title>
+        <link>http://localhost:1313/daily_blog/post/2009-09-02-%E5%BF%99%E3%81%97%E3%81%8F%E3%81%A6/</link>
+        <pubDate>Wed, 02 Sep 2009 08:32:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-09-02-%E5%BF%99%E3%81%97%E3%81%8F%E3%81%A6/</guid>
+        <description>&lt;p&gt;忙しくて、なかなか更新する暇がない。&lt;/p&gt;
+&lt;p&gt;忙しいだけで、ネタもないし。&lt;/p&gt;
+&lt;p&gt;今週末はとりあえず医者に行こう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>忙しくて</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-09-02-%E5%BF%99%E3%81%97%E3%81%8F%E3%81%A6/</link>
+        <pubDate>Wed, 02 Sep 2009 08:32:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-09-02-%E5%BF%99%E3%81%97%E3%81%8F%E3%81%A6/</guid>
+        <description>&lt;p&gt;忙しくて、なかなか更新する暇がない。&lt;/p&gt;
+&lt;p&gt;忙しいだけで、ネタもないし。&lt;/p&gt;
+&lt;p&gt;今週末はとりあえず医者に行こう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>忙しくなるだろうな</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-30-%E5%BF%99%E3%81%97%E3%81%8F%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%8D%E3%81%86%E3%81%AA/</link>
+        <pubDate>Sun, 30 Aug 2009 22:30:12 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-30-%E5%BF%99%E3%81%97%E3%81%8F%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%8D%E3%81%86%E3%81%AA/</guid>
+        <description>&lt;p&gt;政権交代が実現してしまったようです。&lt;/p&gt;
+&lt;p&gt;ビジネスも大きく変わってきます。&lt;/p&gt;
+&lt;p&gt;法律、予算配分、規制緩和が大きく変わるため、既得権益が崩れ、ビジネスチャンスが来ます。&lt;/p&gt;
+&lt;p&gt;逆に既得権益でもうけてたところは大きくへこみます。&lt;/p&gt;
+&lt;p&gt;先が読めないことではなく、逆に全体として悪化する可能性もあるだけに注意が必要だね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>忙しくなるだろうな</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-30-%E5%BF%99%E3%81%97%E3%81%8F%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%8D%E3%81%86%E3%81%AA/</link>
+        <pubDate>Sun, 30 Aug 2009 22:30:12 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-30-%E5%BF%99%E3%81%97%E3%81%8F%E3%81%AA%E3%82%8B%E3%81%9F%E3%82%8D%E3%81%86%E3%81%AA/</guid>
+        <description>&lt;p&gt;政権交代が実現してしまったようです。&lt;/p&gt;
+&lt;p&gt;ビジネスも大きく変わってきます。&lt;/p&gt;
+&lt;p&gt;法律、予算配分、規制緩和が大きく変わるため、既得権益が崩れ、ビジネスチャンスが来ます。&lt;/p&gt;
+&lt;p&gt;逆に既得権益でもうけてたところは大きくへこみます。&lt;/p&gt;
+&lt;p&gt;先が読めないことではなく、逆に全体として悪化する可能性もあるだけに注意が必要だね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>I will vote</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-30-i-will-vote/</link>
+        <pubDate>Sun, 30 Aug 2009 10:35:38 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-30-i-will-vote/</guid>
+        <description>&lt;p&gt;でっかい国政選挙、投票しに行かねばなるまい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>I will vote</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-30-i-will-vote/</link>
+        <pubDate>Sun, 30 Aug 2009 10:35:38 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-30-i-will-vote/</guid>
+        <description>&lt;p&gt;でっかい国政選挙、投票しに行かねばなるまい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>In Last Night</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-26-%E6%98%A8%E6%99%A9%E3%82%82/</link>
+        <pubDate>Wed, 26 Aug 2009 11:45:15 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-26-%E6%98%A8%E6%99%A9%E3%82%82/</guid>
+        <description>&lt;p&gt;昨晩も人に誘われてラーメンを食べに行った。&lt;/p&gt;
+&lt;p&gt;豚骨はさすがに胃にもたれるので、背脂も入っていないしょうゆラーメンを食べました。&lt;/p&gt;
+&lt;p&gt;でも、今朝からおなかの調子が悪い。やっぱりラーメンはだめみたいです。&lt;/p&gt;
+&lt;p&gt;徐々に体調不良になる食べ物が増えてきているような気がします・・・。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>In Last Night</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-26-%E6%98%A8%E6%99%A9%E3%82%82/</link>
+        <pubDate>Wed, 26 Aug 2009 11:45:15 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-26-%E6%98%A8%E6%99%A9%E3%82%82/</guid>
+        <description>&lt;p&gt;昨晩も人に誘われてラーメンを食べに行った。&lt;/p&gt;
+&lt;p&gt;豚骨はさすがに胃にもたれるので、背脂も入っていないしょうゆラーメンを食べました。&lt;/p&gt;
+&lt;p&gt;でも、今朝からおなかの調子が悪い。やっぱりラーメンはだめみたいです。&lt;/p&gt;
+&lt;p&gt;徐々に体調不良になる食べ物が増えてきているような気がします・・・。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>The EUROPEAN JASMINE TEA - SUNTORY</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-25-the-european-jasmine-tea-suntory/</link>
+        <pubDate>Tue, 25 Aug 2009 15:35:35 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-25-the-european-jasmine-tea-suntory/</guid>
+        <description>&lt;p&gt;SUNTORY の &lt;a title=&#34;The European Jasmine Tea&#34; href=&#34;http://www.suntory.co.jp/softdrink/jasmine/index.html?gabkey=jasmine&#34; target=&#34;_blank&#34;&gt;The European Jasmine Tea&lt;/a&gt; がお気に入りで平日は毎日飲んでいる。&lt;/p&gt;
+&lt;p&gt;ハーブティーの類はどれも匂いがきつすぎて苦手だけど、これだけは美味しく飲める。&lt;/p&gt;
+&lt;p&gt;さわやかな香りとやさしい口当たりで、朝のだるさを拭い去るにはちょうどいい。&lt;/p&gt;
+&lt;p&gt;飲み終えてボトルが空なのが口惜しい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>The EUROPEAN JASMINE TEA - SUNTORY</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-25-the-european-jasmine-tea-suntory/</link>
+        <pubDate>Tue, 25 Aug 2009 15:35:35 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-25-the-european-jasmine-tea-suntory/</guid>
+        <description>&lt;p&gt;SUNTORY の &lt;a title=&#34;The European Jasmine Tea&#34; href=&#34;http://www.suntory.co.jp/softdrink/jasmine/index.html?gabkey=jasmine&#34; target=&#34;_blank&#34;&gt;The European Jasmine Tea&lt;/a&gt; がお気に入りで平日は毎日飲んでいる。&lt;/p&gt;
+&lt;p&gt;ハーブティーの類はどれも匂いがきつすぎて苦手だけど、これだけは美味しく飲める。&lt;/p&gt;
+&lt;p&gt;さわやかな香りとやさしい口当たりで、朝のだるさを拭い去るにはちょうどいい。&lt;/p&gt;
+&lt;p&gt;飲み終えてボトルが空なのが口惜しい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Unuseful HDMI</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-24-%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84hdmi/</link>
+        <pubDate>Mon, 24 Aug 2009 16:34:15 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-24-%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84hdmi/</guid>
+        <description>&lt;p&gt;HDMIの1.4が策定されたはずだが、市場に登場しない。
+まあ、売りがTCP/IPの重畳(ちょうじょう)だからメリットが少ない。
+そもそもTCP/IPを乗せるならHUBを搭載する必要があるため中間の機器を選ぶ。
+映像信号のスパイクでTCP/IPにノイズが乗ると可能性が大きいため実用性に欠けるのではないかと推測する。&lt;/p&gt;
+&lt;p&gt;そもそも音声信号が映像信号に重畳されているのもデメリットが大きい。
+スパイクノイズと大量のジッタ発生、データ取りこぼし。
+DVI規格は少々のノイズが乗っても、感度の低い肉眼で見る上では問題になることが少ないため、気にはならないとされて作られた規格。
+映像信号に重畳された音声信号はビデオクロックの揺らぎによって縦方向に大幅に揺らぐので聴感上敏感に反応してしまう。&lt;/p&gt;
+&lt;p&gt;そもそもDVIコネクターはノイズ対策で、これ以上小さくすることができないとされているサイズであり、それをHDMI規格では無理やり小型化している。高周波信号を流しているにもかかわらず、コネクタの接合性や浮きに問題があり、大量のノイズを発生させている。&lt;/p&gt;
+&lt;p&gt;まあ、データ転送を目的とするケーブルではないので、取りこぼしがあっても「良し」とする規格であり、ソースの１００％のクオリティーを得られるものではない。&lt;/p&gt;
+&lt;p&gt;いまだからあえて、SACDやBDプレーヤーにはアナログマルチチャンネル出力を設けてほしい。&lt;/p&gt;
+&lt;p&gt;ジッターに悩む必要も、HDMIの規格乱発も、AVアンプの型遅れも気にする必要がなくなる。&lt;/p&gt;
+&lt;p&gt;最新の音声コーデックに対応するために、プレーヤーもアンプも交換しなくてはいけない今のHDMI規格は滅びるがいい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Unuseful HDMI</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-24-%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84hdmi/</link>
+        <pubDate>Mon, 24 Aug 2009 16:34:15 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-24-%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%84hdmi/</guid>
+        <description>&lt;p&gt;HDMIの1.4が策定されたはずだが、市場に登場しない。
+まあ、売りがTCP/IPの重畳(ちょうじょう)だからメリットが少ない。
+そもそもTCP/IPを乗せるならHUBを搭載する必要があるため中間の機器を選ぶ。
+映像信号のスパイクでTCP/IPにノイズが乗ると可能性が大きいため実用性に欠けるのではないかと推測する。&lt;/p&gt;
+&lt;p&gt;そもそも音声信号が映像信号に重畳されているのもデメリットが大きい。
+スパイクノイズと大量のジッタ発生、データ取りこぼし。
+DVI規格は少々のノイズが乗っても、感度の低い肉眼で見る上では問題になることが少ないため、気にはならないとされて作られた規格。
+映像信号に重畳された音声信号はビデオクロックの揺らぎによって縦方向に大幅に揺らぐので聴感上敏感に反応してしまう。&lt;/p&gt;
+&lt;p&gt;そもそもDVIコネクターはノイズ対策で、これ以上小さくすることができないとされているサイズであり、それをHDMI規格では無理やり小型化している。高周波信号を流しているにもかかわらず、コネクタの接合性や浮きに問題があり、大量のノイズを発生させている。&lt;/p&gt;
+&lt;p&gt;まあ、データ転送を目的とするケーブルではないので、取りこぼしがあっても「良し」とする規格であり、ソースの１００％のクオリティーを得られるものではない。&lt;/p&gt;
+&lt;p&gt;いまだからあえて、SACDやBDプレーヤーにはアナログマルチチャンネル出力を設けてほしい。&lt;/p&gt;
+&lt;p&gt;ジッターに悩む必要も、HDMIの規格乱発も、AVアンプの型遅れも気にする必要がなくなる。&lt;/p&gt;
+&lt;p&gt;最新の音声コーデックに対応するために、プレーヤーもアンプも交換しなくてはいけない今のHDMI規格は滅びるがいい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SWF Sample</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-22-%E3%83%86%E3%82%B9%E3%83%88/</link>
+        <pubDate>Sat, 22 Aug 2009 21:53:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-22-%E3%83%86%E3%82%B9%E3%83%88/</guid>
+        <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;object classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; width=&#34;400&#34; height=&#34;300&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34;&gt;&lt;param name=&#34;src&#34; value=&#34;/wp/wp-content/uploads/2009/08/MAV_0008.swf&#34; /&gt;&lt;embed type=&#34;application/x-shockwave-flash&#34; width=&#34;400&#34; height=&#34;300&#34; src=&#34;../../wp/wp-content/uploads/2009/08/MAV_0008.swf&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;テスト&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>SWF Sample</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-22-%E3%83%86%E3%82%B9%E3%83%88/</link>
+        <pubDate>Sat, 22 Aug 2009 21:53:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-22-%E3%83%86%E3%82%B9%E3%83%88/</guid>
+        <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;object classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; width=&#34;400&#34; height=&#34;300&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34;&gt;&lt;param name=&#34;src&#34; value=&#34;/wp/wp-content/uploads/2009/08/MAV_0008.swf&#34; /&gt;&lt;embed type=&#34;application/x-shockwave-flash&#34; width=&#34;400&#34; height=&#34;300&#34; src=&#34;../../wp/wp-content/uploads/2009/08/MAV_0008.swf&#34;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;テスト&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Hayate no gotoku !! 1st Blue-Ray First Limitted Edition</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-21-%E3%83%8F%E3%83%A4%E3%83%86%E3%81%AE%E3%81%93%E3%81%A8%E3%81%8F-1%E5%B7%BB-%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88/</link>
+        <pubDate>Fri, 21 Aug 2009 23:15:07 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-21-%E3%83%8F%E3%83%A4%E3%83%86%E3%81%AE%E3%81%93%E3%81%A8%E3%81%8F-1%E5%B7%BB-%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_875&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;361&amp;rdquo; caption=&amp;ldquo;ハヤテのごとく!! 1巻 初回限定版&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt;「ハヤテのごとく!! 1巻 初回限定版」が届きました。
+８月２６日発売です。&lt;/p&gt;
+&lt;p&gt;数量限定購入者特典「本日、満開ワタシ色! HiNA-GIG ver.」も届きました。&lt;/p&gt;
+&lt;p&gt;この購入者特典ために普段のAmazonではなく、Sofmapを利用しました。&lt;/p&gt;
+&lt;p&gt;もうなんか、ヒナギクへのマイブームは収まっているんですけどね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Hayate no gotoku !! 1st Blue-Ray First Limitted Edition</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-21-%E3%83%8F%E3%83%A4%E3%83%86%E3%81%AE%E3%81%93%E3%81%A8%E3%81%8F-1%E5%B7%BB-%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88/</link>
+        <pubDate>Fri, 21 Aug 2009 23:15:07 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-21-%E3%83%8F%E3%83%A4%E3%83%86%E3%81%AE%E3%81%93%E3%81%A8%E3%81%8F-1%E5%B7%BB-%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_875&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;361&amp;rdquo; caption=&amp;ldquo;ハヤテのごとく!! 1巻 初回限定版&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt;「ハヤテのごとく!! 1巻 初回限定版」が届きました。
+８月２６日発売です。&lt;/p&gt;
+&lt;p&gt;数量限定購入者特典「本日、満開ワタシ色! HiNA-GIG ver.」も届きました。&lt;/p&gt;
+&lt;p&gt;この購入者特典ために普段のAmazonではなく、Sofmapを利用しました。&lt;/p&gt;
+&lt;p&gt;もうなんか、ヒナギクへのマイブームは収まっているんですけどね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>I was tiard Today</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-20-%E3%81%AA%E3%82%93%E3%81%8B%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+        <pubDate>Thu, 20 Aug 2009 20:19:41 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-20-%E3%81%AA%E3%82%93%E3%81%8B%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+        <description>&lt;p&gt;おなかすいたので机の引き出しにストックしていた「トマトチリヌードル」を食べた。&lt;/p&gt;
+&lt;p&gt;もう今日はなんだろ。
+全部終わった。&lt;/p&gt;
+&lt;p&gt;何にも進んでいないけど！！！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>I was tiard Today</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-20-%E3%81%AA%E3%82%93%E3%81%8B%E4%BB%8A%E6%97%A5%E3%81%AF/</link>
+        <pubDate>Thu, 20 Aug 2009 20:19:41 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-20-%E3%81%AA%E3%82%93%E3%81%8B%E4%BB%8A%E6%97%A5%E3%81%AF/</guid>
+        <description>&lt;p&gt;おなかすいたので机の引き出しにストックしていた「トマトチリヌードル」を食べた。&lt;/p&gt;
+&lt;p&gt;もう今日はなんだろ。
+全部終わった。&lt;/p&gt;
+&lt;p&gt;何にも進んでいないけど！！！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>What?</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-20-%E4%BD%95%E3%81%8B/</link>
+        <pubDate>Thu, 20 Aug 2009 11:56:30 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-20-%E4%BD%95%E3%81%8B/</guid>
+        <description>&lt;p&gt;何か、書こうと思ったけど、さっぱり忘れた。&lt;/p&gt;
+&lt;p&gt;会議で午前中ぶっつぶれ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>What?</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-20-%E4%BD%95%E3%81%8B/</link>
+        <pubDate>Thu, 20 Aug 2009 11:56:30 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-20-%E4%BD%95%E3%81%8B/</guid>
+        <description>&lt;p&gt;何か、書こうと思ったけど、さっぱり忘れた。&lt;/p&gt;
+&lt;p&gt;会議で午前中ぶっつぶれ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>CURRY-BUN</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-19-curry-bun/</link>
+        <pubDate>Wed, 19 Aug 2009 19:07:42 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-19-curry-bun/</guid>
+        <description>&lt;p&gt;カレー饅を買った。&lt;/p&gt;
+&lt;p&gt;とろっとしたカレーにビーフがしっかり入っている。
+今年のサークルKサンクスのカレー饅はいける。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>CURRY-BUN</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-19-curry-bun/</link>
+        <pubDate>Wed, 19 Aug 2009 19:07:42 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-19-curry-bun/</guid>
+        <description>&lt;p&gt;カレー饅を買った。&lt;/p&gt;
+&lt;p&gt;とろっとしたカレーにビーフがしっかり入っている。
+今年のサークルKサンクスのカレー饅はいける。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>眠い・・・</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-18-%E7%9C%A0%E3%81%84/</link>
+        <pubDate>Tue, 18 Aug 2009 09:11:19 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-18-%E7%9C%A0%E3%81%84/</guid>
+        <description>&lt;p&gt;眠い。
+ちゃんと寝たはずなのに眠い。
+でも暑くてしんどい。&lt;/p&gt;
+&lt;p&gt;9時間ぐらい睡眠時間がほしい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>眠い・・・</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-18-%E7%9C%A0%E3%81%84/</link>
+        <pubDate>Tue, 18 Aug 2009 09:11:19 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-18-%E7%9C%A0%E3%81%84/</guid>
+        <description>&lt;p&gt;眠い。
+ちゃんと寝たはずなのに眠い。
+でも暑くてしんどい。&lt;/p&gt;
+&lt;p&gt;9時間ぐらい睡眠時間がほしい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ぐったり</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-15-%E3%81%8F%E3%81%A3%E3%81%9F%E3%82%8A-2/</link>
+        <pubDate>Sat, 15 Aug 2009 21:25:25 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-15-%E3%81%8F%E3%81%A3%E3%81%9F%E3%82%8A-2/</guid>
+        <description>&lt;p&gt;夏ばてでぐったり。&lt;/p&gt;
+&lt;p&gt;夏はちゃんと休まなきゃ駄目ですね。
+盆休みは体力を回復させるためのモノ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ぐったり</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-15-%E3%81%8F%E3%81%A3%E3%81%9F%E3%82%8A-2/</link>
+        <pubDate>Sat, 15 Aug 2009 21:25:25 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-15-%E3%81%8F%E3%81%A3%E3%81%9F%E3%82%8A-2/</guid>
+        <description>&lt;p&gt;夏ばてでぐったり。&lt;/p&gt;
+&lt;p&gt;夏はちゃんと休まなきゃ駄目ですね。
+盆休みは体力を回復させるためのモノ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>お盆ですね。</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-13-%E3%81%8A%E7%9B%86%E3%81%A6%E3%81%99%E3%81%AD/</link>
+        <pubDate>Thu, 13 Aug 2009 10:01:25 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-13-%E3%81%8A%E7%9B%86%E3%81%A6%E3%81%99%E3%81%AD/</guid>
+        <description>&lt;p&gt;今日で35歳になりましたが、成長よりさきに老化がすすんで、ショックです。
+苦労したら老化が進むのは事実のようです。
+働きすぎには注意しましょう。
+早死にします。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>お盆ですね。</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-13-%E3%81%8A%E7%9B%86%E3%81%A6%E3%81%99%E3%81%AD/</link>
+        <pubDate>Thu, 13 Aug 2009 10:01:25 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-13-%E3%81%8A%E7%9B%86%E3%81%A6%E3%81%99%E3%81%AD/</guid>
+        <description>&lt;p&gt;今日で35歳になりましたが、成長よりさきに老化がすすんで、ショックです。
+苦労したら老化が進むのは事実のようです。
+働きすぎには注意しましょう。
+早死にします。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ペルセウス座流星群</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-12-%E3%83%98%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4/</link>
+        <pubDate>Wed, 12 Aug 2009 08:24:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-12-%E3%83%98%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4/</guid>
+        <description>&lt;p&gt;今日晩から明日未明にかけて、ペルセウス座流星群が極大です。&lt;/p&gt;
+&lt;p&gt;あいにくと月が明るいようですが、それでも空を見上げると見えると思います。
+台風も通り過ぎ空が晴れているところもあると思います。&lt;/p&gt;
+&lt;p&gt;ぜひ上を見てはどうでしょう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ペルセウス座流星群</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-12-%E3%83%98%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4/</link>
+        <pubDate>Wed, 12 Aug 2009 08:24:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-12-%E3%83%98%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9%E5%BA%A7%E6%B5%81%E6%98%9F%E7%BE%A4/</guid>
+        <description>&lt;p&gt;今日晩から明日未明にかけて、ペルセウス座流星群が極大です。&lt;/p&gt;
+&lt;p&gt;あいにくと月が明るいようですが、それでも空を見上げると見えると思います。
+台風も通り過ぎ空が晴れているところもあると思います。&lt;/p&gt;
+&lt;p&gt;ぜひ上を見てはどうでしょう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>地震</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-11-%E5%9C%B0%E9%9C%87/</link>
+        <pubDate>Tue, 11 Aug 2009 06:17:16 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-11-%E5%9C%B0%E9%9C%87/</guid>
+        <description>&lt;p&gt;東海、関東に住まわれている方は大丈夫でしょうか。&lt;/p&gt;
+&lt;p&gt;一時間ほど前に震度六の地震が静岡であったようです。&lt;/p&gt;
+&lt;p&gt;新幹線の運転を現在見合わせているようなので、いろいろなところで影響が出ているのではないでしょうか。&lt;/p&gt;
+&lt;p&gt;お出かけの際には交通情報を確かめましょう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>地震</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-11-%E5%9C%B0%E9%9C%87/</link>
+        <pubDate>Tue, 11 Aug 2009 06:17:16 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-11-%E5%9C%B0%E9%9C%87/</guid>
+        <description>&lt;p&gt;東海、関東に住まわれている方は大丈夫でしょうか。&lt;/p&gt;
+&lt;p&gt;一時間ほど前に震度六の地震が静岡であったようです。&lt;/p&gt;
+&lt;p&gt;新幹線の運転を現在見合わせているようなので、いろいろなところで影響が出ているのではないでしょうか。&lt;/p&gt;
+&lt;p&gt;お出かけの際には交通情報を確かめましょう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>座禅と同じ</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-11-839/</link>
+        <pubDate>Tue, 11 Aug 2009 00:18:38 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-11-839/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_838&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;Hi-New ガンダム HG 1/144&amp;rdquo;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3853p.jpg&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;意気消沈したけど、これを作って心の垢をそぎ落とした。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>座禅と同じ</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-11-839/</link>
+        <pubDate>Tue, 11 Aug 2009 00:18:38 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-11-839/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_838&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;Hi-New ガンダム HG 1/144&amp;rdquo;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3853p.jpg&#34;&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;意気消沈したけど、これを作って心の垢をそぎ落とした。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>いつの間にか金曜日</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-07-%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B%E9%87%91%E6%9B%9C%E6%97%A5/</link>
+        <pubDate>Fri, 07 Aug 2009 13:59:29 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-07-%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B%E9%87%91%E6%9B%9C%E6%97%A5/</guid>
+        <description>&lt;p&gt;あっという間に金曜日です。
+今日は歓迎会。
+財布に痛い焼肉です。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>いつの間にか金曜日</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-07-%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B%E9%87%91%E6%9B%9C%E6%97%A5/</link>
+        <pubDate>Fri, 07 Aug 2009 13:59:29 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-07-%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B%E9%87%91%E6%9B%9C%E6%97%A5/</guid>
+        <description>&lt;p&gt;あっという間に金曜日です。
+今日は歓迎会。
+財布に痛い焼肉です。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ネタ無し</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-06-%E3%83%8D%E3%82%BF%E7%84%A1%E3%81%97/</link>
+        <pubDate>Thu, 06 Aug 2009 01:33:32 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-06-%E3%83%8D%E3%82%BF%E7%84%A1%E3%81%97/</guid>
+        <description>&lt;p&gt;最近ネタ無し。&lt;/p&gt;
+&lt;p&gt;いやあった、今日、B&amp;rsquo;zの「イチブトゼンブ」MaxiSingleの発売日です。
+まだ聞いてない！！！！&lt;/p&gt;
+&lt;p&gt;もう寝る。
+寝ないとぶっ倒れそう。&lt;/p&gt;
+&lt;p&gt;まだ喉痛いし。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ネタ無し</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-06-%E3%83%8D%E3%82%BF%E7%84%A1%E3%81%97/</link>
+        <pubDate>Thu, 06 Aug 2009 01:33:32 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-06-%E3%83%8D%E3%82%BF%E7%84%A1%E3%81%97/</guid>
+        <description>&lt;p&gt;最近ネタ無し。&lt;/p&gt;
+&lt;p&gt;いやあった、今日、B&amp;rsquo;zの「イチブトゼンブ」MaxiSingleの発売日です。
+まだ聞いてない！！！！&lt;/p&gt;
+&lt;p&gt;もう寝る。
+寝ないとぶっ倒れそう。&lt;/p&gt;
+&lt;p&gt;まだ喉痛いし。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>のど痛い</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-05-%E3%81%AE%E3%81%A8%E7%97%9B%E3%81%84/</link>
+        <pubDate>Wed, 05 Aug 2009 14:29:23 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-05-%E3%81%AE%E3%81%A8%E7%97%9B%E3%81%84/</guid>
+        <description>&lt;p&gt;眠気が覚めるとして売っている「メガシャキッ」。
+唐辛子やら炭酸やらで、のどがひりひりする。&lt;/p&gt;
+&lt;p&gt;肝心の眠気はぜんぜん覚めない。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>のど痛い</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-05-%E3%81%AE%E3%81%A8%E7%97%9B%E3%81%84/</link>
+        <pubDate>Wed, 05 Aug 2009 14:29:23 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-05-%E3%81%AE%E3%81%A8%E7%97%9B%E3%81%84/</guid>
+        <description>&lt;p&gt;眠気が覚めるとして売っている「メガシャキッ」。
+唐辛子やら炭酸やらで、のどがひりひりする。&lt;/p&gt;
+&lt;p&gt;肝心の眠気はぜんぜん覚めない。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>運転感覚</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-04-%E9%81%8B%E8%BB%A2%E6%84%9F%E8%A6%9A/</link>
+        <pubDate>Tue, 04 Aug 2009 00:22:08 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-04-%E9%81%8B%E8%BB%A2%E6%84%9F%E8%A6%9A/</guid>
+        <description>&lt;p&gt;二日間を開けると、微妙なクラッチワークを忘れてしまうな。&lt;/p&gt;
+&lt;p&gt;今日の往復２００キロで完全にペースを取り戻した。&lt;/p&gt;
+&lt;p&gt;赤穂御崎まで行ってきた。
+それだけですが。&lt;/p&gt;
+&lt;p&gt;まあ、過酷な峠道と一般道での爆走をしたので、それだけではないかも知れないですが。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>運転感覚</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-04-%E9%81%8B%E8%BB%A2%E6%84%9F%E8%A6%9A/</link>
+        <pubDate>Tue, 04 Aug 2009 00:22:08 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-04-%E9%81%8B%E8%BB%A2%E6%84%9F%E8%A6%9A/</guid>
+        <description>&lt;p&gt;二日間を開けると、微妙なクラッチワークを忘れてしまうな。&lt;/p&gt;
+&lt;p&gt;今日の往復２００キロで完全にペースを取り戻した。&lt;/p&gt;
+&lt;p&gt;赤穂御崎まで行ってきた。
+それだけですが。&lt;/p&gt;
+&lt;p&gt;まあ、過酷な峠道と一般道での爆走をしたので、それだけではないかも知れないですが。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>東京旅行</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-02-%E6%9D%B1%E4%BA%AC%E6%97%85%E8%A1%8C/</link>
+        <pubDate>Sun, 02 Aug 2009 21:36:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-02-%E6%9D%B1%E4%BA%AC%E6%97%85%E8%A1%8C/</guid>
+        <description>&lt;p&gt;富士山のてっぺん&lt;/p&gt;
+[caption id=&#34;attachment_804&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3669s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;いきなりだろ、いきなり&lt;/p&gt;
+[caption id=&#34;attachment_805&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3712s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;渋谷センター街&lt;/p&gt;
+[caption id=&#34;attachment_806&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3737s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;渋谷109 まるきゅう&lt;/p&gt;
+[caption id=&#34;attachment_807&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3738s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;お台場、夢の大橋&lt;/p&gt;
+[caption id=&#34;attachment_808&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3743s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;ホテルのbathroom&lt;/p&gt;
+[caption id=&#34;attachment_809&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3746s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;２日目、愛だろ、愛&lt;/p&gt;
+[caption id=&#34;attachment_810&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3755s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;バックスタイル&lt;/p&gt;
+[caption id=&#34;attachment_811&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3801s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;ルイーダの酒場、異常事態だね&lt;/p&gt;
+[caption id=&#34;attachment_812&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3813s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;出発まで二時間&lt;/p&gt;
+[caption id=&#34;attachment_813&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3816s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+</description>
+        </item>
+        <item>
+        <title>東京旅行</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-02-%E6%9D%B1%E4%BA%AC%E6%97%85%E8%A1%8C/</link>
+        <pubDate>Sun, 02 Aug 2009 21:36:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-02-%E6%9D%B1%E4%BA%AC%E6%97%85%E8%A1%8C/</guid>
+        <description>&lt;p&gt;富士山のてっぺん&lt;/p&gt;
+[caption id=&#34;attachment_804&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3669s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;いきなりだろ、いきなり&lt;/p&gt;
+[caption id=&#34;attachment_805&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3712s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;渋谷センター街&lt;/p&gt;
+[caption id=&#34;attachment_806&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3737s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;渋谷109 まるきゅう&lt;/p&gt;
+[caption id=&#34;attachment_807&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3738s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;お台場、夢の大橋&lt;/p&gt;
+[caption id=&#34;attachment_808&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3743s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;ホテルのbathroom&lt;/p&gt;
+[caption id=&#34;attachment_809&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3746s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;２日目、愛だろ、愛&lt;/p&gt;
+[caption id=&#34;attachment_810&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3755s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;バックスタイル&lt;/p&gt;
+[caption id=&#34;attachment_811&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3801s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;ルイーダの酒場、異常事態だね&lt;/p&gt;
+[caption id=&#34;attachment_812&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3813s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+&lt;p&gt;出発まで二時間&lt;/p&gt;
+[caption id=&#34;attachment_813&#34; align=&#34;alignnone&#34; width=&#34;461&#34; caption=&#34;東京旅行&#34;]&lt;a href=&#34;http://yuki9902.com/wp/wp-content/uploads/2009/08/IGP3816s.jpg&#34;&gt;&lt;/a&gt;[/caption]
+</description>
+        </item>
+        <item>
+        <title>「萩原美緒オフィシャルブログ「すきすきだいすき」」の紹介</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-30-%E3%81%99%E3%81%8D%E3%81%99%E3%81%8D%E3%81%9F%E3%81%84%E3%81%99%E3%81%8D%E8%90%A9%E5%8E%9F%E7%BE%8E%E7%B7%92%E3%83%95%E3%83%AD%E3%82%AF%E3%81%AE%E7%B4%B9%E4%BB%8B/</link>
+        <pubDate>Thu, 30 Jul 2009 21:38:57 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-30-%E3%81%99%E3%81%8D%E3%81%99%E3%81%8D%E3%81%9F%E3%81%84%E3%81%99%E3%81%8D%E8%90%A9%E5%8E%9F%E7%BE%8E%E7%B7%92%E3%83%95%E3%83%AD%E3%82%AF%E3%81%AE%E7%B4%B9%E4%BB%8B/</guid>
+        <description>&lt;p&gt;ちょっとお願い。下のリンククリックして。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;すきすきだいすき萩原美緒ブログ&#34; href=&#34;http://ameblo.jp/suki-suki-hagimio/&#34; target=&#34;_blank&#34;&gt;萩原美緒オフィシャルブログ「すきすきだいすき」&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;まだ駆け出し中の声優さんのブログです。&lt;/p&gt;
+&lt;p&gt;アメーバブログでのつながりで、ランキング競争中らしいので、クリックして読んであげてください。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;2013/03/25&lt;/p&gt;
+&lt;p&gt;萩原美緒さんは事務所が変わり、華山みおさんとして活躍しています。
+&lt;a title=&#34;華山みおのブログ&#34; href=&#34;http://ameblo.jp/kayama-mio/&#34; target=&#34;blank&#34;&gt;華山みおのブログ&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>「萩原美緒オフィシャルブログ「すきすきだいすき」」の紹介</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-30-%E3%81%99%E3%81%8D%E3%81%99%E3%81%8D%E3%81%9F%E3%81%84%E3%81%99%E3%81%8D%E8%90%A9%E5%8E%9F%E7%BE%8E%E7%B7%92%E3%83%95%E3%83%AD%E3%82%AF%E3%81%AE%E7%B4%B9%E4%BB%8B/</link>
+        <pubDate>Thu, 30 Jul 2009 21:38:57 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-30-%E3%81%99%E3%81%8D%E3%81%99%E3%81%8D%E3%81%9F%E3%81%84%E3%81%99%E3%81%8D%E8%90%A9%E5%8E%9F%E7%BE%8E%E7%B7%92%E3%83%95%E3%83%AD%E3%82%AF%E3%81%AE%E7%B4%B9%E4%BB%8B/</guid>
+        <description>&lt;p&gt;ちょっとお願い。下のリンククリックして。&lt;/p&gt;
+&lt;p&gt;&lt;a title=&#34;すきすきだいすき萩原美緒ブログ&#34; href=&#34;http://ameblo.jp/suki-suki-hagimio/&#34; target=&#34;_blank&#34;&gt;萩原美緒オフィシャルブログ「すきすきだいすき」&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;まだ駆け出し中の声優さんのブログです。&lt;/p&gt;
+&lt;p&gt;アメーバブログでのつながりで、ランキング競争中らしいので、クリックして読んであげてください。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;2013/03/25&lt;/p&gt;
+&lt;p&gt;萩原美緒さんは事務所が変わり、華山みおさんとして活躍しています。
+&lt;a title=&#34;華山みおのブログ&#34; href=&#34;http://ameblo.jp/kayama-mio/&#34; target=&#34;blank&#34;&gt;華山みおのブログ&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>痛いです</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-30-%E7%97%9B%E3%81%84%E3%81%A6%E3%81%99/</link>
+        <pubDate>Thu, 30 Jul 2009 17:05:32 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-30-%E7%97%9B%E3%81%84%E3%81%A6%E3%81%99/</guid>
+        <description>&lt;p&gt;右足の小指を角にぶつけて、爪がはがれた。&lt;/p&gt;
+&lt;p&gt;ちりちり痛いです。&lt;/p&gt;
+&lt;p&gt;でも、明日のお台場行きはやめません。&lt;/p&gt;
+&lt;p&gt;雨らしいですが、行きます。&lt;/p&gt;
+&lt;p&gt;痛い人です。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>痛いです</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-30-%E7%97%9B%E3%81%84%E3%81%A6%E3%81%99/</link>
+        <pubDate>Thu, 30 Jul 2009 17:05:32 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-30-%E7%97%9B%E3%81%84%E3%81%A6%E3%81%99/</guid>
+        <description>&lt;p&gt;右足の小指を角にぶつけて、爪がはがれた。&lt;/p&gt;
+&lt;p&gt;ちりちり痛いです。&lt;/p&gt;
+&lt;p&gt;でも、明日のお台場行きはやめません。&lt;/p&gt;
+&lt;p&gt;雨らしいですが、行きます。&lt;/p&gt;
+&lt;p&gt;痛い人です。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>l woke up later.</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-30-l-woke-up-later/</link>
+        <pubDate>Thu, 30 Jul 2009 12:26:57 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-30-l-woke-up-later/</guid>
+        <description>&lt;p&gt;爆睡&lt;/p&gt;
+&lt;p&gt;残業できない体になってしまっています。&lt;/p&gt;
+&lt;p&gt;９月からSection Leader の代行にならざるを得ないのですが、たぶん体が持たないでしょうね。&lt;/p&gt;
+&lt;p&gt;前に過酷なSectionのLeader業務をしたときに、心を病んでしまって以来、心も体もついてきません。&lt;/p&gt;
+&lt;p&gt;１０月にはまた病んでいると思います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>l woke up later.</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-30-l-woke-up-later/</link>
+        <pubDate>Thu, 30 Jul 2009 12:26:57 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-30-l-woke-up-later/</guid>
+        <description>&lt;p&gt;爆睡&lt;/p&gt;
+&lt;p&gt;残業できない体になってしまっています。&lt;/p&gt;
+&lt;p&gt;９月からSection Leader の代行にならざるを得ないのですが、たぶん体が持たないでしょうね。&lt;/p&gt;
+&lt;p&gt;前に過酷なSectionのLeader業務をしたときに、心を病んでしまって以来、心も体もついてきません。&lt;/p&gt;
+&lt;p&gt;１０月にはまた病んでいると思います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>1日延期</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-30-1%E6%97%A5%E5%BB%B6%E6%9C%9F/</link>
+        <pubDate>Thu, 30 Jul 2009 01:19:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-30-1%E6%97%A5%E5%BB%B6%E6%9C%9F/</guid>
+        <description>&lt;p&gt;残業疲れで、早朝出発が無理っぽいので、一日遅らせることにしました。&lt;/p&gt;
+&lt;p&gt;それで、早朝特割の飛行機で行くことにしました。予約済み。新幹線より安いし、何より三分の一の時間で済みます。&lt;/p&gt;
+&lt;p&gt;お台場と秋葉原でうろうろしてみます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>1日延期</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-30-1%E6%97%A5%E5%BB%B6%E6%9C%9F/</link>
+        <pubDate>Thu, 30 Jul 2009 01:19:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-30-1%E6%97%A5%E5%BB%B6%E6%9C%9F/</guid>
+        <description>&lt;p&gt;残業疲れで、早朝出発が無理っぽいので、一日遅らせることにしました。&lt;/p&gt;
+&lt;p&gt;それで、早朝特割の飛行機で行くことにしました。予約済み。新幹線より安いし、何より三分の一の時間で済みます。&lt;/p&gt;
+&lt;p&gt;お台場と秋葉原でうろうろしてみます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ドーピングが過ぎたか</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-29-%E3%83%88%E3%83%BC%E3%83%92%E3%83%B3%E3%82%AF%E3%81%8B%E9%81%8E%E3%81%8D%E3%81%9F%E3%81%8B/</link>
+        <pubDate>Wed, 29 Jul 2009 21:10:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-29-%E3%83%88%E3%83%BC%E3%83%92%E3%83%B3%E3%82%AF%E3%81%8B%E9%81%8E%E3%81%8D%E3%81%9F%E3%81%8B/</guid>
+        <description>&lt;p&gt;リポビタンDライトを会社に着いたときに摂取。&lt;/p&gt;
+&lt;p&gt;通勤中はB&amp;rsquo;zでテンションあげて。&lt;/p&gt;
+&lt;p&gt;夕方まで仕事を爆走。&lt;/p&gt;
+&lt;p&gt;で、いま、コンビニで買ったおにぎりで晩御飯。&lt;/p&gt;
+&lt;p&gt;一息ついて、すごい虚脱感。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ドーピングが過ぎたか</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-29-%E3%83%88%E3%83%BC%E3%83%92%E3%83%B3%E3%82%AF%E3%81%8B%E9%81%8E%E3%81%8D%E3%81%9F%E3%81%8B/</link>
+        <pubDate>Wed, 29 Jul 2009 21:10:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-29-%E3%83%88%E3%83%BC%E3%83%92%E3%83%B3%E3%82%AF%E3%81%8B%E9%81%8E%E3%81%8D%E3%81%9F%E3%81%8B/</guid>
+        <description>&lt;p&gt;リポビタンDライトを会社に着いたときに摂取。&lt;/p&gt;
+&lt;p&gt;通勤中はB&amp;rsquo;zでテンションあげて。&lt;/p&gt;
+&lt;p&gt;夕方まで仕事を爆走。&lt;/p&gt;
+&lt;p&gt;で、いま、コンビニで買ったおにぎりで晩御飯。&lt;/p&gt;
+&lt;p&gt;一息ついて、すごい虚脱感。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>１年前の不具合</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-28-%EF%BC%91%E5%B9%B4%E5%89%8D%E3%81%AE%E4%B8%8D%E5%85%B7%E5%90%88/</link>
+        <pubDate>Tue, 28 Jul 2009 23:30:13 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-28-%EF%BC%91%E5%B9%B4%E5%89%8D%E3%81%AE%E4%B8%8D%E5%85%B7%E5%90%88/</guid>
+        <description>&lt;p&gt;１年前の不具合が今日の２０時に報告されてきた。&lt;/p&gt;
+&lt;p&gt;速攻対応したけど、今日しなければならないことができなかった。今日やらなければならなかったことは明日の朝、いつもかなり早いけど、対応しよう。&lt;/p&gt;
+&lt;p&gt;疲れた。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>１年前の不具合</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-28-%EF%BC%91%E5%B9%B4%E5%89%8D%E3%81%AE%E4%B8%8D%E5%85%B7%E5%90%88/</link>
+        <pubDate>Tue, 28 Jul 2009 23:30:13 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-28-%EF%BC%91%E5%B9%B4%E5%89%8D%E3%81%AE%E4%B8%8D%E5%85%B7%E5%90%88/</guid>
+        <description>&lt;p&gt;１年前の不具合が今日の２０時に報告されてきた。&lt;/p&gt;
+&lt;p&gt;速攻対応したけど、今日しなければならないことができなかった。今日やらなければならなかったことは明日の朝、いつもかなり早いけど、対応しよう。&lt;/p&gt;
+&lt;p&gt;疲れた。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>夏休みをゲット</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-28-%E5%A4%8F%E4%BC%91%E3%81%BF%E3%82%92%E3%82%B1%E3%83%83%E3%83%88/</link>
+        <pubDate>Tue, 28 Jul 2009 08:35:14 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-28-%E5%A4%8F%E4%BC%91%E3%81%BF%E3%82%92%E3%82%B1%E3%83%83%E3%83%88/</guid>
+        <description>&lt;p&gt;今年は早めに夏休みをとることにしました。&lt;/p&gt;
+&lt;p&gt;7/30,7/31,8/3です。&lt;/p&gt;
+&lt;p&gt;ちょっとお台場のガンダムを見てこようと思います。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;去年は夏休みをとらなくて、一人誰もいない会社で黙々と働いていて、体がバテバテになり、精神もやられて2回目の心療内科通い。&lt;/p&gt;
+&lt;p&gt;今年は7月のはじめに診察してもらったときに、もうカウンセリングは必要ないとの事で、あとはメタボリックの治療だけ。&lt;/p&gt;
+&lt;p&gt;ほんとに今年は自分の時間を楽しまなくちゃ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>夏休みをゲット</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-28-%E5%A4%8F%E4%BC%91%E3%81%BF%E3%82%92%E3%82%B1%E3%83%83%E3%83%88/</link>
+        <pubDate>Tue, 28 Jul 2009 08:35:14 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-28-%E5%A4%8F%E4%BC%91%E3%81%BF%E3%82%92%E3%82%B1%E3%83%83%E3%83%88/</guid>
+        <description>&lt;p&gt;今年は早めに夏休みをとることにしました。&lt;/p&gt;
+&lt;p&gt;7/30,7/31,8/3です。&lt;/p&gt;
+&lt;p&gt;ちょっとお台場のガンダムを見てこようと思います。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;去年は夏休みをとらなくて、一人誰もいない会社で黙々と働いていて、体がバテバテになり、精神もやられて2回目の心療内科通い。&lt;/p&gt;
+&lt;p&gt;今年は7月のはじめに診察してもらったときに、もうカウンセリングは必要ないとの事で、あとはメタボリックの治療だけ。&lt;/p&gt;
+&lt;p&gt;ほんとに今年は自分の時間を楽しまなくちゃ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>桂ヒナギク</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-27-%E6%A1%82%E3%83%92%E3%83%8A%E3%82%AD%E3%82%AF/</link>
+        <pubDate>Mon, 27 Jul 2009 23:25:41 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-27-%E6%A1%82%E3%83%92%E3%83%8A%E3%82%AD%E3%82%AF/</guid>
+        <description>&lt;p&gt;ああ、ついにこっちの方向に手を出してしまった。
+格好良いのでどうしても欲しかったんです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>桂ヒナギク</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-27-%E6%A1%82%E3%83%92%E3%83%8A%E3%82%AD%E3%82%AF/</link>
+        <pubDate>Mon, 27 Jul 2009 23:25:41 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-27-%E6%A1%82%E3%83%92%E3%83%8A%E3%82%AD%E3%82%AF/</guid>
+        <description>&lt;p&gt;ああ、ついにこっちの方向に手を出してしまった。
+格好良いのでどうしても欲しかったんです。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ひととき</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-26-%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D/</link>
+        <pubDate>Sun, 26 Jul 2009 21:46:15 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-26-%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_765&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;306&amp;rdquo; caption=&amp;ldquo;Otard XO&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;明日にはまだ時間があるので、ちょっと好きなお酒でリラックス。&lt;/p&gt;
+&lt;p&gt;ふぅ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ひととき</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-26-%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D/</link>
+        <pubDate>Sun, 26 Jul 2009 21:46:15 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-26-%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_765&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;306&amp;rdquo; caption=&amp;ldquo;Otard XO&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;明日にはまだ時間があるので、ちょっと好きなお酒でリラックス。&lt;/p&gt;
+&lt;p&gt;ふぅ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>できた</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-26-%E3%81%A6%E3%81%8D%E3%81%9F/</link>
+        <pubDate>Sun, 26 Jul 2009 20:30:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-26-%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_761&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;HGUC RX-78-2 GUNDAM Ver.G30th&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;墨入れと頭部の塗装。細かすぎて目では判別がつかないところがあるけど、マクロレンズで撮影すると見える見える。&lt;/p&gt;
+&lt;p&gt;塗装を考えると私の指先では1/100が限界ですね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>できた</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-26-%E3%81%A6%E3%81%8D%E3%81%9F/</link>
+        <pubDate>Sun, 26 Jul 2009 20:30:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-26-%E3%81%A6%E3%81%8D%E3%81%9F/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_761&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;HGUC RX-78-2 GUNDAM Ver.G30th&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;墨入れと頭部の塗装。細かすぎて目では判別がつかないところがあるけど、マクロレンズで撮影すると見える見える。&lt;/p&gt;
+&lt;p&gt;塗装を考えると私の指先では1/100が限界ですね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>RX-78-2 G30th 作成中</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-26-rx-78-2-g30th-%E4%BD%9C%E6%88%90%E4%B8%AD/</link>
+        <pubDate>Sun, 26 Jul 2009 00:55:28 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-26-rx-78-2-g30th-%E4%BD%9C%E6%88%90%E4%B8%AD/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_753&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;RX-78-2 作成中&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;作成中&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>RX-78-2 G30th 作成中</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-26-rx-78-2-g30th-%E4%BD%9C%E6%88%90%E4%B8%AD/</link>
+        <pubDate>Sun, 26 Jul 2009 00:55:28 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-26-rx-78-2-g30th-%E4%BD%9C%E6%88%90%E4%B8%AD/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_753&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;RX-78-2 作成中&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;作成中&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>HGUC RX-78-2 GUNDAM Ver. G30th</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-25-hguc-rx-78-2-gundam-ver-g30th/</link>
+        <pubDate>Sat, 25 Jul 2009 20:32:01 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-25-hguc-rx-78-2-gundam-ver-g30th/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_749&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;ガンプラのおまけ&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Vブック（ガンダムの操作マニュアル）が、ガンプラ買ったらもらえたよ。&lt;/p&gt;
+&lt;p&gt;1/144のガンダム、むちゃくちゃ良くできてる。&lt;/p&gt;
+&lt;p&gt;墨入れしながら組み立て中。&lt;/p&gt;
+&lt;p&gt;完成したら披露するよ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>HGUC RX-78-2 GUNDAM Ver. G30th</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-25-hguc-rx-78-2-gundam-ver-g30th/</link>
+        <pubDate>Sat, 25 Jul 2009 20:32:01 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-25-hguc-rx-78-2-gundam-ver-g30th/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_749&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;ガンプラのおまけ&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Vブック（ガンダムの操作マニュアル）が、ガンプラ買ったらもらえたよ。&lt;/p&gt;
+&lt;p&gt;1/144のガンダム、むちゃくちゃ良くできてる。&lt;/p&gt;
+&lt;p&gt;墨入れしながら組み立て中。&lt;/p&gt;
+&lt;p&gt;完成したら披露するよ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Ameba blog</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-25-ameba-blog/</link>
+        <pubDate>Sat, 25 Jul 2009 02:31:44 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-25-ameba-blog/</guid>
+        <description>&lt;p&gt;伊藤静さんのブログを見るに当たって、Amebaに登録しました。&lt;/p&gt;
+&lt;p&gt;Amebaは比較的blogが書きやすいのと、コメント、ペタ（Web拍手や足跡みたいなもん）が使いやすい。またユーザー数が多く、同じサービス内での巡回数がかなり多いということが分かりました。&lt;/p&gt;
+&lt;p&gt;しばらく、Amebaでもblogを書いていますが、かなりの訪問者数があります。少しタイトルとブログ名を工夫すれば、かなりの数の訪問者数が見込めます。&lt;/p&gt;
+&lt;p&gt;タレントさん、声優さんなどのブログも多く、かなり興味深いですね。ちょこちょこ、巡回するうちに、意外に自分が声優ファンであると気がつきましたよ。声優の中島沙樹さんからペタをもらったときは結構うれしかった。&lt;/p&gt;
+&lt;p&gt;芸能人ブログが人気あるのもよく分かる気がします。自称芸能人の中には虚構だろうと思われる人も多いけど、有名な人の方が意外にプライベートをあっけらかんとさらしていることも多いので、すごい親近感が湧くことがあります。コメントを直接読んでくれる人も多いので、さらに親近感が湧くかな。&lt;/p&gt;
+&lt;p&gt;あと録画のテレビとは違ってオンタイム、リアルタイムの情報が流れてくるのがおもしろいよ。&lt;/p&gt;
+&lt;p&gt;といって、ここをおろそかにしてはいけませんね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Ameba blog</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-25-ameba-blog/</link>
+        <pubDate>Sat, 25 Jul 2009 02:31:44 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-25-ameba-blog/</guid>
+        <description>&lt;p&gt;伊藤静さんのブログを見るに当たって、Amebaに登録しました。&lt;/p&gt;
+&lt;p&gt;Amebaは比較的blogが書きやすいのと、コメント、ペタ（Web拍手や足跡みたいなもん）が使いやすい。またユーザー数が多く、同じサービス内での巡回数がかなり多いということが分かりました。&lt;/p&gt;
+&lt;p&gt;しばらく、Amebaでもblogを書いていますが、かなりの訪問者数があります。少しタイトルとブログ名を工夫すれば、かなりの数の訪問者数が見込めます。&lt;/p&gt;
+&lt;p&gt;タレントさん、声優さんなどのブログも多く、かなり興味深いですね。ちょこちょこ、巡回するうちに、意外に自分が声優ファンであると気がつきましたよ。声優の中島沙樹さんからペタをもらったときは結構うれしかった。&lt;/p&gt;
+&lt;p&gt;芸能人ブログが人気あるのもよく分かる気がします。自称芸能人の中には虚構だろうと思われる人も多いけど、有名な人の方が意外にプライベートをあっけらかんとさらしていることも多いので、すごい親近感が湧くことがあります。コメントを直接読んでくれる人も多いので、さらに親近感が湧くかな。&lt;/p&gt;
+&lt;p&gt;あと録画のテレビとは違ってオンタイム、リアルタイムの情報が流れてくるのがおもしろいよ。&lt;/p&gt;
+&lt;p&gt;といって、ここをおろそかにしてはいけませんね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Source review of VB.net programing</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-25-source-review-of-vb-net-programing/</link>
+        <pubDate>Sat, 25 Jul 2009 02:15:07 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-25-source-review-of-vb-net-programing/</guid>
+        <description>&lt;p&gt;PG初心者が作ったぐちゃぐちゃSourceのアプリを、また別のPG初心者が改造して、その初心者が退職するにあたり、引き継ぎと最後にせっかくなのでSource reviewをしました。&lt;/p&gt;
+&lt;p&gt;Source reviewしながら、問題箇所をばっさりと捨て去って、一からプログラミングし直し。&lt;/p&gt;
+&lt;p&gt;彼が三週間かけて作ったSourceは跡形もなく、半日で作り替えました。&lt;/p&gt;
+&lt;p&gt;教えながら、しゃべりながら、プログラミングというのは、結構体力を使うもんです。&lt;/p&gt;
+&lt;p&gt;終わったときは、ちょっと喉が痛かった。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Source review of VB.net programing</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-25-source-review-of-vb-net-programing/</link>
+        <pubDate>Sat, 25 Jul 2009 02:15:07 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-25-source-review-of-vb-net-programing/</guid>
+        <description>&lt;p&gt;PG初心者が作ったぐちゃぐちゃSourceのアプリを、また別のPG初心者が改造して、その初心者が退職するにあたり、引き継ぎと最後にせっかくなのでSource reviewをしました。&lt;/p&gt;
+&lt;p&gt;Source reviewしながら、問題箇所をばっさりと捨て去って、一からプログラミングし直し。&lt;/p&gt;
+&lt;p&gt;彼が三週間かけて作ったSourceは跡形もなく、半日で作り替えました。&lt;/p&gt;
+&lt;p&gt;教えながら、しゃべりながら、プログラミングというのは、結構体力を使うもんです。&lt;/p&gt;
+&lt;p&gt;終わったときは、ちょっと喉が痛かった。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>500th Entry</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-23-500th-entry/</link>
+        <pubDate>Thu, 23 Jul 2009 08:45:25 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-23-500th-entry/</guid>
+        <description>&lt;p&gt;前に500記事を超えてたんですが、見せられない記事を整理したら今回が500記事目になりました。&lt;/p&gt;
+&lt;p&gt;見せられないのは病んでたころの痛々しい日記とか。
+自分にとって何かプラスになるものでもない不必要な記憶なのでずばっと消してしまいました。&lt;/p&gt;
+&lt;p&gt;近々、今はまっていることぐらいしか現時点の記事はないけどね。&lt;/p&gt;
+&lt;p&gt;「ハヤテのごとく」と「伊藤静」。
+気がついたら通信販売に支払ったお金は、すごい金額になっていました。
+レンズとPSPを買ったのとアマゾンのギフト券を送ったのが大きいですが。
+それでもなおさらにBDタイトルを5万円分ぐらい注文してます。
+さらには4万円ぐらいBDタイトルを注文しようとしています。
+散財に歯止めがかからない。
+勢いに乗って「フィギュア」を注文してしまいそうで、ちょっと自分が怖い。&lt;/p&gt;
+&lt;p&gt;一人暮らしだったら、間違いなくアマゾンの注文ボタンをクリックしてしまうだろうな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>500th Entry</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-23-500th-entry/</link>
+        <pubDate>Thu, 23 Jul 2009 08:45:25 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-23-500th-entry/</guid>
+        <description>&lt;p&gt;前に500記事を超えてたんですが、見せられない記事を整理したら今回が500記事目になりました。&lt;/p&gt;
+&lt;p&gt;見せられないのは病んでたころの痛々しい日記とか。
+自分にとって何かプラスになるものでもない不必要な記憶なのでずばっと消してしまいました。&lt;/p&gt;
+&lt;p&gt;近々、今はまっていることぐらいしか現時点の記事はないけどね。&lt;/p&gt;
+&lt;p&gt;「ハヤテのごとく」と「伊藤静」。
+気がついたら通信販売に支払ったお金は、すごい金額になっていました。
+レンズとPSPを買ったのとアマゾンのギフト券を送ったのが大きいですが。
+それでもなおさらにBDタイトルを5万円分ぐらい注文してます。
+さらには4万円ぐらいBDタイトルを注文しようとしています。
+散財に歯止めがかからない。
+勢いに乗って「フィギュア」を注文してしまいそうで、ちょっと自分が怖い。&lt;/p&gt;
+&lt;p&gt;一人暮らしだったら、間違いなくアマゾンの注文ボタンをクリックしてしまうだろうな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>日食見えた</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-22-%E6%97%A5%E9%A3%9F%E8%A6%8B%E3%81%88%E3%81%9F/</link>
+        <pubDate>Wed, 22 Jul 2009 11:28:22 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-22-%E6%97%A5%E9%A3%9F%E8%A6%8B%E3%81%88%E3%81%9F/</guid>
+        <description>&lt;p&gt;久々に日食が見えました。
+うす曇だったので肉眼でも確認できました。&lt;/p&gt;
+&lt;p&gt;三日月よりも細く大きく欠けています。
+ケータイ、広角つけたデジ一で撮影しましたが、ケータイは光が入りすぎて形が判らず、デジ一は点ですがかろうじて欠けているのが判ります。&lt;/p&gt;
+&lt;p&gt;まだ見えていると思います。
+日食時間はこれまでにない1時間という長い時間なので、見てない人は今すぐ見てみましょう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>日食見えた</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-22-%E6%97%A5%E9%A3%9F%E8%A6%8B%E3%81%88%E3%81%9F/</link>
+        <pubDate>Wed, 22 Jul 2009 11:28:22 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-22-%E6%97%A5%E9%A3%9F%E8%A6%8B%E3%81%88%E3%81%9F/</guid>
+        <description>&lt;p&gt;久々に日食が見えました。
+うす曇だったので肉眼でも確認できました。&lt;/p&gt;
+&lt;p&gt;三日月よりも細く大きく欠けています。
+ケータイ、広角つけたデジ一で撮影しましたが、ケータイは光が入りすぎて形が判らず、デジ一は点ですがかろうじて欠けているのが判ります。&lt;/p&gt;
+&lt;p&gt;まだ見えていると思います。
+日食時間はこれまでにない1時間という長い時間なので、見てない人は今すぐ見てみましょう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>検索率激減</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-22-%E6%A4%9C%E7%B4%A2%E7%8E%87%E6%BF%80%E6%B8%9B/</link>
+        <pubDate>Wed, 22 Jul 2009 08:55:20 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-22-%E6%A4%9C%E7%B4%A2%E7%8E%87%E6%BF%80%E6%B8%9B/</guid>
+        <description>&lt;p&gt;ブログツールをMovable TypeからWordpressに換えてから、検索エンジンでのヒット率が激減しました。&lt;/p&gt;
+&lt;p&gt;3年ぐらい使ってきたページ階層（ディレクトリ）を変更したので無理もないですが、同じように検索されるようになるまで多分3ヶ月以上かかるものだと思います。
+こまめに記事を書いていれば、そのうちニッチなキーワードで最上位にランクされるとは思いますけど。&lt;/p&gt;
+&lt;p&gt;色々なところにリンクやトラックバックをしていけばいいのでしょうが、むしろ限定的な読者のほうが安心して書けるので良いかな。
+負け惜しみ。。。。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>検索率激減</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-22-%E6%A4%9C%E7%B4%A2%E7%8E%87%E6%BF%80%E6%B8%9B/</link>
+        <pubDate>Wed, 22 Jul 2009 08:55:20 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-22-%E6%A4%9C%E7%B4%A2%E7%8E%87%E6%BF%80%E6%B8%9B/</guid>
+        <description>&lt;p&gt;ブログツールをMovable TypeからWordpressに換えてから、検索エンジンでのヒット率が激減しました。&lt;/p&gt;
+&lt;p&gt;3年ぐらい使ってきたページ階層（ディレクトリ）を変更したので無理もないですが、同じように検索されるようになるまで多分3ヶ月以上かかるものだと思います。
+こまめに記事を書いていれば、そのうちニッチなキーワードで最上位にランクされるとは思いますけど。&lt;/p&gt;
+&lt;p&gt;色々なところにリンクやトラックバックをしていけばいいのでしょうが、むしろ限定的な読者のほうが安心して書けるので良いかな。
+負け惜しみ。。。。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>DTCP-IP Media Player Application</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-21-dtcp-ip-media-player-application/</link>
+        <pubDate>Tue, 21 Jul 2009 17:29:35 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-21-dtcp-ip-media-player-application/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://optmarket.jp/digion/dixim/index.html&#34;&gt;DiXiM DigitalTV&lt;/a&gt;
+ついにDTCP-IP対応のPC用メディアプレーヤーソフトが発売されましたね。&lt;/p&gt;
+&lt;p&gt;これでHDDレコーダーに録り溜めたコピー制御つきコンテンツがPCで見られるようになります。&lt;/p&gt;
+&lt;p&gt;日本特有のデジタル放送のコンテンツ利用規制は、長らくPC市場を凍りつかせてました。
+テレビ局や大手制作会社が意固地になって既得権益の保護、デジタル映像機器への著作権補償料を要求したため、メーカーを擁護する総務省とコンテンツホルダー（ただし一部の悪徳業者のこと）を擁護する文化庁との喧嘩にまで発展しました。
+この揉め事の間に総務省の思惑通り地デジへ移行が進まなかったことが、総務省に火をつけてしまい、本気でコンテンツホルダー業者に行政指導が入ったようなうわさがあります。
+だんだんとテレビ業界が衰退してきたことも影響し、テレビ局の発言力は小さくなってきています。
+むしろコンテンツ配信でいかに収益を上げるかのビジネスモデルの転換が急務になって来たようです。
+今一度テレビ人口を確保するためにはテレパソを復活させるしかなくなったようです。&lt;/p&gt;
+&lt;p&gt;相変わらずアニメコンテンツは、洋画コンテンツの5倍くらいの価格ですが、国内ではテレビドラマに比べ堅調に伸びています。
+ただし一部のコンテンツ管理会社が上前をはねてしまって、下請け制作会社は儲かっていないようですけど。。。&lt;/p&gt;
+&lt;p&gt;とりあえず業界批判はさておき、比較的安いソフトなので購入してみようかと思っています。&lt;/p&gt;
+&lt;p&gt;で、このソフトを昨晩ダウンロード購入しました。&lt;/p&gt;
+&lt;p&gt;PCの環境は&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Windows VISTA Ultimate x64&lt;/li&gt;
+	&lt;li&gt;CPU:AMD Phenom X4&lt;/li&gt;
+	&lt;li&gt;Video:nVIDIA GeForce8600GT&lt;/li&gt;
+	&lt;li&gt;Monitor:Panasonic TH-37LZ85&lt;/li&gt;
+&lt;/ul&gt;
+DLNAサーバーとなるレコーダーは
+&lt;ul&gt;
+	&lt;li&gt;Panasonic DMR-BW850-K&lt;/li&gt;
+&lt;/ul&gt;
+です。
+&lt;p&gt;PC環境では、HDCPとCCOPに対応したハードウェア、ドライバが必須です。
+当然モニターとの接続はDVI to HDMI (HDCP)です。&lt;/p&gt;
+&lt;p&gt;さてインストール自体は簡単に終わりました。&lt;/p&gt;
+&lt;p&gt;DiXiM Digital TVを起動すると、フルサイズのウィンドーで起動します。
+珍しいのはWindows Aero必須ということでしょうか。
+ほかのHDCPやCCOPが必要なアプリケーション（地デジチューナーのソフトなど）は、Aeroを強制解除する仕様のものが多いのですが。
+DiXiM Digital TVがWindows7認定マークを取得しているのと、Windows Media Centerで使えるように（まだ確認していないのであしからず）するためのに必須だったからでしょうけど。&lt;/p&gt;
+&lt;p&gt;さて起動した直後はDLNAサーバーが表示されていませんが、少し待てばDLNAサーバーになっているBDレコーダーに録り溜めている番組がずらずらと表示されます。
+もたつく感じもなくさくさくと表示されるし、スクロールも速い。（Giga Bit Etherです。）&lt;/p&gt;
+&lt;p&gt;再生はサムネールをダブルクリックさえするばすぐに始まります。
+BSデジタル(1080i)をDRで録画したものでしたが、見た感じ1080Pになっているようです。
+こま落ちやもたつき感もなくスムースに再生できてます。
+画像もかなりきれいです。
+BSの放送時視聴時やBDレコーダーからの直接再生時と違って気になったのは、放送局のロゴが半透明間がなくなってジャギって目立つことでしょうか。&lt;/p&gt;
+&lt;p&gt;あと、アプリケーション終了がうまくいかないことでしょうか。
+強制終了しないと終了できません。
+使用には差して影響がないので今はあまり気にはなりませんが。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>DTCP-IP Media Player Application</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-21-dtcp-ip-media-player-application/</link>
+        <pubDate>Tue, 21 Jul 2009 17:29:35 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-21-dtcp-ip-media-player-application/</guid>
+        <description>&lt;p&gt;&lt;a href=&#34;http://optmarket.jp/digion/dixim/index.html&#34;&gt;DiXiM DigitalTV&lt;/a&gt;
+ついにDTCP-IP対応のPC用メディアプレーヤーソフトが発売されましたね。&lt;/p&gt;
+&lt;p&gt;これでHDDレコーダーに録り溜めたコピー制御つきコンテンツがPCで見られるようになります。&lt;/p&gt;
+&lt;p&gt;日本特有のデジタル放送のコンテンツ利用規制は、長らくPC市場を凍りつかせてました。
+テレビ局や大手制作会社が意固地になって既得権益の保護、デジタル映像機器への著作権補償料を要求したため、メーカーを擁護する総務省とコンテンツホルダー（ただし一部の悪徳業者のこと）を擁護する文化庁との喧嘩にまで発展しました。
+この揉め事の間に総務省の思惑通り地デジへ移行が進まなかったことが、総務省に火をつけてしまい、本気でコンテンツホルダー業者に行政指導が入ったようなうわさがあります。
+だんだんとテレビ業界が衰退してきたことも影響し、テレビ局の発言力は小さくなってきています。
+むしろコンテンツ配信でいかに収益を上げるかのビジネスモデルの転換が急務になって来たようです。
+今一度テレビ人口を確保するためにはテレパソを復活させるしかなくなったようです。&lt;/p&gt;
+&lt;p&gt;相変わらずアニメコンテンツは、洋画コンテンツの5倍くらいの価格ですが、国内ではテレビドラマに比べ堅調に伸びています。
+ただし一部のコンテンツ管理会社が上前をはねてしまって、下請け制作会社は儲かっていないようですけど。。。&lt;/p&gt;
+&lt;p&gt;とりあえず業界批判はさておき、比較的安いソフトなので購入してみようかと思っています。&lt;/p&gt;
+&lt;p&gt;で、このソフトを昨晩ダウンロード購入しました。&lt;/p&gt;
+&lt;p&gt;PCの環境は&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Windows VISTA Ultimate x64&lt;/li&gt;
+	&lt;li&gt;CPU:AMD Phenom X4&lt;/li&gt;
+	&lt;li&gt;Video:nVIDIA GeForce8600GT&lt;/li&gt;
+	&lt;li&gt;Monitor:Panasonic TH-37LZ85&lt;/li&gt;
+&lt;/ul&gt;
+DLNAサーバーとなるレコーダーは
+&lt;ul&gt;
+	&lt;li&gt;Panasonic DMR-BW850-K&lt;/li&gt;
+&lt;/ul&gt;
+です。
+&lt;p&gt;PC環境では、HDCPとCCOPに対応したハードウェア、ドライバが必須です。
+当然モニターとの接続はDVI to HDMI (HDCP)です。&lt;/p&gt;
+&lt;p&gt;さてインストール自体は簡単に終わりました。&lt;/p&gt;
+&lt;p&gt;DiXiM Digital TVを起動すると、フルサイズのウィンドーで起動します。
+珍しいのはWindows Aero必須ということでしょうか。
+ほかのHDCPやCCOPが必要なアプリケーション（地デジチューナーのソフトなど）は、Aeroを強制解除する仕様のものが多いのですが。
+DiXiM Digital TVがWindows7認定マークを取得しているのと、Windows Media Centerで使えるように（まだ確認していないのであしからず）するためのに必須だったからでしょうけど。&lt;/p&gt;
+&lt;p&gt;さて起動した直後はDLNAサーバーが表示されていませんが、少し待てばDLNAサーバーになっているBDレコーダーに録り溜めている番組がずらずらと表示されます。
+もたつく感じもなくさくさくと表示されるし、スクロールも速い。（Giga Bit Etherです。）&lt;/p&gt;
+&lt;p&gt;再生はサムネールをダブルクリックさえするばすぐに始まります。
+BSデジタル(1080i)をDRで録画したものでしたが、見た感じ1080Pになっているようです。
+こま落ちやもたつき感もなくスムースに再生できてます。
+画像もかなりきれいです。
+BSの放送時視聴時やBDレコーダーからの直接再生時と違って気になったのは、放送局のロゴが半透明間がなくなってジャギって目立つことでしょうか。&lt;/p&gt;
+&lt;p&gt;あと、アプリケーション終了がうまくいかないことでしょうか。
+強制終了しないと終了できません。
+使用には差して影響がないので今はあまり気にはなりませんが。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>LUPICIA DARJEELING FIRST FLUSH 2009 PREMIUM</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-20-lupicia-darjeeling-first-flush-2009-premium/</link>
+        <pubDate>Mon, 20 Jul 2009 00:23:49 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-20-lupicia-darjeeling-first-flush-2009-premium/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_720&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;LUPICIA DARJEELING FIRST FLUSH 2009 PREMIUM&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt;久々に街歩きをして天満屋の地下売り場で新茶を購入しました。&lt;/p&gt;
+&lt;p&gt;今日の試飲は「NATSUKOI」という名のフレーバーティー。
+レモンの香りが口にふわっとひろがり、冷たいお茶だったので、さらに涼感が得られる良いフレーバーティーでした。&lt;/p&gt;
+&lt;p&gt;さてそれ以外は、ちゃんと自分の趣向を受け入れようと、意を決してアニメイトに行ってみました。
+大きいお友達が沢山います。
+保護者同伴の大きいお友達も結構います。
+腐女子の方々もいます。&lt;/p&gt;
+&lt;p&gt;あまりにもアニメ系の商品点数が多く、ぱっと見では区別がつかないため、売っている商品をまともに確認することもできず、店内を一巡して戦線離脱。
+30代からアニメを見始めた俺って、こっち系の人間でも無い中途半端な存在か、やっぱり。&lt;/p&gt;
+&lt;p&gt;そのあと新星堂でJAZZやClassicのCDを物色するも何も買わずに商店街から離脱。&lt;/p&gt;
+&lt;p&gt;急に晴れて夏空が戻ったので、少し遠くまで（といっても倉敷ですが）。
+倉敷のDEODEOで、すっごいサウンドカードがあったんだけどしばらく悩んで買わなかった。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>LUPICIA DARJEELING FIRST FLUSH 2009 PREMIUM</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-20-lupicia-darjeeling-first-flush-2009-premium/</link>
+        <pubDate>Mon, 20 Jul 2009 00:23:49 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-20-lupicia-darjeeling-first-flush-2009-premium/</guid>
+        <description>&lt;p&gt;[caption id=&amp;ldquo;attachment_720&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;461&amp;rdquo; caption=&amp;ldquo;LUPICIA DARJEELING FIRST FLUSH 2009 PREMIUM&amp;rdquo;][/caption]&lt;/p&gt;
+&lt;p&gt;久々に街歩きをして天満屋の地下売り場で新茶を購入しました。&lt;/p&gt;
+&lt;p&gt;今日の試飲は「NATSUKOI」という名のフレーバーティー。
+レモンの香りが口にふわっとひろがり、冷たいお茶だったので、さらに涼感が得られる良いフレーバーティーでした。&lt;/p&gt;
+&lt;p&gt;さてそれ以外は、ちゃんと自分の趣向を受け入れようと、意を決してアニメイトに行ってみました。
+大きいお友達が沢山います。
+保護者同伴の大きいお友達も結構います。
+腐女子の方々もいます。&lt;/p&gt;
+&lt;p&gt;あまりにもアニメ系の商品点数が多く、ぱっと見では区別がつかないため、売っている商品をまともに確認することもできず、店内を一巡して戦線離脱。
+30代からアニメを見始めた俺って、こっち系の人間でも無い中途半端な存在か、やっぱり。&lt;/p&gt;
+&lt;p&gt;そのあと新星堂でJAZZやClassicのCDを物色するも何も買わずに商店街から離脱。&lt;/p&gt;
+&lt;p&gt;急に晴れて夏空が戻ったので、少し遠くまで（といっても倉敷ですが）。
+倉敷のDEODEOで、すっごいサウンドカードがあったんだけどしばらく悩んで買わなかった。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Bluray Soft</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-17-bluray-soft/</link>
+        <pubDate>Fri, 17 Jul 2009 22:00:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-17-bluray-soft/</guid>
+        <description>&lt;p&gt;狼と香辛料IIの全四巻、ハヤテのごとく２ 一巻のそれぞれ初回限定版を予約した。
+あと狼と香辛料のNitendoDSゲームを含めて4万円ぐらいの出費。
+まあ、来年の春頃までの予約だからいいかな。&lt;/p&gt;
+&lt;p&gt;それより狼と香辛料のBlurayBoxを買うかな・・・。&lt;/p&gt;
+&lt;p&gt;ソフトって結構お金かかる。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Bluray Soft</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-17-bluray-soft/</link>
+        <pubDate>Fri, 17 Jul 2009 22:00:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-17-bluray-soft/</guid>
+        <description>&lt;p&gt;狼と香辛料IIの全四巻、ハヤテのごとく２ 一巻のそれぞれ初回限定版を予約した。
+あと狼と香辛料のNitendoDSゲームを含めて4万円ぐらいの出費。
+まあ、来年の春頃までの予約だからいいかな。&lt;/p&gt;
+&lt;p&gt;それより狼と香辛料のBlurayBoxを買うかな・・・。&lt;/p&gt;
+&lt;p&gt;ソフトって結構お金かかる。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>うう、だるい</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-17-%E3%81%86%E3%81%86%E3%81%9F%E3%82%8B%E3%81%84/</link>
+        <pubDate>Fri, 17 Jul 2009 09:27:48 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-17-%E3%81%86%E3%81%86%E3%81%9F%E3%82%8B%E3%81%84/</guid>
+        <description>&lt;p&gt;気分的なものでなくて、頭が痛くて体がだるくて重い。
+熱はないようなので風邪ではないだろうけど、疲れが出てきたんだろうね。
+３連休だからゆっくり休めるかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>うう、だるい</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-17-%E3%81%86%E3%81%86%E3%81%9F%E3%82%8B%E3%81%84/</link>
+        <pubDate>Fri, 17 Jul 2009 09:27:48 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-17-%E3%81%86%E3%81%86%E3%81%9F%E3%82%8B%E3%81%84/</guid>
+        <description>&lt;p&gt;気分的なものでなくて、頭が痛くて体がだるくて重い。
+熱はないようなので風邪ではないだろうけど、疲れが出てきたんだろうね。
+３連休だからゆっくり休めるかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>スコール</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-15-%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%AB/</link>
+        <pubDate>Wed, 15 Jul 2009 14:19:20 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-15-%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%AB/</guid>
+        <description>&lt;p&gt;お昼に、ざざざと通り雨。&lt;/p&gt;
+&lt;p&gt;少しは気温が下がってすごしやすくなったかな。&lt;/p&gt;
+&lt;p&gt;昨日も遅くまで仕事してたので、午後からかなり眠い。&lt;/p&gt;
+&lt;p&gt;外気温が下がるとエアコンの効きもよくなるので、うつらうつらとしちゃうよ。&lt;/p&gt;
+&lt;p&gt;(&lt;del&gt;O&lt;/del&gt;)ふぁ・・&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>スコール</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-15-%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%AB/</link>
+        <pubDate>Wed, 15 Jul 2009 14:19:20 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-15-%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%AB/</guid>
+        <description>&lt;p&gt;お昼に、ざざざと通り雨。&lt;/p&gt;
+&lt;p&gt;少しは気温が下がってすごしやすくなったかな。&lt;/p&gt;
+&lt;p&gt;昨日も遅くまで仕事してたので、午後からかなり眠い。&lt;/p&gt;
+&lt;p&gt;外気温が下がるとエアコンの効きもよくなるので、うつらうつらとしちゃうよ。&lt;/p&gt;
+&lt;p&gt;(&lt;del&gt;O&lt;/del&gt;)ふぁ・・&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>夏空を見て</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-15-%E5%A4%8F%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%A6/</link>
+        <pubDate>Wed, 15 Jul 2009 11:00:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-15-%E5%A4%8F%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%A6/</guid>
+        <description>&lt;p&gt;ここ３年ぐらいモルジブに行きたいと思ってるんですが、出不精、というか旅行下手なもので尻が上がらないです。
+モルジブはリゾートホテルで６泊ぐらいでも２０万円台で行けるようですね。
+一人で行くのもなんですが、やっぱり行って見なきゃわかりませんもんね。&lt;/p&gt;
+&lt;p&gt;行ってみようかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>夏空を見て</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-15-%E5%A4%8F%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%A6/</link>
+        <pubDate>Wed, 15 Jul 2009 11:00:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-15-%E5%A4%8F%E7%A9%BA%E3%82%92%E8%A6%8B%E3%81%A6/</guid>
+        <description>&lt;p&gt;ここ３年ぐらいモルジブに行きたいと思ってるんですが、出不精、というか旅行下手なもので尻が上がらないです。
+モルジブはリゾートホテルで６泊ぐらいでも２０万円台で行けるようですね。
+一人で行くのもなんですが、やっぱり行って見なきゃわかりませんもんね。&lt;/p&gt;
+&lt;p&gt;行ってみようかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ぐったり</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-15-%E3%81%8F%E3%81%A3%E3%81%9F%E3%82%8A/</link>
+        <pubDate>Wed, 15 Jul 2009 01:16:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-15-%E3%81%8F%E3%81%A3%E3%81%9F%E3%82%8A/</guid>
+        <description>&lt;p&gt;Excel VBAの所為で、ぐったり。
+好きじゃない、すかっとしないPG。
+やりたいことができないのがもどかしい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ぐったり</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-15-%E3%81%8F%E3%81%A3%E3%81%9F%E3%82%8A/</link>
+        <pubDate>Wed, 15 Jul 2009 01:16:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-15-%E3%81%8F%E3%81%A3%E3%81%9F%E3%82%8A/</guid>
+        <description>&lt;p&gt;Excel VBAの所為で、ぐったり。
+好きじゃない、すかっとしないPG。
+やりたいことができないのがもどかしい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>巷では</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-14-%E5%B7%B7%E3%81%A6%E3%81%AF/</link>
+        <pubDate>Tue, 14 Jul 2009 13:00:35 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-14-%E5%B7%B7%E3%81%A6%E3%81%AF/</guid>
+        <description>&lt;p&gt;DQ9がはやっているようで、土曜日からネット人口が激減しているみたいですね。&lt;/p&gt;
+&lt;p&gt;私はやってませんが。&lt;/p&gt;
+&lt;p&gt;ブロガーたちもこぞってDQ9ですもんね。&lt;/p&gt;
+&lt;p&gt;面白い現象だ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>巷では</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-14-%E5%B7%B7%E3%81%A6%E3%81%AF/</link>
+        <pubDate>Tue, 14 Jul 2009 13:00:35 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-14-%E5%B7%B7%E3%81%A6%E3%81%AF/</guid>
+        <description>&lt;p&gt;DQ9がはやっているようで、土曜日からネット人口が激減しているみたいですね。&lt;/p&gt;
+&lt;p&gt;私はやってませんが。&lt;/p&gt;
+&lt;p&gt;ブロガーたちもこぞってDQ9ですもんね。&lt;/p&gt;
+&lt;p&gt;面白い現象だ。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ガンダム大地に立つ</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-12-%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%A0%E5%A4%A7%E5%9C%B0%E3%81%AB%E7%AB%8B%E3%81%A4/</link>
+        <pubDate>Sun, 12 Jul 2009 23:29:15 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-12-%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%A0%E5%A4%A7%E5%9C%B0%E3%81%AB%E7%AB%8B%E3%81%A4/</guid>
+        <description>&lt;p&gt;すみません、ありきたりなタイトルです。&lt;/p&gt;
+&lt;p&gt;PS3のPlay Station HOMEで予想どおりガンダムが出現しました。
+PS3の画面をキャプチャするのが面倒くさいので、デジカメで撮ってみました。&lt;/p&gt;
+&lt;p&gt;バーチャルな世界でガンダムが立っても、おもしろくない。
+だってそんなのすでにゲームの中でできてるじゃん。&lt;/p&gt;
+&lt;p&gt;それよりお台場に立っている1:1のガンダムを見に行きたい。
+手の向きとか微妙に変ですけど。&lt;/p&gt;
+&lt;p&gt;ガンプラなら1:30かPGのVer2.0が出たら欲しい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ガンダム大地に立つ</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-12-%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%A0%E5%A4%A7%E5%9C%B0%E3%81%AB%E7%AB%8B%E3%81%A4/</link>
+        <pubDate>Sun, 12 Jul 2009 23:29:15 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-12-%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%A0%E5%A4%A7%E5%9C%B0%E3%81%AB%E7%AB%8B%E3%81%A4/</guid>
+        <description>&lt;p&gt;すみません、ありきたりなタイトルです。&lt;/p&gt;
+&lt;p&gt;PS3のPlay Station HOMEで予想どおりガンダムが出現しました。
+PS3の画面をキャプチャするのが面倒くさいので、デジカメで撮ってみました。&lt;/p&gt;
+&lt;p&gt;バーチャルな世界でガンダムが立っても、おもしろくない。
+だってそんなのすでにゲームの中でできてるじゃん。&lt;/p&gt;
+&lt;p&gt;それよりお台場に立っている1:1のガンダムを見に行きたい。
+手の向きとか微妙に変ですけど。&lt;/p&gt;
+&lt;p&gt;ガンプラなら1:30かPGのVer2.0が出たら欲しい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>今日も</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-12-%E4%BB%8A%E6%97%A5%E3%82%82/</link>
+        <pubDate>Sun, 12 Jul 2009 00:44:51 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-12-%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
+        <description>&lt;p&gt;今日は土曜日、心療内科に行くために朝早くから起きて出かけました。&lt;/p&gt;
+&lt;p&gt;金曜日の朝には寝ぼけてて、土曜と思い込み病院に行こうとしてました。
+部屋を出た時にはっとして気がついて、今日はまだ金曜日ということを思い出して、会社に行く準備をいそいそと。&lt;/p&gt;
+&lt;p&gt;30代半ばになるとプログラムはきついですね。
+脳神経が全く追いつかないです。&lt;/p&gt;
+&lt;p&gt;さて、今日は
+07:30 - 出発
+08:10 - 山崎デイリーストアで「ロールちゃん」と「コロッケサンド」を購入
+08:15 - 病院の駐車場で、朝飯
+08:45 - 心療内科で診察
+09:30 - 診察終了
+09:50 - ビックカメラの開店に並ぶ
+10:15 - ドラクエ９を一生懸命買っている人を哀れにみる
+11:10 - ビックカメラから出る
+11:30 - デオデオに立ち寄る
+12:30 - 家に帰って昼飯
+13:10 - 昼寝
+14:55 - 近くの歯医者へ
+15:50 - 歯医者を出る
+16:40 - ブリジストンタイヤ館でタイヤ購入
+17:30 - タイヤ交換終了
+18:15 - 帰宅
+:
+:
+ブランデーでほろ酔いで激眠。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>今日も</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-12-%E4%BB%8A%E6%97%A5%E3%82%82/</link>
+        <pubDate>Sun, 12 Jul 2009 00:44:51 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-12-%E4%BB%8A%E6%97%A5%E3%82%82/</guid>
+        <description>&lt;p&gt;今日は土曜日、心療内科に行くために朝早くから起きて出かけました。&lt;/p&gt;
+&lt;p&gt;金曜日の朝には寝ぼけてて、土曜と思い込み病院に行こうとしてました。
+部屋を出た時にはっとして気がついて、今日はまだ金曜日ということを思い出して、会社に行く準備をいそいそと。&lt;/p&gt;
+&lt;p&gt;30代半ばになるとプログラムはきついですね。
+脳神経が全く追いつかないです。&lt;/p&gt;
+&lt;p&gt;さて、今日は
+07:30 - 出発
+08:10 - 山崎デイリーストアで「ロールちゃん」と「コロッケサンド」を購入
+08:15 - 病院の駐車場で、朝飯
+08:45 - 心療内科で診察
+09:30 - 診察終了
+09:50 - ビックカメラの開店に並ぶ
+10:15 - ドラクエ９を一生懸命買っている人を哀れにみる
+11:10 - ビックカメラから出る
+11:30 - デオデオに立ち寄る
+12:30 - 家に帰って昼飯
+13:10 - 昼寝
+14:55 - 近くの歯医者へ
+15:50 - 歯医者を出る
+16:40 - ブリジストンタイヤ館でタイヤ購入
+17:30 - タイヤ交換終了
+18:15 - 帰宅
+:
+:
+ブランデーでほろ酔いで激眠。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>smcPENTAX DA 35mm F2.8 Macro Limited</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-10-smcpentax-da-35mm-f2-8-macro-limited/</link>
+        <pubDate>Fri, 10 Jul 2009 00:41:04 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-10-smcpentax-da-35mm-f2-8-macro-limited/</guid>
+        <description>&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;小さいレンズが欲しくて買いました。
+ASP-Cサイズだとsmc PENTAX FA 50mm F1.4が75mm相当になるので意外に不便。
+smc PENTAX DA★ 55mm F1.4 [IF] SDMだと最短撮影距離が長く、被写体に近づいて撮るのが難しい。
+そこで、標準マクロが欲しくなったわけです。
+これだと52.5mm相当で等倍撮影が可能です。&lt;/p&gt;
+&lt;p&gt;ただWorking Distance(レンズ前玉から被写体までの距離)が2cm強と非常に短いため、自分の陰が確実に被写体にかかります。
+また着ている服とかの映り込みもあります。
+マクロリングライトを購入していみようと思います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>smcPENTAX DA 35mm F2.8 Macro Limited</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-10-smcpentax-da-35mm-f2-8-macro-limited/</link>
+        <pubDate>Fri, 10 Jul 2009 00:41:04 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-10-smcpentax-da-35mm-f2-8-macro-limited/</guid>
+        <description>&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;小さいレンズが欲しくて買いました。
+ASP-Cサイズだとsmc PENTAX FA 50mm F1.4が75mm相当になるので意外に不便。
+smc PENTAX DA★ 55mm F1.4 [IF] SDMだと最短撮影距離が長く、被写体に近づいて撮るのが難しい。
+そこで、標準マクロが欲しくなったわけです。
+これだと52.5mm相当で等倍撮影が可能です。&lt;/p&gt;
+&lt;p&gt;ただWorking Distance(レンズ前玉から被写体までの距離)が2cm強と非常に短いため、自分の陰が確実に被写体にかかります。
+また着ている服とかの映り込みもあります。
+マクロリングライトを購入していみようと思います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>HDR</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-09-hdr/</link>
+        <pubDate>Thu, 09 Jul 2009 11:33:35 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-09-hdr/</guid>
+        <description>&lt;p&gt;HDR(High Dynamic Range)画像の作成が気になっています。
+24bit(各色8bit)のJPEG画像では、カメラ内現像時にかなりの色情報を失ってしまうわけです。
+フィルム時代もポジフィルムはダイナミックレンジが5~7ev程度(適正露出から-2ev～+3evといわれてました)しかありませんでしたが、JPEGはそれよりさらにダイナミックレンジが狭いのです。
+CCDやCMOSから取り出されるRAWファイルは、およそポジフィルムと同等以上のダイナミックレンジがあるようです。
+記録されているRAWのダイナミックレンジは機種ごとにさまざまなようです。&lt;/p&gt;
+&lt;p&gt;まあこのRAWから適正、オーバー、アンダーの画像を取り出して合成したあとJPEGに出力すると、RAWのダイナミックレンジ内ですが、擬似的な広いダイナミックレンジを確保できます。
+当然JPEGの8bitに丸められるので全体的に濃い色になることもあれば、非常に眠い絵になることもあります。
+合成した処理中の画像のトーンカーブの調整をしてほしい部分の色の諧調性を確保したり、不必要なところはコントラストを確保したりします。
+これらはRAW現像ソフトを用いればかなりの部分で補えます。&lt;/p&gt;
+&lt;p&gt;RAWのダイナミックレンジを越える場合は、露出のブラケット撮影を行い、合成することで、もっと広いダイナミックレンジを確保できます。&lt;/p&gt;
+&lt;p&gt;HDR画像の作成はPhotoshop CS2以降、Photomatixなど使えば実現可能となっています。
+またカメラ単体ではPENTAX K-7がこの合成機能を持っています。&lt;/p&gt;
+&lt;p&gt;もともとデジカメのダイナミックレンジには不満があったので、HDR画像に取り組んでみたいと思っています。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>HDR</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-09-hdr/</link>
+        <pubDate>Thu, 09 Jul 2009 11:33:35 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-09-hdr/</guid>
+        <description>&lt;p&gt;HDR(High Dynamic Range)画像の作成が気になっています。
+24bit(各色8bit)のJPEG画像では、カメラ内現像時にかなりの色情報を失ってしまうわけです。
+フィルム時代もポジフィルムはダイナミックレンジが5~7ev程度(適正露出から-2ev～+3evといわれてました)しかありませんでしたが、JPEGはそれよりさらにダイナミックレンジが狭いのです。
+CCDやCMOSから取り出されるRAWファイルは、およそポジフィルムと同等以上のダイナミックレンジがあるようです。
+記録されているRAWのダイナミックレンジは機種ごとにさまざまなようです。&lt;/p&gt;
+&lt;p&gt;まあこのRAWから適正、オーバー、アンダーの画像を取り出して合成したあとJPEGに出力すると、RAWのダイナミックレンジ内ですが、擬似的な広いダイナミックレンジを確保できます。
+当然JPEGの8bitに丸められるので全体的に濃い色になることもあれば、非常に眠い絵になることもあります。
+合成した処理中の画像のトーンカーブの調整をしてほしい部分の色の諧調性を確保したり、不必要なところはコントラストを確保したりします。
+これらはRAW現像ソフトを用いればかなりの部分で補えます。&lt;/p&gt;
+&lt;p&gt;RAWのダイナミックレンジを越える場合は、露出のブラケット撮影を行い、合成することで、もっと広いダイナミックレンジを確保できます。&lt;/p&gt;
+&lt;p&gt;HDR画像の作成はPhotoshop CS2以降、Photomatixなど使えば実現可能となっています。
+またカメラ単体ではPENTAX K-7がこの合成機能を持っています。&lt;/p&gt;
+&lt;p&gt;もともとデジカメのダイナミックレンジには不満があったので、HDR画像に取り組んでみたいと思っています。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>デジタルカメラのファインダー</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-08-%E3%83%86%E3%82%B7%E3%82%BF%E3%83%AB%E3%82%AB%E3%83%A1%E3%83%A9%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC/</link>
+        <pubDate>Wed, 08 Jul 2009 11:56:43 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-08-%E3%83%86%E3%82%B7%E3%82%BF%E3%83%AB%E3%82%AB%E3%83%A1%E3%83%A9%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC/</guid>
+        <description>&lt;p&gt;APS-Cサイズのデジタルカメラになって、ファインダーがものすごく見にくくなっています。&lt;/p&gt;
+&lt;p&gt;ペンタプリズムを縮小し、ファインダー像を接眼レンズで拡大するあまり、倍率が高くなってしまいファインダー内が暗くなります。
+さらには接眼部が小さいためファインダー内の見渡しが非常に悪い。
+めがねを掛けるとケラれて、各種情報が見えなくなります。&lt;/p&gt;
+&lt;p&gt;私の場合、乱視がひどいため視度補正レンズをつけたファインダーでも像が２重３重にみえてピントあわせができませんので、めがねを掛けることが必須となります。&lt;/p&gt;
+&lt;p&gt;先日、67用アイカップMIIを購入して、視度補正レンズを入れてみたのですが、めがねを掛けないと乱視で像がずれるし、裸眼でも情報部分がケラれるし、めがねを掛けたらさらに遠くなってケラれるし。&lt;/p&gt;
+&lt;p&gt;今のカメラの問題点は小さくすることにあります。
+ペンタプリズムは大きくするべきです。
+フィルムの時代と違ってデジタル一眼レフは小さく作る必要性はまったくないと思うのです。
+ユーザーが限定的で、コンパクトでは限界になった人が使うため、細かな性能に気を使うべきなのです。&lt;/p&gt;
+&lt;p&gt;PENTAXに足りないのは、一眼レフに対する思い切りではないでしょうか。&lt;/p&gt;
+&lt;p&gt;Z-1を改めて見ると、とてもファインダーが見やすく、ピントあわせにストレスを感じることがないということです。
+AF性能の低さなどまったく気にならない。
+睫毛の一本一本にピントが合わせられる。&lt;/p&gt;
+&lt;p&gt;小さいことを売りにするのではなくLXやZ-1のような本当のカメラを作ってほしい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>デジタルカメラのファインダー</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-08-%E3%83%86%E3%82%B7%E3%82%BF%E3%83%AB%E3%82%AB%E3%83%A1%E3%83%A9%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC/</link>
+        <pubDate>Wed, 08 Jul 2009 11:56:43 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-08-%E3%83%86%E3%82%B7%E3%82%BF%E3%83%AB%E3%82%AB%E3%83%A1%E3%83%A9%E3%81%AE%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC/</guid>
+        <description>&lt;p&gt;APS-Cサイズのデジタルカメラになって、ファインダーがものすごく見にくくなっています。&lt;/p&gt;
+&lt;p&gt;ペンタプリズムを縮小し、ファインダー像を接眼レンズで拡大するあまり、倍率が高くなってしまいファインダー内が暗くなります。
+さらには接眼部が小さいためファインダー内の見渡しが非常に悪い。
+めがねを掛けるとケラれて、各種情報が見えなくなります。&lt;/p&gt;
+&lt;p&gt;私の場合、乱視がひどいため視度補正レンズをつけたファインダーでも像が２重３重にみえてピントあわせができませんので、めがねを掛けることが必須となります。&lt;/p&gt;
+&lt;p&gt;先日、67用アイカップMIIを購入して、視度補正レンズを入れてみたのですが、めがねを掛けないと乱視で像がずれるし、裸眼でも情報部分がケラれるし、めがねを掛けたらさらに遠くなってケラれるし。&lt;/p&gt;
+&lt;p&gt;今のカメラの問題点は小さくすることにあります。
+ペンタプリズムは大きくするべきです。
+フィルムの時代と違ってデジタル一眼レフは小さく作る必要性はまったくないと思うのです。
+ユーザーが限定的で、コンパクトでは限界になった人が使うため、細かな性能に気を使うべきなのです。&lt;/p&gt;
+&lt;p&gt;PENTAXに足りないのは、一眼レフに対する思い切りではないでしょうか。&lt;/p&gt;
+&lt;p&gt;Z-1を改めて見ると、とてもファインダーが見やすく、ピントあわせにストレスを感じることがないということです。
+AF性能の低さなどまったく気にならない。
+睫毛の一本一本にピントが合わせられる。&lt;/p&gt;
+&lt;p&gt;小さいことを売りにするのではなくLXやZ-1のような本当のカメラを作ってほしい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>熱烈歓迎わんだーらんど - 咲 saki -</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-08-%E7%86%B1%E7%83%88%E6%AD%93%E8%BF%8E%E3%82%8F%E3%82%93%E3%81%9F%E3%83%BC%E3%82%89%E3%82%93%E3%81%A8-%E5%92%B2-saki/</link>
+        <pubDate>Wed, 08 Jul 2009 09:08:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-08-%E7%86%B1%E7%83%88%E6%AD%93%E8%BF%8E%E3%82%8F%E3%82%93%E3%81%9F%E3%83%BC%E3%82%89%E3%82%93%E3%81%A8-%E5%92%B2-saki/</guid>
+        <description>&lt;iframe src=&#34;http://rcm-jp.amazon.co.jp/e/cm?t=yuki9902assoc-22&amp;o=9&amp;p=8&amp;l=as1&amp;asins=B002206U6Y&amp;md=1X69VDGQCMF7Z30FM082&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=0000FF&amp;bc1=000000&amp;bg1=FFFFFF&amp;f=ifr&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;今、頭の中でサビの部分がエンドレスループ。&lt;/p&gt;
+&lt;p&gt;これも伊藤静さんが出演されているアニメのエンディングテーマです。
+歌は、伊藤静さん、小清水亜美さん、釘宮理恵さん、植田佳奈さん、白石涼子さんの５人で歌ってますね。&lt;/p&gt;
+&lt;p&gt;マージャン用語が出てくるので７０年代８０年代のコミックソングを思い出しますわ。
+テンパイ、即リー、一発ツモなんて。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>熱烈歓迎わんだーらんど - 咲 saki -</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-08-%E7%86%B1%E7%83%88%E6%AD%93%E8%BF%8E%E3%82%8F%E3%82%93%E3%81%9F%E3%83%BC%E3%82%89%E3%82%93%E3%81%A8-%E5%92%B2-saki/</link>
+        <pubDate>Wed, 08 Jul 2009 09:08:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-08-%E7%86%B1%E7%83%88%E6%AD%93%E8%BF%8E%E3%82%8F%E3%82%93%E3%81%9F%E3%83%BC%E3%82%89%E3%82%93%E3%81%A8-%E5%92%B2-saki/</guid>
+        <description>&lt;iframe src=&#34;http://rcm-jp.amazon.co.jp/e/cm?t=yuki9902assoc-22&amp;o=9&amp;p=8&amp;l=as1&amp;asins=B002206U6Y&amp;md=1X69VDGQCMF7Z30FM082&amp;fc1=000000&amp;IS2=1&amp;lt1=_blank&amp;m=amazon&amp;lc1=0000FF&amp;bc1=000000&amp;bg1=FFFFFF&amp;f=ifr&#34; style=&#34;width:120px;height:240px;&#34; scrolling=&#34;no&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;今、頭の中でサビの部分がエンドレスループ。&lt;/p&gt;
+&lt;p&gt;これも伊藤静さんが出演されているアニメのエンディングテーマです。
+歌は、伊藤静さん、小清水亜美さん、釘宮理恵さん、植田佳奈さん、白石涼子さんの５人で歌ってますね。&lt;/p&gt;
+&lt;p&gt;マージャン用語が出てくるので７０年代８０年代のコミックソングを思い出しますわ。
+テンパイ、即リー、一発ツモなんて。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>疲れてたのかな</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-08-%E7%96%B2%E3%82%8C%E3%81%A6%E3%81%9F%E3%81%AE%E3%81%8B%E3%81%AA/</link>
+        <pubDate>Wed, 08 Jul 2009 06:36:51 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-08-%E7%96%B2%E3%82%8C%E3%81%A6%E3%81%9F%E3%81%AE%E3%81%8B%E3%81%AA/</guid>
+        <description>&lt;p&gt;知らないうちに眠ってた。
+レム睡眠になったときは歯を磨かなきゃと思いながらも動けず、そのまままた深く眠りに落ちていって、今朝は少し寝坊。
+目覚ましもかけてなかった。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>疲れてたのかな</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-08-%E7%96%B2%E3%82%8C%E3%81%A6%E3%81%9F%E3%81%AE%E3%81%8B%E3%81%AA/</link>
+        <pubDate>Wed, 08 Jul 2009 06:36:51 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-08-%E7%96%B2%E3%82%8C%E3%81%A6%E3%81%9F%E3%81%AE%E3%81%8B%E3%81%AA/</guid>
+        <description>&lt;p&gt;知らないうちに眠ってた。
+レム睡眠になったときは歯を磨かなきゃと思いながらも動けず、そのまままた深く眠りに落ちていって、今朝は少し寝坊。
+目覚ましもかけてなかった。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Play Station HOME と熱暴走</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-07-play-station-home-%E3%81%A8%E7%86%B1%E6%9A%B4%E8%B5%B0/</link>
+        <pubDate>Tue, 07 Jul 2009 09:11:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-07-play-station-home-%E3%81%A8%E7%86%B1%E6%9A%B4%E8%B5%B0/</guid>
+        <description>&lt;p&gt;Play Station HOME は処理が重いんですね。
+FANがすぐに全開で回り始めます。
+まだ見たことのない「初音ミク」とは何ぞやと、そのライブ？を見るために２時間前から電源を入れてHOMEでひたすら開演を待ちます（ダウンロードします）。&lt;/p&gt;
+&lt;p&gt;１曲だけですが、「初音ミク」が踊って歌ってました。
+直接の感想は避けます。&lt;/p&gt;
+&lt;p&gt;さてほかに HOME のど真ん中に「BANDAI NAMCO」の看板がついたでっかい囲いが突っ立てます。
+建設現場のような雰囲気です。
+たぶん３０周年を迎えた「アレ」が中にはあるのだと思います。&lt;/p&gt;
+&lt;p&gt;でHOMEを起動したあとにPS3の画面に戻るとハングアップしました。
+やっぱり熱暴走ですね。
+しばらく何もせずに放置すると温度が下がりFANの回転数が下がります。
+そうすると何事もなかったように動きます。
+標準のFANでは熱容量が足りてないんでしょうね。
+強制排気用のFANが別途必要ですね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Play Station HOME と熱暴走</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-07-play-station-home-%E3%81%A8%E7%86%B1%E6%9A%B4%E8%B5%B0/</link>
+        <pubDate>Tue, 07 Jul 2009 09:11:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-07-play-station-home-%E3%81%A8%E7%86%B1%E6%9A%B4%E8%B5%B0/</guid>
+        <description>&lt;p&gt;Play Station HOME は処理が重いんですね。
+FANがすぐに全開で回り始めます。
+まだ見たことのない「初音ミク」とは何ぞやと、そのライブ？を見るために２時間前から電源を入れてHOMEでひたすら開演を待ちます（ダウンロードします）。&lt;/p&gt;
+&lt;p&gt;１曲だけですが、「初音ミク」が踊って歌ってました。
+直接の感想は避けます。&lt;/p&gt;
+&lt;p&gt;さてほかに HOME のど真ん中に「BANDAI NAMCO」の看板がついたでっかい囲いが突っ立てます。
+建設現場のような雰囲気です。
+たぶん３０周年を迎えた「アレ」が中にはあるのだと思います。&lt;/p&gt;
+&lt;p&gt;でHOMEを起動したあとにPS3の画面に戻るとハングアップしました。
+やっぱり熱暴走ですね。
+しばらく何もせずに放置すると温度が下がりFANの回転数が下がります。
+そうすると何事もなかったように動きます。
+標準のFANでは熱容量が足りてないんでしょうね。
+強制排気用のFANが別途必要ですね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>七夕</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-07-%E4%B8%83%E5%A4%95/</link>
+        <pubDate>Tue, 07 Jul 2009 08:34:45 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-07-%E4%B8%83%E5%A4%95/</guid>
+        <description>&lt;p&gt;七夕ですにゃ。&lt;/p&gt;
+&lt;p&gt;旧暦でいうとまだ１ヶ月ぐらい先の話ですが。
+盆入りの行事です。
+儒教やら仏教やらの行事が混らがらってますけど。
+笹を依代としてささげたことが始まり（この時期は山に大量に笹が生えるので伐採して燃していた）で、今では願い事を書いて燃していますね。&lt;/p&gt;
+&lt;p&gt;うちのほうでは、盆行事の意味合いが強いので旧暦の７月７日に近い西暦の８月７日に七夕です。
+また旧暦の７月１３日に近い８月１３日にお盆となります。&lt;/p&gt;
+&lt;p&gt;そもそも宗教的な意味合いより季節行事であるので旧暦のほうがマッチしています。
+七夕は立秋よりあとの行事なので秋の季語だそうです。
+空も８月の中にはきれいに晴れてますからね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>七夕</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-07-%E4%B8%83%E5%A4%95/</link>
+        <pubDate>Tue, 07 Jul 2009 08:34:45 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-07-%E4%B8%83%E5%A4%95/</guid>
+        <description>&lt;p&gt;七夕ですにゃ。&lt;/p&gt;
+&lt;p&gt;旧暦でいうとまだ１ヶ月ぐらい先の話ですが。
+盆入りの行事です。
+儒教やら仏教やらの行事が混らがらってますけど。
+笹を依代としてささげたことが始まり（この時期は山に大量に笹が生えるので伐採して燃していた）で、今では願い事を書いて燃していますね。&lt;/p&gt;
+&lt;p&gt;うちのほうでは、盆行事の意味合いが強いので旧暦の７月７日に近い西暦の８月７日に七夕です。
+また旧暦の７月１３日に近い８月１３日にお盆となります。&lt;/p&gt;
+&lt;p&gt;そもそも宗教的な意味合いより季節行事であるので旧暦のほうがマッチしています。
+七夕は立秋よりあとの行事なので秋の季語だそうです。
+空も８月の中にはきれいに晴れてますからね。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PS3のHDD換装</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-06-ps3%E3%81%AEhdd%E6%8F%9B%E8%A3%85/</link>
+        <pubDate>Mon, 06 Jul 2009 16:05:53 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-06-ps3%E3%81%AEhdd%E6%8F%9B%E8%A3%85/</guid>
+        <description>&lt;p&gt;WD5000BEVT (WesternDigital製SATA 2.5インチHDD 500GB)を購入して、PlayStation3のHDDを交換しました。
+もともと60GBモデルでしたが、特に不自由してるわけではないのですが、そのうちメディアプレーヤーの母艦になるであろうと思って、交換してみました。&lt;/p&gt;
+&lt;p&gt;換装後に気になったのは、2回ほどPlayStation Homeがハングアップしたことです。
+ハングアップは連続して発生したので、時期的なものを考えると熱暴走のような気がします。
+PS3は一番初期のモデルで発熱量も消費電力も大きいです。
+ゲームをしているときにハングアップしたわけではないので、もしかしたらPlay Station Homeにバグがあるのかも知れませんが。。。
+熱暴走は1年前にも経験したような気がします。&lt;/p&gt;
+&lt;p&gt;元のHDDと同じ回転数でシークも同じぐらいなのですが、プラッタの密度が高い分、データの読み出しは高速なようです。
+PS3の初期モデルは激しくFanの音がうるさいのでHDDが静かになったかはさっぱりわかりません。
+Fanを6機つけたPCよりうるさいのはどうにかならないものかな。。。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PS3のHDD換装</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-06-ps3%E3%81%AEhdd%E6%8F%9B%E8%A3%85/</link>
+        <pubDate>Mon, 06 Jul 2009 16:05:53 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-06-ps3%E3%81%AEhdd%E6%8F%9B%E8%A3%85/</guid>
+        <description>&lt;p&gt;WD5000BEVT (WesternDigital製SATA 2.5インチHDD 500GB)を購入して、PlayStation3のHDDを交換しました。
+もともと60GBモデルでしたが、特に不自由してるわけではないのですが、そのうちメディアプレーヤーの母艦になるであろうと思って、交換してみました。&lt;/p&gt;
+&lt;p&gt;換装後に気になったのは、2回ほどPlayStation Homeがハングアップしたことです。
+ハングアップは連続して発生したので、時期的なものを考えると熱暴走のような気がします。
+PS3は一番初期のモデルで発熱量も消費電力も大きいです。
+ゲームをしているときにハングアップしたわけではないので、もしかしたらPlay Station Homeにバグがあるのかも知れませんが。。。
+熱暴走は1年前にも経験したような気がします。&lt;/p&gt;
+&lt;p&gt;元のHDDと同じ回転数でシークも同じぐらいなのですが、プラッタの密度が高い分、データの読み出しは高速なようです。
+PS3の初期モデルは激しくFanの音がうるさいのでHDDが静かになったかはさっぱりわかりません。
+Fanを6機つけたPCよりうるさいのはどうにかならないものかな。。。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>紅茶</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-05-%E7%B4%85%E8%8C%B6/</link>
+        <pubDate>Sun, 05 Jul 2009 21:45:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-05-%E7%B4%85%E8%8C%B6/</guid>
+        <description>&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;
+UCC BLACK TEA 無糖・甘味料無しの本当のストレートティーです。ダージリンの香りが良く舌に刺さるような渋みもなく非常においしい。&lt;br /&gt;
+ちなみに写真は、新しく買った smcPENTAX DA 35mmF2.8Macro Limited で撮影しました。
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>紅茶</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-05-%E7%B4%85%E8%8C%B6/</link>
+        <pubDate>Sun, 05 Jul 2009 21:45:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-05-%E7%B4%85%E8%8C%B6/</guid>
+        <description>&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;
+UCC BLACK TEA 無糖・甘味料無しの本当のストレートティーです。ダージリンの香りが良く舌に刺さるような渋みもなく非常においしい。&lt;br /&gt;
+ちなみに写真は、新しく買った smcPENTAX DA 35mmF2.8Macro Limited で撮影しました。
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>宅配ボックスが必要かな</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-03-%E5%AE%85%E9%85%8D%E3%83%9B%E3%83%83%E3%82%AF%E3%82%B9%E3%81%8B%E5%BF%85%E8%A6%81%E3%81%8B%E3%81%AA/</link>
+        <pubDate>Fri, 03 Jul 2009 23:26:53 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-03-%E5%AE%85%E9%85%8D%E3%83%9B%E3%83%83%E3%82%AF%E3%82%B9%E3%81%8B%E5%BF%85%E8%A6%81%E3%81%8B%E3%81%AA/</guid>
+        <description>&lt;p&gt;Amazonの宅配業者が、日通から佐川に変わり、いろいろと手際の悪さに不満がある。
+ここ二日連続して荷物の受け取りができなかった。
+ちょうど家人が出払ってしまう時間帯に三回も来てしまうという不手際。
+伝票には電話番号が書いてあるので、配送する前に連絡をすればこうのようなことは起きない。
+だいたい同じ時間帯に来るというのは怠慢だ。
+不在連絡票に次の日に届けに来ると書いてあったので家人に待ってもらっていたが、フルタイムで在宅できるわけではない。
+佐川は在宅確認をせずに持ってきている。&lt;/p&gt;
+&lt;p&gt;日通の時は在宅確認してから持ってきていた。
+なので入れ違うことが全くなかったし。
+アマゾンプライムの意味があるように翌日配達されていた。&lt;/p&gt;
+&lt;p&gt;荷物の受け取りで、予定が三日もずれた。
+仕事で使うものを買うことがあるし、本当に急ぎで注文しているモノがある。
+アマゾンは、業者販売のルートをつかうより早く入手できるからだが。
+佐川のために五万円もする宅配ボックスを買うのはもったいないが、それ以上に支障を来すので、導入を検討する必要がある。&lt;/p&gt;
+&lt;p&gt;うーん、しかし本当に腹立たしい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>宅配ボックスが必要かな</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-03-%E5%AE%85%E9%85%8D%E3%83%9B%E3%83%83%E3%82%AF%E3%82%B9%E3%81%8B%E5%BF%85%E8%A6%81%E3%81%8B%E3%81%AA/</link>
+        <pubDate>Fri, 03 Jul 2009 23:26:53 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-03-%E5%AE%85%E9%85%8D%E3%83%9B%E3%83%83%E3%82%AF%E3%82%B9%E3%81%8B%E5%BF%85%E8%A6%81%E3%81%8B%E3%81%AA/</guid>
+        <description>&lt;p&gt;Amazonの宅配業者が、日通から佐川に変わり、いろいろと手際の悪さに不満がある。
+ここ二日連続して荷物の受け取りができなかった。
+ちょうど家人が出払ってしまう時間帯に三回も来てしまうという不手際。
+伝票には電話番号が書いてあるので、配送する前に連絡をすればこうのようなことは起きない。
+だいたい同じ時間帯に来るというのは怠慢だ。
+不在連絡票に次の日に届けに来ると書いてあったので家人に待ってもらっていたが、フルタイムで在宅できるわけではない。
+佐川は在宅確認をせずに持ってきている。&lt;/p&gt;
+&lt;p&gt;日通の時は在宅確認してから持ってきていた。
+なので入れ違うことが全くなかったし。
+アマゾンプライムの意味があるように翌日配達されていた。&lt;/p&gt;
+&lt;p&gt;荷物の受け取りで、予定が三日もずれた。
+仕事で使うものを買うことがあるし、本当に急ぎで注文しているモノがある。
+アマゾンは、業者販売のルートをつかうより早く入手できるからだが。
+佐川のために五万円もする宅配ボックスを買うのはもったいないが、それ以上に支障を来すので、導入を検討する必要がある。&lt;/p&gt;
+&lt;p&gt;うーん、しかし本当に腹立たしい。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>いつの間にか</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-03-%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</link>
+        <pubDate>Fri, 03 Jul 2009 08:52:46 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-03-%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</guid>
+        <description>&lt;p&gt;PSP用にSony Memory Stick PRO DUO Mark2 16GBを2枚購入して、音楽、ビデオ、写真、Play Station Storeからのゲーム購入などいろいろ入れてみました。&lt;/p&gt;
+&lt;p&gt;音楽は、PCからSony Sonic Stage Vを使ってWalkmanなどと同じように転送します。
+ジャケット画像とかは、元の画像サイズによるのか、アルバム単位では表示されるものの、楽曲単位では表示されたりされなかったりと、いまいちわからないことがあります。
+PSPにいれてあるMemory Stickは比較的高速なものですが、PCからの転送速度はあまり速くないです。
+サードパーティー製のカードリーダーを使って、Memory Stickを単体でPCに差しても音楽ファイルのAtrac3は転送できないです。&lt;/p&gt;
+&lt;p&gt;動画はImage Converter 3を使って、mp4(AVC)に変換しながら転送します。
+これもPSPを介してMemory Stickに転送してやるのが簡単です。
+動画変換はQuad Coreですが、最適化されていないため結構時間がかかります。
+別の変換ソフトを使ってあらかじめ変換しておくのがよいようです。&lt;/p&gt;
+&lt;p&gt;画像はImage Converterで簡単に転送できます。特に意識することもないでしょう。&lt;/p&gt;
+&lt;p&gt;ゲームはPS3とPSPをUSBでつないでコピーします。
+Final Fantasy VIIを購入してコピーしてみました。
+1.6GBぐらいあるのでしょうか、すごい時間がかかります。
+PSSからのダウンロードで1.5時間。
+26時ぐらいからコピーを始めてそのまま就寝してしまいました。
+朝には終わってましたが。&lt;/p&gt;
+&lt;p&gt;ほかにSony Media GoというPSP向けのコンテンツ管理アプリがありますが、コンテンツの登録作業がしにくいなどの問題点があるのでバージョンアップで使いやすくなることを望みますけど。&lt;/p&gt;
+&lt;p&gt;いろいろ確認したかったですが、昨日晩は、いつの間にか寝てしまっていたな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>いつの間にか</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-03-%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</link>
+        <pubDate>Fri, 03 Jul 2009 08:52:46 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-03-%E3%81%84%E3%81%A4%E3%81%AE%E9%96%93%E3%81%AB%E3%81%8B/</guid>
+        <description>&lt;p&gt;PSP用にSony Memory Stick PRO DUO Mark2 16GBを2枚購入して、音楽、ビデオ、写真、Play Station Storeからのゲーム購入などいろいろ入れてみました。&lt;/p&gt;
+&lt;p&gt;音楽は、PCからSony Sonic Stage Vを使ってWalkmanなどと同じように転送します。
+ジャケット画像とかは、元の画像サイズによるのか、アルバム単位では表示されるものの、楽曲単位では表示されたりされなかったりと、いまいちわからないことがあります。
+PSPにいれてあるMemory Stickは比較的高速なものですが、PCからの転送速度はあまり速くないです。
+サードパーティー製のカードリーダーを使って、Memory Stickを単体でPCに差しても音楽ファイルのAtrac3は転送できないです。&lt;/p&gt;
+&lt;p&gt;動画はImage Converter 3を使って、mp4(AVC)に変換しながら転送します。
+これもPSPを介してMemory Stickに転送してやるのが簡単です。
+動画変換はQuad Coreですが、最適化されていないため結構時間がかかります。
+別の変換ソフトを使ってあらかじめ変換しておくのがよいようです。&lt;/p&gt;
+&lt;p&gt;画像はImage Converterで簡単に転送できます。特に意識することもないでしょう。&lt;/p&gt;
+&lt;p&gt;ゲームはPS3とPSPをUSBでつないでコピーします。
+Final Fantasy VIIを購入してコピーしてみました。
+1.6GBぐらいあるのでしょうか、すごい時間がかかります。
+PSSからのダウンロードで1.5時間。
+26時ぐらいからコピーを始めてそのまま就寝してしまいました。
+朝には終わってましたが。&lt;/p&gt;
+&lt;p&gt;ほかにSony Media GoというPSP向けのコンテンツ管理アプリがありますが、コンテンツの登録作業がしにくいなどの問題点があるのでバージョンアップで使いやすくなることを望みますけど。&lt;/p&gt;
+&lt;p&gt;いろいろ確認したかったですが、昨日晩は、いつの間にか寝てしまっていたな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PSPをこの手に</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-02-psp%E3%82%92%E3%81%93%E3%81%AE%E6%89%8B%E3%81%AB/</link>
+        <pubDate>Thu, 02 Jul 2009 00:28:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-02-psp%E3%82%92%E3%81%93%E3%81%AE%E6%89%8B%E3%81%AB/</guid>
+        <description>&lt;p&gt;PSPを買っちゃいました。&lt;/p&gt;
+&lt;p&gt;PSP3000です。「ハヤテのごとく ナイトメア パラダイス」を買うのにあわせて買いました。最近は「ハヤテのごとく」というより「桂ヒナギク」をやっている伊藤静さんに傾倒中なので、少々大人買いに走ってます。といっても、PCやカメラ、車と違って単価が安いので、あまり気にはならないのですが。&lt;/p&gt;
+&lt;p&gt;PSP3000の特徴としては、広色域液晶を搭載して鮮やかな色が再現されることです。
+動画再生能力も高いですし、携帯プレーヤーとしてはかなり優秀です。
+これでPIM（PDA）として使えれば良いのですが。
+Webブラウザやネットラジオプレーヤーとしても使えるし、Webが使えることでWebサービスでPIMは実現できます。
+とくにRSSリーダーとして使えるので、Webシステムに入力してRSSで保存することで、いろいろな使い方が模索できるかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>PSPをこの手に</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-02-psp%E3%82%92%E3%81%93%E3%81%AE%E6%89%8B%E3%81%AB/</link>
+        <pubDate>Thu, 02 Jul 2009 00:28:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-02-psp%E3%82%92%E3%81%93%E3%81%AE%E6%89%8B%E3%81%AB/</guid>
+        <description>&lt;p&gt;PSPを買っちゃいました。&lt;/p&gt;
+&lt;p&gt;PSP3000です。「ハヤテのごとく ナイトメア パラダイス」を買うのにあわせて買いました。最近は「ハヤテのごとく」というより「桂ヒナギク」をやっている伊藤静さんに傾倒中なので、少々大人買いに走ってます。といっても、PCやカメラ、車と違って単価が安いので、あまり気にはならないのですが。&lt;/p&gt;
+&lt;p&gt;PSP3000の特徴としては、広色域液晶を搭載して鮮やかな色が再現されることです。
+動画再生能力も高いですし、携帯プレーヤーとしてはかなり優秀です。
+これでPIM（PDA）として使えれば良いのですが。
+Webブラウザやネットラジオプレーヤーとしても使えるし、Webが使えることでWebサービスでPIMは実現できます。
+とくにRSSリーダーとして使えるので、Webシステムに入力してRSSで保存することで、いろいろな使い方が模索できるかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>スキニーラテ</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-01-131933/</link>
+        <pubDate>Wed, 01 Jul 2009 13:19:33 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-01-131933/</guid>
+        <description>&lt;div class=&#34;photo&#34;&gt;&lt;a href=&#39;http://yuki9902.com/wp/wp-content/uploads/2009/07/090701_0818~0001.jpg&#39; title=&#39;090701_0818~0001&#39;&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;朝から湿気で、イラっとしそうです。
+コンビニでスキニーラテを買って、一口。
+&lt;p&gt;キリッとしたエスプレッソの味と軽いミルクで気分は涼やかです。&lt;/p&gt;&lt;/p&gt;
+&lt;div class=&#34;photo-end&#34;&gt; &lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>スキニーラテ</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-01-131933/</link>
+        <pubDate>Wed, 01 Jul 2009 13:19:33 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-01-131933/</guid>
+        <description>&lt;div class=&#34;photo&#34;&gt;&lt;a href=&#39;http://yuki9902.com/wp/wp-content/uploads/2009/07/090701_0818~0001.jpg&#39; title=&#39;090701_0818~0001&#39;&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;朝から湿気で、イラっとしそうです。
+コンビニでスキニーラテを買って、一口。
+&lt;p&gt;キリッとしたエスプレッソの味と軽いミルクで気分は涼やかです。&lt;/p&gt;&lt;/p&gt;
+&lt;div class=&#34;photo-end&#34;&gt; &lt;/div&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

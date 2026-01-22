@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/daily_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=daily_blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="玄人志向のpoint of viewのOEMのビデオカード(GeForce8600GT)は、やっぱだめじゃん。\rメモリとかBIOSとかドライバとかそういう問題ではない。\rBIOSの設定もいろいろなパターン試したけど、まともに起動する組み合わせがまちまちで、都度違う。\rドライバも安定バージョンからマイクロソフトのWindows Updateからダウンロードされるやつ、ベータ、インターナショナル、英語といろいろ試してみたけど、法則性がない。\r電源ユニットも定格500W超の鎌力で、定評のあるもの。\n最後に残るのは、低温だけ。やっぱりコンデンサーが問題でしょうね。\rそう、部屋の温度が10度を超えて、PCの電源を入れて数十分して突然まともに起動するようになるので、低温が原因でしょう。\n">
+<title>やっぱだめじゃん</title>
+
+<link rel='canonical' href='http://localhost:1313/daily_blog/post/2008-02-06-%E3%82%84%E3%81%A3%E3%81%AF%E3%81%9F%E3%82%81%E3%81%97%E3%82%83%E3%82%93/'>
+
+<link rel="stylesheet" href="../../daily_blog/scss/style.min.b9e9128fec450ebccecc4ec9900157f32b85d0609bcd5ee3293968bcaa1235f2.css"><meta property='og:title' content="やっぱだめじゃん">
+<meta property='og:description' content="玄人志向のpoint of viewのOEMのビデオカード(GeForce8600GT)は、やっぱだめじゃん。\rメモリとかBIOSとかドライバとかそういう問題ではない。\rBIOSの設定もいろいろなパターン試したけど、まともに起動する組み合わせがまちまちで、都度違う。\rドライバも安定バージョンからマイクロソフトのWindows Updateからダウンロードされるやつ、ベータ、インターナショナル、英語といろいろ試してみたけど、法則性がない。\r電源ユニットも定格500W超の鎌力で、定評のあるもの。\n最後に残るのは、低温だけ。やっぱりコンデンサーが問題でしょうね。\rそう、部屋の温度が10度を超えて、PCの電源を入れて数十分して突然まともに起動するようになるので、低温が原因でしょう。\n">
+<meta property='og:url' content='http://localhost:1313/daily_blog/post/2008-02-06-%E3%82%84%E3%81%A3%E3%81%AF%E3%81%9F%E3%82%81%E3%81%97%E3%82%83%E3%82%93/'>
+<meta property='og:site_name' content='おやぶんのアーカイブ'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Archived' /><meta property='article:tag' content='TECH' /><meta property='article:published_time' content='2008-02-06T08:32:17&#43;09:00'/><meta property='article:modified_time' content='2008-02-06T08:32:17&#43;09:00'/>
+<meta name="twitter:title" content="やっぱだめじゃん">
+<meta name="twitter:description" content="玄人志向のpoint of viewのOEMのビデオカード(GeForce8600GT)は、やっぱだめじゃん。\rメモリとかBIOSとかドライバとかそういう問題ではない。\rBIOSの設定もいろいろなパターン試したけど、まともに起動する組み合わせがまちまちで、都度違う。\rドライバも安定バージョンからマイクロソフトのWindows Updateからダウンロードされるやつ、ベータ、インターナショナル、英語といろいろ試してみたけど、法則性がない。\r電源ユニットも定格500W超の鎌力で、定評のあるもの。\n最後に残るのは、低温だけ。やっぱりコンデンサーが問題でしょうね。\rそう、部屋の温度が10度を超えて、PCの電源を入れて数十分して突然まともに起動するようになるので、低温が原因でしょう。\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="../../">
+                
+                    <img src="https://github.com/github.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="../../">おやぶんのアーカイブ</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="../../post/2008-02-06-%E3%82%84%E3%81%A3%E3%81%AF%E3%81%9F%E3%82%81%E3%81%97%E3%82%83%E3%82%93/">やっぱだめじゃん</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2008-02-06T08:32:17&#43;09:00'>Feb 06, 2008</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>玄人志向のpoint of viewのOEMのビデオカード(GeForce8600GT)は、やっぱだめじゃん。<br/>
+メモリとかBIOSとかドライバとかそういう問題ではない。<br/>
+BIOSの設定もいろいろなパターン試したけど、まともに起動する組み合わせがまちまちで、都度違う。<br/>
+ドライバも安定バージョンからマイクロソフトのWindows Updateからダウンロードされるやつ、ベータ、インターナショナル、英語といろいろ試してみたけど、法則性がない。<br/>
+電源ユニットも定格500W超の鎌力で、定評のあるもの。</p>
+<p>最後に残るのは、低温だけ。やっぱりコンデンサーが問題でしょうね。<br/>
+そう、部屋の温度が10度を超えて、PCの電源を入れて数十分して突然まともに起動するようになるので、低温が原因でしょう。</p>
+<p>日本製のコンデンサを使用したGiga Byte製のGeForce8600GTS辺りに換えようと思います。<br/>
+ああ、でも前にGiga Byte製のGeForce6600GTx2(SLI)の時に一回目起動時に必ずグラフィックカードが標準VGAで立ち上がっていたので、少々不安がありますが。</p>
+<p>こうしてPCI-Eのビデオカードのジャンクがたまって行きます。</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="../../tags/archived/">Archived</a>
+        
+            <a href="../../tags/tech/">TECH</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">Related content</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="../../posts/2008-02-06-%E3%82%84%E3%81%A3%E3%81%AF%E3%81%9F%E3%82%81%E3%81%97%E3%82%83%E3%82%93/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">やっぱだめじゃん</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="../../posts/2008-02-05-stress/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Stress</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="../../post/2008-02-05-stress/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Stress</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="../../posts/2008-02-04-nvidia-geforce/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">nVIDIA GeForce</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="../../post/2008-02-04-nvidia-geforce/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">nVIDIA GeForce</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2026 おやぶんのアーカイブ
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+    
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="../../daily_blog/ts/main.ac8dd5d104b449cee3ac493cccfad89bab536ddc37bd0630700d693a84c831ff.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

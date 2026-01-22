@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>COMPUTER on おやぶんのアーカイブ</title>
+        <link>http://localhost:1313/daily_blog/categories/computer/</link>
+        <description>Recent content in COMPUTER on おやぶんのアーカイブ</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <lastBuildDate>Mon, 22 Apr 2013 18:12:12 +0900</lastBuildDate><atom:link href="http://localhost:1313/daily_blog/categories/computer/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>現在のメインPC</title>
+        <link>http://localhost:1313/daily_blog/post/2013-04-22-%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%B3pc/</link>
+        <pubDate>Mon, 22 Apr 2013 18:12:12 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2013-04-22-%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%B3pc/</guid>
+        <description>&lt;ul&gt;
+	&lt;li&gt;CPU
+&lt;ul&gt;
+	&lt;li&gt;AMD FX6100 (6 Cores / 3.3GHz)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;M/B
+&lt;ul&gt;
+	&lt;li&gt;GIGABYTE GA-990FXA-UD3 (rev 1.1) (BIOS F9)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;RAM
+&lt;ul&gt;
+	&lt;li&gt;CORSAIR CML8GX3M2A1600C9 (4GB*2 / DDR3-1600MHz / 9-9-9-24 / 1.50V)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;GPU
+&lt;ul&gt;
+	&lt;li&gt;PowerColor AX5670 512MD5-H (AMD Radeon HD 5670 / DDR5-512MB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;AUDIO
+&lt;ul&gt;
+	&lt;li&gt;ONKYO SE-300PCIE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;O/D
+&lt;ul&gt;
+	&lt;li&gt;Buffalo BR-PI816FBS-BK (Pioneer BDR-203)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;SSD/HDD
+&lt;ul&gt;
+	&lt;li&gt;Internal
+&lt;ul&gt;
+	&lt;li&gt;SSD ADATA PremierePro SP900 256GB&lt;/li&gt;
+	&lt;li&gt;HDD Seagate ST3000DM001-9YN166 (3.0TB)&lt;/li&gt;
+	&lt;li&gt;HDD Seagate ST3000DM001-9YN166 (3.0TB)&lt;/li&gt;
+	&lt;li&gt;HDD WesternDigitl Caviar Red WDC WD30EFRX-68AZ9N0 (3.0TB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;External
+&lt;ul&gt;
+	&lt;li&gt;HDD WesternDigitl Caviar Green WDC WD30EZRX-00MMMB0 (3.0TB)&lt;/li&gt;
+	&lt;li&gt;HDD WesternDigitl Caviar Green WDC WD30EZRX-00MMMB0 (3.0TB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&amp;nbsp;
+&lt;p&gt;メモリに関しては自動設定にすると1333MHzとして設定されてしまいます。&lt;/p&gt;
+&lt;p&gt;GigaByteのTouchBIOSで、手動で9-9-9-24に設定すると1600MHzで駆動できるようになりました。&lt;/li&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>現在のメインPC</title>
+        <link>http://localhost:1313/daily_blog/posts/2013-04-22-%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%B3pc/</link>
+        <pubDate>Mon, 22 Apr 2013 18:12:12 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2013-04-22-%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%A1%E3%82%A4%E3%83%B3pc/</guid>
+        <description>&lt;ul&gt;
+	&lt;li&gt;CPU
+&lt;ul&gt;
+	&lt;li&gt;AMD FX6100 (6 Cores / 3.3GHz)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;M/B
+&lt;ul&gt;
+	&lt;li&gt;GIGABYTE GA-990FXA-UD3 (rev 1.1) (BIOS F9)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;RAM
+&lt;ul&gt;
+	&lt;li&gt;CORSAIR CML8GX3M2A1600C9 (4GB*2 / DDR3-1600MHz / 9-9-9-24 / 1.50V)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;GPU
+&lt;ul&gt;
+	&lt;li&gt;PowerColor AX5670 512MD5-H (AMD Radeon HD 5670 / DDR5-512MB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;AUDIO
+&lt;ul&gt;
+	&lt;li&gt;ONKYO SE-300PCIE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;O/D
+&lt;ul&gt;
+	&lt;li&gt;Buffalo BR-PI816FBS-BK (Pioneer BDR-203)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;SSD/HDD
+&lt;ul&gt;
+	&lt;li&gt;Internal
+&lt;ul&gt;
+	&lt;li&gt;SSD ADATA PremierePro SP900 256GB&lt;/li&gt;
+	&lt;li&gt;HDD Seagate ST3000DM001-9YN166 (3.0TB)&lt;/li&gt;
+	&lt;li&gt;HDD Seagate ST3000DM001-9YN166 (3.0TB)&lt;/li&gt;
+	&lt;li&gt;HDD WesternDigitl Caviar Red WDC WD30EFRX-68AZ9N0 (3.0TB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;External
+&lt;ul&gt;
+	&lt;li&gt;HDD WesternDigitl Caviar Green WDC WD30EZRX-00MMMB0 (3.0TB)&lt;/li&gt;
+	&lt;li&gt;HDD WesternDigitl Caviar Green WDC WD30EZRX-00MMMB0 (3.0TB)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&amp;nbsp;
+&lt;p&gt;メモリに関しては自動設定にすると1333MHzとして設定されてしまいます。&lt;/p&gt;
+&lt;p&gt;GigaByteのTouchBIOSで、手動で9-9-9-24に設定すると1600MHzで駆動できるようになりました。&lt;/li&gt;&lt;/p&gt;
+&lt;/ul&gt;</description>
+        </item>
+        <item>
+        <title>Sony Xperia Tablet S を充電しながらPCに接続する方法。</title>
+        <link>http://localhost:1313/daily_blog/post/2013-04-08-sony-xperia-tablet-s-%E3%82%92%E5%85%85%E9%9B%BB%E3%81%97%E3%81%AA%E3%81%8B%E3%82%89pc%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 08 Apr 2013 16:57:33 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2013-04-08-sony-xperia-tablet-s-%E3%82%92%E5%85%85%E9%9B%BB%E3%81%97%E3%81%AA%E3%81%8B%E3%82%89pc%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+        <description>&lt;p&gt;Sony Xperia Tablet S を購入してもう一ヶ月ほどでしょうか。&lt;/p&gt;
+&lt;p&gt;64GBモデルなので、容量をさほど気にすることなく使えます。&lt;/p&gt;
+&lt;p&gt;使いにくいことが一つあるのは、PCに接続した際に、充電されないことです。&lt;/p&gt;
+&lt;p&gt;USB 1.0/2.0では、1ポートあたり5V / 500mAと決まってますし、ほとんどのマザーボードがそれを超える電力を出力していません。
+過大な電力でUSB機器が壊れるのを防ぐためです。&lt;/p&gt;
+&lt;p&gt;Sony Xperia Tablet Sは、付属のACアダプターの出力を見ると1500mAが必要なようです。&lt;/p&gt;
+&lt;p&gt;付属のACアダプターで給電しつつ、PC接続できないかなと、USB分岐ケーブルを作りました。&lt;/p&gt;
+&lt;p&gt;USBは1～4までのピンがあり、外側の1,4が電力、内側の2,3が信号ピンです。&lt;/p&gt;
+&lt;p&gt;USBの延長ケーブル（コネクタ形状がAオスとAメス）を途中で切断して、そこから電力供給用に1,4番の線だけを分岐（並列）させます。
+分岐させた線の先には当然USBコネクタ Aのオスが必要です。
+普通に売られているUSB HDD用の分岐ケーブルでもかまわないでしょう。&lt;/p&gt;
+&lt;p&gt;しかし、これだけではACアダプターから給電しながらPC接続するには、完璧ではありません。&lt;/p&gt;
+&lt;p&gt;タブレットの充電（給電）情報を表示によれば、「給電されていない」状態です。&lt;/p&gt;
+&lt;p&gt;で、これが給電状態になるためには、2,3ピンをケーブル接続時にショートさせておく必要があります。&lt;/p&gt;
+&lt;p&gt;そのために、USBコネクタ Aメスを用意し、2,3ピンをショートさせたものを作ります。&lt;/p&gt;
+&lt;p&gt;そして接続順序が、
+１．タブレットにマルチコネクタを接続。
+２．分岐ケーブルとマルチコネクタを接続。
+３．PC接続する側のUSB コネクタ Aオスに、2,3をショートさせたAメスを接続。
+４．ACアダプタと電力供給側のUSBコネクタ Aオスを接続。
+５．ACアダプタを100Vコンセントに接続。
+６．タブレットが充電中になっているのを確認。
+７．2,3をショートさせたAメスを取り外す。
+８．PCにAオスを接続。&lt;/p&gt;
+&lt;p&gt;この順序で、充電しながらPC接続が可能になります。&lt;/p&gt;
+&lt;p&gt;2,3のショートのさせ方ですが、わざわざコネクタAメスを手に入れなくても、間にスイッチを入れてショートとオープンを切り替えるようにしてやると、もっと使いやすいかも。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Sony Xperia Tablet S を充電しながらPCに接続する方法。</title>
+        <link>http://localhost:1313/daily_blog/posts/2013-04-08-sony-xperia-tablet-s-%E3%82%92%E5%85%85%E9%9B%BB%E3%81%97%E3%81%AA%E3%81%8B%E3%82%89pc%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</link>
+        <pubDate>Mon, 08 Apr 2013 16:57:33 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2013-04-08-sony-xperia-tablet-s-%E3%82%92%E5%85%85%E9%9B%BB%E3%81%97%E3%81%AA%E3%81%8B%E3%82%89pc%E3%81%AB%E6%8E%A5%E7%B6%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/</guid>
+        <description>&lt;p&gt;Sony Xperia Tablet S を購入してもう一ヶ月ほどでしょうか。&lt;/p&gt;
+&lt;p&gt;64GBモデルなので、容量をさほど気にすることなく使えます。&lt;/p&gt;
+&lt;p&gt;使いにくいことが一つあるのは、PCに接続した際に、充電されないことです。&lt;/p&gt;
+&lt;p&gt;USB 1.0/2.0では、1ポートあたり5V / 500mAと決まってますし、ほとんどのマザーボードがそれを超える電力を出力していません。
+過大な電力でUSB機器が壊れるのを防ぐためです。&lt;/p&gt;
+&lt;p&gt;Sony Xperia Tablet Sは、付属のACアダプターの出力を見ると1500mAが必要なようです。&lt;/p&gt;
+&lt;p&gt;付属のACアダプターで給電しつつ、PC接続できないかなと、USB分岐ケーブルを作りました。&lt;/p&gt;
+&lt;p&gt;USBは1～4までのピンがあり、外側の1,4が電力、内側の2,3が信号ピンです。&lt;/p&gt;
+&lt;p&gt;USBの延長ケーブル（コネクタ形状がAオスとAメス）を途中で切断して、そこから電力供給用に1,4番の線だけを分岐（並列）させます。
+分岐させた線の先には当然USBコネクタ Aのオスが必要です。
+普通に売られているUSB HDD用の分岐ケーブルでもかまわないでしょう。&lt;/p&gt;
+&lt;p&gt;しかし、これだけではACアダプターから給電しながらPC接続するには、完璧ではありません。&lt;/p&gt;
+&lt;p&gt;タブレットの充電（給電）情報を表示によれば、「給電されていない」状態です。&lt;/p&gt;
+&lt;p&gt;で、これが給電状態になるためには、2,3ピンをケーブル接続時にショートさせておく必要があります。&lt;/p&gt;
+&lt;p&gt;そのために、USBコネクタ Aメスを用意し、2,3ピンをショートさせたものを作ります。&lt;/p&gt;
+&lt;p&gt;そして接続順序が、
+１．タブレットにマルチコネクタを接続。
+２．分岐ケーブルとマルチコネクタを接続。
+３．PC接続する側のUSB コネクタ Aオスに、2,3をショートさせたAメスを接続。
+４．ACアダプタと電力供給側のUSBコネクタ Aオスを接続。
+５．ACアダプタを100Vコンセントに接続。
+６．タブレットが充電中になっているのを確認。
+７．2,3をショートさせたAメスを取り外す。
+８．PCにAオスを接続。&lt;/p&gt;
+&lt;p&gt;この順序で、充電しながらPC接続が可能になります。&lt;/p&gt;
+&lt;p&gt;2,3のショートのさせ方ですが、わざわざコネクタAメスを手に入れなくても、間にスイッチを入れてショートとオープンを切り替えるようにしてやると、もっと使いやすいかも。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Walkman Application in Sony Xperia Tablet S</title>
+        <link>http://localhost:1313/daily_blog/post/2013-04-08-walkman-application-in-sony-xperia-tablet-s/</link>
+        <pubDate>Mon, 08 Apr 2013 16:52:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2013-04-08-walkman-application-in-sony-xperia-tablet-s/</guid>
+        <description>&lt;p&gt;Sony Xperia Tablet SにインストールされているWalkmanアプリは、DLNAに&lt;wbr /&gt;対応しています。&lt;/p&gt;
+&lt;p&gt;DLNAサーバー（Windows Media SeverやDLNA対応HDDなど)に蓄積された音楽ファイル&lt;wbr /&gt;を再生することができます。&lt;/p&gt;
+&lt;p&gt;WindowsアプリケーションのFoobar2000のUPn&lt;wbr /&gt;Pサーバー機能を使って、再生することができます。
+&amp;hellip; ただしストリーム形式はmp3じゃないといけません。
+ほかのDLNAクライアントと併用する場合は、Foobar20&lt;wbr /&gt;00側の設定で、Tablet用のプロファイルを作成します。
+Use profile when に「X-AV-Client-Info」を、containに「&lt;wbr /&gt;av=5.0; cn=&amp;ldquo;Sony&amp;rdquo;; mn=&amp;ldquo;SGPT12&amp;rdquo;; mv=&amp;ldquo;2.0&amp;rdquo;;」を設定します。
+Walkmanアプリは、バグがあるというか、DLNA仕様にそ&lt;wbr /&gt;ってないのか、Foobar2000とは相性が悪いです。
+プレイリストが表示されなかったり、再生できないプレイリストが&lt;wbr /&gt;あったり・・・。
+Foobar2000のマルチバイト文字列の扱いにバグがあるせ&lt;wbr /&gt;いかもしれませんけれど。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;q=DLNA&amp;amp;rt=qasearch&amp;amp;srcpg=tablet&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;amp;q=DLNA&amp;amp;amp;rt=qasearch&amp;amp;amp;srcpg=tablet&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;q=DLNA&amp;amp;rt=qasearch&amp;amp;srcpg=tablet&lt;/a&gt;&lt;/a&gt;
+ここにWalkmanアプリのDLNA仕様に正確に対応していないことが書かれています。
+シングルクォート「&amp;rsquo;」が、ファイル名やタイトル、アーティスト名などの文字列に含まれていると再生できないとことです。
+B&amp;rsquo;zの楽曲は無理と言うことに…。
+一度再生を失敗した楽曲情報は、Devicesに記録されてしまっているので、これのキャッシュと
+データを削除しないと再生できません。
+こんなヘルプを書くぐらいなら、改善をしてほしいモノです。&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Add 2013/04/22&amp;ndash;&lt;/p&gt;
+&lt;p&gt;4月18日のアップデートで「&amp;rsquo;」シングルクォートの問題が改修されています。&lt;/p&gt;
+&lt;p&gt;そのほかの細かなバグが改修されています。画面がフラッシュしたり、電源が落ちたりすることもなくなっています。&lt;/p&gt;
+&lt;p&gt;ちなみにFoobar2000のDLNAサーバーのデバッグログをとることで、X-AV-Client-Infoを調べることができます。&lt;/p&gt;
+&lt;p&gt;&amp;ndash;end&amp;ndash;&lt;/p&gt;
+&lt;p&gt;ほかにWalkmanアプリは「Throw」という機能がありま&lt;wbr /&gt;す。
+DLNA対応でWindows Media Playerのリモート再生に対応した機器(UPnPメディア機&lt;wbr /&gt;器)にデータを送信して再生することができます。
+データは、画像、音楽、動画などです。
+MacでいうところのAirPlayに近いでしょうか。
+このThrowを使うと、Walkmanアプリで再生操作すると&lt;wbr /&gt;Wi-FiでつながったAVアンプから音が出ます。&lt;/p&gt;
+&lt;p&gt;私の持っているAVアンプ(DENON AVC-4320)がWindows Media Playerのリモート再生に対応していることを初めて知ったの&lt;wbr /&gt;は、購入してから数年たったころでした。
+Windows VISTA認証機器ということは知っていたのですが・・・。
+マニュアルにも書いてなかったし、Windows Media Playerのヘルプにもそんなことが書いてなかったので判らな&lt;wbr /&gt;かったのです。
+あるときONKYOの製品紹介ページを見ているときに、Wind&lt;wbr /&gt;ows VISTA/&lt;wbr /&gt;7認証のAVアンプ製品のことが記述されていたので、同じくWin&lt;wbr /&gt;dows VISTA/&lt;wbr /&gt;7の認証機器のDENON AVC-4320もできるはずと思って、Windows7からリモート再生した&lt;wbr /&gt;らできたのです。&lt;/p&gt;
+&lt;p&gt;で、今日、WalkmanアプリからThrowをしてみたら、A&lt;wbr /&gt;Vアンプから音が出ました。&lt;/p&gt;
+&lt;p&gt;Android端末でできることが意外に多いです。
+ベースになったのはLinuxだから当たり前か…。&lt;/p&gt;
+&lt;p&gt;しかしDLNAに関しては、知らないことが多すぎます。&lt;/p&gt;
+&lt;p&gt;Sony Xperia スマートフォンを持っていてWalkmanアプリが使える場合は&lt;wbr /&gt;、Throwを試してみたらどうでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Sony Xperia Tablet S のWalkman の Throw機能は、ファイル形式がAAC、mp3、WMAのみに対応しています。&lt;/p&gt;
+&lt;p&gt;詳しくは以下のURLより&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sony.jp/support/dlna/lineup.html&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.sony.jp/support/dlna/lineup.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.sony.jp/support/dlna/lineup.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Walkman Application in Sony Xperia Tablet S</title>
+        <link>http://localhost:1313/daily_blog/posts/2013-04-08-walkman-application-in-sony-xperia-tablet-s/</link>
+        <pubDate>Mon, 08 Apr 2013 16:52:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2013-04-08-walkman-application-in-sony-xperia-tablet-s/</guid>
+        <description>&lt;p&gt;Sony Xperia Tablet SにインストールされているWalkmanアプリは、DLNAに&lt;wbr /&gt;対応しています。&lt;/p&gt;
+&lt;p&gt;DLNAサーバー（Windows Media SeverやDLNA対応HDDなど)に蓄積された音楽ファイル&lt;wbr /&gt;を再生することができます。&lt;/p&gt;
+&lt;p&gt;WindowsアプリケーションのFoobar2000のUPn&lt;wbr /&gt;Pサーバー機能を使って、再生することができます。
+&amp;hellip; ただしストリーム形式はmp3じゃないといけません。
+ほかのDLNAクライアントと併用する場合は、Foobar20&lt;wbr /&gt;00側の設定で、Tablet用のプロファイルを作成します。
+Use profile when に「X-AV-Client-Info」を、containに「&lt;wbr /&gt;av=5.0; cn=&amp;ldquo;Sony&amp;rdquo;; mn=&amp;ldquo;SGPT12&amp;rdquo;; mv=&amp;ldquo;2.0&amp;rdquo;;」を設定します。
+Walkmanアプリは、バグがあるというか、DLNA仕様にそ&lt;wbr /&gt;ってないのか、Foobar2000とは相性が悪いです。
+プレイリストが表示されなかったり、再生できないプレイリストが&lt;wbr /&gt;あったり・・・。
+Foobar2000のマルチバイト文字列の扱いにバグがあるせ&lt;wbr /&gt;いかもしれませんけれど。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;q=DLNA&amp;amp;rt=qasearch&amp;amp;srcpg=tablet&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;amp;q=DLNA&amp;amp;amp;rt=qasearch&amp;amp;amp;srcpg=tablet&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;q=DLNA&amp;amp;rt=qasearch&amp;amp;srcpg=tablet&lt;/a&gt;&lt;/a&gt;
+ここにWalkmanアプリのDLNA仕様に正確に対応していないことが書かれています。
+シングルクォート「&amp;rsquo;」が、ファイル名やタイトル、アーティスト名などの文字列に含まれていると再生できないとことです。
+B&amp;rsquo;zの楽曲は無理と言うことに…。
+一度再生を失敗した楽曲情報は、Devicesに記録されてしまっているので、これのキャッシュと
+データを削除しないと再生できません。
+こんなヘルプを書くぐらいなら、改善をしてほしいモノです。&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Add 2013/04/22&amp;ndash;&lt;/p&gt;
+&lt;p&gt;4月18日のアップデートで「&amp;rsquo;」シングルクォートの問題が改修されています。&lt;/p&gt;
+&lt;p&gt;そのほかの細かなバグが改修されています。画面がフラッシュしたり、電源が落ちたりすることもなくなっています。&lt;/p&gt;
+&lt;p&gt;ちなみにFoobar2000のDLNAサーバーのデバッグログをとることで、X-AV-Client-Infoを調べることができます。&lt;/p&gt;
+&lt;p&gt;&amp;ndash;end&amp;ndash;&lt;/p&gt;
+&lt;p&gt;ほかにWalkmanアプリは「Throw」という機能がありま&lt;wbr /&gt;す。
+DLNA対応でWindows Media Playerのリモート再生に対応した機器(UPnPメディア機&lt;wbr /&gt;器)にデータを送信して再生することができます。
+データは、画像、音楽、動画などです。
+MacでいうところのAirPlayに近いでしょうか。
+このThrowを使うと、Walkmanアプリで再生操作すると&lt;wbr /&gt;Wi-FiでつながったAVアンプから音が出ます。&lt;/p&gt;
+&lt;p&gt;私の持っているAVアンプ(DENON AVC-4320)がWindows Media Playerのリモート再生に対応していることを初めて知ったの&lt;wbr /&gt;は、購入してから数年たったころでした。
+Windows VISTA認証機器ということは知っていたのですが・・・。
+マニュアルにも書いてなかったし、Windows Media Playerのヘルプにもそんなことが書いてなかったので判らな&lt;wbr /&gt;かったのです。
+あるときONKYOの製品紹介ページを見ているときに、Wind&lt;wbr /&gt;ows VISTA/&lt;wbr /&gt;7認証のAVアンプ製品のことが記述されていたので、同じくWin&lt;wbr /&gt;dows VISTA/&lt;wbr /&gt;7の認証機器のDENON AVC-4320もできるはずと思って、Windows7からリモート再生した&lt;wbr /&gt;らできたのです。&lt;/p&gt;
+&lt;p&gt;で、今日、WalkmanアプリからThrowをしてみたら、A&lt;wbr /&gt;Vアンプから音が出ました。&lt;/p&gt;
+&lt;p&gt;Android端末でできることが意外に多いです。
+ベースになったのはLinuxだから当たり前か…。&lt;/p&gt;
+&lt;p&gt;しかしDLNAに関しては、知らないことが多すぎます。&lt;/p&gt;
+&lt;p&gt;Sony Xperia スマートフォンを持っていてWalkmanアプリが使える場合は&lt;wbr /&gt;、Throwを試してみたらどうでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Sony Xperia Tablet S のWalkman の Throw機能は、ファイル形式がAAC、mp3、WMAのみに対応しています。&lt;/p&gt;
+&lt;p&gt;詳しくは以下のURLより&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sony.jp/support/dlna/lineup.html&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.sony.jp/support/dlna/lineup.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.sony.jp/support/dlna/lineup.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 7 / 8 で音飛びする件</title>
+        <link>http://localhost:1313/daily_blog/post/2012-11-22-windows-7-8-%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%99%E3%82%8B%E4%BB%B6/</link>
+        <pubDate>Thu, 22 Nov 2012 09:57:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-11-22-windows-7-8-%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%99%E3%82%8B%E4%BB%B6/</guid>
+        <description>&lt;p&gt;Windows 単独や、オーディオデバイス単独、ドライバー単独の問題ではないようです。&lt;/p&gt;
+&lt;p&gt;Microsoftでもグリッチとして、問題を確認しているようです。&lt;/p&gt;
+&lt;p&gt;Microsoftが、Windows Lab.で検証を行っているらしいですが、複合的な原因で、各種ハードウェア構成、ドライバーのインストール順位などで、発生したり、発生しなかったり。&lt;/p&gt;
+&lt;p&gt;おおよそ80%のユーザーが何らかのグリッチを経験しているそうです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;私も環境を変えるたび、クリーンインストールするたびに、以前の解決方法を試して、解決したり、解決しなかったりするので、おおよそ、そんな感じではないだろうかと思っていましたが・・・。&lt;/p&gt;
+&lt;p&gt;いろいろなサイトやブログで、Windowsの音飛びの解決方法を紹介していますが、すべて正しいですが、すべてが完全な方法ではないということなのです。&lt;/p&gt;
+&lt;p&gt;個々の環境によって問題発生も解決も異なります。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;デバイスとしては、USBデバイスよりもPCIデバイスの方が優位、PCIデバイスよりもPCI-Eデバイスの方が優位。&lt;/p&gt;
+&lt;p&gt;ハードウェア構成としては、必要最小限として、オンボードデバイスも最小にして、極力不要なドライバー、アプリケーションは入れない。&lt;/p&gt;
+&lt;div&gt;Windowsの要らないサービス、アプリケーションは無効にする。&lt;/div&gt;
+ウィルスなどに感染しない閉じられたLANで使用して、常駐型の監視ツールなどはすべて削除するなど。
+&lt;p&gt;音声再生はいわゆるストリーミングですから、ハードウェアもOSも100%占有できれば、グリッチは発生しないでしょうけど。&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;グリッチはオーディオマニアとか云々ではなくて、通常ユーザーでもかなりのストレスになりますからね。&lt;/div&gt;
+&lt;div&gt;専用マシンを用意するとかではなく、OS、ハードウェア、アプリケーションを作る側で努力して解決してほしいものです。&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Windows 7 / 8 で音飛びする件</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-11-22-windows-7-8-%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%99%E3%82%8B%E4%BB%B6/</link>
+        <pubDate>Thu, 22 Nov 2012 09:57:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-11-22-windows-7-8-%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%99%E3%82%8B%E4%BB%B6/</guid>
+        <description>&lt;p&gt;Windows 単独や、オーディオデバイス単独、ドライバー単独の問題ではないようです。&lt;/p&gt;
+&lt;p&gt;Microsoftでもグリッチとして、問題を確認しているようです。&lt;/p&gt;
+&lt;p&gt;Microsoftが、Windows Lab.で検証を行っているらしいですが、複合的な原因で、各種ハードウェア構成、ドライバーのインストール順位などで、発生したり、発生しなかったり。&lt;/p&gt;
+&lt;p&gt;おおよそ80%のユーザーが何らかのグリッチを経験しているそうです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;私も環境を変えるたび、クリーンインストールするたびに、以前の解決方法を試して、解決したり、解決しなかったりするので、おおよそ、そんな感じではないだろうかと思っていましたが・・・。&lt;/p&gt;
+&lt;p&gt;いろいろなサイトやブログで、Windowsの音飛びの解決方法を紹介していますが、すべて正しいですが、すべてが完全な方法ではないということなのです。&lt;/p&gt;
+&lt;p&gt;個々の環境によって問題発生も解決も異なります。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;デバイスとしては、USBデバイスよりもPCIデバイスの方が優位、PCIデバイスよりもPCI-Eデバイスの方が優位。&lt;/p&gt;
+&lt;p&gt;ハードウェア構成としては、必要最小限として、オンボードデバイスも最小にして、極力不要なドライバー、アプリケーションは入れない。&lt;/p&gt;
+&lt;div&gt;Windowsの要らないサービス、アプリケーションは無効にする。&lt;/div&gt;
+ウィルスなどに感染しない閉じられたLANで使用して、常駐型の監視ツールなどはすべて削除するなど。
+&lt;p&gt;音声再生はいわゆるストリーミングですから、ハードウェアもOSも100%占有できれば、グリッチは発生しないでしょうけど。&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;グリッチはオーディオマニアとか云々ではなくて、通常ユーザーでもかなりのストレスになりますからね。&lt;/div&gt;
+&lt;div&gt;専用マシンを用意するとかではなく、OS、ハードウェア、アプリケーションを作る側で努力して解決してほしいものです。&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>ONKYO SE-300PCIE on Windows 8 Pro 64bit</title>
+        <link>http://localhost:1313/daily_blog/post/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</link>
+        <pubDate>Fri, 16 Nov 2012 15:02:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</guid>
+        <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;ONKYO SE-200PCI LTD が、OSやドライバーの構成状況、インストールタイミングによって、PCIバスでの信号遅延が発生し、音飛びやノイズが発生していた状態だったので、辛抱たまらず、&lt;a href=&#34;http://www.jp.onkyo.com/pcaudio/pciedigitalaudioboard/special/&#34; target=&#34;_blank&#34;&gt;ONKYO SE-300PCIE&lt;/a&gt; に買い換えました。&lt;/p&gt;
+&lt;p&gt;商品名にもあるとおりPCI-Enhanced バスを使用します。&lt;/p&gt;
+&lt;p&gt;SE-300PCIE はカードの高さがあり、隣のバスに干渉しますので2スロット分の空きが必要になります。&lt;/p&gt;
+&lt;p&gt;GIGA-BYTE GA-990FXA-UD3の一番下のスロットに差し込んでやろうとしたら、USB2.0やUSB3.0、IEEE1394のコネクタに干渉して取り付けできませんでした。&lt;/p&gt;
+&lt;p&gt;下から2番目のスロットはPCIなので、ここにはSE-300PCIEの拡張コネクタを差し込みます。&lt;/p&gt;
+&lt;p&gt;下から3番目のスロットのPCI-E x16にSE-300PCIEの本体を差し込みました。&lt;/p&gt;
+&lt;p&gt;グラフィックカードのSLIやCrossFireを使わないなら、ここで問題ないでしょう。&lt;/p&gt;
+&lt;p&gt;PCI-E x1が2スロットありますが、ことごとくグラフィックカードと干渉します。&lt;/p&gt;
+&lt;table border=&#34;1&#34; cellspacing=&#34;0&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;スロット&lt;/th&gt;
+&lt;th&gt;差し込みカード&lt;/th&gt;
+&lt;th&gt;バックパネル&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x1-1&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x16-1&lt;/td&gt;
+&lt;td&gt;Radeon HD 5670&lt;/td&gt;
+&lt;td&gt;Radeon HD 5670&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x1-2&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x4-1&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x16-2&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x4-2&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;USB2.0/IEEE1394&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+こんな感じです。
+&lt;p&gt;SE-300PCIE を PCI-E x1 に接続すると認識されないなどの現象があるようです。&lt;/p&gt;
+&lt;p&gt;x4以上のスロットなら大丈夫らしいです。&lt;/p&gt;
+&lt;p&gt;PCI-E x4-1のスロットにそのうち差し替えます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;気になる音質ですが、美辞麗句や酷評は薀蓄を語る人たちに任せます。&lt;/p&gt;
+&lt;p&gt;最近では「付帯感のない」などという意味のわからない言葉が横行してます。&lt;/p&gt;
+&lt;p&gt;あげぽよと同じくらい意味わからないです。&lt;/p&gt;
+&lt;p&gt;結局のところ聞きやすいかどうかだけ。&lt;/p&gt;
+&lt;p&gt;で、SE-300PCIE は聞きやすい。&lt;/p&gt;
+&lt;p&gt;もうひとつ、音飛びやノイズがなくなってストレス解消ですわ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;百万超えの外付けUSB音源で音飛びしているやつとか、もう悲惨としかいえないだろ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ONKYO SE-300PCIE on Windows 8 Pro 64bit</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</link>
+        <pubDate>Fri, 16 Nov 2012 15:02:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</guid>
+        <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;ONKYO SE-200PCI LTD が、OSやドライバーの構成状況、インストールタイミングによって、PCIバスでの信号遅延が発生し、音飛びやノイズが発生していた状態だったので、辛抱たまらず、&lt;a href=&#34;http://www.jp.onkyo.com/pcaudio/pciedigitalaudioboard/special/&#34; target=&#34;_blank&#34;&gt;ONKYO SE-300PCIE&lt;/a&gt; に買い換えました。&lt;/p&gt;
+&lt;p&gt;商品名にもあるとおりPCI-Enhanced バスを使用します。&lt;/p&gt;
+&lt;p&gt;SE-300PCIE はカードの高さがあり、隣のバスに干渉しますので2スロット分の空きが必要になります。&lt;/p&gt;
+&lt;p&gt;GIGA-BYTE GA-990FXA-UD3の一番下のスロットに差し込んでやろうとしたら、USB2.0やUSB3.0、IEEE1394のコネクタに干渉して取り付けできませんでした。&lt;/p&gt;
+&lt;p&gt;下から2番目のスロットはPCIなので、ここにはSE-300PCIEの拡張コネクタを差し込みます。&lt;/p&gt;
+&lt;p&gt;下から3番目のスロットのPCI-E x16にSE-300PCIEの本体を差し込みました。&lt;/p&gt;
+&lt;p&gt;グラフィックカードのSLIやCrossFireを使わないなら、ここで問題ないでしょう。&lt;/p&gt;
+&lt;p&gt;PCI-E x1が2スロットありますが、ことごとくグラフィックカードと干渉します。&lt;/p&gt;
+&lt;table border=&#34;1&#34; cellspacing=&#34;0&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;スロット&lt;/th&gt;
+&lt;th&gt;差し込みカード&lt;/th&gt;
+&lt;th&gt;バックパネル&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x1-1&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x16-1&lt;/td&gt;
+&lt;td&gt;Radeon HD 5670&lt;/td&gt;
+&lt;td&gt;Radeon HD 5670&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x1-2&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x4-1&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x16-2&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x4-2&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;USB2.0/IEEE1394&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+こんな感じです。
+&lt;p&gt;SE-300PCIE を PCI-E x1 に接続すると認識されないなどの現象があるようです。&lt;/p&gt;
+&lt;p&gt;x4以上のスロットなら大丈夫らしいです。&lt;/p&gt;
+&lt;p&gt;PCI-E x4-1のスロットにそのうち差し替えます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;気になる音質ですが、美辞麗句や酷評は薀蓄を語る人たちに任せます。&lt;/p&gt;
+&lt;p&gt;最近では「付帯感のない」などという意味のわからない言葉が横行してます。&lt;/p&gt;
+&lt;p&gt;あげぽよと同じくらい意味わからないです。&lt;/p&gt;
+&lt;p&gt;結局のところ聞きやすいかどうかだけ。&lt;/p&gt;
+&lt;p&gt;で、SE-300PCIE は聞きやすい。&lt;/p&gt;
+&lt;p&gt;もうひとつ、音飛びやノイズがなくなってストレス解消ですわ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;百万超えの外付けUSB音源で音飛びしているやつとか、もう悲惨としかいえないだろ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 8 Pro Upgrade (32/64bit)</title>
+        <link>http://localhost:1313/daily_blog/post/2012-11-02-windows-8-pro-upgrade-3264bit/</link>
+        <pubDate>Fri, 02 Nov 2012 12:22:48 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-11-02-windows-8-pro-upgrade-3264bit/</guid>
+        <description>&lt;p&gt;Windows 8 Pro のアップグレードが、ダウンロード販売で3,300円という安さだったので、発売日に迷わず購入しました。&lt;/p&gt;
+&lt;p&gt;ノートPC、自作ミドルタワーPCの常用している2台を、早速アップグレードしました。&lt;/p&gt;
+&lt;p&gt;ノートPCは、hp ProBook 4515s (CPU:AMD Sempron M100 / Memory 4GB増 / SSD256GB換装) で、Windows 7 Home Premium (32bit)です。&lt;/p&gt;
+&lt;p&gt;まずは、ダウンロード購入時ままデスクトップ上でセットアップを実行。&lt;/p&gt;
+&lt;p&gt;約10分で1回の再起動で完了しました。&lt;/p&gt;
+&lt;p&gt;ドライバ類はWindows 8 に含まれているものと、Windows 7からそのまま引き継いだものがありますが、別段、インストールせずにすぐに利用可能でした。&lt;/p&gt;
+&lt;p&gt;Windows 8 に対応したドライバはまだメーカーのHPには上がってはいませんが、特に問題ないでしょう。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、今度は同じノートPCにクリーンインストールしてみます。&lt;/p&gt;
+&lt;p&gt;ダウンロードしたセットアッププログラムからセットアップDVDのISOが出力されるので、それからDVD-Rに書き込みます。&lt;/p&gt;
+&lt;p&gt;で、そのDVDをPCに入れて起動すれば、普通にセットアップが始まります。&lt;/p&gt;
+&lt;p&gt;インストールドライブの選択時に、元のパーティションを全削除して、再割り当て。&lt;/p&gt;
+&lt;p&gt;アップグレードですが、既存OSの確認なしにセットアップできます。&lt;/p&gt;
+&lt;p&gt;ただしアクティベーションは強固になっているそうです。&lt;/p&gt;
+&lt;p&gt;で、これも簡単にインストールが終了して、ほぼすぐに使えますが、タッチパッドの一部機能が使えないので、ドライバーは、メーカーサイトではなくOEMの供給元のサイトからダウンロードします。&lt;/p&gt;
+&lt;p&gt;Windows 7用のドライバーが使えるので、ほかのハードウェアも気になるようならインストールします。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;つぎはミドルタワーPCをアップグレードします。&lt;/p&gt;
+&lt;p&gt;大まかな構成は以下の通りです。&lt;/p&gt;
+&lt;p&gt;CPU : AMD FX-6100&lt;/p&gt;
+&lt;p&gt;M/B : Giga-Byte GA-990FXA-UD3 (rev.1.1)&lt;/p&gt;
+&lt;p&gt;Mem : 8GB (DDR3-1600)&lt;/p&gt;
+&lt;p&gt;HDD/SSD : ADATA P900 / WD Caviar Green 2.0TB / 3.0TB&lt;/p&gt;
+&lt;p&gt;Optical : PIONEER BD&lt;/p&gt;
+&lt;p&gt;Graphic : AMD Radeon HD 5670&lt;/p&gt;
+&lt;p&gt;Audio : Onkyo SE-200PCI LTD (VIA Envy24HT)&lt;/p&gt;
+&lt;p&gt;Printer : EPSON PX-G5100&lt;/p&gt;
+&lt;p&gt;OS : Windows 7 Ultimate (64bit)&lt;/p&gt;
+&lt;p&gt;のアップグレードです。&lt;/p&gt;
+&lt;p&gt;これもダウンロード時のセットアッププログラムからアップグレードを開始します。&lt;/p&gt;
+&lt;p&gt;「ユーザー環境やプログラム設定はそのまま」を選んで、ものの20分ほどで完了しました。&lt;/p&gt;
+&lt;p&gt;再起動後、普通に利用できます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;チップセットとビデオカードについては、一応、メーカーサイトにWindows 8 64bit用のドライバーが出ていたので、インストールしました。&lt;/p&gt;
+&lt;p&gt;あと、BIOSも新しいものが出ていたので、アップデートしました。&lt;/p&gt;
+&lt;p&gt;Cool&amp;rsquo;n&amp;rsquo;Quiet はもちろんインストールしません。&lt;/p&gt;
+&lt;p&gt;GA-990FXA-UD3はUEFI対応ですし、Windows 8 でハードウェアの能力をかなり引き出せるようになっているそうです。&lt;/p&gt;
+&lt;p&gt;起動ドライブに3TB超えのHDDが使えたりだけじゃなく、転送速度もかなり向上しています。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;アプリケーションに関しては、ATOK 2010が、64bitのWindows 8では動作しないので、ATOK 2012に乗り換えました。&lt;/p&gt;
+&lt;p&gt;ただし、Windows 8 のMetro UIではATOK2012も利用できません。&lt;/p&gt;
+&lt;p&gt;つぎのWindows 8対応のATOKを見込んで、ATOK Passportでの購入です。&lt;/p&gt;
+&lt;p&gt;それから、Sony WlakmanのステーションアプリとなるX-ApplicationがVer.5に更新され、Windows 8に対応していたので、アップグレードしました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;まあWindows 7で動いていたアプリケーションは、だいたいWindows 8で動きます。&lt;/p&gt;
+&lt;p&gt;Microsoft Security Essentialsは、Windows 8 では、Windows Defenderに統合され、OSの機能になったので、Windows 8にアップグレードする際、アンインストールが必須となりました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;foobar2000 は、特に問題なく使えてます。&lt;/p&gt;
+&lt;p&gt;Windows 8 でオーディオ機能が大幅に改良されたらしいので、対応したアプリケーションがでてくるのが待ち遠しいですね。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Metro UIのせいでデスクトップが使いづらくなったのは、まあ慣れれば、ちょっと使いづらいランチャーアプリになったと思えばいいので・・・。&lt;/p&gt;
+&lt;p&gt;ストアアプリ（Metroアプリ）のほとんどは、見た目はいいですが、細かい機能がないので、滅多に使うことがないです。&lt;/p&gt;
+&lt;p&gt;Microsoft謹製のWindows標準ゲームのソリティアやマインスイーパなどは、ストアアプリに移動して、楽しくなりました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;スタートボタンを復活させる更新をMicrosoftに非常にお願いしたいな。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 8 Pro Upgrade (32/64bit)</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-11-02-windows-8-pro-upgrade-3264bit/</link>
+        <pubDate>Fri, 02 Nov 2012 12:22:48 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-11-02-windows-8-pro-upgrade-3264bit/</guid>
+        <description>&lt;p&gt;Windows 8 Pro のアップグレードが、ダウンロード販売で3,300円という安さだったので、発売日に迷わず購入しました。&lt;/p&gt;
+&lt;p&gt;ノートPC、自作ミドルタワーPCの常用している2台を、早速アップグレードしました。&lt;/p&gt;
+&lt;p&gt;ノートPCは、hp ProBook 4515s (CPU:AMD Sempron M100 / Memory 4GB増 / SSD256GB換装) で、Windows 7 Home Premium (32bit)です。&lt;/p&gt;
+&lt;p&gt;まずは、ダウンロード購入時ままデスクトップ上でセットアップを実行。&lt;/p&gt;
+&lt;p&gt;約10分で1回の再起動で完了しました。&lt;/p&gt;
+&lt;p&gt;ドライバ類はWindows 8 に含まれているものと、Windows 7からそのまま引き継いだものがありますが、別段、インストールせずにすぐに利用可能でした。&lt;/p&gt;
+&lt;p&gt;Windows 8 に対応したドライバはまだメーカーのHPには上がってはいませんが、特に問題ないでしょう。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、今度は同じノートPCにクリーンインストールしてみます。&lt;/p&gt;
+&lt;p&gt;ダウンロードしたセットアッププログラムからセットアップDVDのISOが出力されるので、それからDVD-Rに書き込みます。&lt;/p&gt;
+&lt;p&gt;で、そのDVDをPCに入れて起動すれば、普通にセットアップが始まります。&lt;/p&gt;
+&lt;p&gt;インストールドライブの選択時に、元のパーティションを全削除して、再割り当て。&lt;/p&gt;
+&lt;p&gt;アップグレードですが、既存OSの確認なしにセットアップできます。&lt;/p&gt;
+&lt;p&gt;ただしアクティベーションは強固になっているそうです。&lt;/p&gt;
+&lt;p&gt;で、これも簡単にインストールが終了して、ほぼすぐに使えますが、タッチパッドの一部機能が使えないので、ドライバーは、メーカーサイトではなくOEMの供給元のサイトからダウンロードします。&lt;/p&gt;
+&lt;p&gt;Windows 7用のドライバーが使えるので、ほかのハードウェアも気になるようならインストールします。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;つぎはミドルタワーPCをアップグレードします。&lt;/p&gt;
+&lt;p&gt;大まかな構成は以下の通りです。&lt;/p&gt;
+&lt;p&gt;CPU : AMD FX-6100&lt;/p&gt;
+&lt;p&gt;M/B : Giga-Byte GA-990FXA-UD3 (rev.1.1)&lt;/p&gt;
+&lt;p&gt;Mem : 8GB (DDR3-1600)&lt;/p&gt;
+&lt;p&gt;HDD/SSD : ADATA P900 / WD Caviar Green 2.0TB / 3.0TB&lt;/p&gt;
+&lt;p&gt;Optical : PIONEER BD&lt;/p&gt;
+&lt;p&gt;Graphic : AMD Radeon HD 5670&lt;/p&gt;
+&lt;p&gt;Audio : Onkyo SE-200PCI LTD (VIA Envy24HT)&lt;/p&gt;
+&lt;p&gt;Printer : EPSON PX-G5100&lt;/p&gt;
+&lt;p&gt;OS : Windows 7 Ultimate (64bit)&lt;/p&gt;
+&lt;p&gt;のアップグレードです。&lt;/p&gt;
+&lt;p&gt;これもダウンロード時のセットアッププログラムからアップグレードを開始します。&lt;/p&gt;
+&lt;p&gt;「ユーザー環境やプログラム設定はそのまま」を選んで、ものの20分ほどで完了しました。&lt;/p&gt;
+&lt;p&gt;再起動後、普通に利用できます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;チップセットとビデオカードについては、一応、メーカーサイトにWindows 8 64bit用のドライバーが出ていたので、インストールしました。&lt;/p&gt;
+&lt;p&gt;あと、BIOSも新しいものが出ていたので、アップデートしました。&lt;/p&gt;
+&lt;p&gt;Cool&amp;rsquo;n&amp;rsquo;Quiet はもちろんインストールしません。&lt;/p&gt;
+&lt;p&gt;GA-990FXA-UD3はUEFI対応ですし、Windows 8 でハードウェアの能力をかなり引き出せるようになっているそうです。&lt;/p&gt;
+&lt;p&gt;起動ドライブに3TB超えのHDDが使えたりだけじゃなく、転送速度もかなり向上しています。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;アプリケーションに関しては、ATOK 2010が、64bitのWindows 8では動作しないので、ATOK 2012に乗り換えました。&lt;/p&gt;
+&lt;p&gt;ただし、Windows 8 のMetro UIではATOK2012も利用できません。&lt;/p&gt;
+&lt;p&gt;つぎのWindows 8対応のATOKを見込んで、ATOK Passportでの購入です。&lt;/p&gt;
+&lt;p&gt;それから、Sony WlakmanのステーションアプリとなるX-ApplicationがVer.5に更新され、Windows 8に対応していたので、アップグレードしました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;まあWindows 7で動いていたアプリケーションは、だいたいWindows 8で動きます。&lt;/p&gt;
+&lt;p&gt;Microsoft Security Essentialsは、Windows 8 では、Windows Defenderに統合され、OSの機能になったので、Windows 8にアップグレードする際、アンインストールが必須となりました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;foobar2000 は、特に問題なく使えてます。&lt;/p&gt;
+&lt;p&gt;Windows 8 でオーディオ機能が大幅に改良されたらしいので、対応したアプリケーションがでてくるのが待ち遠しいですね。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Metro UIのせいでデスクトップが使いづらくなったのは、まあ慣れれば、ちょっと使いづらいランチャーアプリになったと思えばいいので・・・。&lt;/p&gt;
+&lt;p&gt;ストアアプリ（Metroアプリ）のほとんどは、見た目はいいですが、細かい機能がないので、滅多に使うことがないです。&lt;/p&gt;
+&lt;p&gt;Microsoft謹製のWindows標準ゲームのソリティアやマインスイーパなどは、ストアアプリに移動して、楽しくなりました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;スタートボタンを復活させる更新をMicrosoftに非常にお願いしたいな。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cool&#39;n&#39;Quiet が音飛びの原因</title>
+        <link>http://localhost:1313/daily_blog/post/2012-10-18-coolnquiet-%E3%81%8B%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%AE%E5%8E%9F%E5%9B%A0/</link>
+        <pubDate>Thu, 18 Oct 2012 11:39:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-10-18-coolnquiet-%E3%81%8B%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%AE%E5%8E%9F%E5%9B%A0/</guid>
+        <description>&lt;p&gt;新しくしたCPU(AMD FX6100)、M/B(GIGABYTE GA-990FXA UD3)、RAM(DD3-1600 8GB)の環境を導入するに当たり、M/Bに付属していたDVD-ROMに入っているドライバー、アプリケーションをインストールしていたのが問題でした。&lt;/p&gt;
+&lt;p&gt;なんとなく省エネの雰囲気に流されて、GIGABYTE製の省エネアプリ、AMD製の省エネアプリを入れてました。&lt;/p&gt;
+&lt;p&gt;両方ともアンインストールしたことで、Windows 7 64bit (ONKYO SE-200PCI LTD)の環境で音飛びしなくなりました。&lt;/p&gt;
+&lt;p&gt;ずいぶん前に、AMDのCool&amp;rsquo;n&amp;rsquo;Quietが、いろいろなもので処理落ちする原因になっていることを知っていたはずなのですが、ついついインストールしてしまいました。&lt;/p&gt;
+&lt;p&gt;CPU、M/Bを入れ替える前はCool&amp;rsquo;n&amp;rsquo;Quietをインストールしてなかったので、音飛びしないはずです。&lt;/p&gt;
+&lt;p&gt;てっきり、PCIバスの実装方法に問題があるのかと思ってしまいました。&lt;/p&gt;
+&lt;p&gt;GA-990FX UD3のノースチップはAMD 990FX、サウスチップはAMD SB950です。
+PCIバスはSB950に接続されています。
+しかもネイティブで対応しています。
+間にPCIeブリッジなどは入っていません。&lt;/p&gt;
+&lt;p&gt;つまり処理落ちの原因は、Cool&amp;rsquo;n&amp;rsquo;Quietによる割り込みタイマーなどの優先順位やウェイトなどに問題があるからです。&lt;/p&gt;
+&lt;p&gt;省エネは必要ないので、まあいいかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cool&#39;n&#39;Quiet が音飛びの原因</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-10-18-coolnquiet-%E3%81%8B%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%AE%E5%8E%9F%E5%9B%A0/</link>
+        <pubDate>Thu, 18 Oct 2012 11:39:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-10-18-coolnquiet-%E3%81%8B%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%AE%E5%8E%9F%E5%9B%A0/</guid>
+        <description>&lt;p&gt;新しくしたCPU(AMD FX6100)、M/B(GIGABYTE GA-990FXA UD3)、RAM(DD3-1600 8GB)の環境を導入するに当たり、M/Bに付属していたDVD-ROMに入っているドライバー、アプリケーションをインストールしていたのが問題でした。&lt;/p&gt;
+&lt;p&gt;なんとなく省エネの雰囲気に流されて、GIGABYTE製の省エネアプリ、AMD製の省エネアプリを入れてました。&lt;/p&gt;
+&lt;p&gt;両方ともアンインストールしたことで、Windows 7 64bit (ONKYO SE-200PCI LTD)の環境で音飛びしなくなりました。&lt;/p&gt;
+&lt;p&gt;ずいぶん前に、AMDのCool&amp;rsquo;n&amp;rsquo;Quietが、いろいろなもので処理落ちする原因になっていることを知っていたはずなのですが、ついついインストールしてしまいました。&lt;/p&gt;
+&lt;p&gt;CPU、M/Bを入れ替える前はCool&amp;rsquo;n&amp;rsquo;Quietをインストールしてなかったので、音飛びしないはずです。&lt;/p&gt;
+&lt;p&gt;てっきり、PCIバスの実装方法に問題があるのかと思ってしまいました。&lt;/p&gt;
+&lt;p&gt;GA-990FX UD3のノースチップはAMD 990FX、サウスチップはAMD SB950です。
+PCIバスはSB950に接続されています。
+しかもネイティブで対応しています。
+間にPCIeブリッジなどは入っていません。&lt;/p&gt;
+&lt;p&gt;つまり処理落ちの原因は、Cool&amp;rsquo;n&amp;rsquo;Quietによる割り込みタイマーなどの優先順位やウェイトなどに問題があるからです。&lt;/p&gt;
+&lt;p&gt;省エネは必要ないので、まあいいかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Foobar2000 WASAPI component Update</title>
+        <link>http://localhost:1313/daily_blog/post/2012-09-29-foobar2000-wasapi-component-update/</link>
+        <pubDate>Sat, 29 Sep 2012 23:16:56 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-09-29-foobar2000-wasapi-component-update/</guid>
+        <description>&lt;p&gt;Foobar2000 の WASAPIコンポーネントが約3年ぶりに更新されました。&lt;/p&gt;
+&lt;p&gt;機能的には32bit 浮動小数点演算とWASAPIのモードをイベント駆動とプッシュの二つに対応したことでしょうか。&lt;/p&gt;
+&lt;p&gt;あと、サウンドカードドライバーのバグなどでFoobar2000がクラッシュするのを分離するため、サンドボックスを用意したことでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;先の二つのモードですが、イベント駆動が良いようですが、USBデバイスでは対応していない物が多いそうです。&lt;/p&gt;
+&lt;p&gt;その場合はPushにするようです。&lt;/p&gt;
+&lt;p&gt;イベント駆動ができる場合は、イベント駆動に。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音質はバッファーと割り込みタイミングの設定を間違えなければ、どちらも同じです。&lt;/p&gt;
+&lt;p&gt;音が高域側にシフトするとか音飛びするようなら、バッファーが足りておらずデータ抜けを起こしている可能性があります。&lt;/p&gt;
+&lt;p&gt;細かなデータ抜けは高域側にノイズとして出てくるため、高域に量感が出たように錯覚します。&lt;/p&gt;
+&lt;p&gt;DTMで使う目的で発音タイミングがシビアになる必要がある場合以外なら、バッファーを多めにとる方が良いのではないでしょうか。&lt;/p&gt;
+&lt;p&gt;レイテンシーとジッターエラーを混同している人が、レイテンシーを極力短くしようとしますが、音質上のメリットは何一つとしてありませんけどね。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Foobar2000 WASAPI component Update</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-09-29-foobar2000-wasapi-component-update/</link>
+        <pubDate>Sat, 29 Sep 2012 23:16:56 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-09-29-foobar2000-wasapi-component-update/</guid>
+        <description>&lt;p&gt;Foobar2000 の WASAPIコンポーネントが約3年ぶりに更新されました。&lt;/p&gt;
+&lt;p&gt;機能的には32bit 浮動小数点演算とWASAPIのモードをイベント駆動とプッシュの二つに対応したことでしょうか。&lt;/p&gt;
+&lt;p&gt;あと、サウンドカードドライバーのバグなどでFoobar2000がクラッシュするのを分離するため、サンドボックスを用意したことでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;先の二つのモードですが、イベント駆動が良いようですが、USBデバイスでは対応していない物が多いそうです。&lt;/p&gt;
+&lt;p&gt;その場合はPushにするようです。&lt;/p&gt;
+&lt;p&gt;イベント駆動ができる場合は、イベント駆動に。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音質はバッファーと割り込みタイミングの設定を間違えなければ、どちらも同じです。&lt;/p&gt;
+&lt;p&gt;音が高域側にシフトするとか音飛びするようなら、バッファーが足りておらずデータ抜けを起こしている可能性があります。&lt;/p&gt;
+&lt;p&gt;細かなデータ抜けは高域側にノイズとして出てくるため、高域に量感が出たように錯覚します。&lt;/p&gt;
+&lt;p&gt;DTMで使う目的で発音タイミングがシビアになる必要がある場合以外なら、バッファーを多めにとる方が良いのではないでしょうか。&lt;/p&gt;
+&lt;p&gt;レイテンシーとジッターエラーを混同している人が、レイテンシーを極力短くしようとしますが、音質上のメリットは何一つとしてありませんけどね。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows7 x64で音飛び</title>
+        <link>http://localhost:1313/daily_blog/post/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/</link>
+        <pubDate>Sun, 23 Sep 2012 10:24:20 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/</guid>
+        <description>&lt;p&gt;先日PCのマザーボード、CPU、メモリを入れ替えました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;元は&lt;/p&gt;
+&lt;p&gt;CPU : AMD Phenom 64 x4 (4Core)&lt;/p&gt;
+&lt;p&gt;M/B : ASUS M3A32 MVP Delux / WiFi AP&lt;/p&gt;
+&lt;p&gt;Mem : DDR2-800MHz 2GBx4&lt;/p&gt;
+&lt;p&gt;から&lt;/p&gt;
+&lt;p&gt;CPU : AMD FX6100 (6Core)&lt;/p&gt;
+&lt;p&gt;M/B : GIGA-BYTE GA-990FXA -UD3&lt;/p&gt;
+&lt;p&gt;Mem : DDR3-1333MHz 4GBx2&lt;/p&gt;
+&lt;p&gt;です。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;パーツを入れ替えた後、OSの再インストールなしに起動して、ドライバー類をインストール。&lt;/p&gt;
+&lt;p&gt;特に問題なく・・・、と思いきや。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音声ファイルや動画ファイルを再生すると、度々音飛び（処理落ち）が発生するようになりました。&lt;/p&gt;
+&lt;p&gt;動画自体の処理落ちは発生していないことから、サウンドデバイス周辺での処理落ちが疑われます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、サウンドカードですが、ONKYO SE-200PCI LTDです。&lt;/p&gt;
+&lt;p&gt;設計の同じSE-200PCIは、2006年の製品ですし、チップ自体もVIA Envy24 HTと結構古いものが使われています。&lt;/p&gt;
+&lt;p&gt;古いからと言って音質が悪いわけではないですが、機能はいまいちです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音飛びの問題は、PCIバスへの信号遅延だと想像してます。&lt;/p&gt;
+&lt;p&gt;PCIバスはSB950のサウスブリッジに直でつながっています。&lt;/p&gt;
+&lt;p&gt;M3A32 MVPの頃はPCIバスも現役でしたから、BIOSにもPCI周りの設定項目がちゃんとありましたが、今のGA-990FXA-UD3にはPCI関連の項目がありません。&lt;/p&gt;
+&lt;p&gt;PCIバスのカード上でバッファメモリーの量を増やすことができれば解決する問題かなとも想います。&lt;/p&gt;
+&lt;p&gt;しかし、SE-200PCI LTDのドライバーには、バッファメモリーの量を設定する項目はありません。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;現在PCIバスを搭載しているマザーボードは希少ですし、今後、VIAによるドライバーの改修が行われる可能性は非常に低いものと思います。&lt;/p&gt;
+&lt;p&gt;またBIOS側でPCIバスのレイテンシーの調整項目が追加される可能性も低いのではないかと思います。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;なぜなら、PCIサウンドカードという市場がもはやないから。&lt;/p&gt;
+&lt;p&gt;USBかオンボードかPCIeの3択で前者二つが大半だからです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;でも音飛びを現状のハードウェアで解決する方法が無きにしも非ずらしいです。&lt;/p&gt;
+&lt;p&gt;1つ目はWindowsアプリケーションで強制的にPCI Latencyを書き換える方法。&lt;/p&gt;
+&lt;p&gt;2つ目はPCIバスへの割り込みを徹底的に除去してマルチコアCPUでのスレッド分配を遅延させない方法。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;前者はWindows7ではハングアップやインストール不能などの報告例が多い「PCI Latency Tool」。&lt;/p&gt;
+&lt;p&gt;後者はAMD Cool&amp;rsquo;n&amp;rsquo;Quietと省電力機能の解除とWindowsサウンドの解除。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;前者のツールが利用できれば、簡単だったんですが、インストールできませんでした。&lt;/p&gt;
+&lt;p&gt;管理者権限でインストールしろと言われるのですが、その権限でインストールしているにも関わらず。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;さて後者は、今日あたり試してみようかと思います。&lt;/p&gt;
+&lt;p&gt;でもきっと変わらず音飛びするんだろうなぁ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、結局Cool&amp;rsquo;n&amp;rsquo;Quietのアンインストールで、音飛びがなくなりました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows7 x64で音飛び</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/</link>
+        <pubDate>Sun, 23 Sep 2012 10:24:20 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/</guid>
+        <description>&lt;p&gt;先日PCのマザーボード、CPU、メモリを入れ替えました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;元は&lt;/p&gt;
+&lt;p&gt;CPU : AMD Phenom 64 x4 (4Core)&lt;/p&gt;
+&lt;p&gt;M/B : ASUS M3A32 MVP Delux / WiFi AP&lt;/p&gt;
+&lt;p&gt;Mem : DDR2-800MHz 2GBx4&lt;/p&gt;
+&lt;p&gt;から&lt;/p&gt;
+&lt;p&gt;CPU : AMD FX6100 (6Core)&lt;/p&gt;
+&lt;p&gt;M/B : GIGA-BYTE GA-990FXA -UD3&lt;/p&gt;
+&lt;p&gt;Mem : DDR3-1333MHz 4GBx2&lt;/p&gt;
+&lt;p&gt;です。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;パーツを入れ替えた後、OSの再インストールなしに起動して、ドライバー類をインストール。&lt;/p&gt;
+&lt;p&gt;特に問題なく・・・、と思いきや。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音声ファイルや動画ファイルを再生すると、度々音飛び（処理落ち）が発生するようになりました。&lt;/p&gt;
+&lt;p&gt;動画自体の処理落ちは発生していないことから、サウンドデバイス周辺での処理落ちが疑われます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、サウンドカードですが、ONKYO SE-200PCI LTDです。&lt;/p&gt;
+&lt;p&gt;設計の同じSE-200PCIは、2006年の製品ですし、チップ自体もVIA Envy24 HTと結構古いものが使われています。&lt;/p&gt;
+&lt;p&gt;古いからと言って音質が悪いわけではないですが、機能はいまいちです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音飛びの問題は、PCIバスへの信号遅延だと想像してます。&lt;/p&gt;
+&lt;p&gt;PCIバスはSB950のサウスブリッジに直でつながっています。&lt;/p&gt;
+&lt;p&gt;M3A32 MVPの頃はPCIバスも現役でしたから、BIOSにもPCI周りの設定項目がちゃんとありましたが、今のGA-990FXA-UD3にはPCI関連の項目がありません。&lt;/p&gt;
+&lt;p&gt;PCIバスのカード上でバッファメモリーの量を増やすことができれば解決する問題かなとも想います。&lt;/p&gt;
+&lt;p&gt;しかし、SE-200PCI LTDのドライバーには、バッファメモリーの量を設定する項目はありません。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;現在PCIバスを搭載しているマザーボードは希少ですし、今後、VIAによるドライバーの改修が行われる可能性は非常に低いものと思います。&lt;/p&gt;
+&lt;p&gt;またBIOS側でPCIバスのレイテンシーの調整項目が追加される可能性も低いのではないかと思います。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;なぜなら、PCIサウンドカードという市場がもはやないから。&lt;/p&gt;
+&lt;p&gt;USBかオンボードかPCIeの3択で前者二つが大半だからです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;でも音飛びを現状のハードウェアで解決する方法が無きにしも非ずらしいです。&lt;/p&gt;
+&lt;p&gt;1つ目はWindowsアプリケーションで強制的にPCI Latencyを書き換える方法。&lt;/p&gt;
+&lt;p&gt;2つ目はPCIバスへの割り込みを徹底的に除去してマルチコアCPUでのスレッド分配を遅延させない方法。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;前者はWindows7ではハングアップやインストール不能などの報告例が多い「PCI Latency Tool」。&lt;/p&gt;
+&lt;p&gt;後者はAMD Cool&amp;rsquo;n&amp;rsquo;Quietと省電力機能の解除とWindowsサウンドの解除。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;前者のツールが利用できれば、簡単だったんですが、インストールできませんでした。&lt;/p&gt;
+&lt;p&gt;管理者権限でインストールしろと言われるのですが、その権限でインストールしているにも関わらず。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;さて後者は、今日あたり試してみようかと思います。&lt;/p&gt;
+&lt;p&gt;でもきっと変わらず音飛びするんだろうなぁ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、結局Cool&amp;rsquo;n&amp;rsquo;Quietのアンインストールで、音飛びがなくなりました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>WordPressとFacebookの連携プラグイン</title>
+        <link>http://localhost:1313/daily_blog/post/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%95%E3%83%A9%E3%82%AF%E3%82%A4%E3%83%B3/</link>
+        <pubDate>Wed, 20 Jun 2012 03:12:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%95%E3%83%A9%E3%82%AF%E3%82%A4%E3%83%B3/</guid>
+        <description>&lt;p&gt;Facebookから公式に、WordPressのプラグインが公開されました。&lt;/p&gt;
+&lt;p&gt;WordPressで投稿した記事がFacebookのTimelineに掲載されるほか、「いいね」ボタン、「シェア」、「コメント」、「ユーザー」などが反映されます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;インストールしたものの、アカウントの認証でエラーが出ています。&lt;/p&gt;
+&lt;p&gt;エラーを解決しようと思ったのですが、ただいま、レンタルサーバーがメンテナンス中で、.htaccessを編集できないでいます。&lt;/p&gt;
+&lt;p&gt;たぶん違うところだろうけど。&lt;/p&gt;
+&lt;p&gt;解決は明日以降かな。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、&lt;/p&gt;
+&lt;p&gt;「Facebook social publishing is enabled. Link your Facebook account to your WordPress account to get full functionality, including adding new Posts to your Timeline.」&lt;/p&gt;
+&lt;p&gt;とWordpressの管理画面に出ているのですが、これをクリックするとエラー、API Error Code: 191と表示されます。&lt;/p&gt;
+&lt;p&gt;ネットで調べたらFacebookのアプリ設定で、App Domainが間違っているからとかいう書き込みをみたのですが、それはどうも違うようです。&lt;/p&gt;
+&lt;p&gt;で、App DomainやHosting URLは未入力のままじゃないとだめです。&lt;/p&gt;
+&lt;p&gt;Website with Facebook Loginの項目に自分のブログのトップURL (&lt;a href=&#34;http://yuki9902.com/wp/&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://yuki9902.com/wp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://yuki9902.com/wp/&lt;/a&gt;&lt;/a&gt;)を入れてやります。&lt;/p&gt;
+&lt;p&gt;それ以外の項目は未入力にしておいてください。&lt;/p&gt;
+&lt;p&gt;これでFacebook側の設定を保存します。&lt;/p&gt;
+&lt;p&gt;次にWordpressから&lt;/p&gt;
+&lt;p&gt;「Facebook social publishing is enabled. Link your Facebook account to your WordPress account to get full functionality, including adding new Posts to your Timeline.」&lt;/p&gt;
+&lt;p&gt;をクリックして、アカウントをリンクさせます。&lt;/p&gt;
+&lt;p&gt;そうすると成功したみたいです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;アカウントのリンクは成功しましたが、記事の投稿がうまくいきません。&lt;/p&gt;
+&lt;p&gt;「いいね」や「コメント」はうまくいくのに。&lt;/p&gt;
+&lt;p&gt;しばらく封印かな。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;[claudia]WordPressのPluginの新規追加から「Facebook」で検索すると、一番最初に表示されるわ。&lt;/p&gt;
+&lt;p&gt;特に設定ガイドと実際のFacebookのアプリ設定画面が違うから、迷うかもしれないわね。&lt;/p&gt;
+&lt;p&gt;肝心なことは何もヘルプに書かれてないしね。[/claudia]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>WordPressとFacebookの連携プラグイン</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%95%E3%83%A9%E3%82%AF%E3%82%A4%E3%83%B3/</link>
+        <pubDate>Wed, 20 Jun 2012 03:12:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-06-20-wordpress%E3%81%A8facebook%E3%81%AE%E9%80%A3%E6%90%BA%E3%83%95%E3%83%A9%E3%82%AF%E3%82%A4%E3%83%B3/</guid>
+        <description>&lt;p&gt;Facebookから公式に、WordPressのプラグインが公開されました。&lt;/p&gt;
+&lt;p&gt;WordPressで投稿した記事がFacebookのTimelineに掲載されるほか、「いいね」ボタン、「シェア」、「コメント」、「ユーザー」などが反映されます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;インストールしたものの、アカウントの認証でエラーが出ています。&lt;/p&gt;
+&lt;p&gt;エラーを解決しようと思ったのですが、ただいま、レンタルサーバーがメンテナンス中で、.htaccessを編集できないでいます。&lt;/p&gt;
+&lt;p&gt;たぶん違うところだろうけど。&lt;/p&gt;
+&lt;p&gt;解決は明日以降かな。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、&lt;/p&gt;
+&lt;p&gt;「Facebook social publishing is enabled. Link your Facebook account to your WordPress account to get full functionality, including adding new Posts to your Timeline.」&lt;/p&gt;
+&lt;p&gt;とWordpressの管理画面に出ているのですが、これをクリックするとエラー、API Error Code: 191と表示されます。&lt;/p&gt;
+&lt;p&gt;ネットで調べたらFacebookのアプリ設定で、App Domainが間違っているからとかいう書き込みをみたのですが、それはどうも違うようです。&lt;/p&gt;
+&lt;p&gt;で、App DomainやHosting URLは未入力のままじゃないとだめです。&lt;/p&gt;
+&lt;p&gt;Website with Facebook Loginの項目に自分のブログのトップURL (&lt;a href=&#34;http://yuki9902.com/wp/&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://yuki9902.com/wp/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://yuki9902.com/wp/&lt;/a&gt;&lt;/a&gt;)を入れてやります。&lt;/p&gt;
+&lt;p&gt;それ以外の項目は未入力にしておいてください。&lt;/p&gt;
+&lt;p&gt;これでFacebook側の設定を保存します。&lt;/p&gt;
+&lt;p&gt;次にWordpressから&lt;/p&gt;
+&lt;p&gt;「Facebook social publishing is enabled. Link your Facebook account to your WordPress account to get full functionality, including adding new Posts to your Timeline.」&lt;/p&gt;
+&lt;p&gt;をクリックして、アカウントをリンクさせます。&lt;/p&gt;
+&lt;p&gt;そうすると成功したみたいです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;アカウントのリンクは成功しましたが、記事の投稿がうまくいきません。&lt;/p&gt;
+&lt;p&gt;「いいね」や「コメント」はうまくいくのに。&lt;/p&gt;
+&lt;p&gt;しばらく封印かな。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;[claudia]WordPressのPluginの新規追加から「Facebook」で検索すると、一番最初に表示されるわ。&lt;/p&gt;
+&lt;p&gt;特に設定ガイドと実際のFacebookのアプリ設定画面が違うから、迷うかもしれないわね。&lt;/p&gt;
+&lt;p&gt;肝心なことは何もヘルプに書かれてないしね。[/claudia]&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AHCI problems?</title>
+        <link>http://localhost:1313/daily_blog/post/2010-11-02-ahci-problems/</link>
+        <pubDate>Tue, 02 Nov 2010 00:00:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-11-02-ahci-problems/</guid>
+        <description>&lt;p&gt;AHCIモードにしてしばらく使っていたんですが、X-APPLICATIONで曲の再生中に途切れることが発生するようになりました。
+他にもディスクのアクセス時につっかかるようなタイムラグが発生するようになりました。
+どうも人為的操作がないと15分ほどでHDDがスリープするようです。
+ドライバの問題か、AHCIのデフォルト動作の問題か、AHCIに関する資料が少なすぎて分からないです。&lt;/p&gt;
+&lt;p&gt;省電力管理はあまり望まないんですけどね。
+それよりも最大パフォーマンスを発揮してほしい。&lt;/p&gt;
+&lt;p&gt;んで、IDEモードに戻しました。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AHCI problems?</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-11-02-ahci-problems/</link>
+        <pubDate>Tue, 02 Nov 2010 00:00:55 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-11-02-ahci-problems/</guid>
+        <description>&lt;p&gt;AHCIモードにしてしばらく使っていたんですが、X-APPLICATIONで曲の再生中に途切れることが発生するようになりました。
+他にもディスクのアクセス時につっかかるようなタイムラグが発生するようになりました。
+どうも人為的操作がないと15分ほどでHDDがスリープするようです。
+ドライバの問題か、AHCIのデフォルト動作の問題か、AHCIに関する資料が少なすぎて分からないです。&lt;/p&gt;
+&lt;p&gt;省電力管理はあまり望まないんですけどね。
+それよりも最大パフォーマンスを発揮してほしい。&lt;/p&gt;
+&lt;p&gt;んで、IDEモードに戻しました。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AHCI at AMD SB600 on Windows7 64bit</title>
+        <link>http://localhost:1313/daily_blog/post/2010-10-12-ahci-at-amd-sb600-on-windows7-64bit/</link>
+        <pubDate>Tue, 12 Oct 2010 15:00:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-10-12-ahci-at-amd-sb600-on-windows7-64bit/</guid>
+        <description>&lt;p&gt;ここ数年PCの勉強してなかったら、M/Bの能力を引き出すことを全く忘れてました。&lt;/p&gt;
+&lt;p&gt;SATA2のHDDを購入したのを機にもうちょっと出来ることがあるんではないのかとBIOSを見ていると、SATAの項目の中にAHCIがありました。
+SATA2対応ディスクの性能を引き出すためには、設定してほうが良いらしいとのことだったので、AHCIに設定して、Windows7を起動させようとしました。&lt;/p&gt;
+&lt;p&gt;すると起動時にクラッシュして、復元モードが起動しました。
+しかも復元モードも途中で、「復元できませんでした」と表示されます。&lt;/p&gt;
+&lt;p&gt;まあさっぱり勉強していなかったので仕方ないです。&lt;/p&gt;
+&lt;p&gt;とりあえずSATA設定をIDEに戻して再起動すると、Windows7が起動できました。
+インターネットでAHCIについて調べてみると、IDEモードでインストールしたWindows7/VISTAをAHCIモードにして起動した場合、クラッシュすると書かれていました。
+それからIDEモードでインストールした後にAHCIモードにする方法がありました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://windows7.wiki.fc2.com/wiki/AHCI%E3%83%A2%E3%83%BC%E3%83%89&#34; target=&#34;_blank&#34;&gt;AHCIモード - Windows7移行まとめwiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;先のリンク先の説明はIntelのチップセット。
+私の持っているのはAMDのSB600なので、&lt;a title=&#34;AMDのサイト&#34; href=&#34;http://support.amd.com/us/gpudownload/windows/Pages/raid_windows.aspx&#34; target=&#34;_blank&#34;&gt;AMDのサイトからAHCI用のドライバー&lt;/a&gt;をダウンロードします。
+注) Windows 7の標準ドライバのほうが良いようで、AMDからSB600用のACHIドライバの配布はなくなりました。
+上記のリンクにはSB700以降のドライバがあります。&lt;/p&gt;
+&lt;p&gt;次にレジストリを変更。レジストリエディタを起動し、&lt;/p&gt;
+&lt;p&gt;HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Msahciのサブキーを選択。&lt;/p&gt;
+&lt;p&gt;「Start」の数値を3から0に変更し保存しまう。
+（数値が4の場合なども有り）&lt;/p&gt;
+&lt;p&gt;Windows7を再起動させて、BIOSでSATAをAHCIモードに設定して、起動。
+Windows7が起動するとHDDなどを再認識して、ドライバーを再構成。
+また再起動。
+そしてAMDのAHCIドライバーをインストールして再起動。&lt;/p&gt;
+&lt;p&gt;ついでにサウスブリッジのドライバーもインストールしておきます。&lt;/p&gt;
+&lt;p&gt;CrystalDiskMarkで速度を計測しましたが、シーケンシャルアクセスでは
+１％以内の差があるかどうかです。
+random accessでも5%も差が無いようです。
+まあ、最大性能を出したと言うことで良しとしましょう。&lt;/p&gt;
+&lt;p&gt;で、AHCIモードでWindowsVISTAをインストールするにはWindowsの修正プログラムを適用したSP1が必要だそうです。
+Windows7については分からないです。
+WindowsXPについてはドライバーディスクを用意しておく必要があるそうです。
+IDEモードでインストールしたあとにAHCIモードに切り替えた方が簡単かも。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>AHCI at AMD SB600 on Windows7 64bit</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-10-12-ahci-at-amd-sb600-on-windows7-64bit/</link>
+        <pubDate>Tue, 12 Oct 2010 15:00:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-10-12-ahci-at-amd-sb600-on-windows7-64bit/</guid>
+        <description>&lt;p&gt;ここ数年PCの勉強してなかったら、M/Bの能力を引き出すことを全く忘れてました。&lt;/p&gt;
+&lt;p&gt;SATA2のHDDを購入したのを機にもうちょっと出来ることがあるんではないのかとBIOSを見ていると、SATAの項目の中にAHCIがありました。
+SATA2対応ディスクの性能を引き出すためには、設定してほうが良いらしいとのことだったので、AHCIに設定して、Windows7を起動させようとしました。&lt;/p&gt;
+&lt;p&gt;すると起動時にクラッシュして、復元モードが起動しました。
+しかも復元モードも途中で、「復元できませんでした」と表示されます。&lt;/p&gt;
+&lt;p&gt;まあさっぱり勉強していなかったので仕方ないです。&lt;/p&gt;
+&lt;p&gt;とりあえずSATA設定をIDEに戻して再起動すると、Windows7が起動できました。
+インターネットでAHCIについて調べてみると、IDEモードでインストールしたWindows7/VISTAをAHCIモードにして起動した場合、クラッシュすると書かれていました。
+それからIDEモードでインストールした後にAHCIモードにする方法がありました。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://windows7.wiki.fc2.com/wiki/AHCI%E3%83%A2%E3%83%BC%E3%83%89&#34; target=&#34;_blank&#34;&gt;AHCIモード - Windows7移行まとめwiki&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;先のリンク先の説明はIntelのチップセット。
+私の持っているのはAMDのSB600なので、&lt;a title=&#34;AMDのサイト&#34; href=&#34;http://support.amd.com/us/gpudownload/windows/Pages/raid_windows.aspx&#34; target=&#34;_blank&#34;&gt;AMDのサイトからAHCI用のドライバー&lt;/a&gt;をダウンロードします。
+注) Windows 7の標準ドライバのほうが良いようで、AMDからSB600用のACHIドライバの配布はなくなりました。
+上記のリンクにはSB700以降のドライバがあります。&lt;/p&gt;
+&lt;p&gt;次にレジストリを変更。レジストリエディタを起動し、&lt;/p&gt;
+&lt;p&gt;HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Msahciのサブキーを選択。&lt;/p&gt;
+&lt;p&gt;「Start」の数値を3から0に変更し保存しまう。
+（数値が4の場合なども有り）&lt;/p&gt;
+&lt;p&gt;Windows7を再起動させて、BIOSでSATAをAHCIモードに設定して、起動。
+Windows7が起動するとHDDなどを再認識して、ドライバーを再構成。
+また再起動。
+そしてAMDのAHCIドライバーをインストールして再起動。&lt;/p&gt;
+&lt;p&gt;ついでにサウスブリッジのドライバーもインストールしておきます。&lt;/p&gt;
+&lt;p&gt;CrystalDiskMarkで速度を計測しましたが、シーケンシャルアクセスでは
+１％以内の差があるかどうかです。
+random accessでも5%も差が無いようです。
+まあ、最大性能を出したと言うことで良しとしましょう。&lt;/p&gt;
+&lt;p&gt;で、AHCIモードでWindowsVISTAをインストールするにはWindowsの修正プログラムを適用したSP1が必要だそうです。
+Windows7については分からないです。
+WindowsXPについてはドライバーディスクを用意しておく必要があるそうです。
+IDEモードでインストールしたあとにAHCIモードに切り替えた方が簡単かも。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>S/PDIF on Onkyo SE-200PCI LTD at Windows 7</title>
+        <link>http://localhost:1313/daily_blog/post/2010-07-17-spdif-on-onkyo-se-200pci-ltd-at-windows-7/</link>
+        <pubDate>Sat, 17 Jul 2010 16:36:30 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-07-17-spdif-on-onkyo-se-200pci-ltd-at-windows-7/</guid>
+        <description>&lt;p&gt;OnkyoのSE-200PCI LTD ですが、VIAのEnvy24HTというチップを使っています。&lt;/p&gt;
+&lt;p&gt;このチップのドライバーは機能的に未熟な部分が多いのですが、基本的な動作には問題はないのです。&lt;/p&gt;
+&lt;p&gt;で、Blu-rayの音声出力に関しては、Windows7においては、ドライバがライセンスを取得していればHDMIでのスルー出力が可能です。
+建前上。
+ほかのデジタル出力は認められていないようです。
+アナログ出力に関しては特に制限はありません。&lt;/p&gt;
+&lt;p&gt;で、Windows7で出力先をアナログに設定するんですが、このEnvy24HTのS/PDIF出力からPCMにデコードされたデジタル信号が出力されます。
+本来ならデジタル出力はされないはずなんですけどね・・・。&lt;/p&gt;
+&lt;p&gt;いったん、プレーヤーソフトでDolbyやらDTSやらをデコードしてPCMにしてサウンドチップに信号を送るので音質はプレーヤーソフトにかかっていますが、まあとりあえずは著作権違反しないように使います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>S/PDIF on Onkyo SE-200PCI LTD at Windows 7</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-07-17-spdif-on-onkyo-se-200pci-ltd-at-windows-7/</link>
+        <pubDate>Sat, 17 Jul 2010 16:36:30 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-07-17-spdif-on-onkyo-se-200pci-ltd-at-windows-7/</guid>
+        <description>&lt;p&gt;OnkyoのSE-200PCI LTD ですが、VIAのEnvy24HTというチップを使っています。&lt;/p&gt;
+&lt;p&gt;このチップのドライバーは機能的に未熟な部分が多いのですが、基本的な動作には問題はないのです。&lt;/p&gt;
+&lt;p&gt;で、Blu-rayの音声出力に関しては、Windows7においては、ドライバがライセンスを取得していればHDMIでのスルー出力が可能です。
+建前上。
+ほかのデジタル出力は認められていないようです。
+アナログ出力に関しては特に制限はありません。&lt;/p&gt;
+&lt;p&gt;で、Windows7で出力先をアナログに設定するんですが、このEnvy24HTのS/PDIF出力からPCMにデコードされたデジタル信号が出力されます。
+本来ならデジタル出力はされないはずなんですけどね・・・。&lt;/p&gt;
+&lt;p&gt;いったん、プレーヤーソフトでDolbyやらDTSやらをデコードしてPCMにしてサウンドチップに信号を送るので音質はプレーヤーソフトにかかっていますが、まあとりあえずは著作権違反しないように使います。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>特殊フォルダ</title>
+        <link>http://localhost:1313/daily_blog/post/2010-01-08-%E7%89%B9%E6%AE%8A%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF/</link>
+        <pubDate>Fri, 08 Jan 2010 09:15:01 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-01-08-%E7%89%B9%E6%AE%8A%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF/</guid>
+        <description>&lt;p&gt;一部で GodModeとか呼ばれている設定ショートカット集フォルダなど、CIDをフォルダ名につけると特殊フォルダに変わります。&lt;/p&gt;
+&lt;p&gt;かなり昔からある機能ですが、詳細が分からなかったので、使う機会がなかったのですが、&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://japan.zdnet.com/news/os/story/0,2000056192,20406270,00.htm?tag=zdnw&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://japan.zdnet.com/news/os/story/0,2000056192,20406270,00.htm?tag=zdnw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://japan.zdnet.com/news/os/story/0,2000056192,20406270,00.htm?tag=zdnw&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;この記事で紹介されているもので、いろいろと使えるかもしれません。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>特殊フォルダ</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-01-08-%E7%89%B9%E6%AE%8A%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF/</link>
+        <pubDate>Fri, 08 Jan 2010 09:15:01 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-01-08-%E7%89%B9%E6%AE%8A%E3%83%95%E3%82%A9%E3%83%AB%E3%82%BF/</guid>
+        <description>&lt;p&gt;一部で GodModeとか呼ばれている設定ショートカット集フォルダなど、CIDをフォルダ名につけると特殊フォルダに変わります。&lt;/p&gt;
+&lt;p&gt;かなり昔からある機能ですが、詳細が分からなかったので、使う機会がなかったのですが、&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://japan.zdnet.com/news/os/story/0,2000056192,20406270,00.htm?tag=zdnw&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://japan.zdnet.com/news/os/story/0,2000056192,20406270,00.htm?tag=zdnw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://japan.zdnet.com/news/os/story/0,2000056192,20406270,00.htm?tag=zdnw&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;この記事で紹介されているもので、いろいろと使えるかもしれません。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows Virtual PC - Invisible Crate virtual machine button -</title>
+        <link>http://localhost:1313/daily_blog/post/2010-01-06-windows-virtual-pc-invisible-crate-virtual-machine-button/</link>
+        <pubDate>Wed, 06 Jan 2010 12:34:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2010-01-06-windows-virtual-pc-invisible-crate-virtual-machine-button/</guid>
+        <description>&lt;p&gt;Windows 7 のWindows XP Mode を利用するだけでなく、Windows Virtual PC から他のゲストOSをインストールできるらしい。Linux をインストールしたくて、チャレンジしてみたが、不具合があり、断念している。この不具合で仮想マシンを作成できず、他のOSをインストールできないからだ。&lt;/p&gt;
+&lt;p&gt;不具合は、 Windows Virtual PC の 「仮想マシン」フォルダを開いたときにメニューバーに「仮想マシンの作成」ボタンが表示されないことだ。どこのサイトを見ても、このボタンが表示されていることで、説明されている。このボタンがないと、どこからも仮想マシンを作成することが出来ない。&lt;/p&gt;
+&lt;p&gt;さて非常に困った。Windows XPでなければならない理由はないが、Windows Me と Linux は必要なのでインストールしたい。Windows 7 にアップグレードする際に、Windows VISTA  Ultimate x64 から上書きインストールしたのが原因だろうか。&lt;/p&gt;
+&lt;p&gt;他のサイトでこの問題に遭遇した記事があり、フォルダのセキュリティーを”読み取り専用”のチェックをはずすということで解決できたとある。しかし、この方法では解決できなかった。もう一つこの問題に遭遇した記事を見つけたが、私と同じく解決できずにあきらめたらしい。&lt;/p&gt;
+&lt;p&gt;この際、HDDの整理を兼ねて、Windows 7 Ultimate 64bit をクリーンインストールしてみようと思う。&lt;/p&gt;
+&lt;p&gt;～追記～&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://social.technet.microsoft.com/Forums/en/w7itprovirt/thread/24ae635f-41a7-4c50-bcae-81cba3112b32&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://social.technet.microsoft.com/Forums/en/w7itprovirt/thread/24ae635f-41a7-4c50-bcae-81cba3112b32&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://social.technet.microsoft.com/Forums/en/w7itprovirt/thread/24ae635f-41a7-4c50-bcae-81cba3112b32&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;トラブルシューティングしている掲示板を見つけた。レジストリで解決できるっぽいな。やっぱり原因はVISTAからUpgradeだったようだ。なんか他にもトラブルになりそうなところがあるかもしれないし、100% Windows 7 の性能を発揮できていないかもしれないので、クリーンインストールはしないといけないな。&lt;/p&gt;
+&lt;p&gt;～結果～&lt;/p&gt;
+&lt;p&gt;レジストリの修正では直らなかった。上記の掲示板の中に別の解決方法で、ウィザードを実行するexeファイルの場所が示されていたので、直接それを実行することでとりあえずの解決を得た。&lt;/p&gt;
+&lt;p&gt;Sun MicrosystemsのVirtual Boxもあるということなので、それもインストールしてみた。対応OSも多く、設定も簡単だった。UbuntuのISOイメージをダウンロードして、早速インストールしたが、解像度の変更に戸惑っている。コンフィグファイルを書かないといけないらしい。すんなりとは行かないな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows Virtual PC - Invisible Crate virtual machine button -</title>
+        <link>http://localhost:1313/daily_blog/posts/2010-01-06-windows-virtual-pc-invisible-crate-virtual-machine-button/</link>
+        <pubDate>Wed, 06 Jan 2010 12:34:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2010-01-06-windows-virtual-pc-invisible-crate-virtual-machine-button/</guid>
+        <description>&lt;p&gt;Windows 7 のWindows XP Mode を利用するだけでなく、Windows Virtual PC から他のゲストOSをインストールできるらしい。Linux をインストールしたくて、チャレンジしてみたが、不具合があり、断念している。この不具合で仮想マシンを作成できず、他のOSをインストールできないからだ。&lt;/p&gt;
+&lt;p&gt;不具合は、 Windows Virtual PC の 「仮想マシン」フォルダを開いたときにメニューバーに「仮想マシンの作成」ボタンが表示されないことだ。どこのサイトを見ても、このボタンが表示されていることで、説明されている。このボタンがないと、どこからも仮想マシンを作成することが出来ない。&lt;/p&gt;
+&lt;p&gt;さて非常に困った。Windows XPでなければならない理由はないが、Windows Me と Linux は必要なのでインストールしたい。Windows 7 にアップグレードする際に、Windows VISTA  Ultimate x64 から上書きインストールしたのが原因だろうか。&lt;/p&gt;
+&lt;p&gt;他のサイトでこの問題に遭遇した記事があり、フォルダのセキュリティーを”読み取り専用”のチェックをはずすということで解決できたとある。しかし、この方法では解決できなかった。もう一つこの問題に遭遇した記事を見つけたが、私と同じく解決できずにあきらめたらしい。&lt;/p&gt;
+&lt;p&gt;この際、HDDの整理を兼ねて、Windows 7 Ultimate 64bit をクリーンインストールしてみようと思う。&lt;/p&gt;
+&lt;p&gt;～追記～&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://social.technet.microsoft.com/Forums/en/w7itprovirt/thread/24ae635f-41a7-4c50-bcae-81cba3112b32&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://social.technet.microsoft.com/Forums/en/w7itprovirt/thread/24ae635f-41a7-4c50-bcae-81cba3112b32&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://social.technet.microsoft.com/Forums/en/w7itprovirt/thread/24ae635f-41a7-4c50-bcae-81cba3112b32&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;トラブルシューティングしている掲示板を見つけた。レジストリで解決できるっぽいな。やっぱり原因はVISTAからUpgradeだったようだ。なんか他にもトラブルになりそうなところがあるかもしれないし、100% Windows 7 の性能を発揮できていないかもしれないので、クリーンインストールはしないといけないな。&lt;/p&gt;
+&lt;p&gt;～結果～&lt;/p&gt;
+&lt;p&gt;レジストリの修正では直らなかった。上記の掲示板の中に別の解決方法で、ウィザードを実行するexeファイルの場所が示されていたので、直接それを実行することでとりあえずの解決を得た。&lt;/p&gt;
+&lt;p&gt;Sun MicrosystemsのVirtual Boxもあるということなので、それもインストールしてみた。対応OSも多く、設定も簡単だった。UbuntuのISOイメージをダウンロードして、早速インストールしたが、解像度の変更に戸惑っている。コンフィグファイルを書かないといけないらしい。すんなりとは行かないな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Sony VAIO P (VGN-P70H/R) Windows7 Upgrade</title>
+        <link>http://localhost:1313/daily_blog/post/2009-12-24-sony-vaio-p-vgn-p70hr-windows7-upgrade/</link>
+        <pubDate>Thu, 24 Dec 2009 13:43:31 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-12-24-sony-vaio-p-vgn-p70hr-windows7-upgrade/</guid>
+        <description>&lt;p&gt;いったんWindows7 Home PremiumへUpgradeしたら、とても快適でした。&lt;/p&gt;
+&lt;p&gt;12/23&lt;/p&gt;
+&lt;p&gt;で、Sony から VAIO Windows7 サプリメントディスクが届いたので、サポートされる手順に従ってUpgradeし直します。
+まず、リカバリーしてWindows VISTA Home Basic 32bit に戻します。
+続いて、サプリメントディスクを入れて、事前セットアップ。
+不要なアプリをアンインストールしろと書いてあるので、削除。
+Windows 7のDVDを入れてアップグレード開始。
+途中でエラーになって止まった。&lt;/p&gt;
+&lt;p&gt;ここに来て面倒なので、再起動してDVDブートでアップグレード開始。
+どうせならクリーンインストールしようと、マニュアル見ると出来ると書いてある。それにしたがってクリーンインストール。
+リカバリーディスクは作ったので、リカバリー用領域を削除して、パーティションを再設定。
+Windows7のインストール開始。&lt;/p&gt;
+&lt;p&gt;とここまでを今朝の出勤の段階までやってきた。家に帰ったら出来ているかな。&lt;/p&gt;
+&lt;hr /&gt;12/24
+&lt;p&gt;先達のブログなどを見ると、リカバリー領域がないとVAIOアプリやドライバがインストールできないらしい。&lt;/p&gt;
+&lt;p&gt;またSonyのサイトには、クリーンインストールでは、アプリのインストールが出来ないものがあるらしいとのこと。&lt;/p&gt;
+&lt;p&gt;そんなん嫌ジャン。なので家に帰ったら、またリカバリーからやり直そうっと。&lt;/p&gt;
+&lt;hr /&gt;12/25
+&lt;p&gt;大多数の人はChristmasを満喫しているだろうが、明日も仕事。&lt;/p&gt;
+&lt;p&gt;お酒を飲むわけには行かない。&lt;/p&gt;
+&lt;p&gt;DVD-Rで作ったリカバリーディスクから、リカバリーを開始。&lt;/p&gt;
+&lt;p&gt;パーティションなど購入時の状態に復元。&lt;/p&gt;
+&lt;p&gt;リカバリー領域にデータがコピーされ、リカバリーが走り始めた。&lt;/p&gt;
+&lt;p&gt;あとは眠いので朝までほったらかし。&lt;/p&gt;
+&lt;p&gt;朝起きたらリカバリーが終了してた。&lt;/p&gt;
+&lt;p&gt;出勤する前にサプリメントディスクを入れて事前セットアップをして、ほったらかし。&lt;/p&gt;
+&lt;hr /&gt;
+12/26
+&lt;p&gt;毎日午前様なのがつらいところ。&lt;/p&gt;
+&lt;p&gt;Windows7では動かないアプリをアンインストールして、ついでに使わないアプリもアンインストールして、再起動。&lt;/p&gt;
+&lt;p&gt;Windows7のDVDを入れて、DVDブートしてセットアップしたのでは、アップグレードできない。&lt;/p&gt;
+&lt;p&gt;Windows VISTAを起動して、Windows7のDVDを入れて、Setup.exeを起動させる。&lt;/p&gt;
+&lt;p&gt;Windows7のセットアップのもろもろの工程を進めて、あとはほったらかし。&lt;/p&gt;
+&lt;p&gt;眠いので寝る・・・AM3:00&lt;/p&gt;
+&lt;p&gt;AM6:30出勤する前に、Windows7のプロダクトIDを入力して、アップグレード完了。&lt;/p&gt;
+&lt;p&gt;つぎにSonyのサプリメントディスクをインストール。&lt;/p&gt;
+&lt;p&gt;出発時間になったのでインストールをほったらかし。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Sony VAIO P (VGN-P70H/R) Windows7 Upgrade</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-12-24-sony-vaio-p-vgn-p70hr-windows7-upgrade/</link>
+        <pubDate>Thu, 24 Dec 2009 13:43:31 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-12-24-sony-vaio-p-vgn-p70hr-windows7-upgrade/</guid>
+        <description>&lt;p&gt;いったんWindows7 Home PremiumへUpgradeしたら、とても快適でした。&lt;/p&gt;
+&lt;p&gt;12/23&lt;/p&gt;
+&lt;p&gt;で、Sony から VAIO Windows7 サプリメントディスクが届いたので、サポートされる手順に従ってUpgradeし直します。
+まず、リカバリーしてWindows VISTA Home Basic 32bit に戻します。
+続いて、サプリメントディスクを入れて、事前セットアップ。
+不要なアプリをアンインストールしろと書いてあるので、削除。
+Windows 7のDVDを入れてアップグレード開始。
+途中でエラーになって止まった。&lt;/p&gt;
+&lt;p&gt;ここに来て面倒なので、再起動してDVDブートでアップグレード開始。
+どうせならクリーンインストールしようと、マニュアル見ると出来ると書いてある。それにしたがってクリーンインストール。
+リカバリーディスクは作ったので、リカバリー用領域を削除して、パーティションを再設定。
+Windows7のインストール開始。&lt;/p&gt;
+&lt;p&gt;とここまでを今朝の出勤の段階までやってきた。家に帰ったら出来ているかな。&lt;/p&gt;
+&lt;hr /&gt;12/24
+&lt;p&gt;先達のブログなどを見ると、リカバリー領域がないとVAIOアプリやドライバがインストールできないらしい。&lt;/p&gt;
+&lt;p&gt;またSonyのサイトには、クリーンインストールでは、アプリのインストールが出来ないものがあるらしいとのこと。&lt;/p&gt;
+&lt;p&gt;そんなん嫌ジャン。なので家に帰ったら、またリカバリーからやり直そうっと。&lt;/p&gt;
+&lt;hr /&gt;12/25
+&lt;p&gt;大多数の人はChristmasを満喫しているだろうが、明日も仕事。&lt;/p&gt;
+&lt;p&gt;お酒を飲むわけには行かない。&lt;/p&gt;
+&lt;p&gt;DVD-Rで作ったリカバリーディスクから、リカバリーを開始。&lt;/p&gt;
+&lt;p&gt;パーティションなど購入時の状態に復元。&lt;/p&gt;
+&lt;p&gt;リカバリー領域にデータがコピーされ、リカバリーが走り始めた。&lt;/p&gt;
+&lt;p&gt;あとは眠いので朝までほったらかし。&lt;/p&gt;
+&lt;p&gt;朝起きたらリカバリーが終了してた。&lt;/p&gt;
+&lt;p&gt;出勤する前にサプリメントディスクを入れて事前セットアップをして、ほったらかし。&lt;/p&gt;
+&lt;hr /&gt;
+12/26
+&lt;p&gt;毎日午前様なのがつらいところ。&lt;/p&gt;
+&lt;p&gt;Windows7では動かないアプリをアンインストールして、ついでに使わないアプリもアンインストールして、再起動。&lt;/p&gt;
+&lt;p&gt;Windows7のDVDを入れて、DVDブートしてセットアップしたのでは、アップグレードできない。&lt;/p&gt;
+&lt;p&gt;Windows VISTAを起動して、Windows7のDVDを入れて、Setup.exeを起動させる。&lt;/p&gt;
+&lt;p&gt;Windows7のセットアップのもろもろの工程を進めて、あとはほったらかし。&lt;/p&gt;
+&lt;p&gt;眠いので寝る・・・AM3:00&lt;/p&gt;
+&lt;p&gt;AM6:30出勤する前に、Windows7のプロダクトIDを入力して、アップグレード完了。&lt;/p&gt;
+&lt;p&gt;つぎにSonyのサプリメントディスクをインストール。&lt;/p&gt;
+&lt;p&gt;出発時間になったのでインストールをほったらかし。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SONY VAIO P</title>
+        <link>http://localhost:1313/daily_blog/post/2009-12-21-sony-vaio-p/</link>
+        <pubDate>Mon, 21 Dec 2009 00:47:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-12-21-sony-vaio-p/</guid>
+        <description>&lt;p&gt;中古のSony VAIO Pを購入しました。Atom 1.33Ghz 2GBRAM HDD60GBという仕様です。&lt;/p&gt;
+&lt;p&gt;Windows VISTA Home Basic だったので、さくっとWindows 7 Home Premium Upgradeを注文しました。&lt;/p&gt;
+&lt;p&gt;動作はHDDが遅いのがかなりのネックですね。SSDに交換すれば早くなるかな。VISTAの起動はかなり時間が掛かりますが、ハイバネーションを使うのであまり気にならないかな。&lt;/p&gt;
+&lt;p&gt;使いにくいのはアキューポイントだからですが、慣れたとしても使いづらい。でも小さいことのメリットは非常に大きいです。&lt;/p&gt;
+&lt;p&gt;Windows UpdateやらVAIOアプリのアップデートにすごい時間が掛かってます。まだおわんない。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SONY VAIO P</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-12-21-sony-vaio-p/</link>
+        <pubDate>Mon, 21 Dec 2009 00:47:03 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-12-21-sony-vaio-p/</guid>
+        <description>&lt;p&gt;中古のSony VAIO Pを購入しました。Atom 1.33Ghz 2GBRAM HDD60GBという仕様です。&lt;/p&gt;
+&lt;p&gt;Windows VISTA Home Basic だったので、さくっとWindows 7 Home Premium Upgradeを注文しました。&lt;/p&gt;
+&lt;p&gt;動作はHDDが遅いのがかなりのネックですね。SSDに交換すれば早くなるかな。VISTAの起動はかなり時間が掛かりますが、ハイバネーションを使うのであまり気にならないかな。&lt;/p&gt;
+&lt;p&gt;使いにくいのはアキューポイントだからですが、慣れたとしても使いづらい。でも小さいことのメリットは非常に大きいです。&lt;/p&gt;
+&lt;p&gt;Windows UpdateやらVAIOアプリのアップデートにすごい時間が掛かってます。まだおわんない。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SE-200PCILTD with Windows7 64bit</title>
+        <link>http://localhost:1313/daily_blog/post/2009-11-26-se-200pciltd-with-windows7-64bit/</link>
+        <pubDate>Thu, 26 Nov 2009 01:10:14 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-11-26-se-200pciltd-with-windows7-64bit/</guid>
+        <description>&lt;p&gt;Windows7になってから、ハードウェアやアプリケーションが、Windows7 Readyのマークを取得するには、32bitだけでなく64bitの動作も保証しなくてはなりません。
+Microsoftが強制してくれたおかげで、ドライバ類で64bit版が多く出てくるようになりました。&lt;/p&gt;
+&lt;p&gt;Onkyo SE-200PCI LTDも公式にWindows7 64bit用のドライバを公開しました。
+まあ、ものはVIA Envy24HT用のWindows7 64bit用ドライバーで、チップメーカーのそのままです。
+せめてデバイス名ぐらいSE-200PCI LTDと表示させるくらいの改変はすべきだろうと思いはするが。&lt;/p&gt;
+&lt;p&gt;で、VISTA 64bitで使っていたドライバーなので特に問題もなく（どうせWindows7の中身はVISTAだから）動作しています。
+Blu-RayのS/PDIFの制約はまあ仕方ないので、このあたりHDMI1.3aか50MbpsS/PDIFが標準化され、PCにもAVアンプにも搭載されないと無理なのかな。&lt;/p&gt;
+&lt;p&gt;こっそりと国内のS/PDIFのコネクタ自体は50Mbps対応のものが主流のようだけど、著作権保護のライセンス関係がクリアされていないので、Blu-RayのHDロスレスオーディオのストリーム再生はまだできないだろうな。&lt;/p&gt;
+&lt;p&gt;それよりかAVアンプの8ch 192kHz/24bitフル再生できる機種をはっきりさせて欲しい。
+HDオーディオコーデックを処理できると行っても実際の再生は8ch 96khz/24bitもしくは2ch 192khz/24bitがほとんどだ。
+いま主流のコーデックチップが対応していないのか、と思う。&lt;/p&gt;
+&lt;p&gt;DENONのAVアンプもよくわからない。
+接続して蛍光管の表示を見て始めて分かることが多い。
+内部のプロセッサは全チャンネル192khz/24bitで処理できるけど、S/PDIFからの入力もHDMIからの入力もそれができない。
+規格が対応していないのではなく、コントロールチップが対応していないようだ。
+アナログ入力なら8ch 192khz/24bitで処理できる。
+が、基本アナログはピュアダイレクトで聞くのでデジタルプロセッサを介さないので意味ないが。&lt;/p&gt;
+&lt;p&gt;やっぱり同じところに帰結するが、BDプレーヤーに8chのアナログ出力をつけてください。&lt;/p&gt;
+&lt;p&gt;あとONKYOから8chの高音質アナログ出力サウンドカードが登場することを望む。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SE-200PCILTD with Windows7 64bit</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-11-26-se-200pciltd-with-windows7-64bit/</link>
+        <pubDate>Thu, 26 Nov 2009 01:10:14 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-11-26-se-200pciltd-with-windows7-64bit/</guid>
+        <description>&lt;p&gt;Windows7になってから、ハードウェアやアプリケーションが、Windows7 Readyのマークを取得するには、32bitだけでなく64bitの動作も保証しなくてはなりません。
+Microsoftが強制してくれたおかげで、ドライバ類で64bit版が多く出てくるようになりました。&lt;/p&gt;
+&lt;p&gt;Onkyo SE-200PCI LTDも公式にWindows7 64bit用のドライバを公開しました。
+まあ、ものはVIA Envy24HT用のWindows7 64bit用ドライバーで、チップメーカーのそのままです。
+せめてデバイス名ぐらいSE-200PCI LTDと表示させるくらいの改変はすべきだろうと思いはするが。&lt;/p&gt;
+&lt;p&gt;で、VISTA 64bitで使っていたドライバーなので特に問題もなく（どうせWindows7の中身はVISTAだから）動作しています。
+Blu-RayのS/PDIFの制約はまあ仕方ないので、このあたりHDMI1.3aか50MbpsS/PDIFが標準化され、PCにもAVアンプにも搭載されないと無理なのかな。&lt;/p&gt;
+&lt;p&gt;こっそりと国内のS/PDIFのコネクタ自体は50Mbps対応のものが主流のようだけど、著作権保護のライセンス関係がクリアされていないので、Blu-RayのHDロスレスオーディオのストリーム再生はまだできないだろうな。&lt;/p&gt;
+&lt;p&gt;それよりかAVアンプの8ch 192kHz/24bitフル再生できる機種をはっきりさせて欲しい。
+HDオーディオコーデックを処理できると行っても実際の再生は8ch 96khz/24bitもしくは2ch 192khz/24bitがほとんどだ。
+いま主流のコーデックチップが対応していないのか、と思う。&lt;/p&gt;
+&lt;p&gt;DENONのAVアンプもよくわからない。
+接続して蛍光管の表示を見て始めて分かることが多い。
+内部のプロセッサは全チャンネル192khz/24bitで処理できるけど、S/PDIFからの入力もHDMIからの入力もそれができない。
+規格が対応していないのではなく、コントロールチップが対応していないようだ。
+アナログ入力なら8ch 192khz/24bitで処理できる。
+が、基本アナログはピュアダイレクトで聞くのでデジタルプロセッサを介さないので意味ないが。&lt;/p&gt;
+&lt;p&gt;やっぱり同じところに帰結するが、BDプレーヤーに8chのアナログ出力をつけてください。&lt;/p&gt;
+&lt;p&gt;あとONKYOから8chの高音質アナログ出力サウンドカードが登場することを望む。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 7 Ultimate 64bit</title>
+        <link>http://localhost:1313/daily_blog/post/2009-11-05-windows-7-ultimate-64bit/</link>
+        <pubDate>Thu, 05 Nov 2009 11:26:04 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-11-05-windows-7-ultimate-64bit/</guid>
+        <description>&lt;p&gt;Windows Vista Ultimate x64 DSP からのアップグレードとして、Windows 7 Ultimate アップグレードを購入しました。&lt;/p&gt;
+&lt;p&gt;その日のうちに、Windows Vistaを起動して、バックアップも何もせず、Windows 7の64bitのDVDを放り込みます。
+すぐにセットアッププログラムが起動します。
+マウスで２クリックしたぐらいで、あとは４時間ほったらかして、アップグレードインストール完了です。&lt;/p&gt;
+&lt;p&gt;インストールの間、映画を見て、寝てました。
+おきたときにちょうどインストールが完了して再起動がかかったところでした。&lt;/p&gt;
+&lt;p&gt;初期設定をして、ログオン。
+あとは普通に使えます。&lt;/p&gt;
+&lt;p&gt;スタートメニューのメーラーとブラウザのショートカットアイコンが消えてしまっているので、普段使っているShurikenをメニューの中から選んで起動。
+特に問題なく動いてます。&lt;/p&gt;
+&lt;p&gt;Vista x64に乗り換えたときに、32bit環境（厳密に言うと16bit環境）を完全に捨てたので、アプリもハードも問題なくWindows 7で使えてます。
+まあほとんどがWoW64の32bitエミュレーターで動いていますが。
+意欲的な一部のシェアウェアが64bitで動いています。
+大手メーカー製ソフトは基本32bitです。
+とっとと64bit化しろよな。&lt;/p&gt;
+&lt;p&gt;わずかな動画のために多種多様なプレーヤーソフトが入ってます。
+削除すると他の動画編集ソフトが動かなくなるなど問題が多いのは勘弁してほしいな。
+まあ、某ツールによるいかがわしいダウンロードをやめれば特に必要のないものばかりですが。&lt;/p&gt;
+&lt;p&gt;さて7とは関係ない方向に話がいきましたが、特に問題もなく動いているのでねたがなくてね。
+Vistaよりは格段に動作が軽快です。
+処理速度は変わらないので何かするときに体感できるのではなく、普段の何もしていない状態が軽くなってます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 7 Ultimate 64bit</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-11-05-windows-7-ultimate-64bit/</link>
+        <pubDate>Thu, 05 Nov 2009 11:26:04 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-11-05-windows-7-ultimate-64bit/</guid>
+        <description>&lt;p&gt;Windows Vista Ultimate x64 DSP からのアップグレードとして、Windows 7 Ultimate アップグレードを購入しました。&lt;/p&gt;
+&lt;p&gt;その日のうちに、Windows Vistaを起動して、バックアップも何もせず、Windows 7の64bitのDVDを放り込みます。
+すぐにセットアッププログラムが起動します。
+マウスで２クリックしたぐらいで、あとは４時間ほったらかして、アップグレードインストール完了です。&lt;/p&gt;
+&lt;p&gt;インストールの間、映画を見て、寝てました。
+おきたときにちょうどインストールが完了して再起動がかかったところでした。&lt;/p&gt;
+&lt;p&gt;初期設定をして、ログオン。
+あとは普通に使えます。&lt;/p&gt;
+&lt;p&gt;スタートメニューのメーラーとブラウザのショートカットアイコンが消えてしまっているので、普段使っているShurikenをメニューの中から選んで起動。
+特に問題なく動いてます。&lt;/p&gt;
+&lt;p&gt;Vista x64に乗り換えたときに、32bit環境（厳密に言うと16bit環境）を完全に捨てたので、アプリもハードも問題なくWindows 7で使えてます。
+まあほとんどがWoW64の32bitエミュレーターで動いていますが。
+意欲的な一部のシェアウェアが64bitで動いています。
+大手メーカー製ソフトは基本32bitです。
+とっとと64bit化しろよな。&lt;/p&gt;
+&lt;p&gt;わずかな動画のために多種多様なプレーヤーソフトが入ってます。
+削除すると他の動画編集ソフトが動かなくなるなど問題が多いのは勘弁してほしいな。
+まあ、某ツールによるいかがわしいダウンロードをやめれば特に必要のないものばかりですが。&lt;/p&gt;
+&lt;p&gt;さて7とは関係ない方向に話がいきましたが、特に問題もなく動いているのでねたがなくてね。
+Vistaよりは格段に動作が軽快です。
+処理速度は変わらないので何かするときに体感できるのではなく、普段の何もしていない状態が軽くなってます。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ONKYO SE-200PCI LTD</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-13-onkyo-se-200pci-ltd/</link>
+        <pubDate>Thu, 13 Aug 2009 13:47:48 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-13-onkyo-se-200pci-ltd/</guid>
+        <description>&lt;p&gt;サウンドボードを新しくしました。&lt;/p&gt;
+&lt;p&gt;これまでのSE-90PCIでも再生に関してはまったく問題なかったんですが、ちょっと録音したくなって入力があるサウンドカードを選びました。&lt;/p&gt;
+&lt;p&gt;ASUSからHDMIに対応した強烈なサウンドカードがありますが、やはりHDMIは音が悪いので、アナログ出力にこだわりぬいたSE-200PCI LTDにしました。&lt;/p&gt;
+&lt;p&gt;環境はWindows VISTA Ultimate x64です。
+ドライバーはSE-90PCIとまったく同じです。
+しかし、差し替えただけではWDMのドライバーがインストールされてしまうので、VIAから提供されているVISTA x64用のドライバーを再インストールしてやります。&lt;/p&gt;
+&lt;p&gt;特に問題なく認識されノイズ等も発生しません。&lt;/p&gt;
+&lt;p&gt;2chアナログ出力と入力やS/PDIFの組み合わせに制限があります。
+これはPC Audio97の仕様による制限なのでしかたありませんが。&lt;/p&gt;
+&lt;p&gt;で、音質ですが、SE-90PCIと比べてどう違うか、さっぱりわかりません。
+ただS/PDIF(192kHz/24bit)→AVアンプ(D/A変換)と2chアナログ(192kHz/24bitD/A変換)→AVアンプ(アナログ)の違いは良くわかります。
+2chアナログのほうが音のつながり、低音の出方が好ましいです。&lt;/p&gt;
+&lt;p&gt;AVアンプのDACの音質とSE-200PCI LTDのDACの音質を比べることになってますね。&lt;/p&gt;
+&lt;p&gt;HDMIみたいに極細の線で、さらに搬送波として高周波の映像信号がどうしても必要な規格では、重畳した音声信号に輻射ノイズがのりジッタが発生します。
+またHDMIはケーブルの曲げに非常に敏感です。
+原理が原理だけにこればかりは回避しようがありません。
+どんなにすごい線材（意味不明の8Nとか9Nとか）が登場しようとも物理現象を否定するオカルトにはついていけれません。&lt;/p&gt;
+&lt;p&gt;それだったらアナログ転送すればいいんじゃないかなと思うわけです。
+高周波のノイズもそもそも可聴領域外ですし。
+高周波じゃないからケーブルの曲げには敏感じゃないし。
+それにすこし純度が低いほうが内部抵抗が少ないし。&lt;/p&gt;
+&lt;p&gt;いや、ケーブル純度を妄信している金持ちが嫌いなだけです。
+そもそも年取ったら可聴領域が狭くなって高音も低音も聞こえてないだろうにね。
+バイオリンの4倍音なんて聞こえないだろ。
+なにがわかるんだろう。&lt;/p&gt;
+&lt;p&gt;そういや素人って信号に方向性があると思っているのかな。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>ONKYO SE-200PCI LTD</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-13-onkyo-se-200pci-ltd/</link>
+        <pubDate>Thu, 13 Aug 2009 13:47:48 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-13-onkyo-se-200pci-ltd/</guid>
+        <description>&lt;p&gt;サウンドボードを新しくしました。&lt;/p&gt;
+&lt;p&gt;これまでのSE-90PCIでも再生に関してはまったく問題なかったんですが、ちょっと録音したくなって入力があるサウンドカードを選びました。&lt;/p&gt;
+&lt;p&gt;ASUSからHDMIに対応した強烈なサウンドカードがありますが、やはりHDMIは音が悪いので、アナログ出力にこだわりぬいたSE-200PCI LTDにしました。&lt;/p&gt;
+&lt;p&gt;環境はWindows VISTA Ultimate x64です。
+ドライバーはSE-90PCIとまったく同じです。
+しかし、差し替えただけではWDMのドライバーがインストールされてしまうので、VIAから提供されているVISTA x64用のドライバーを再インストールしてやります。&lt;/p&gt;
+&lt;p&gt;特に問題なく認識されノイズ等も発生しません。&lt;/p&gt;
+&lt;p&gt;2chアナログ出力と入力やS/PDIFの組み合わせに制限があります。
+これはPC Audio97の仕様による制限なのでしかたありませんが。&lt;/p&gt;
+&lt;p&gt;で、音質ですが、SE-90PCIと比べてどう違うか、さっぱりわかりません。
+ただS/PDIF(192kHz/24bit)→AVアンプ(D/A変換)と2chアナログ(192kHz/24bitD/A変換)→AVアンプ(アナログ)の違いは良くわかります。
+2chアナログのほうが音のつながり、低音の出方が好ましいです。&lt;/p&gt;
+&lt;p&gt;AVアンプのDACの音質とSE-200PCI LTDのDACの音質を比べることになってますね。&lt;/p&gt;
+&lt;p&gt;HDMIみたいに極細の線で、さらに搬送波として高周波の映像信号がどうしても必要な規格では、重畳した音声信号に輻射ノイズがのりジッタが発生します。
+またHDMIはケーブルの曲げに非常に敏感です。
+原理が原理だけにこればかりは回避しようがありません。
+どんなにすごい線材（意味不明の8Nとか9Nとか）が登場しようとも物理現象を否定するオカルトにはついていけれません。&lt;/p&gt;
+&lt;p&gt;それだったらアナログ転送すればいいんじゃないかなと思うわけです。
+高周波のノイズもそもそも可聴領域外ですし。
+高周波じゃないからケーブルの曲げには敏感じゃないし。
+それにすこし純度が低いほうが内部抵抗が少ないし。&lt;/p&gt;
+&lt;p&gt;いや、ケーブル純度を妄信している金持ちが嫌いなだけです。
+そもそも年取ったら可聴領域が狭くなって高音も低音も聞こえてないだろうにね。
+バイオリンの4倍音なんて聞こえないだろ。
+なにがわかるんだろう。&lt;/p&gt;
+&lt;p&gt;そういや素人って信号に方向性があると思っているのかな。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>BDドライブ</title>
+        <link>http://localhost:1313/daily_blog/post/2009-07-06-bd%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/</link>
+        <pubDate>Mon, 06 Jul 2009 16:45:46 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-07-06-bd%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/</guid>
+        <description>&lt;p&gt;PCにBDドライブを搭載しました。&lt;/p&gt;
+&lt;p&gt;BR-PI816FBS-BK (BUFFALO Pioneer製ドライブ SATA)を購入しました。&lt;/p&gt;
+&lt;p&gt;これまで長らくPanasonic製のDVD-RAMドライブ(ATAPI)とNEC製のDVD-+R/RWドライブ(ATAPI)を使ってました。
+DVD-RAMはデータを保存したものにカートリッジ式のDVD-RAMメディアがあったのと、NEC製ドライブがうるさいので音楽CDやDVD-Videoを再生する場合に使ってました。
+NECのドライブは、CD-R/RWの書き込みができるために使っていたのと、読み込み速度がPanasonicのドライブより早かったので使ってました。
+どちらもCRPMに対応はしていたのでデジタル放送を記録したDVD-Rなどの再生はできました。
+BDドライブの搭載でPanasonicのドライブもNECのドライブも現役引退です。&lt;/p&gt;
+&lt;p&gt;BDレコーダーを買ったのを機に、PCの録再環境もアップグレードしてみたくなって、BDドライブの搭載です。
+BDドライブの製造元はPioneerです。PC用ドライブとしてはかなり評判がよいです。
+あとCyberLink製のBD再生ソフトや書き込みソフトが付属されています。
+付属ソフトはWindows VISTAの32bitに対応となっていますが、今のところ64bitにインストールしても動作しています。
+書き込みはまだしていないので、できるかどうか確認をして見ます。&lt;/p&gt;
+&lt;p&gt;BSデジタルのFullHD番組を録画したBD-R DLを再生してみました。
+AMD Phenom x4 (Quad Core)とGeForce 8600GT (HDCP対応)での再生でしたので、こま落ちすることもなくきれいに再生できました。
+まあ、でもBDレコーダーやPS3がマルチチャンネルの音声などに対応しているのでPCでホームシアターとして再生することはないかな。&lt;/p&gt;
+&lt;p&gt;メインは手持ちのハイビジョン動画をAVCまたはMPEG2TSでBD-Rに焼きこむのに使うかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>BDドライブ</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-07-06-bd%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/</link>
+        <pubDate>Mon, 06 Jul 2009 16:45:46 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-07-06-bd%E3%83%88%E3%83%A9%E3%82%A4%E3%83%95/</guid>
+        <description>&lt;p&gt;PCにBDドライブを搭載しました。&lt;/p&gt;
+&lt;p&gt;BR-PI816FBS-BK (BUFFALO Pioneer製ドライブ SATA)を購入しました。&lt;/p&gt;
+&lt;p&gt;これまで長らくPanasonic製のDVD-RAMドライブ(ATAPI)とNEC製のDVD-+R/RWドライブ(ATAPI)を使ってました。
+DVD-RAMはデータを保存したものにカートリッジ式のDVD-RAMメディアがあったのと、NEC製ドライブがうるさいので音楽CDやDVD-Videoを再生する場合に使ってました。
+NECのドライブは、CD-R/RWの書き込みができるために使っていたのと、読み込み速度がPanasonicのドライブより早かったので使ってました。
+どちらもCRPMに対応はしていたのでデジタル放送を記録したDVD-Rなどの再生はできました。
+BDドライブの搭載でPanasonicのドライブもNECのドライブも現役引退です。&lt;/p&gt;
+&lt;p&gt;BDレコーダーを買ったのを機に、PCの録再環境もアップグレードしてみたくなって、BDドライブの搭載です。
+BDドライブの製造元はPioneerです。PC用ドライブとしてはかなり評判がよいです。
+あとCyberLink製のBD再生ソフトや書き込みソフトが付属されています。
+付属ソフトはWindows VISTAの32bitに対応となっていますが、今のところ64bitにインストールしても動作しています。
+書き込みはまだしていないので、できるかどうか確認をして見ます。&lt;/p&gt;
+&lt;p&gt;BSデジタルのFullHD番組を録画したBD-R DLを再生してみました。
+AMD Phenom x4 (Quad Core)とGeForce 8600GT (HDCP対応)での再生でしたので、こま落ちすることもなくきれいに再生できました。
+まあ、でもBDレコーダーやPS3がマルチチャンネルの音声などに対応しているのでPCでホームシアターとして再生することはないかな。&lt;/p&gt;
+&lt;p&gt;メインは手持ちのハイビジョン動画をAVCまたはMPEG2TSでBD-Rに焼きこむのに使うかな。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

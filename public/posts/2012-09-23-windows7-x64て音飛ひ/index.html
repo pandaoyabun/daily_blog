@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ja-jp" dir="ltr">
+    <head><script src="/daily_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=daily_blog/livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="先日PCのマザーボード、CPU、メモリを入れ替えました。\n元は\nCPU : AMD Phenom 64 x4 (4Core)\nM/B : ASUS M3A32 MVP Delux / WiFi AP\n">
+<title>Windows7 x64で音飛び</title>
+
+<link rel='canonical' href='http://localhost:1313/daily_blog/posts/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/'>
+
+<link rel="stylesheet" href="../../daily_blog/scss/style.min.b9e9128fec450ebccecc4ec9900157f32b85d0609bcd5ee3293968bcaa1235f2.css"><meta property='og:title' content="Windows7 x64で音飛び">
+<meta property='og:description' content="先日PCのマザーボード、CPU、メモリを入れ替えました。\n元は\nCPU : AMD Phenom 64 x4 (4Core)\nM/B : ASUS M3A32 MVP Delux / WiFi AP\n">
+<meta property='og:url' content='http://localhost:1313/daily_blog/posts/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/'>
+<meta property='og:site_name' content='おやぶんのアーカイブ'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2012-09-23T10:24:20&#43;09:00'/><meta property='article:modified_time' content='2012-09-23T10:24:20&#43;09:00'/>
+<meta name="twitter:title" content="Windows7 x64で音飛び">
+<meta name="twitter:description" content="先日PCのマザーボード、CPU、メモリを入れ替えました。\n元は\nCPU : AMD Phenom 64 x4 (4Core)\nM/B : ASUS M3A32 MVP Delux / WiFi AP\n">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column compact"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="../../">
+                
+                    <img src="https://github.com/github.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="../../">おやぶんのアーカイブ</a></h1>
+            <h2 class="site-description"></h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="../../categories/audio/" >
+                AUDIO
+            </a>
+        
+            <a href="../../categories/computer/" >
+                COMPUTER
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="../../posts/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/">Windows7 x64で音飛び</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2012-09-23T10:24:20&#43;09:00'>Sep 23, 2012</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>先日PCのマザーボード、CPU、メモリを入れ替えました。</p>
+<p> </p>
+<p>元は</p>
+<p>CPU : AMD Phenom 64 x4 (4Core)</p>
+<p>M/B : ASUS M3A32 MVP Delux / WiFi AP</p>
+<p>Mem : DDR2-800MHz 2GBx4</p>
+<p>から</p>
+<p>CPU : AMD FX6100 (6Core)</p>
+<p>M/B : GIGA-BYTE GA-990FXA -UD3</p>
+<p>Mem : DDR3-1333MHz 4GBx2</p>
+<p>です。</p>
+<p> </p>
+<p>パーツを入れ替えた後、OSの再インストールなしに起動して、ドライバー類をインストール。</p>
+<p>特に問題なく・・・、と思いきや。</p>
+<p> </p>
+<p>音声ファイルや動画ファイルを再生すると、度々音飛び（処理落ち）が発生するようになりました。</p>
+<p>動画自体の処理落ちは発生していないことから、サウンドデバイス周辺での処理落ちが疑われます。</p>
+<p> </p>
+<p>で、サウンドカードですが、ONKYO SE-200PCI LTDです。</p>
+<p>設計の同じSE-200PCIは、2006年の製品ですし、チップ自体もVIA Envy24 HTと結構古いものが使われています。</p>
+<p>古いからと言って音質が悪いわけではないですが、機能はいまいちです。</p>
+<p> </p>
+<p>音飛びの問題は、PCIバスへの信号遅延だと想像してます。</p>
+<p>PCIバスはSB950のサウスブリッジに直でつながっています。</p>
+<p>M3A32 MVPの頃はPCIバスも現役でしたから、BIOSにもPCI周りの設定項目がちゃんとありましたが、今のGA-990FXA-UD3にはPCI関連の項目がありません。</p>
+<p>PCIバスのカード上でバッファメモリーの量を増やすことができれば解決する問題かなとも想います。</p>
+<p>しかし、SE-200PCI LTDのドライバーには、バッファメモリーの量を設定する項目はありません。</p>
+<p> </p>
+<p>現在PCIバスを搭載しているマザーボードは希少ですし、今後、VIAによるドライバーの改修が行われる可能性は非常に低いものと思います。</p>
+<p>またBIOS側でPCIバスのレイテンシーの調整項目が追加される可能性も低いのではないかと思います。</p>
+<p> </p>
+<p>なぜなら、PCIサウンドカードという市場がもはやないから。</p>
+<p>USBかオンボードかPCIeの3択で前者二つが大半だからです。</p>
+<p> </p>
+<p>でも音飛びを現状のハードウェアで解決する方法が無きにしも非ずらしいです。</p>
+<p>1つ目はWindowsアプリケーションで強制的にPCI Latencyを書き換える方法。</p>
+<p>2つ目はPCIバスへの割り込みを徹底的に除去してマルチコアCPUでのスレッド分配を遅延させない方法。</p>
+<p> </p>
+<p>前者はWindows7ではハングアップやインストール不能などの報告例が多い「PCI Latency Tool」。</p>
+<p>後者はAMD Cool&rsquo;n&rsquo;Quietと省電力機能の解除とWindowsサウンドの解除。</p>
+<p> </p>
+<p>前者のツールが利用できれば、簡単だったんですが、インストールできませんでした。</p>
+<p>管理者権限でインストールしろと言われるのですが、その権限でインストールしているにも関わらず。</p>
+<p> </p>
+<p>さて後者は、今日あたり試してみようかと思います。</p>
+<p>でもきっと変わらず音飛びするんだろうなぁ。</p>
+<p> </p>
+<p>で、結局Cool&rsquo;n&rsquo;Quietのアンインストールで、音飛びがなくなりました。</p>
+<p> </p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2026 おやぶんのアーカイブ
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.33.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+    
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="../../daily_blog/ts/main.ac8dd5d104b449cee3ac493cccfad89bab536ddc37bd0630700d693a84c831ff.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

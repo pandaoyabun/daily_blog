@@ -3,22 +3,32 @@ canonifyURLs = true
 relativeURLs = true
 languageCode = "ja-jp"
 title = "おやぶんのアーカイブ"
-theme = "ananke"
+theme = 'hugo-theme-stack'
 
-# ファイル名に日本語や長い記号があってもエラーにならないようにする魔法の2行
 removePathAccents = true
 summaryLength = 10
 
-[permalinks]
-  posts = "/:year/:month/:filename/"
+# HTMLタグ（アメブロの表やリンク）を許可する
+[markup.goldmark.renderer]
+    unsafe = true
 
-[menu]
-  [[menu.main]]
-    name = "記事一覧"
-    url = "/posts/"
-    weight = 10
+[params]
+    mainSections = ["post"]
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+    [params.sidebar]
+        enabled = true
+        [params.sidebar.avatar]
+            enabled = true
+            # URLを直接書く場合は 'local = false' を明示します
+            local = false
+            src = "https://github.com/github.png"
+        
+        emoji = "🚀"
+        subtitle = "20年分の記録を奪還中"
+
+    [params.article]
+        [params.article.license]
+            enabled = false
+
+    [params.footer]
+        enabled = true

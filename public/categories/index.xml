@@ -1,11 +1,91 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on おやぶんのアーカイブ</title>
-    <link>//localhost:1313/categories/</link>
-    <description>Recent content in Categories on おやぶんのアーカイブ</description>
-    <generator>Hugo</generator>
-    <language>ja-jp</language>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+    <channel>
+        <title>Categories on おやぶんのアーカイブ</title>
+        <link>http://localhost:1313/daily_blog/categories/</link>
+        <description>Recent content in Categories on おやぶんのアーカイブ</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <lastBuildDate>Sat, 20 Jul 2013 16:59:47 +0900</lastBuildDate><atom:link href="http://localhost:1313/daily_blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AUDIO</title>
+        <link>http://localhost:1313/daily_blog/categories/audio/</link>
+        <pubDate>Sat, 20 Jul 2013 16:59:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/audio/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>COMPUTER</title>
+        <link>http://localhost:1313/daily_blog/categories/computer/</link>
+        <pubDate>Mon, 22 Apr 2013 18:12:12 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/computer/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>BLOG HISTORY</title>
+        <link>http://localhost:1313/daily_blog/categories/blog-history/</link>
+        <pubDate>Wed, 20 Mar 2013 17:28:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/blog-history/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>COLUMN</title>
+        <link>http://localhost:1313/daily_blog/categories/column/</link>
+        <pubDate>Wed, 20 Mar 2013 17:28:39 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/column/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SITE</title>
+        <link>http://localhost:1313/daily_blog/categories/site/</link>
+        <pubDate>Tue, 20 Nov 2012 13:06:23 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/site/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>GALLERY</title>
+        <link>http://localhost:1313/daily_blog/categories/gallery/</link>
+        <pubDate>Sun, 21 Mar 2010 22:36:20 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/gallery/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>ENTHUSIAST</title>
+        <link>http://localhost:1313/daily_blog/categories/enthusiast/</link>
+        <pubDate>Sat, 06 Feb 2010 20:00:38 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/enthusiast/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>ANIMATION</title>
+        <link>http://localhost:1313/daily_blog/categories/animation/</link>
+        <pubDate>Thu, 24 Dec 2009 01:00:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/animation/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>MUSIC</title>
+        <link>http://localhost:1313/daily_blog/categories/music/</link>
+        <pubDate>Thu, 06 Aug 2009 08:32:42 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/music/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>SOURCE LIBRARY</title>
+        <link>http://localhost:1313/daily_blog/categories/source-library/</link>
+        <pubDate>Mon, 06 Jul 2009 11:49:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/categories/source-library/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>

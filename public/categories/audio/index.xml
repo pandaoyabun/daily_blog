@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>AUDIO on おやぶんのアーカイブ</title>
+        <link>http://localhost:1313/daily_blog/categories/audio/</link>
+        <description>Recent content in AUDIO on おやぶんのアーカイブ</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja-jp</language>
+        <lastBuildDate>Sat, 20 Jul 2013 16:59:47 +0900</lastBuildDate><atom:link href="http://localhost:1313/daily_blog/categories/audio/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Windows Audio Engineのピークリミッターは普通。</title>
+        <link>http://localhost:1313/daily_blog/post/2013-07-20-windows-audio-engine%E3%81%AE%E3%83%92%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%9F%E3%83%83%E3%82%BF%E3%83%BC%E3%81%AF%E6%99%AE%E9%80%9A/</link>
+        <pubDate>Sat, 20 Jul 2013 16:59:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2013-07-20-windows-audio-engine%E3%81%AE%E3%83%92%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%9F%E3%83%83%E3%82%BF%E3%83%BC%E3%81%AF%E6%99%AE%E9%80%9A/</guid>
+        <description>&lt;p&gt;Windows Media PlayerのピークリミッターとWindows Audio Engineのピークリミッターは別物だけど、まるで同じ物であるかのような記事を自称専門家が書いているのが気になるけど。&lt;/p&gt;
+&lt;p&gt;そもそもWASAPI排他モード以外の方法では、Windows Audio Engineは不可避なのだから、ピークリミッターにかからないようにWASAPI排他モードのアプリを使えば良いんじゃないかな。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;WASAPI排他モードを使わない=ビットパーフェクトを望んでないのだから、再生するプレーヤーアプリでボリュームを1dbでも下げれば、Windows Audio Engineのピークリミッターにかかることはない。&lt;/p&gt;
+&lt;p&gt;根本的な問題として、ヘッドフォンだろうが外部アンプだろうがアンプ内蔵スピーカーだろうがフルボリュームで音楽を再生することがあるのか？&lt;/p&gt;
+&lt;p&gt;再生データを1db下げたところで何の不都合があるのかなぁ。&lt;/p&gt;
+&lt;p&gt;アンプ側で1db分目盛りを増やせば良いじゃん。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;JPOPなんかのCDソースで、0dbを超えてクリップしまくっている音楽を聞いて、音がひずもうが、波形が崩れようが関係ないじゃん。&lt;/p&gt;
+&lt;p&gt;そもそもCDの段階で波形が崩れているのだから。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;クリップしていないCDで、再生プレーヤー側で絶対にクリップしない入力ゲイン89db(-12db程度)にボリュームを絞ってから、出直しておいで。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Windows Audio Engineのピークリミッターはかなり優秀な部類だと思うけどな。&lt;/p&gt;
+&lt;p&gt;普通なら0db以上が入力されたら、そこで波形の山がつぶれてひずんじゃうんだけど。&lt;/p&gt;
+&lt;p&gt;0dbに近づいたら、ひずまないレベルまで瞬時に下げてなるべく違和感なくしてくれるんだから。&lt;/p&gt;
+&lt;p&gt;それをバグだとか音質が悪いとか、言っているのはおかしいだろう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows Audio Engineのピークリミッターは普通。</title>
+        <link>http://localhost:1313/daily_blog/posts/2013-07-20-windows-audio-engine%E3%81%AE%E3%83%92%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%9F%E3%83%83%E3%82%BF%E3%83%BC%E3%81%AF%E6%99%AE%E9%80%9A/</link>
+        <pubDate>Sat, 20 Jul 2013 16:59:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2013-07-20-windows-audio-engine%E3%81%AE%E3%83%92%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%9F%E3%83%83%E3%82%BF%E3%83%BC%E3%81%AF%E6%99%AE%E9%80%9A/</guid>
+        <description>&lt;p&gt;Windows Media PlayerのピークリミッターとWindows Audio Engineのピークリミッターは別物だけど、まるで同じ物であるかのような記事を自称専門家が書いているのが気になるけど。&lt;/p&gt;
+&lt;p&gt;そもそもWASAPI排他モード以外の方法では、Windows Audio Engineは不可避なのだから、ピークリミッターにかからないようにWASAPI排他モードのアプリを使えば良いんじゃないかな。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;WASAPI排他モードを使わない=ビットパーフェクトを望んでないのだから、再生するプレーヤーアプリでボリュームを1dbでも下げれば、Windows Audio Engineのピークリミッターにかかることはない。&lt;/p&gt;
+&lt;p&gt;根本的な問題として、ヘッドフォンだろうが外部アンプだろうがアンプ内蔵スピーカーだろうがフルボリュームで音楽を再生することがあるのか？&lt;/p&gt;
+&lt;p&gt;再生データを1db下げたところで何の不都合があるのかなぁ。&lt;/p&gt;
+&lt;p&gt;アンプ側で1db分目盛りを増やせば良いじゃん。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;JPOPなんかのCDソースで、0dbを超えてクリップしまくっている音楽を聞いて、音がひずもうが、波形が崩れようが関係ないじゃん。&lt;/p&gt;
+&lt;p&gt;そもそもCDの段階で波形が崩れているのだから。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;クリップしていないCDで、再生プレーヤー側で絶対にクリップしない入力ゲイン89db(-12db程度)にボリュームを絞ってから、出直しておいで。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Windows Audio Engineのピークリミッターはかなり優秀な部類だと思うけどな。&lt;/p&gt;
+&lt;p&gt;普通なら0db以上が入力されたら、そこで波形の山がつぶれてひずんじゃうんだけど。&lt;/p&gt;
+&lt;p&gt;0dbに近づいたら、ひずまないレベルまで瞬時に下げてなるべく違和感なくしてくれるんだから。&lt;/p&gt;
+&lt;p&gt;それをバグだとか音質が悪いとか、言っているのはおかしいだろう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Walkman Application in Sony Xperia Tablet S</title>
+        <link>http://localhost:1313/daily_blog/post/2013-04-08-walkman-application-in-sony-xperia-tablet-s/</link>
+        <pubDate>Mon, 08 Apr 2013 16:52:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2013-04-08-walkman-application-in-sony-xperia-tablet-s/</guid>
+        <description>&lt;p&gt;Sony Xperia Tablet SにインストールされているWalkmanアプリは、DLNAに&lt;wbr /&gt;対応しています。&lt;/p&gt;
+&lt;p&gt;DLNAサーバー（Windows Media SeverやDLNA対応HDDなど)に蓄積された音楽ファイル&lt;wbr /&gt;を再生することができます。&lt;/p&gt;
+&lt;p&gt;WindowsアプリケーションのFoobar2000のUPn&lt;wbr /&gt;Pサーバー機能を使って、再生することができます。
+&amp;hellip; ただしストリーム形式はmp3じゃないといけません。
+ほかのDLNAクライアントと併用する場合は、Foobar20&lt;wbr /&gt;00側の設定で、Tablet用のプロファイルを作成します。
+Use profile when に「X-AV-Client-Info」を、containに「&lt;wbr /&gt;av=5.0; cn=&amp;ldquo;Sony&amp;rdquo;; mn=&amp;ldquo;SGPT12&amp;rdquo;; mv=&amp;ldquo;2.0&amp;rdquo;;」を設定します。
+Walkmanアプリは、バグがあるというか、DLNA仕様にそ&lt;wbr /&gt;ってないのか、Foobar2000とは相性が悪いです。
+プレイリストが表示されなかったり、再生できないプレイリストが&lt;wbr /&gt;あったり・・・。
+Foobar2000のマルチバイト文字列の扱いにバグがあるせ&lt;wbr /&gt;いかもしれませんけれど。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;q=DLNA&amp;amp;rt=qasearch&amp;amp;srcpg=tablet&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;amp;q=DLNA&amp;amp;amp;rt=qasearch&amp;amp;amp;srcpg=tablet&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;q=DLNA&amp;amp;rt=qasearch&amp;amp;srcpg=tablet&lt;/a&gt;&lt;/a&gt;
+ここにWalkmanアプリのDLNA仕様に正確に対応していないことが書かれています。
+シングルクォート「&amp;rsquo;」が、ファイル名やタイトル、アーティスト名などの文字列に含まれていると再生できないとことです。
+B&amp;rsquo;zの楽曲は無理と言うことに…。
+一度再生を失敗した楽曲情報は、Devicesに記録されてしまっているので、これのキャッシュと
+データを削除しないと再生できません。
+こんなヘルプを書くぐらいなら、改善をしてほしいモノです。&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Add 2013/04/22&amp;ndash;&lt;/p&gt;
+&lt;p&gt;4月18日のアップデートで「&amp;rsquo;」シングルクォートの問題が改修されています。&lt;/p&gt;
+&lt;p&gt;そのほかの細かなバグが改修されています。画面がフラッシュしたり、電源が落ちたりすることもなくなっています。&lt;/p&gt;
+&lt;p&gt;ちなみにFoobar2000のDLNAサーバーのデバッグログをとることで、X-AV-Client-Infoを調べることができます。&lt;/p&gt;
+&lt;p&gt;&amp;ndash;end&amp;ndash;&lt;/p&gt;
+&lt;p&gt;ほかにWalkmanアプリは「Throw」という機能がありま&lt;wbr /&gt;す。
+DLNA対応でWindows Media Playerのリモート再生に対応した機器(UPnPメディア機&lt;wbr /&gt;器)にデータを送信して再生することができます。
+データは、画像、音楽、動画などです。
+MacでいうところのAirPlayに近いでしょうか。
+このThrowを使うと、Walkmanアプリで再生操作すると&lt;wbr /&gt;Wi-FiでつながったAVアンプから音が出ます。&lt;/p&gt;
+&lt;p&gt;私の持っているAVアンプ(DENON AVC-4320)がWindows Media Playerのリモート再生に対応していることを初めて知ったの&lt;wbr /&gt;は、購入してから数年たったころでした。
+Windows VISTA認証機器ということは知っていたのですが・・・。
+マニュアルにも書いてなかったし、Windows Media Playerのヘルプにもそんなことが書いてなかったので判らな&lt;wbr /&gt;かったのです。
+あるときONKYOの製品紹介ページを見ているときに、Wind&lt;wbr /&gt;ows VISTA/&lt;wbr /&gt;7認証のAVアンプ製品のことが記述されていたので、同じくWin&lt;wbr /&gt;dows VISTA/&lt;wbr /&gt;7の認証機器のDENON AVC-4320もできるはずと思って、Windows7からリモート再生した&lt;wbr /&gt;らできたのです。&lt;/p&gt;
+&lt;p&gt;で、今日、WalkmanアプリからThrowをしてみたら、A&lt;wbr /&gt;Vアンプから音が出ました。&lt;/p&gt;
+&lt;p&gt;Android端末でできることが意外に多いです。
+ベースになったのはLinuxだから当たり前か…。&lt;/p&gt;
+&lt;p&gt;しかしDLNAに関しては、知らないことが多すぎます。&lt;/p&gt;
+&lt;p&gt;Sony Xperia スマートフォンを持っていてWalkmanアプリが使える場合は&lt;wbr /&gt;、Throwを試してみたらどうでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Sony Xperia Tablet S のWalkman の Throw機能は、ファイル形式がAAC、mp3、WMAのみに対応しています。&lt;/p&gt;
+&lt;p&gt;詳しくは以下のURLより&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sony.jp/support/dlna/lineup.html&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.sony.jp/support/dlna/lineup.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.sony.jp/support/dlna/lineup.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Walkman Application in Sony Xperia Tablet S</title>
+        <link>http://localhost:1313/daily_blog/posts/2013-04-08-walkman-application-in-sony-xperia-tablet-s/</link>
+        <pubDate>Mon, 08 Apr 2013 16:52:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2013-04-08-walkman-application-in-sony-xperia-tablet-s/</guid>
+        <description>&lt;p&gt;Sony Xperia Tablet SにインストールされているWalkmanアプリは、DLNAに&lt;wbr /&gt;対応しています。&lt;/p&gt;
+&lt;p&gt;DLNAサーバー（Windows Media SeverやDLNA対応HDDなど)に蓄積された音楽ファイル&lt;wbr /&gt;を再生することができます。&lt;/p&gt;
+&lt;p&gt;WindowsアプリケーションのFoobar2000のUPn&lt;wbr /&gt;Pサーバー機能を使って、再生することができます。
+&amp;hellip; ただしストリーム形式はmp3じゃないといけません。
+ほかのDLNAクライアントと併用する場合は、Foobar20&lt;wbr /&gt;00側の設定で、Tablet用のプロファイルを作成します。
+Use profile when に「X-AV-Client-Info」を、containに「&lt;wbr /&gt;av=5.0; cn=&amp;ldquo;Sony&amp;rdquo;; mn=&amp;ldquo;SGPT12&amp;rdquo;; mv=&amp;ldquo;2.0&amp;rdquo;;」を設定します。
+Walkmanアプリは、バグがあるというか、DLNA仕様にそ&lt;wbr /&gt;ってないのか、Foobar2000とは相性が悪いです。
+プレイリストが表示されなかったり、再生できないプレイリストが&lt;wbr /&gt;あったり・・・。
+Foobar2000のマルチバイト文字列の扱いにバグがあるせ&lt;wbr /&gt;いかもしれませんけれど。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;q=DLNA&amp;amp;rt=qasearch&amp;amp;srcpg=tablet&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;amp;q=DLNA&amp;amp;amp;rt=qasearch&amp;amp;amp;srcpg=tablet&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://qa.support.sony.jp/solution/S1210240043242/?p=&amp;amp;q=DLNA&amp;amp;rt=qasearch&amp;amp;srcpg=tablet&lt;/a&gt;&lt;/a&gt;
+ここにWalkmanアプリのDLNA仕様に正確に対応していないことが書かれています。
+シングルクォート「&amp;rsquo;」が、ファイル名やタイトル、アーティスト名などの文字列に含まれていると再生できないとことです。
+B&amp;rsquo;zの楽曲は無理と言うことに…。
+一度再生を失敗した楽曲情報は、Devicesに記録されてしまっているので、これのキャッシュと
+データを削除しないと再生できません。
+こんなヘルプを書くぐらいなら、改善をしてほしいモノです。&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Add 2013/04/22&amp;ndash;&lt;/p&gt;
+&lt;p&gt;4月18日のアップデートで「&amp;rsquo;」シングルクォートの問題が改修されています。&lt;/p&gt;
+&lt;p&gt;そのほかの細かなバグが改修されています。画面がフラッシュしたり、電源が落ちたりすることもなくなっています。&lt;/p&gt;
+&lt;p&gt;ちなみにFoobar2000のDLNAサーバーのデバッグログをとることで、X-AV-Client-Infoを調べることができます。&lt;/p&gt;
+&lt;p&gt;&amp;ndash;end&amp;ndash;&lt;/p&gt;
+&lt;p&gt;ほかにWalkmanアプリは「Throw」という機能がありま&lt;wbr /&gt;す。
+DLNA対応でWindows Media Playerのリモート再生に対応した機器(UPnPメディア機&lt;wbr /&gt;器)にデータを送信して再生することができます。
+データは、画像、音楽、動画などです。
+MacでいうところのAirPlayに近いでしょうか。
+このThrowを使うと、Walkmanアプリで再生操作すると&lt;wbr /&gt;Wi-FiでつながったAVアンプから音が出ます。&lt;/p&gt;
+&lt;p&gt;私の持っているAVアンプ(DENON AVC-4320)がWindows Media Playerのリモート再生に対応していることを初めて知ったの&lt;wbr /&gt;は、購入してから数年たったころでした。
+Windows VISTA認証機器ということは知っていたのですが・・・。
+マニュアルにも書いてなかったし、Windows Media Playerのヘルプにもそんなことが書いてなかったので判らな&lt;wbr /&gt;かったのです。
+あるときONKYOの製品紹介ページを見ているときに、Wind&lt;wbr /&gt;ows VISTA/&lt;wbr /&gt;7認証のAVアンプ製品のことが記述されていたので、同じくWin&lt;wbr /&gt;dows VISTA/&lt;wbr /&gt;7の認証機器のDENON AVC-4320もできるはずと思って、Windows7からリモート再生した&lt;wbr /&gt;らできたのです。&lt;/p&gt;
+&lt;p&gt;で、今日、WalkmanアプリからThrowをしてみたら、A&lt;wbr /&gt;Vアンプから音が出ました。&lt;/p&gt;
+&lt;p&gt;Android端末でできることが意外に多いです。
+ベースになったのはLinuxだから当たり前か…。&lt;/p&gt;
+&lt;p&gt;しかしDLNAに関しては、知らないことが多すぎます。&lt;/p&gt;
+&lt;p&gt;Sony Xperia スマートフォンを持っていてWalkmanアプリが使える場合は&lt;wbr /&gt;、Throwを試してみたらどうでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Sony Xperia Tablet S のWalkman の Throw機能は、ファイル形式がAAC、mp3、WMAのみに対応しています。&lt;/p&gt;
+&lt;p&gt;詳しくは以下のURLより&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sony.jp/support/dlna/lineup.html&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://www.sony.jp/support/dlna/lineup.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://www.sony.jp/support/dlna/lineup.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows 7 / 8 で音飛びする件</title>
+        <link>http://localhost:1313/daily_blog/post/2012-11-22-windows-7-8-%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%99%E3%82%8B%E4%BB%B6/</link>
+        <pubDate>Thu, 22 Nov 2012 09:57:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-11-22-windows-7-8-%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%99%E3%82%8B%E4%BB%B6/</guid>
+        <description>&lt;p&gt;Windows 単独や、オーディオデバイス単独、ドライバー単独の問題ではないようです。&lt;/p&gt;
+&lt;p&gt;Microsoftでもグリッチとして、問題を確認しているようです。&lt;/p&gt;
+&lt;p&gt;Microsoftが、Windows Lab.で検証を行っているらしいですが、複合的な原因で、各種ハードウェア構成、ドライバーのインストール順位などで、発生したり、発生しなかったり。&lt;/p&gt;
+&lt;p&gt;おおよそ80%のユーザーが何らかのグリッチを経験しているそうです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;私も環境を変えるたび、クリーンインストールするたびに、以前の解決方法を試して、解決したり、解決しなかったりするので、おおよそ、そんな感じではないだろうかと思っていましたが・・・。&lt;/p&gt;
+&lt;p&gt;いろいろなサイトやブログで、Windowsの音飛びの解決方法を紹介していますが、すべて正しいですが、すべてが完全な方法ではないということなのです。&lt;/p&gt;
+&lt;p&gt;個々の環境によって問題発生も解決も異なります。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;デバイスとしては、USBデバイスよりもPCIデバイスの方が優位、PCIデバイスよりもPCI-Eデバイスの方が優位。&lt;/p&gt;
+&lt;p&gt;ハードウェア構成としては、必要最小限として、オンボードデバイスも最小にして、極力不要なドライバー、アプリケーションは入れない。&lt;/p&gt;
+&lt;div&gt;Windowsの要らないサービス、アプリケーションは無効にする。&lt;/div&gt;
+ウィルスなどに感染しない閉じられたLANで使用して、常駐型の監視ツールなどはすべて削除するなど。
+&lt;p&gt;音声再生はいわゆるストリーミングですから、ハードウェアもOSも100%占有できれば、グリッチは発生しないでしょうけど。&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;グリッチはオーディオマニアとか云々ではなくて、通常ユーザーでもかなりのストレスになりますからね。&lt;/div&gt;
+&lt;div&gt;専用マシンを用意するとかではなく、OS、ハードウェア、アプリケーションを作る側で努力して解決してほしいものです。&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>Windows 7 / 8 で音飛びする件</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-11-22-windows-7-8-%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%99%E3%82%8B%E4%BB%B6/</link>
+        <pubDate>Thu, 22 Nov 2012 09:57:10 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-11-22-windows-7-8-%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%99%E3%82%8B%E4%BB%B6/</guid>
+        <description>&lt;p&gt;Windows 単独や、オーディオデバイス単独、ドライバー単独の問題ではないようです。&lt;/p&gt;
+&lt;p&gt;Microsoftでもグリッチとして、問題を確認しているようです。&lt;/p&gt;
+&lt;p&gt;Microsoftが、Windows Lab.で検証を行っているらしいですが、複合的な原因で、各種ハードウェア構成、ドライバーのインストール順位などで、発生したり、発生しなかったり。&lt;/p&gt;
+&lt;p&gt;おおよそ80%のユーザーが何らかのグリッチを経験しているそうです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;私も環境を変えるたび、クリーンインストールするたびに、以前の解決方法を試して、解決したり、解決しなかったりするので、おおよそ、そんな感じではないだろうかと思っていましたが・・・。&lt;/p&gt;
+&lt;p&gt;いろいろなサイトやブログで、Windowsの音飛びの解決方法を紹介していますが、すべて正しいですが、すべてが完全な方法ではないということなのです。&lt;/p&gt;
+&lt;p&gt;個々の環境によって問題発生も解決も異なります。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;デバイスとしては、USBデバイスよりもPCIデバイスの方が優位、PCIデバイスよりもPCI-Eデバイスの方が優位。&lt;/p&gt;
+&lt;p&gt;ハードウェア構成としては、必要最小限として、オンボードデバイスも最小にして、極力不要なドライバー、アプリケーションは入れない。&lt;/p&gt;
+&lt;div&gt;Windowsの要らないサービス、アプリケーションは無効にする。&lt;/div&gt;
+ウィルスなどに感染しない閉じられたLANで使用して、常駐型の監視ツールなどはすべて削除するなど。
+&lt;p&gt;音声再生はいわゆるストリーミングですから、ハードウェアもOSも100%占有できれば、グリッチは発生しないでしょうけど。&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;グリッチはオーディオマニアとか云々ではなくて、通常ユーザーでもかなりのストレスになりますからね。&lt;/div&gt;
+&lt;div&gt;専用マシンを用意するとかではなく、OS、ハードウェア、アプリケーションを作る側で努力して解決してほしいものです。&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>ONKYO SE-300PCIE on Windows 8 Pro 64bit</title>
+        <link>http://localhost:1313/daily_blog/post/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</link>
+        <pubDate>Fri, 16 Nov 2012 15:02:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</guid>
+        <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;ONKYO SE-200PCI LTD が、OSやドライバーの構成状況、インストールタイミングによって、PCIバスでの信号遅延が発生し、音飛びやノイズが発生していた状態だったので、辛抱たまらず、&lt;a href=&#34;http://www.jp.onkyo.com/pcaudio/pciedigitalaudioboard/special/&#34; target=&#34;_blank&#34;&gt;ONKYO SE-300PCIE&lt;/a&gt; に買い換えました。&lt;/p&gt;
+&lt;p&gt;商品名にもあるとおりPCI-Enhanced バスを使用します。&lt;/p&gt;
+&lt;p&gt;SE-300PCIE はカードの高さがあり、隣のバスに干渉しますので2スロット分の空きが必要になります。&lt;/p&gt;
+&lt;p&gt;GIGA-BYTE GA-990FXA-UD3の一番下のスロットに差し込んでやろうとしたら、USB2.0やUSB3.0、IEEE1394のコネクタに干渉して取り付けできませんでした。&lt;/p&gt;
+&lt;p&gt;下から2番目のスロットはPCIなので、ここにはSE-300PCIEの拡張コネクタを差し込みます。&lt;/p&gt;
+&lt;p&gt;下から3番目のスロットのPCI-E x16にSE-300PCIEの本体を差し込みました。&lt;/p&gt;
+&lt;p&gt;グラフィックカードのSLIやCrossFireを使わないなら、ここで問題ないでしょう。&lt;/p&gt;
+&lt;p&gt;PCI-E x1が2スロットありますが、ことごとくグラフィックカードと干渉します。&lt;/p&gt;
+&lt;table border=&#34;1&#34; cellspacing=&#34;0&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;スロット&lt;/th&gt;
+&lt;th&gt;差し込みカード&lt;/th&gt;
+&lt;th&gt;バックパネル&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x1-1&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x16-1&lt;/td&gt;
+&lt;td&gt;Radeon HD 5670&lt;/td&gt;
+&lt;td&gt;Radeon HD 5670&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x1-2&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x4-1&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x16-2&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x4-2&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;USB2.0/IEEE1394&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+こんな感じです。
+&lt;p&gt;SE-300PCIE を PCI-E x1 に接続すると認識されないなどの現象があるようです。&lt;/p&gt;
+&lt;p&gt;x4以上のスロットなら大丈夫らしいです。&lt;/p&gt;
+&lt;p&gt;PCI-E x4-1のスロットにそのうち差し替えます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;気になる音質ですが、美辞麗句や酷評は薀蓄を語る人たちに任せます。&lt;/p&gt;
+&lt;p&gt;最近では「付帯感のない」などという意味のわからない言葉が横行してます。&lt;/p&gt;
+&lt;p&gt;あげぽよと同じくらい意味わからないです。&lt;/p&gt;
+&lt;p&gt;結局のところ聞きやすいかどうかだけ。&lt;/p&gt;
+&lt;p&gt;で、SE-300PCIE は聞きやすい。&lt;/p&gt;
+&lt;p&gt;もうひとつ、音飛びやノイズがなくなってストレス解消ですわ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;百万超えの外付けUSB音源で音飛びしているやつとか、もう悲惨としかいえないだろ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>ONKYO SE-300PCIE on Windows 8 Pro 64bit</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</link>
+        <pubDate>Fri, 16 Nov 2012 15:02:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-11-16-onkyo-se-300pcie-on-windows-8-pro-64bit/</guid>
+        <description>&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;ONKYO SE-200PCI LTD が、OSやドライバーの構成状況、インストールタイミングによって、PCIバスでの信号遅延が発生し、音飛びやノイズが発生していた状態だったので、辛抱たまらず、&lt;a href=&#34;http://www.jp.onkyo.com/pcaudio/pciedigitalaudioboard/special/&#34; target=&#34;_blank&#34;&gt;ONKYO SE-300PCIE&lt;/a&gt; に買い換えました。&lt;/p&gt;
+&lt;p&gt;商品名にもあるとおりPCI-Enhanced バスを使用します。&lt;/p&gt;
+&lt;p&gt;SE-300PCIE はカードの高さがあり、隣のバスに干渉しますので2スロット分の空きが必要になります。&lt;/p&gt;
+&lt;p&gt;GIGA-BYTE GA-990FXA-UD3の一番下のスロットに差し込んでやろうとしたら、USB2.0やUSB3.0、IEEE1394のコネクタに干渉して取り付けできませんでした。&lt;/p&gt;
+&lt;p&gt;下から2番目のスロットはPCIなので、ここにはSE-300PCIEの拡張コネクタを差し込みます。&lt;/p&gt;
+&lt;p&gt;下から3番目のスロットのPCI-E x16にSE-300PCIEの本体を差し込みました。&lt;/p&gt;
+&lt;p&gt;グラフィックカードのSLIやCrossFireを使わないなら、ここで問題ないでしょう。&lt;/p&gt;
+&lt;p&gt;PCI-E x1が2スロットありますが、ことごとくグラフィックカードと干渉します。&lt;/p&gt;
+&lt;table border=&#34;1&#34; cellspacing=&#34;0&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;スロット&lt;/th&gt;
+&lt;th&gt;差し込みカード&lt;/th&gt;
+&lt;th&gt;バックパネル&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x1-1&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x16-1&lt;/td&gt;
+&lt;td&gt;Radeon HD 5670&lt;/td&gt;
+&lt;td&gt;Radeon HD 5670&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x1-2&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x4-1&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x16-2&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;SE-300PCIE&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PCI-E x4-2&lt;/td&gt;
+&lt;td&gt;空き&lt;/td&gt;
+&lt;td&gt;USB2.0/IEEE1394&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+こんな感じです。
+&lt;p&gt;SE-300PCIE を PCI-E x1 に接続すると認識されないなどの現象があるようです。&lt;/p&gt;
+&lt;p&gt;x4以上のスロットなら大丈夫らしいです。&lt;/p&gt;
+&lt;p&gt;PCI-E x4-1のスロットにそのうち差し替えます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;気になる音質ですが、美辞麗句や酷評は薀蓄を語る人たちに任せます。&lt;/p&gt;
+&lt;p&gt;最近では「付帯感のない」などという意味のわからない言葉が横行してます。&lt;/p&gt;
+&lt;p&gt;あげぽよと同じくらい意味わからないです。&lt;/p&gt;
+&lt;p&gt;結局のところ聞きやすいかどうかだけ。&lt;/p&gt;
+&lt;p&gt;で、SE-300PCIE は聞きやすい。&lt;/p&gt;
+&lt;p&gt;もうひとつ、音飛びやノイズがなくなってストレス解消ですわ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;百万超えの外付けUSB音源で音飛びしているやつとか、もう悲惨としかいえないだろ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cool&#39;n&#39;Quiet が音飛びの原因</title>
+        <link>http://localhost:1313/daily_blog/post/2012-10-18-coolnquiet-%E3%81%8B%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%AE%E5%8E%9F%E5%9B%A0/</link>
+        <pubDate>Thu, 18 Oct 2012 11:39:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-10-18-coolnquiet-%E3%81%8B%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%AE%E5%8E%9F%E5%9B%A0/</guid>
+        <description>&lt;p&gt;新しくしたCPU(AMD FX6100)、M/B(GIGABYTE GA-990FXA UD3)、RAM(DD3-1600 8GB)の環境を導入するに当たり、M/Bに付属していたDVD-ROMに入っているドライバー、アプリケーションをインストールしていたのが問題でした。&lt;/p&gt;
+&lt;p&gt;なんとなく省エネの雰囲気に流されて、GIGABYTE製の省エネアプリ、AMD製の省エネアプリを入れてました。&lt;/p&gt;
+&lt;p&gt;両方ともアンインストールしたことで、Windows 7 64bit (ONKYO SE-200PCI LTD)の環境で音飛びしなくなりました。&lt;/p&gt;
+&lt;p&gt;ずいぶん前に、AMDのCool&amp;rsquo;n&amp;rsquo;Quietが、いろいろなもので処理落ちする原因になっていることを知っていたはずなのですが、ついついインストールしてしまいました。&lt;/p&gt;
+&lt;p&gt;CPU、M/Bを入れ替える前はCool&amp;rsquo;n&amp;rsquo;Quietをインストールしてなかったので、音飛びしないはずです。&lt;/p&gt;
+&lt;p&gt;てっきり、PCIバスの実装方法に問題があるのかと思ってしまいました。&lt;/p&gt;
+&lt;p&gt;GA-990FX UD3のノースチップはAMD 990FX、サウスチップはAMD SB950です。
+PCIバスはSB950に接続されています。
+しかもネイティブで対応しています。
+間にPCIeブリッジなどは入っていません。&lt;/p&gt;
+&lt;p&gt;つまり処理落ちの原因は、Cool&amp;rsquo;n&amp;rsquo;Quietによる割り込みタイマーなどの優先順位やウェイトなどに問題があるからです。&lt;/p&gt;
+&lt;p&gt;省エネは必要ないので、まあいいかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cool&#39;n&#39;Quiet が音飛びの原因</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-10-18-coolnquiet-%E3%81%8B%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%AE%E5%8E%9F%E5%9B%A0/</link>
+        <pubDate>Thu, 18 Oct 2012 11:39:00 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-10-18-coolnquiet-%E3%81%8B%E9%9F%B3%E9%A3%9B%E3%81%B2%E3%81%AE%E5%8E%9F%E5%9B%A0/</guid>
+        <description>&lt;p&gt;新しくしたCPU(AMD FX6100)、M/B(GIGABYTE GA-990FXA UD3)、RAM(DD3-1600 8GB)の環境を導入するに当たり、M/Bに付属していたDVD-ROMに入っているドライバー、アプリケーションをインストールしていたのが問題でした。&lt;/p&gt;
+&lt;p&gt;なんとなく省エネの雰囲気に流されて、GIGABYTE製の省エネアプリ、AMD製の省エネアプリを入れてました。&lt;/p&gt;
+&lt;p&gt;両方ともアンインストールしたことで、Windows 7 64bit (ONKYO SE-200PCI LTD)の環境で音飛びしなくなりました。&lt;/p&gt;
+&lt;p&gt;ずいぶん前に、AMDのCool&amp;rsquo;n&amp;rsquo;Quietが、いろいろなもので処理落ちする原因になっていることを知っていたはずなのですが、ついついインストールしてしまいました。&lt;/p&gt;
+&lt;p&gt;CPU、M/Bを入れ替える前はCool&amp;rsquo;n&amp;rsquo;Quietをインストールしてなかったので、音飛びしないはずです。&lt;/p&gt;
+&lt;p&gt;てっきり、PCIバスの実装方法に問題があるのかと思ってしまいました。&lt;/p&gt;
+&lt;p&gt;GA-990FX UD3のノースチップはAMD 990FX、サウスチップはAMD SB950です。
+PCIバスはSB950に接続されています。
+しかもネイティブで対応しています。
+間にPCIeブリッジなどは入っていません。&lt;/p&gt;
+&lt;p&gt;つまり処理落ちの原因は、Cool&amp;rsquo;n&amp;rsquo;Quietによる割り込みタイマーなどの優先順位やウェイトなどに問題があるからです。&lt;/p&gt;
+&lt;p&gt;省エネは必要ないので、まあいいかな。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Foobar2000 WASAPI component Update</title>
+        <link>http://localhost:1313/daily_blog/post/2012-09-29-foobar2000-wasapi-component-update/</link>
+        <pubDate>Sat, 29 Sep 2012 23:16:56 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-09-29-foobar2000-wasapi-component-update/</guid>
+        <description>&lt;p&gt;Foobar2000 の WASAPIコンポーネントが約3年ぶりに更新されました。&lt;/p&gt;
+&lt;p&gt;機能的には32bit 浮動小数点演算とWASAPIのモードをイベント駆動とプッシュの二つに対応したことでしょうか。&lt;/p&gt;
+&lt;p&gt;あと、サウンドカードドライバーのバグなどでFoobar2000がクラッシュするのを分離するため、サンドボックスを用意したことでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;先の二つのモードですが、イベント駆動が良いようですが、USBデバイスでは対応していない物が多いそうです。&lt;/p&gt;
+&lt;p&gt;その場合はPushにするようです。&lt;/p&gt;
+&lt;p&gt;イベント駆動ができる場合は、イベント駆動に。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音質はバッファーと割り込みタイミングの設定を間違えなければ、どちらも同じです。&lt;/p&gt;
+&lt;p&gt;音が高域側にシフトするとか音飛びするようなら、バッファーが足りておらずデータ抜けを起こしている可能性があります。&lt;/p&gt;
+&lt;p&gt;細かなデータ抜けは高域側にノイズとして出てくるため、高域に量感が出たように錯覚します。&lt;/p&gt;
+&lt;p&gt;DTMで使う目的で発音タイミングがシビアになる必要がある場合以外なら、バッファーを多めにとる方が良いのではないでしょうか。&lt;/p&gt;
+&lt;p&gt;レイテンシーとジッターエラーを混同している人が、レイテンシーを極力短くしようとしますが、音質上のメリットは何一つとしてありませんけどね。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Foobar2000 WASAPI component Update</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-09-29-foobar2000-wasapi-component-update/</link>
+        <pubDate>Sat, 29 Sep 2012 23:16:56 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-09-29-foobar2000-wasapi-component-update/</guid>
+        <description>&lt;p&gt;Foobar2000 の WASAPIコンポーネントが約3年ぶりに更新されました。&lt;/p&gt;
+&lt;p&gt;機能的には32bit 浮動小数点演算とWASAPIのモードをイベント駆動とプッシュの二つに対応したことでしょうか。&lt;/p&gt;
+&lt;p&gt;あと、サウンドカードドライバーのバグなどでFoobar2000がクラッシュするのを分離するため、サンドボックスを用意したことでしょうか。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;先の二つのモードですが、イベント駆動が良いようですが、USBデバイスでは対応していない物が多いそうです。&lt;/p&gt;
+&lt;p&gt;その場合はPushにするようです。&lt;/p&gt;
+&lt;p&gt;イベント駆動ができる場合は、イベント駆動に。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音質はバッファーと割り込みタイミングの設定を間違えなければ、どちらも同じです。&lt;/p&gt;
+&lt;p&gt;音が高域側にシフトするとか音飛びするようなら、バッファーが足りておらずデータ抜けを起こしている可能性があります。&lt;/p&gt;
+&lt;p&gt;細かなデータ抜けは高域側にノイズとして出てくるため、高域に量感が出たように錯覚します。&lt;/p&gt;
+&lt;p&gt;DTMで使う目的で発音タイミングがシビアになる必要がある場合以外なら、バッファーを多めにとる方が良いのではないでしょうか。&lt;/p&gt;
+&lt;p&gt;レイテンシーとジッターエラーを混同している人が、レイテンシーを極力短くしようとしますが、音質上のメリットは何一つとしてありませんけどね。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows7 x64で音飛び</title>
+        <link>http://localhost:1313/daily_blog/post/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/</link>
+        <pubDate>Sun, 23 Sep 2012 10:24:20 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/</guid>
+        <description>&lt;p&gt;先日PCのマザーボード、CPU、メモリを入れ替えました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;元は&lt;/p&gt;
+&lt;p&gt;CPU : AMD Phenom 64 x4 (4Core)&lt;/p&gt;
+&lt;p&gt;M/B : ASUS M3A32 MVP Delux / WiFi AP&lt;/p&gt;
+&lt;p&gt;Mem : DDR2-800MHz 2GBx4&lt;/p&gt;
+&lt;p&gt;から&lt;/p&gt;
+&lt;p&gt;CPU : AMD FX6100 (6Core)&lt;/p&gt;
+&lt;p&gt;M/B : GIGA-BYTE GA-990FXA -UD3&lt;/p&gt;
+&lt;p&gt;Mem : DDR3-1333MHz 4GBx2&lt;/p&gt;
+&lt;p&gt;です。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;パーツを入れ替えた後、OSの再インストールなしに起動して、ドライバー類をインストール。&lt;/p&gt;
+&lt;p&gt;特に問題なく・・・、と思いきや。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音声ファイルや動画ファイルを再生すると、度々音飛び（処理落ち）が発生するようになりました。&lt;/p&gt;
+&lt;p&gt;動画自体の処理落ちは発生していないことから、サウンドデバイス周辺での処理落ちが疑われます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、サウンドカードですが、ONKYO SE-200PCI LTDです。&lt;/p&gt;
+&lt;p&gt;設計の同じSE-200PCIは、2006年の製品ですし、チップ自体もVIA Envy24 HTと結構古いものが使われています。&lt;/p&gt;
+&lt;p&gt;古いからと言って音質が悪いわけではないですが、機能はいまいちです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音飛びの問題は、PCIバスへの信号遅延だと想像してます。&lt;/p&gt;
+&lt;p&gt;PCIバスはSB950のサウスブリッジに直でつながっています。&lt;/p&gt;
+&lt;p&gt;M3A32 MVPの頃はPCIバスも現役でしたから、BIOSにもPCI周りの設定項目がちゃんとありましたが、今のGA-990FXA-UD3にはPCI関連の項目がありません。&lt;/p&gt;
+&lt;p&gt;PCIバスのカード上でバッファメモリーの量を増やすことができれば解決する問題かなとも想います。&lt;/p&gt;
+&lt;p&gt;しかし、SE-200PCI LTDのドライバーには、バッファメモリーの量を設定する項目はありません。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;現在PCIバスを搭載しているマザーボードは希少ですし、今後、VIAによるドライバーの改修が行われる可能性は非常に低いものと思います。&lt;/p&gt;
+&lt;p&gt;またBIOS側でPCIバスのレイテンシーの調整項目が追加される可能性も低いのではないかと思います。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;なぜなら、PCIサウンドカードという市場がもはやないから。&lt;/p&gt;
+&lt;p&gt;USBかオンボードかPCIeの3択で前者二つが大半だからです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;でも音飛びを現状のハードウェアで解決する方法が無きにしも非ずらしいです。&lt;/p&gt;
+&lt;p&gt;1つ目はWindowsアプリケーションで強制的にPCI Latencyを書き換える方法。&lt;/p&gt;
+&lt;p&gt;2つ目はPCIバスへの割り込みを徹底的に除去してマルチコアCPUでのスレッド分配を遅延させない方法。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;前者はWindows7ではハングアップやインストール不能などの報告例が多い「PCI Latency Tool」。&lt;/p&gt;
+&lt;p&gt;後者はAMD Cool&amp;rsquo;n&amp;rsquo;Quietと省電力機能の解除とWindowsサウンドの解除。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;前者のツールが利用できれば、簡単だったんですが、インストールできませんでした。&lt;/p&gt;
+&lt;p&gt;管理者権限でインストールしろと言われるのですが、その権限でインストールしているにも関わらず。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;さて後者は、今日あたり試してみようかと思います。&lt;/p&gt;
+&lt;p&gt;でもきっと変わらず音飛びするんだろうなぁ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、結局Cool&amp;rsquo;n&amp;rsquo;Quietのアンインストールで、音飛びがなくなりました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Windows7 x64で音飛び</title>
+        <link>http://localhost:1313/daily_blog/posts/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/</link>
+        <pubDate>Sun, 23 Sep 2012 10:24:20 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2012-09-23-windows7-x64%E3%81%A6%E9%9F%B3%E9%A3%9B%E3%81%B2/</guid>
+        <description>&lt;p&gt;先日PCのマザーボード、CPU、メモリを入れ替えました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;元は&lt;/p&gt;
+&lt;p&gt;CPU : AMD Phenom 64 x4 (4Core)&lt;/p&gt;
+&lt;p&gt;M/B : ASUS M3A32 MVP Delux / WiFi AP&lt;/p&gt;
+&lt;p&gt;Mem : DDR2-800MHz 2GBx4&lt;/p&gt;
+&lt;p&gt;から&lt;/p&gt;
+&lt;p&gt;CPU : AMD FX6100 (6Core)&lt;/p&gt;
+&lt;p&gt;M/B : GIGA-BYTE GA-990FXA -UD3&lt;/p&gt;
+&lt;p&gt;Mem : DDR3-1333MHz 4GBx2&lt;/p&gt;
+&lt;p&gt;です。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;パーツを入れ替えた後、OSの再インストールなしに起動して、ドライバー類をインストール。&lt;/p&gt;
+&lt;p&gt;特に問題なく・・・、と思いきや。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音声ファイルや動画ファイルを再生すると、度々音飛び（処理落ち）が発生するようになりました。&lt;/p&gt;
+&lt;p&gt;動画自体の処理落ちは発生していないことから、サウンドデバイス周辺での処理落ちが疑われます。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、サウンドカードですが、ONKYO SE-200PCI LTDです。&lt;/p&gt;
+&lt;p&gt;設計の同じSE-200PCIは、2006年の製品ですし、チップ自体もVIA Envy24 HTと結構古いものが使われています。&lt;/p&gt;
+&lt;p&gt;古いからと言って音質が悪いわけではないですが、機能はいまいちです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;音飛びの問題は、PCIバスへの信号遅延だと想像してます。&lt;/p&gt;
+&lt;p&gt;PCIバスはSB950のサウスブリッジに直でつながっています。&lt;/p&gt;
+&lt;p&gt;M3A32 MVPの頃はPCIバスも現役でしたから、BIOSにもPCI周りの設定項目がちゃんとありましたが、今のGA-990FXA-UD3にはPCI関連の項目がありません。&lt;/p&gt;
+&lt;p&gt;PCIバスのカード上でバッファメモリーの量を増やすことができれば解決する問題かなとも想います。&lt;/p&gt;
+&lt;p&gt;しかし、SE-200PCI LTDのドライバーには、バッファメモリーの量を設定する項目はありません。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;現在PCIバスを搭載しているマザーボードは希少ですし、今後、VIAによるドライバーの改修が行われる可能性は非常に低いものと思います。&lt;/p&gt;
+&lt;p&gt;またBIOS側でPCIバスのレイテンシーの調整項目が追加される可能性も低いのではないかと思います。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;なぜなら、PCIサウンドカードという市場がもはやないから。&lt;/p&gt;
+&lt;p&gt;USBかオンボードかPCIeの3択で前者二つが大半だからです。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;でも音飛びを現状のハードウェアで解決する方法が無きにしも非ずらしいです。&lt;/p&gt;
+&lt;p&gt;1つ目はWindowsアプリケーションで強制的にPCI Latencyを書き換える方法。&lt;/p&gt;
+&lt;p&gt;2つ目はPCIバスへの割り込みを徹底的に除去してマルチコアCPUでのスレッド分配を遅延させない方法。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;前者はWindows7ではハングアップやインストール不能などの報告例が多い「PCI Latency Tool」。&lt;/p&gt;
+&lt;p&gt;後者はAMD Cool&amp;rsquo;n&amp;rsquo;Quietと省電力機能の解除とWindowsサウンドの解除。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;前者のツールが利用できれば、簡単だったんですが、インストールできませんでした。&lt;/p&gt;
+&lt;p&gt;管理者権限でインストールしろと言われるのですが、その権限でインストールしているにも関わらず。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;さて後者は、今日あたり試してみようかと思います。&lt;/p&gt;
+&lt;p&gt;でもきっと変わらず音飛びするんだろうなぁ。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;で、結局Cool&amp;rsquo;n&amp;rsquo;Quietのアンインストールで、音飛びがなくなりました。&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>KORG AudioGate 2.2.1</title>
+        <link>http://localhost:1313/daily_blog/post/2011-12-01-korg-audiogate-2-2-1/</link>
+        <pubDate>Thu, 01 Dec 2011 23:41:13 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2011-12-01-korg-audiogate-2-2-1/</guid>
+        <description>&lt;p&gt;KORG AudioGate が2.2.1にバージョンアップして、Windows7/VISTAにおけるWASAPI共有モードに対応しました。&lt;/p&gt;
+&lt;p&gt;WASAPI共有モードなので、ビットパーフェクトは保証されませんが、WASAPI共有モード自体は32bit Floatで処理しているそうなので、24bit IntegerのWAVEデータなら問題はないでしょう。&lt;/p&gt;
+&lt;p&gt;32bit IntegerのWAVEファイルは存在してたり、作成することはできるのですが、私の持っているONKYO SE-200PCI LTDは、192kHz/24bit(Integer)までのフォーマットにしか対応していませんので、必要ないです。&lt;/p&gt;
+&lt;p&gt;それにPCMの32bit Integerより、DSDデータをダイレクトでアナログに変換するD/Aコンバーターを手に入れる方がよっぽど現実的でしょう。いやDSDの方がマイナーなのか。&lt;/p&gt;
+&lt;p&gt;ただ32bit Integerの分解能を生かせるデータは、DSDからの変換しか存在しないでしょうから、だったらDSDのままが良いんじゃないのかな。&lt;/p&gt;
+&lt;p&gt;ただ世の中に32bit Integerを必要とする音楽ソースがないのも事実だけどね。&lt;/p&gt;
+&lt;p&gt;むしろ高音域にのってくる量子化ノイズ、ビートダウンノイズ対策が大変になってくる分、音質上メリットが少ないかも。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>KORG AudioGate 2.2.1</title>
+        <link>http://localhost:1313/daily_blog/posts/2011-12-01-korg-audiogate-2-2-1/</link>
+        <pubDate>Thu, 01 Dec 2011 23:41:13 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2011-12-01-korg-audiogate-2-2-1/</guid>
+        <description>&lt;p&gt;KORG AudioGate が2.2.1にバージョンアップして、Windows7/VISTAにおけるWASAPI共有モードに対応しました。&lt;/p&gt;
+&lt;p&gt;WASAPI共有モードなので、ビットパーフェクトは保証されませんが、WASAPI共有モード自体は32bit Floatで処理しているそうなので、24bit IntegerのWAVEデータなら問題はないでしょう。&lt;/p&gt;
+&lt;p&gt;32bit IntegerのWAVEファイルは存在してたり、作成することはできるのですが、私の持っているONKYO SE-200PCI LTDは、192kHz/24bit(Integer)までのフォーマットにしか対応していませんので、必要ないです。&lt;/p&gt;
+&lt;p&gt;それにPCMの32bit Integerより、DSDデータをダイレクトでアナログに変換するD/Aコンバーターを手に入れる方がよっぽど現実的でしょう。いやDSDの方がマイナーなのか。&lt;/p&gt;
+&lt;p&gt;ただ32bit Integerの分解能を生かせるデータは、DSDからの変換しか存在しないでしょうから、だったらDSDのままが良いんじゃないのかな。&lt;/p&gt;
+&lt;p&gt;ただ世の中に32bit Integerを必要とする音楽ソースがないのも事実だけどね。&lt;/p&gt;
+&lt;p&gt;むしろ高音域にのってくる量子化ノイズ、ビートダウンノイズ対策が大変になってくる分、音質上メリットが少ないかも。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Multichannel at Foobar2000</title>
+        <link>http://localhost:1313/daily_blog/post/2011-03-04-multichannel-at-foobar2000/</link>
+        <pubDate>Fri, 04 Mar 2011 16:47:57 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2011-03-04-multichannel-at-foobar2000/</guid>
+        <description>&lt;p&gt;2ch Stereoの楽曲を、NERO WaveEditorで7.1chと5.1chに変換してみました。&lt;/p&gt;
+&lt;p&gt;7.1ch Wave Format (44.1khz/16bit)と5.1ch Wave Format(192kHz/24bit)です。&lt;/p&gt;
+&lt;p&gt;Foobar2000はSoXResamplerとWASAPIのcomponentをinstallしてあります。&lt;/p&gt;
+&lt;p&gt;7.1chはWASAPI componentを通しての再生は出来ませんでした。Formatが未対応ということで、8ch再生には対応できません。&lt;/p&gt;
+&lt;p&gt;WASAPIをbypassすると再生出来ます。&lt;/p&gt;
+&lt;p&gt;つぎに5.1chです。こちらはWASAPI componentを通して再生出来ます。ということでWASAPI componentは6chまで対応していることが分かりました。&lt;/p&gt;
+&lt;p&gt;SoXResamplerは8chでのup convertも可能です。ただしかなりCPUの能力がないと処理落ちすることでしょう。&lt;/p&gt;
+&lt;p&gt;それから6ch 192kHz 24bitのWave Format Fileは毎秒27MBの転送レートが必要です。5分ぐらいの曲なら1ファイル当たりのサイズも1GBになります。Wave形式は2GBまでですのでup convert fileをつくるなら注意が必要です。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Multichannel at Foobar2000</title>
+        <link>http://localhost:1313/daily_blog/posts/2011-03-04-multichannel-at-foobar2000/</link>
+        <pubDate>Fri, 04 Mar 2011 16:47:57 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2011-03-04-multichannel-at-foobar2000/</guid>
+        <description>&lt;p&gt;2ch Stereoの楽曲を、NERO WaveEditorで7.1chと5.1chに変換してみました。&lt;/p&gt;
+&lt;p&gt;7.1ch Wave Format (44.1khz/16bit)と5.1ch Wave Format(192kHz/24bit)です。&lt;/p&gt;
+&lt;p&gt;Foobar2000はSoXResamplerとWASAPIのcomponentをinstallしてあります。&lt;/p&gt;
+&lt;p&gt;7.1chはWASAPI componentを通しての再生は出来ませんでした。Formatが未対応ということで、8ch再生には対応できません。&lt;/p&gt;
+&lt;p&gt;WASAPIをbypassすると再生出来ます。&lt;/p&gt;
+&lt;p&gt;つぎに5.1chです。こちらはWASAPI componentを通して再生出来ます。ということでWASAPI componentは6chまで対応していることが分かりました。&lt;/p&gt;
+&lt;p&gt;SoXResamplerは8chでのup convertも可能です。ただしかなりCPUの能力がないと処理落ちすることでしょう。&lt;/p&gt;
+&lt;p&gt;それから6ch 192kHz 24bitのWave Format Fileは毎秒27MBの転送レートが必要です。5分ぐらいの曲なら1ファイル当たりのサイズも1GBになります。Wave形式は2GBまでですのでup convert fileをつくるなら注意が必要です。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>さて</title>
+        <link>http://localhost:1313/daily_blog/post/2011-01-06-%E3%81%95%E3%81%A6/</link>
+        <pubDate>Thu, 06 Jan 2011 19:34:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2011-01-06-%E3%81%95%E3%81%A6/</guid>
+        <description>&lt;div&gt;KMPlayer + ReClockの音質が良いとか書いてあったので試してみた。&lt;/div&gt;
+&lt;div&gt;ReClockでWASAPIを使う設定にして、KMPlayerからReClockにレンダリングして出力する。&lt;/div&gt;
+&lt;div&gt;で、44.1kHzのWAVEファイルを再生したら、なかなか良い感じでした。&lt;/div&gt;
+&lt;div&gt;でもfoobar2000 + SoXResampler + WASAPIコンポーネントと差はない気がする。&lt;/div&gt;
+&lt;div&gt;で、192kHzのファイルを再生したら、音量が揺らぐ。&lt;/div&gt;
+&lt;div&gt;大きくなったり小さくなったり。&lt;/div&gt;
+&lt;div&gt;オートゲイン調整が働いているようだ。&lt;/div&gt;
+&lt;div&gt;だめじゃん、使えない。&lt;/div&gt;
+&lt;div&gt;ベースが動画プレーヤーだからしょうがないのか。&lt;/div&gt;
+&lt;div&gt;さて、要はWindows VISTA以降のWASAPI排他モードでビットパーフェクトで出力できるかどうかだということなので、それならFoobar2000 + WASAPIコンポーネントでOKです。&lt;/div&gt;
+&lt;div&gt;オーバーサンプリングする際のロジックの出来で音質が左右されているから、ここの出来が一番良い物、自分の耳に合うモノが良い訳です。&lt;/div&gt;
+&lt;div&gt;私の場合、Foobar2000 + SoXResampler + WASAPIコンポーネントです。&lt;/div&gt;
+&lt;div&gt;以下、結局のlistening環境というか・・・、&lt;/div&gt;
+&amp;nbsp;
+&lt;table style=&#34;font-size: 9pt;&#34; border=&#34;1&#34; cellspacing=&#34;0&#34; cellpadding=&#34;2&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th colspan=&#34;7&#34;&gt;Windows8 64bit&lt;/th&gt;
+&lt;th rowspan=&#34;3&#34;&gt;Connect&lt;/th&gt;
+&lt;th rowspan=&#34;3&#34;&gt;AMP&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th colspan=&#34;5&#34;&gt;Foobar2000&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th rowspan=&#34;2&#34;&gt;Sound Device&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;INPUT&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;DSP&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;OUTPUT&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;44.1kHz
+&lt;div&gt;48kHz&lt;/div&gt;
+&lt;div&gt;88.2kHz&lt;/div&gt;
+&lt;div&gt;96kHz&lt;/div&gt;
+&lt;div&gt;176.4kHz&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;td&gt;SoxResampler
+&lt;div&gt;192kHz/24bit&lt;/div&gt;
+&lt;div&gt;アップコンバート&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;WASAPIoutput
+&lt;div&gt;WASAPI : Analog 8ch or Analog 2ch&lt;/div&gt;
+&lt;div&gt;24bit&lt;/div&gt;&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;→&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;ONKYO SE-300PCIE&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;Analog RCA&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;AVアンプ
+&lt;div&gt;DENON AVC-4320&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;192kHz&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;td&gt;SoxResampler
+&lt;div&gt;スルー&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&amp;nbsp;
+&lt;table style=&#34;font-size: 9pt;&#34; border=&#34;1&#34; cellspacing=&#34;0&#34; cellpadding=&#34;2&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;Media&lt;/th&gt;
+&lt;th&gt;Player&lt;/th&gt;
+&lt;th&gt;Convert&lt;/th&gt;
+&lt;th&gt;Connect&lt;/th&gt;
+&lt;th&gt;DAC Mode (DENON AVC-4320)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&#34;4&#34;&gt;CD&lt;/td&gt;
+&lt;td&gt;PC(2ch RCA)&lt;/td&gt;
+&lt;td&gt;192kHz/32bit D/A Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PC(8ch STEREOミニプラグ*4)&lt;/td&gt;
+&lt;td&gt;96kHz/32bit D/A Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PS3&lt;/td&gt;
+&lt;td&gt;176.4kHz/24bit&lt;/td&gt;
+&lt;td&gt;HDMI&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SACD Player&lt;/td&gt;
+&lt;td&gt;128fs Over Sampling D/A Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&#34;2&#34;&gt;DSD Disc&lt;/td&gt;
+&lt;td&gt;PC&lt;/td&gt;
+&lt;td&gt;192kHz/32bit D/A Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PS3&lt;/td&gt;
+&lt;td&gt;176.4kHz/24bit&lt;/td&gt;
+&lt;td&gt;HDMI&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&#34;2&#34;&gt;SACD&lt;/td&gt;
+&lt;td&gt;PS3&lt;/td&gt;
+&lt;td&gt;176.4kHz/24bit&lt;/td&gt;
+&lt;td&gt;HDMI&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SACD Player&lt;/td&gt;
+&lt;td&gt;DSD to Analog Direct Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&amp;nbsp;
+&lt;div&gt;だいたいこんな感じで聞いてます。&lt;/div&gt;
+&lt;div&gt;基本的にCDはFoobar2000でFLAC(44.1kHz/16bit)で取り込みます。&lt;/div&gt;
+&lt;div&gt;そこから必要に応じてWalkman用にX-ApplicationにATRAC3(320kbps)で書き出してます。&lt;/div&gt;
+&lt;div&gt;気に入った曲はFLACファイルを選んでAudio Gateでアップコンバートしたり、DSD Discにしてます。&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;8ch(7.1ch)化を機にPCからの出力を全てアナログにしました。&lt;/div&gt;
+&lt;div&gt;AVアンプ DENON AVC-4320がHDMI 1.1にしか対応しておらず、96kHz/24bit/5.1chまでにしか対応していないためです。&lt;/div&gt;
+&lt;div&gt;それにS/PDIFもマルチチャンネルはDTSまたはDDの圧縮音声でしか対応できないためです。&lt;/div&gt;
+&lt;div&gt;したがって、ONKYO SE-300PCIEからRCAアナログ2chとSTEREOミニプラグアナログ8chをそれぞれでAVアンプ DENON AVC-4320に接続しています。&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>さて</title>
+        <link>http://localhost:1313/daily_blog/posts/2011-01-06-%E3%81%95%E3%81%A6/</link>
+        <pubDate>Thu, 06 Jan 2011 19:34:17 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2011-01-06-%E3%81%95%E3%81%A6/</guid>
+        <description>&lt;div&gt;KMPlayer + ReClockの音質が良いとか書いてあったので試してみた。&lt;/div&gt;
+&lt;div&gt;ReClockでWASAPIを使う設定にして、KMPlayerからReClockにレンダリングして出力する。&lt;/div&gt;
+&lt;div&gt;で、44.1kHzのWAVEファイルを再生したら、なかなか良い感じでした。&lt;/div&gt;
+&lt;div&gt;でもfoobar2000 + SoXResampler + WASAPIコンポーネントと差はない気がする。&lt;/div&gt;
+&lt;div&gt;で、192kHzのファイルを再生したら、音量が揺らぐ。&lt;/div&gt;
+&lt;div&gt;大きくなったり小さくなったり。&lt;/div&gt;
+&lt;div&gt;オートゲイン調整が働いているようだ。&lt;/div&gt;
+&lt;div&gt;だめじゃん、使えない。&lt;/div&gt;
+&lt;div&gt;ベースが動画プレーヤーだからしょうがないのか。&lt;/div&gt;
+&lt;div&gt;さて、要はWindows VISTA以降のWASAPI排他モードでビットパーフェクトで出力できるかどうかだということなので、それならFoobar2000 + WASAPIコンポーネントでOKです。&lt;/div&gt;
+&lt;div&gt;オーバーサンプリングする際のロジックの出来で音質が左右されているから、ここの出来が一番良い物、自分の耳に合うモノが良い訳です。&lt;/div&gt;
+&lt;div&gt;私の場合、Foobar2000 + SoXResampler + WASAPIコンポーネントです。&lt;/div&gt;
+&lt;div&gt;以下、結局のlistening環境というか・・・、&lt;/div&gt;
+&amp;nbsp;
+&lt;table style=&#34;font-size: 9pt;&#34; border=&#34;1&#34; cellspacing=&#34;0&#34; cellpadding=&#34;2&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th colspan=&#34;7&#34;&gt;Windows8 64bit&lt;/th&gt;
+&lt;th rowspan=&#34;3&#34;&gt;Connect&lt;/th&gt;
+&lt;th rowspan=&#34;3&#34;&gt;AMP&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th colspan=&#34;5&#34;&gt;Foobar2000&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th rowspan=&#34;2&#34;&gt;Sound Device&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;INPUT&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;DSP&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;OUTPUT&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;44.1kHz
+&lt;div&gt;48kHz&lt;/div&gt;
+&lt;div&gt;88.2kHz&lt;/div&gt;
+&lt;div&gt;96kHz&lt;/div&gt;
+&lt;div&gt;176.4kHz&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;td&gt;SoxResampler
+&lt;div&gt;192kHz/24bit&lt;/div&gt;
+&lt;div&gt;アップコンバート&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;WASAPIoutput
+&lt;div&gt;WASAPI : Analog 8ch or Analog 2ch&lt;/div&gt;
+&lt;div&gt;24bit&lt;/div&gt;&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;→&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;ONKYO SE-300PCIE&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;Analog RCA&lt;/td&gt;
+&lt;td rowspan=&#34;2&#34;&gt;AVアンプ
+&lt;div&gt;DENON AVC-4320&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;192kHz&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;td&gt;SoxResampler
+&lt;div&gt;スルー&lt;/div&gt;&lt;/td&gt;
+&lt;td&gt;→&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&amp;nbsp;
+&lt;table style=&#34;font-size: 9pt;&#34; border=&#34;1&#34; cellspacing=&#34;0&#34; cellpadding=&#34;2&#34;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;Media&lt;/th&gt;
+&lt;th&gt;Player&lt;/th&gt;
+&lt;th&gt;Convert&lt;/th&gt;
+&lt;th&gt;Connect&lt;/th&gt;
+&lt;th&gt;DAC Mode (DENON AVC-4320)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&#34;4&#34;&gt;CD&lt;/td&gt;
+&lt;td&gt;PC(2ch RCA)&lt;/td&gt;
+&lt;td&gt;192kHz/32bit D/A Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PC(8ch STEREOミニプラグ*4)&lt;/td&gt;
+&lt;td&gt;96kHz/32bit D/A Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PS3&lt;/td&gt;
+&lt;td&gt;176.4kHz/24bit&lt;/td&gt;
+&lt;td&gt;HDMI&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SACD Player&lt;/td&gt;
+&lt;td&gt;128fs Over Sampling D/A Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&#34;2&#34;&gt;DSD Disc&lt;/td&gt;
+&lt;td&gt;PC&lt;/td&gt;
+&lt;td&gt;192kHz/32bit D/A Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PS3&lt;/td&gt;
+&lt;td&gt;176.4kHz/24bit&lt;/td&gt;
+&lt;td&gt;HDMI&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&#34;2&#34;&gt;SACD&lt;/td&gt;
+&lt;td&gt;PS3&lt;/td&gt;
+&lt;td&gt;176.4kHz/24bit&lt;/td&gt;
+&lt;td&gt;HDMI&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SACD Player&lt;/td&gt;
+&lt;td&gt;DSD to Analog Direct Convert&lt;/td&gt;
+&lt;td&gt;Analog RCA&lt;/td&gt;
+&lt;td&gt;PURE DIRECT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&amp;nbsp;
+&lt;div&gt;だいたいこんな感じで聞いてます。&lt;/div&gt;
+&lt;div&gt;基本的にCDはFoobar2000でFLAC(44.1kHz/16bit)で取り込みます。&lt;/div&gt;
+&lt;div&gt;そこから必要に応じてWalkman用にX-ApplicationにATRAC3(320kbps)で書き出してます。&lt;/div&gt;
+&lt;div&gt;気に入った曲はFLACファイルを選んでAudio Gateでアップコンバートしたり、DSD Discにしてます。&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;8ch(7.1ch)化を機にPCからの出力を全てアナログにしました。&lt;/div&gt;
+&lt;div&gt;AVアンプ DENON AVC-4320がHDMI 1.1にしか対応しておらず、96kHz/24bit/5.1chまでにしか対応していないためです。&lt;/div&gt;
+&lt;div&gt;それにS/PDIFもマルチチャンネルはDTSまたはDDの圧縮音声でしか対応できないためです。&lt;/div&gt;
+&lt;div&gt;したがって、ONKYO SE-300PCIEからRCAアナログ2chとSTEREOミニプラグアナログ8chをそれぞれでAVアンプ DENON AVC-4320に接続しています。&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>いろいろ聴いた</title>
+        <link>http://localhost:1313/daily_blog/post/2011-01-06-%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E8%81%B4%E3%81%84%E3%81%9F/</link>
+        <pubDate>Thu, 06 Jan 2011 03:05:24 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2011-01-06-%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E8%81%B4%E3%81%84%E3%81%9F/</guid>
+        <description>&lt;p&gt;foobar2000でのDSDIFFの再生には、コンポーネントプラグインを通せば可能です。&lt;/p&gt;
+&lt;p&gt;しかしディザイジングフィルターが実装されていないようで、DSD→PCM(192kHz/32bitFloating)→PCM(192kHz/24bit)に変換した際に耳障りが良くないです。&lt;/p&gt;
+&lt;p&gt;Audio Gateでの再生は、Windows7 64bitの為、Direct Sound経由になりますが、96kHz24bitで再生できます。&lt;/p&gt;
+&lt;p&gt;こちらのDSD→PCM(96kHz/24bit)の方が聞きやすい。&lt;/p&gt;
+&lt;p&gt;で、Audio Gateには、Wave(PCM)変換する際にKORG AQUA Ditherが選べるので、それで作成したPCM(192kHz/24bit)をFoobar2000で再生した方が耳障りが良いです。&lt;/p&gt;
+&lt;p&gt;と言うことで、PCでCDを聴くなら&lt;/p&gt;
+&lt;p&gt;１．CDリッピングでwav形式ファイル(44.1kHz/16bit)を作成。&lt;/p&gt;
+&lt;p&gt;２．Audio Gateでwav(44.1kHz/16bit)→wav(192kHz/24bit)+KORG AQUA Dither 変換&lt;/p&gt;
+&lt;p&gt;３．Foobar2000 + WASAPIプラグインで、192kHz/24bitのダイレクト再生のビットパーフェクトでS/PDIFへ出力。&lt;/p&gt;
+&lt;p&gt;４．AVアンプでPCM→アナログ変換。&lt;/p&gt;
+&lt;p&gt;が一番良かった。&lt;/p&gt;
+&lt;p&gt;また、CDをDSD形式にして聴くなら&lt;/p&gt;
+&lt;p&gt;１．CDリッピングでwav形式ファイル(44.1kHz/16bit)を作成。&lt;/p&gt;
+&lt;p&gt;２．Audio Gateでwav(44.1kHz/16bit)→DSDディスク作成。&lt;/p&gt;
+&lt;p&gt;３．PS3でDSDディスクをフィルタタイプ3またはタイプ1で再生でHDMIに176.4kHz/24bit出力。&lt;/p&gt;
+&lt;p&gt;４．AVアンプでPCM→アナログ変換。&lt;/p&gt;
+&lt;p&gt;が一番良かった。&lt;/p&gt;
+&lt;p&gt;CDを聴くなら&lt;/p&gt;
+&lt;p&gt;１．PS3でCDを176.4kHz/24bitにアップコンバート、フィルターはタイプ1またはタイプ3でHDMIに176.4kHz/24bit出力。&lt;/p&gt;
+&lt;p&gt;２．AVアンプでPCM→アナログ変換。&lt;/p&gt;
+&lt;p&gt;が一番良かった。&lt;/p&gt;
+&lt;p&gt;PS3のHDMIの品質が気になるなら、PS3のS/PDIFからCD、DSDディスクとも176.4kHz/24bitが出力できるので、それを使ってもいいかも。&lt;/p&gt;
+&lt;p&gt;映像信号とは完全に隔離されるので映像信号起因のジッタやノイズからは開放されるし。&lt;/p&gt;
+&lt;p&gt;ただSACDのハイレゾPCMは出力されないけど。&lt;/p&gt;
+&lt;p&gt;HDMIでの音質を上げるなら、映像はビデオコンポジット出力(PS3のAVコネクタ出力)に切り替えると良いらしい。&lt;/p&gt;
+&lt;p&gt;こうすることでHDMIに映像信号が乗らなくなるはず。&lt;/p&gt;
+&lt;p&gt;Multi Channel SACDプレーヤーがあるが、結局これも相変わらず使っている。&lt;/p&gt;
+&lt;p&gt;だってPS3のファンの音がうるさいんだもん。&lt;/p&gt;
+&lt;p&gt;あー、結局のところ主観でしかないので、自分の耳で確かめよう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>いろいろ聴いた</title>
+        <link>http://localhost:1313/daily_blog/posts/2011-01-06-%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E8%81%B4%E3%81%84%E3%81%9F/</link>
+        <pubDate>Thu, 06 Jan 2011 03:05:24 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2011-01-06-%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E8%81%B4%E3%81%84%E3%81%9F/</guid>
+        <description>&lt;p&gt;foobar2000でのDSDIFFの再生には、コンポーネントプラグインを通せば可能です。&lt;/p&gt;
+&lt;p&gt;しかしディザイジングフィルターが実装されていないようで、DSD→PCM(192kHz/32bitFloating)→PCM(192kHz/24bit)に変換した際に耳障りが良くないです。&lt;/p&gt;
+&lt;p&gt;Audio Gateでの再生は、Windows7 64bitの為、Direct Sound経由になりますが、96kHz24bitで再生できます。&lt;/p&gt;
+&lt;p&gt;こちらのDSD→PCM(96kHz/24bit)の方が聞きやすい。&lt;/p&gt;
+&lt;p&gt;で、Audio Gateには、Wave(PCM)変換する際にKORG AQUA Ditherが選べるので、それで作成したPCM(192kHz/24bit)をFoobar2000で再生した方が耳障りが良いです。&lt;/p&gt;
+&lt;p&gt;と言うことで、PCでCDを聴くなら&lt;/p&gt;
+&lt;p&gt;１．CDリッピングでwav形式ファイル(44.1kHz/16bit)を作成。&lt;/p&gt;
+&lt;p&gt;２．Audio Gateでwav(44.1kHz/16bit)→wav(192kHz/24bit)+KORG AQUA Dither 変換&lt;/p&gt;
+&lt;p&gt;３．Foobar2000 + WASAPIプラグインで、192kHz/24bitのダイレクト再生のビットパーフェクトでS/PDIFへ出力。&lt;/p&gt;
+&lt;p&gt;４．AVアンプでPCM→アナログ変換。&lt;/p&gt;
+&lt;p&gt;が一番良かった。&lt;/p&gt;
+&lt;p&gt;また、CDをDSD形式にして聴くなら&lt;/p&gt;
+&lt;p&gt;１．CDリッピングでwav形式ファイル(44.1kHz/16bit)を作成。&lt;/p&gt;
+&lt;p&gt;２．Audio Gateでwav(44.1kHz/16bit)→DSDディスク作成。&lt;/p&gt;
+&lt;p&gt;３．PS3でDSDディスクをフィルタタイプ3またはタイプ1で再生でHDMIに176.4kHz/24bit出力。&lt;/p&gt;
+&lt;p&gt;４．AVアンプでPCM→アナログ変換。&lt;/p&gt;
+&lt;p&gt;が一番良かった。&lt;/p&gt;
+&lt;p&gt;CDを聴くなら&lt;/p&gt;
+&lt;p&gt;１．PS3でCDを176.4kHz/24bitにアップコンバート、フィルターはタイプ1またはタイプ3でHDMIに176.4kHz/24bit出力。&lt;/p&gt;
+&lt;p&gt;２．AVアンプでPCM→アナログ変換。&lt;/p&gt;
+&lt;p&gt;が一番良かった。&lt;/p&gt;
+&lt;p&gt;PS3のHDMIの品質が気になるなら、PS3のS/PDIFからCD、DSDディスクとも176.4kHz/24bitが出力できるので、それを使ってもいいかも。&lt;/p&gt;
+&lt;p&gt;映像信号とは完全に隔離されるので映像信号起因のジッタやノイズからは開放されるし。&lt;/p&gt;
+&lt;p&gt;ただSACDのハイレゾPCMは出力されないけど。&lt;/p&gt;
+&lt;p&gt;HDMIでの音質を上げるなら、映像はビデオコンポジット出力(PS3のAVコネクタ出力)に切り替えると良いらしい。&lt;/p&gt;
+&lt;p&gt;こうすることでHDMIに映像信号が乗らなくなるはず。&lt;/p&gt;
+&lt;p&gt;Multi Channel SACDプレーヤーがあるが、結局これも相変わらず使っている。&lt;/p&gt;
+&lt;p&gt;だってPS3のファンの音がうるさいんだもん。&lt;/p&gt;
+&lt;p&gt;あー、結局のところ主観でしかないので、自分の耳で確かめよう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>聞こえるか</title>
+        <link>http://localhost:1313/daily_blog/post/2011-01-06-%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B%E3%81%8B/</link>
+        <pubDate>Thu, 06 Jan 2011 03:04:56 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2011-01-06-%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B%E3%81%8B/</guid>
+        <description>&lt;p&gt;DSDの再生周波数の上限は、100kHzに設定されています。&lt;/p&gt;
+&lt;p&gt;正確にはカットオフ周波数で、これ以上の周波数の信号を出力しないようになっています。&lt;/p&gt;
+&lt;p&gt;DSDで実際に記録できる周波数は、1.4MHzであり100kHzよりもさらに高い周波数まで記録できるのです。&lt;/p&gt;
+&lt;p&gt;しかし人間の可聴領域は22kHzまでですし、さらには現在のスピーカーやヘッドフォンで再生出来る周波数は100kHzぐらいが上限です。&lt;/p&gt;
+&lt;p&gt;とは言え高周波数の信号がスピーカーに入ってしまうと、電磁気の物理作用でユニットが動作してしまい、思わぬ誤動作で破壊されてしまうことがあります。&lt;/p&gt;
+&lt;p&gt;したがって、再生限界の100kHz以上の周波数をカットしてしまっています。&lt;/p&gt;
+&lt;p&gt;ではCDはどうでしょう。&lt;/p&gt;
+&lt;p&gt;CD-DAは44.1kHzで、1/2fの22kHzまでの信号を記録することができます。&lt;/p&gt;
+&lt;p&gt;しかし実際の利得は20kHz付近までです。&lt;/p&gt;
+&lt;p&gt;要は22kHz記録できても、正確な音声波形が記録できるわけではないためです。&lt;/p&gt;
+&lt;p&gt;それでも人間の可聴領域ぎりぎりまでの音を記録することができますので、一般的には十分な音質を確保することができるのです。&lt;/p&gt;
+&lt;p&gt;高周波数の中には、楽器で出される倍音成分や残響成分、空間雑音などが含まれています。&lt;/p&gt;
+&lt;p&gt;DSDなら本来聞き取れない音であっても、再生される音の中に含まれるわけですから、より自然に近い音が得られるわけです。&lt;/p&gt;
+&lt;p&gt;またデジタル信号をアナログ信号に変換する際に生じる量子化ノイズに対してもメリットがあります。&lt;/p&gt;
+&lt;p&gt;昔のCDプレーヤーでは可聴領域に量子化ノイズが出てしまっていたのですが、DSDなら超高周波領域に量子化ノイズを追いやることが出来、100kHzまでの領域にノイズが出てこなくなります。&lt;/p&gt;
+&lt;p&gt;いまではCDの信号をオーバーサンプリングして、デジタル信号の補間をしてからアナログ信号に変換するので量子化ノイズは目立たなくなりました。&lt;/p&gt;
+&lt;p&gt;しかし補間の際に存在しない波形を計算で予測して擬似的にデータを埋めるので、本物の音ではないのです。&lt;/p&gt;
+&lt;p&gt;この補間は音源によっては嘘くさい音に聞こえたりします。&lt;/p&gt;
+&lt;p&gt;DSDやハイレゾPCMなら補間することなく、もともと記録されている波形を再生するのですから、より自然なのです。&lt;/p&gt;
+&lt;p&gt;またDSDやハイレゾPCMは、高周波数だけがメリットではありません。&lt;/p&gt;
+&lt;p&gt;微細信号まで記録できるためダイナミックレンジが広くなります。&lt;/p&gt;
+&lt;p&gt;CDではクリップしてしまう楽曲でもDSDだと自然のまま記録できるのです。&lt;/p&gt;
+&lt;p&gt;CDはクリップするぎりぎりの音圧までコンプレッサを掛けて、全ての音の音圧を平均化して記録させます。&lt;/p&gt;
+&lt;p&gt;そうすることで聴感上は、派手でエネルギッシュな音になります。&lt;/p&gt;
+&lt;p&gt;しかし自然の音ではありません。本来小さく聞こえるような音が大きく聞こえ、大きく聞こえるはずの音が他の音と区別できなくなったりします。&lt;/p&gt;
+&lt;p&gt;ポップスなどではそれも効果的に使えば良いでしょうけど、クラシックなどには使えないです。&lt;/p&gt;
+&lt;p&gt;CDのダイナミックレンジは90db、クラシックは100db以上あるとされていますから、CDでは記録しきれません。&lt;/p&gt;
+&lt;p&gt;DSDやハイレゾPCMなら130～144dbを確保できるので、クラシックの音を自然に記録できるのです。&lt;/p&gt;
+&lt;p&gt;まあ実際は家庭でそんな音圧を再生することは出来ないでしょうけど。&lt;/p&gt;
+&lt;p&gt;と言うことで、AACやATRACやMP3ではなく、DSDやハイレゾPCM(HD Audio)を聴きましょう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>聞こえるか</title>
+        <link>http://localhost:1313/daily_blog/posts/2011-01-06-%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B%E3%81%8B/</link>
+        <pubDate>Thu, 06 Jan 2011 03:04:56 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2011-01-06-%E8%81%9E%E3%81%93%E3%81%88%E3%82%8B%E3%81%8B/</guid>
+        <description>&lt;p&gt;DSDの再生周波数の上限は、100kHzに設定されています。&lt;/p&gt;
+&lt;p&gt;正確にはカットオフ周波数で、これ以上の周波数の信号を出力しないようになっています。&lt;/p&gt;
+&lt;p&gt;DSDで実際に記録できる周波数は、1.4MHzであり100kHzよりもさらに高い周波数まで記録できるのです。&lt;/p&gt;
+&lt;p&gt;しかし人間の可聴領域は22kHzまでですし、さらには現在のスピーカーやヘッドフォンで再生出来る周波数は100kHzぐらいが上限です。&lt;/p&gt;
+&lt;p&gt;とは言え高周波数の信号がスピーカーに入ってしまうと、電磁気の物理作用でユニットが動作してしまい、思わぬ誤動作で破壊されてしまうことがあります。&lt;/p&gt;
+&lt;p&gt;したがって、再生限界の100kHz以上の周波数をカットしてしまっています。&lt;/p&gt;
+&lt;p&gt;ではCDはどうでしょう。&lt;/p&gt;
+&lt;p&gt;CD-DAは44.1kHzで、1/2fの22kHzまでの信号を記録することができます。&lt;/p&gt;
+&lt;p&gt;しかし実際の利得は20kHz付近までです。&lt;/p&gt;
+&lt;p&gt;要は22kHz記録できても、正確な音声波形が記録できるわけではないためです。&lt;/p&gt;
+&lt;p&gt;それでも人間の可聴領域ぎりぎりまでの音を記録することができますので、一般的には十分な音質を確保することができるのです。&lt;/p&gt;
+&lt;p&gt;高周波数の中には、楽器で出される倍音成分や残響成分、空間雑音などが含まれています。&lt;/p&gt;
+&lt;p&gt;DSDなら本来聞き取れない音であっても、再生される音の中に含まれるわけですから、より自然に近い音が得られるわけです。&lt;/p&gt;
+&lt;p&gt;またデジタル信号をアナログ信号に変換する際に生じる量子化ノイズに対してもメリットがあります。&lt;/p&gt;
+&lt;p&gt;昔のCDプレーヤーでは可聴領域に量子化ノイズが出てしまっていたのですが、DSDなら超高周波領域に量子化ノイズを追いやることが出来、100kHzまでの領域にノイズが出てこなくなります。&lt;/p&gt;
+&lt;p&gt;いまではCDの信号をオーバーサンプリングして、デジタル信号の補間をしてからアナログ信号に変換するので量子化ノイズは目立たなくなりました。&lt;/p&gt;
+&lt;p&gt;しかし補間の際に存在しない波形を計算で予測して擬似的にデータを埋めるので、本物の音ではないのです。&lt;/p&gt;
+&lt;p&gt;この補間は音源によっては嘘くさい音に聞こえたりします。&lt;/p&gt;
+&lt;p&gt;DSDやハイレゾPCMなら補間することなく、もともと記録されている波形を再生するのですから、より自然なのです。&lt;/p&gt;
+&lt;p&gt;またDSDやハイレゾPCMは、高周波数だけがメリットではありません。&lt;/p&gt;
+&lt;p&gt;微細信号まで記録できるためダイナミックレンジが広くなります。&lt;/p&gt;
+&lt;p&gt;CDではクリップしてしまう楽曲でもDSDだと自然のまま記録できるのです。&lt;/p&gt;
+&lt;p&gt;CDはクリップするぎりぎりの音圧までコンプレッサを掛けて、全ての音の音圧を平均化して記録させます。&lt;/p&gt;
+&lt;p&gt;そうすることで聴感上は、派手でエネルギッシュな音になります。&lt;/p&gt;
+&lt;p&gt;しかし自然の音ではありません。本来小さく聞こえるような音が大きく聞こえ、大きく聞こえるはずの音が他の音と区別できなくなったりします。&lt;/p&gt;
+&lt;p&gt;ポップスなどではそれも効果的に使えば良いでしょうけど、クラシックなどには使えないです。&lt;/p&gt;
+&lt;p&gt;CDのダイナミックレンジは90db、クラシックは100db以上あるとされていますから、CDでは記録しきれません。&lt;/p&gt;
+&lt;p&gt;DSDやハイレゾPCMなら130～144dbを確保できるので、クラシックの音を自然に記録できるのです。&lt;/p&gt;
+&lt;p&gt;まあ実際は家庭でそんな音圧を再生することは出来ないでしょうけど。&lt;/p&gt;
+&lt;p&gt;と言うことで、AACやATRACやMP3ではなく、DSDやハイレゾPCM(HD Audio)を聴きましょう。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>KORG Audio Gate</title>
+        <link>http://localhost:1313/daily_blog/post/2011-01-03-korg-audio-gate/</link>
+        <pubDate>Mon, 03 Jan 2011 01:44:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2011-01-03-korg-audio-gate/</guid>
+        <description>&lt;p&gt;KORGのAudio Gateというアプリをご存じでしょうか。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;このたびバージョンアップに伴い、無償公開されました。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.korguser.net/audiogate/jp/index.html&#34; target=&#34;_blank&#34;&gt;KORG Audio Gate&lt;/a&gt;
+ &lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;何をするものかと言われたら、DSDフォーマットのオーディオファイルを取り扱うプレーヤー＆レコーダーです。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;結構な数のオーディオフォーマットを取り扱うことも出来て、普通のオーディオプレーヤーとしても使えますが、なんと言ってもDSDフォーマットを再生、無劣化編集、録音、変換ができるのが特筆です。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;DSDはSACD(スーパーオーディオCD)のフォーマットして知られていますが、これまでPCで編集できるユーザーは限定されていました。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;一般のユーザーが使えるものとして、SoundRealityが搭載されていたSony VAIOにインストールされていたSonic Stage Master StudioとDSDDirect Player、そしてKORG MRシリーズのDSDレコーダー購入者向けのAudio Gateだけでした。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;世の中には、一般人では手のでない高級なプレーヤー、アンプ、コンバーターを使ってDSDフォーマットを楽しんでいる人たちがいます。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;そんな一部の人たち向けではDSDは普及しません。&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p&gt;で、手持ちのCDからWAVファイルを作ったのち、Audio GateでDSDファイルを作成するか、DSDディスクを作成します。&lt;/p&gt;
+&lt;p&gt;DSDファイルはそのままAudio GateやFoobar2000(DSDIFF再生のプラグインが必要)で再生できます。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;DVD-Rなどで作ったDSDディスクは、Sony PlayStation3やSonyなどの一部のSACDプレーヤーで再生できます。&lt;/p&gt;
+&lt;p&gt;普通のSACDプレーヤーで再生出来ないのが残念ですが。&lt;/p&gt;
+&lt;p&gt;もともとDSD録音されたSACDやDSDファイルなどには及びませんが、CDから変換したDSDディスクもかなりの高音質（っぽい）です。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;DSDディスクを&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;[プレーヤー] ―DSD→ [アンプ] ―アナログ→ [スピーカー]&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;で再生出来る環境があったら是非試してみてください。&lt;/p&gt;
+&lt;p&gt;DSDフォーマットの空気感を伝える音を体験できるかも知れません。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;PS3+AVアンプだと、&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;[PS3 (DSD→PCM)] ―PCM(176.4kHz)→ [アンプ] ―アナログ→ [スピーカー]&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;となりますが、PCMの高音質再生が出来る環境だと素晴らしい音に出会えます。&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p&gt;これまでPCを使って、CD(44.1kHz/16bit)をWAV(196kHz/24bit)に変換して聴いてきましたが、これからはどうしようかなぁ。&lt;/p&gt;
+&lt;p&gt;DSDだろうとPCMだろうと、音質はオーバーサンプリングするときに通すローパスフィルターの出来次第でしょうし、今のところPS3のLPFの性能が一番かなぁ。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;結局はCDをPS3で再生するのが一番高音質かも知れないなぁ。&lt;/p&gt;
+&lt;p&gt;まあAudio Gateでの変換がどれくらい高音質（私のとって耳当たりの良い）かどうか試してみます。&lt;/p&gt;
+&lt;br /&gt;
+</description>
+        </item>
+        <item>
+        <title>KORG Audio Gate</title>
+        <link>http://localhost:1313/daily_blog/posts/2011-01-03-korg-audio-gate/</link>
+        <pubDate>Mon, 03 Jan 2011 01:44:47 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2011-01-03-korg-audio-gate/</guid>
+        <description>&lt;p&gt;KORGのAudio Gateというアプリをご存じでしょうか。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;このたびバージョンアップに伴い、無償公開されました。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.korguser.net/audiogate/jp/index.html&#34; target=&#34;_blank&#34;&gt;KORG Audio Gate&lt;/a&gt;
+ &lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;何をするものかと言われたら、DSDフォーマットのオーディオファイルを取り扱うプレーヤー＆レコーダーです。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;結構な数のオーディオフォーマットを取り扱うことも出来て、普通のオーディオプレーヤーとしても使えますが、なんと言ってもDSDフォーマットを再生、無劣化編集、録音、変換ができるのが特筆です。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;DSDはSACD(スーパーオーディオCD)のフォーマットして知られていますが、これまでPCで編集できるユーザーは限定されていました。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;一般のユーザーが使えるものとして、SoundRealityが搭載されていたSony VAIOにインストールされていたSonic Stage Master StudioとDSDDirect Player、そしてKORG MRシリーズのDSDレコーダー購入者向けのAudio Gateだけでした。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;世の中には、一般人では手のでない高級なプレーヤー、アンプ、コンバーターを使ってDSDフォーマットを楽しんでいる人たちがいます。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;そんな一部の人たち向けではDSDは普及しません。&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p&gt;で、手持ちのCDからWAVファイルを作ったのち、Audio GateでDSDファイルを作成するか、DSDディスクを作成します。&lt;/p&gt;
+&lt;p&gt;DSDファイルはそのままAudio GateやFoobar2000(DSDIFF再生のプラグインが必要)で再生できます。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;DVD-Rなどで作ったDSDディスクは、Sony PlayStation3やSonyなどの一部のSACDプレーヤーで再生できます。&lt;/p&gt;
+&lt;p&gt;普通のSACDプレーヤーで再生出来ないのが残念ですが。&lt;/p&gt;
+&lt;p&gt;もともとDSD録音されたSACDやDSDファイルなどには及びませんが、CDから変換したDSDディスクもかなりの高音質（っぽい）です。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;DSDディスクを&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;[プレーヤー] ―DSD→ [アンプ] ―アナログ→ [スピーカー]&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;で再生出来る環境があったら是非試してみてください。&lt;/p&gt;
+&lt;p&gt;DSDフォーマットの空気感を伝える音を体験できるかも知れません。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;PS3+AVアンプだと、&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;[PS3 (DSD→PCM)] ―PCM(176.4kHz)→ [アンプ] ―アナログ→ [スピーカー]&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;となりますが、PCMの高音質再生が出来る環境だと素晴らしい音に出会えます。&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p&gt;これまでPCを使って、CD(44.1kHz/16bit)をWAV(196kHz/24bit)に変換して聴いてきましたが、これからはどうしようかなぁ。&lt;/p&gt;
+&lt;p&gt;DSDだろうとPCMだろうと、音質はオーバーサンプリングするときに通すローパスフィルターの出来次第でしょうし、今のところPS3のLPFの性能が一番かなぁ。&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;結局はCDをPS3で再生するのが一番高音質かも知れないなぁ。&lt;/p&gt;
+&lt;p&gt;まあAudio Gateでの変換がどれくらい高音質（私のとって耳当たりの良い）かどうか試してみます。&lt;/p&gt;
+&lt;br /&gt;
+</description>
+        </item>
+        <item>
+        <title>ONKYO SE-200PCI LTD</title>
+        <link>http://localhost:1313/daily_blog/post/2009-08-13-onkyo-se-200pci-ltd/</link>
+        <pubDate>Thu, 13 Aug 2009 13:47:48 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/post/2009-08-13-onkyo-se-200pci-ltd/</guid>
+        <description>&lt;p&gt;サウンドボードを新しくしました。&lt;/p&gt;
+&lt;p&gt;これまでのSE-90PCIでも再生に関してはまったく問題なかったんですが、ちょっと録音したくなって入力があるサウンドカードを選びました。&lt;/p&gt;
+&lt;p&gt;ASUSからHDMIに対応した強烈なサウンドカードがありますが、やはりHDMIは音が悪いので、アナログ出力にこだわりぬいたSE-200PCI LTDにしました。&lt;/p&gt;
+&lt;p&gt;環境はWindows VISTA Ultimate x64です。
+ドライバーはSE-90PCIとまったく同じです。
+しかし、差し替えただけではWDMのドライバーがインストールされてしまうので、VIAから提供されているVISTA x64用のドライバーを再インストールしてやります。&lt;/p&gt;
+&lt;p&gt;特に問題なく認識されノイズ等も発生しません。&lt;/p&gt;
+&lt;p&gt;2chアナログ出力と入力やS/PDIFの組み合わせに制限があります。
+これはPC Audio97の仕様による制限なのでしかたありませんが。&lt;/p&gt;
+&lt;p&gt;で、音質ですが、SE-90PCIと比べてどう違うか、さっぱりわかりません。
+ただS/PDIF(192kHz/24bit)→AVアンプ(D/A変換)と2chアナログ(192kHz/24bitD/A変換)→AVアンプ(アナログ)の違いは良くわかります。
+2chアナログのほうが音のつながり、低音の出方が好ましいです。&lt;/p&gt;
+&lt;p&gt;AVアンプのDACの音質とSE-200PCI LTDのDACの音質を比べることになってますね。&lt;/p&gt;
+&lt;p&gt;HDMIみたいに極細の線で、さらに搬送波として高周波の映像信号がどうしても必要な規格では、重畳した音声信号に輻射ノイズがのりジッタが発生します。
+またHDMIはケーブルの曲げに非常に敏感です。
+原理が原理だけにこればかりは回避しようがありません。
+どんなにすごい線材（意味不明の8Nとか9Nとか）が登場しようとも物理現象を否定するオカルトにはついていけれません。&lt;/p&gt;
+&lt;p&gt;それだったらアナログ転送すればいいんじゃないかなと思うわけです。
+高周波のノイズもそもそも可聴領域外ですし。
+高周波じゃないからケーブルの曲げには敏感じゃないし。
+それにすこし純度が低いほうが内部抵抗が少ないし。&lt;/p&gt;
+&lt;p&gt;いや、ケーブル純度を妄信している金持ちが嫌いなだけです。
+そもそも年取ったら可聴領域が狭くなって高音も低音も聞こえてないだろうにね。
+バイオリンの4倍音なんて聞こえないだろ。
+なにがわかるんだろう。&lt;/p&gt;
+&lt;p&gt;そういや素人って信号に方向性があると思っているのかな。&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>ONKYO SE-200PCI LTD</title>
+        <link>http://localhost:1313/daily_blog/posts/2009-08-13-onkyo-se-200pci-ltd/</link>
+        <pubDate>Thu, 13 Aug 2009 13:47:48 +0900</pubDate>
+        
+        <guid>http://localhost:1313/daily_blog/posts/2009-08-13-onkyo-se-200pci-ltd/</guid>
+        <description>&lt;p&gt;サウンドボードを新しくしました。&lt;/p&gt;
+&lt;p&gt;これまでのSE-90PCIでも再生に関してはまったく問題なかったんですが、ちょっと録音したくなって入力があるサウンドカードを選びました。&lt;/p&gt;
+&lt;p&gt;ASUSからHDMIに対応した強烈なサウンドカードがありますが、やはりHDMIは音が悪いので、アナログ出力にこだわりぬいたSE-200PCI LTDにしました。&lt;/p&gt;
+&lt;p&gt;環境はWindows VISTA Ultimate x64です。
+ドライバーはSE-90PCIとまったく同じです。
+しかし、差し替えただけではWDMのドライバーがインストールされてしまうので、VIAから提供されているVISTA x64用のドライバーを再インストールしてやります。&lt;/p&gt;
+&lt;p&gt;特に問題なく認識されノイズ等も発生しません。&lt;/p&gt;
+&lt;p&gt;2chアナログ出力と入力やS/PDIFの組み合わせに制限があります。
+これはPC Audio97の仕様による制限なのでしかたありませんが。&lt;/p&gt;
+&lt;p&gt;で、音質ですが、SE-90PCIと比べてどう違うか、さっぱりわかりません。
+ただS/PDIF(192kHz/24bit)→AVアンプ(D/A変換)と2chアナログ(192kHz/24bitD/A変換)→AVアンプ(アナログ)の違いは良くわかります。
+2chアナログのほうが音のつながり、低音の出方が好ましいです。&lt;/p&gt;
+&lt;p&gt;AVアンプのDACの音質とSE-200PCI LTDのDACの音質を比べることになってますね。&lt;/p&gt;
+&lt;p&gt;HDMIみたいに極細の線で、さらに搬送波として高周波の映像信号がどうしても必要な規格では、重畳した音声信号に輻射ノイズがのりジッタが発生します。
+またHDMIはケーブルの曲げに非常に敏感です。
+原理が原理だけにこればかりは回避しようがありません。
+どんなにすごい線材（意味不明の8Nとか9Nとか）が登場しようとも物理現象を否定するオカルトにはついていけれません。&lt;/p&gt;
+&lt;p&gt;それだったらアナログ転送すればいいんじゃないかなと思うわけです。
+高周波のノイズもそもそも可聴領域外ですし。
+高周波じゃないからケーブルの曲げには敏感じゃないし。
+それにすこし純度が低いほうが内部抵抗が少ないし。&lt;/p&gt;
+&lt;p&gt;いや、ケーブル純度を妄信している金持ちが嫌いなだけです。
+そもそも年取ったら可聴領域が狭くなって高音も低音も聞こえてないだろうにね。
+バイオリンの4倍音なんて聞こえないだろ。
+なにがわかるんだろう。&lt;/p&gt;
+&lt;p&gt;そういや素人って信号に方向性があると思っているのかな。&lt;/p&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
